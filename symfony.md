@@ -77,3 +77,86 @@
 - nullable设置是否可以为null
 - default设置字段的默认值
 - comment字段的注释
+
+8.常用Command命令
+
+- 查看commad列表(public)
+
+		 php bin/console list
+
+- 清除缓存
+		
+		php bin/console cache:clear
+		php bin/console cache:clear --env=prod --no-debug  //清除生产环境的缓存
+- 生成bundle
+		
+		php bin/console generate:bundle
+- 生成Entity
+
+		php bin/console doctrine:generate:entity
+- 生成crud操作代码
+		
+		php bin/console doctrine:generate:crud
+- 查看service的列表
+
+		php bin/console  debug:container
+	- 查看monolog相关的service
+			
+			 php bin/console  debug:container monolog
+
+			 Select one of the following services to display its information:
+			  [0 ] monolog.activation_strategy.not_found
+			  [1 ] monolog.handler.fingers_crossed.error_level_activation_strategy
+			  [2 ] monolog.processor.psr_log_message
+			  [3 ] monolog.handler.main
+			  [4 ] monolog.handler.console
+			  [5 ] monolog.logger.request
+			  [6 ] monolog.logger.cache
+			  [7 ] monolog.logger.translation
+			  [8 ] monolog.logger.templating
+			  [9 ] monolog.logger.profiler
+			  [10] monolog.logger.php
+			  [11] monolog.logger.event
+			  [12] monolog.logger.router
+			  [13] monolog.logger.security
+			  [14] monolog.logger.doctrine
+			  [15] monolog.logger.assetic
+			  [16] monolog.handler.null_internal
+			 > 3
+			3
+			
+			Information for Service "monolog.handler.main"
+			==============================================
+			
+			 ------------------ -------------------------------
+			  Option             Value
+			 ------------------ -------------------------------
+			  Service ID         monolog.handler.main
+			  Class              Monolog\Handler\StreamHandler
+			  Tags               -
+			  Calls              pushProcessor
+			  Public             yes
+			  Synthetic          no
+			  Lazy               no
+			  Shared             yes
+			  Abstract           no
+			  Autowired          no
+			  Autowiring Types   -
+			 ------------------ -------------------------------
+
+9.数据库相关
+
+- 根据配置创建数据库
+
+		php bin/console doctrine:database:create
+
+- 执行更新数据库操作前，打印SQL
+		
+		php bin/console doctrine:schema:update --dump-sql
+
+- 执行更新数据库
+
+		php bin/console doctrine:schema:update --force
+
+
+
