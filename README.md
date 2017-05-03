@@ -5,3 +5,4 @@ my cheat sheets
 2.  [chrome extensions](chrome_extensions.md "chrome extensions")
 3.  [mysql cheat sheet](mysql.md "mysql") 
 4.  [composer cheat sheet](composer.md "mysql") 
+5.  [zend studio](zend_studio.md "zend studio")
