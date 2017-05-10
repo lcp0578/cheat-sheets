@@ -158,5 +158,30 @@
 
 		php bin/console doctrine:schema:update --force
 
+10.Doctrine preUpdate vs prePersist
+	
+PrePersist
+
+	The prePersist fires at the point that an entity is first persisted.
+	Persisting an object means that it is managed by the Doctrine entityManager, 
+	even though it does not actually get inserted into the database until a flush.
+
+PreUpdate
+
+	preUpdate is the corresponding event on an existing object that is about to be updated.
+	Because an existing object is already managed by the entityManager at the point that it was queried, 
+	there is no equivalent persist event. 
+	It basically fires when an existing object has been changed, and a flush has been called.
+	
+	In other words, if you didn't change anything in the object, PreUpdate will not run!
+总结
+
+	There are also 2 forms of these: 
+	lifecycle callbacks, which can be annotated directly into the entity and added as methods inside of it, 
+	but only have access to the entity attributes. 
+
+	There are also true **event listeners** which have to be registered with the entityManager, and have access to event data that has the type of before/after data you'd expect in a database trigger.
+
+
 
 
