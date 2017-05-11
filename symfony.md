@@ -182,6 +182,23 @@ PreUpdate
 
 	There are also true **event listeners** which have to be registered with the entityManager, and have access to event data that has the type of before/after data you'd expect in a database trigger.
 
+11.Entiy中table设置
+
+    /**
+     * @ORM\Entity
+     * @ORM\Table(name="application", options={"comment":"Funding applications"});
+     */
+
+    /**
+     * @Entity
+     * @Table(name="user",
+     *  uniqueConstraints={@UniqueConstraint(name="user_unique",columns={"username"})},
+     *  indexes={@Index(name="user_idx", columns={"email"})}
+     *  schema="schema_name"
+     * )
+     */
+    class User { }
+
 
 
 
