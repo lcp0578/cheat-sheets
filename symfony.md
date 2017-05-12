@@ -182,23 +182,54 @@ PreUpdate
 
 	There are also true **event listeners** which have to be registered with the entityManager, and have access to event data that has the type of before/after data you'd expect in a database trigger.
 
+
 11.Entiy中table设置
 
-    /**
-     * @ORM\Entity
-     * @ORM\Table(name="application", options={"comment":"Funding applications"});
-     */
+        /**
+     	* @ORM\Entity
+     	* @ORM\Table(name="application", options={"comment":"Funding applications"});
+     	*/
+    
+    	/**
+     	* @Entity
+     	* @Table(name="user",
+     	*  uniqueConstraints={@UniqueConstraint(name="user_unique",columns={"username"})},
+     	*  indexes={@Index(name="user_idx", columns={"email"})}
+     	*  schema="schema_name"
+     	* )
+     	*/
+    	class User { }
 
-    /**
-     * @Entity
-     * @Table(name="user",
-     *  uniqueConstraints={@UniqueConstraint(name="user_unique",columns={"username"})},
-     *  indexes={@Index(name="user_idx", columns={"email"})}
-     *  schema="schema_name"
-     * )
-     */
-    class User { }
+12.How to avoid memory leaks in Symfony 2 Commands 
+  
+  - dirty Entity Manager  
+	Use clear() method once a while, it detaches doctrine objects that are not used any more.
 
+    	$this->em->flush();
+     	$this->em->clear();
+  - SQL Logger, this one was the worst to find  
+  Every time you query database SQL Logger stores information about that.   
+  Normally, it’s not a problem but in commands running infinitely every KB counts.  
+  You can turn it off like this.
 
+		$this->em = $this->getContainer()->get('doctrine')->getEntityManager();
+    	$this->em->getConnection()->getConfiguration()->setSQLLogger(null);
+
+13.批量插入 Bulk Inserts
+
+    $batchSize = 20;
+    for ($i = 1; $i <= 10000; ++$i) {
+	    $user = new CmsUser;
+	    $user->setStatus('user');
+	    $user->setUsername('user' . $i);
+	    $user->setName('Mr.Smith-' . $i);
+	    $em->persist($user);
+	    if (($i % $batchSize) === 0) {
+		    $em->flush();
+		    $em->clear(); // Detaches all objects from Doctrine!
+	    }
+    }
+    $em->flush(); //Persist objects that did not make up an entire batch
+    $em->clear();
 
 
