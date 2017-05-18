@@ -8,4 +8,11 @@
 	可能会导致定义、自动提示不能用，自己右击项目，选择build project，手动build。
 
 2. 设置默认字符集为utf-8  
-	window->preference->General->Workspace->Text file encoding->UTF-8
+	
+		window->preference->General->Workspace->Text file encoding->UTF-8
+
+3. 设置git超时时间
+	
+		Window -> Preferences -> Team -> Git -> Remote connections
+	单位是s
+	
