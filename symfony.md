@@ -4,7 +4,9 @@
 
     app.request.query.get('keyword')
 
-2.控制器中获取登录用户信息
+2.获取登录用户信息  
+
+1) 控制器中 
 
      $this->getUser();
 等价于
@@ -13,6 +15,9 @@
     ->getToken()
     ->getUser(); 
 
+2) Twig中：
+
+    {% if app.user %}{{ app.user.username }}{% else %}游客{% endif %}
 3.用户密码加密
 
     /**
@@ -232,4 +237,14 @@ PreUpdate
     $em->flush(); //Persist objects that did not make up an entire batch
     $em->clear();
 
+14.Twig中常用函数  
 
+获取当前时间：
+
+    {{ 'now' | date('Y-m-d H:i:s') }}
+
+字符截断：
+
+	composer require "twig/extensions"  // 加载twig扩展包
+
+    {{ item.address|default('暂无')| truncate(12, false, '...') }}
