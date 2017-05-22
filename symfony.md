@@ -148,6 +148,34 @@
 			  Autowired          no
 			  Autowiring Types   -
 			 ------------------ -------------------------------
+- 查看router列表   
+
+	    $ php bin/console debug:router --help
+	    Usage:
+	      debug:router [options] [--] [<name>]
+	    
+	    Arguments:
+	      nameA route name
+	    
+	    Options:
+	      --show-controllers  Show assigned controllers in overview
+	      --format=FORMAT The output format (txt, xml, json, or md) [default: "txt"]
+	      --raw   To output raw route(s)
+	      -h, --help  Display this help message
+	      -q, --quiet Do not output any message
+	      -V, --version   Display this application version
+	      --ansi  Force ANSI output
+	      --no-ansi   Disable ANSI output
+	      -n, --no-interactionDo not ask any interactive question
+	      -e, --env=ENV   The environment name [default: "dev"]
+	      --no-debug  Switches off debug mode
+	      -v|vv|vvv, --verboseIncrease the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+	    
+	    Help:
+	      The debug:router displays the configured routes:
+	    
+	    php bin/console debug:router
+
 
 9.数据库相关
 
@@ -238,6 +266,9 @@ PreUpdate
     $em->clear();
 
 14.Twig中常用函数  
+ Echo raw variable and disable html escaping
+
+    {{ content|raw }}
 
 获取当前时间：
 
@@ -290,4 +321,35 @@ $ php bin/symfony_requirements
     Note  The command console could use a different php.ini file
     ~~~~  than the one used with your web server. To be on the
       safe side, please check the requirements from your web
-      server using the web/config.php script.
+      server using the web/config.php script.   
+16.Doctrine Callbacks  
+
+**prePersist**  
+Executed just before a persi­st(). Therefore, the $id isn't available, but all changes made to the Entity will be persisted in database  
+
+**postPe­rsist**
+Executed avec a flush() which had a persi­st() on that Entity. $id is now available, but changes aren't saved  
+
+**preUpdate**  
+Executed just before a flush()
+
+**postUpdate**  
+The postUpdate event occurs after the database update operations to entity data. It is not called for a DQL UPDATE statement.  
+
+**preRemove**  
+Executed before a flush() with a remove() on that Entity   
+
+**postRemove**  
+Executed after a flush(). $id is not available anymore  
+
+**postLoad**  
+Executed after the Entity has been loaded or reloaded (refr­esh())
+
+**preFlush**  
+The preFlush event occurs at the very beginning of a flush operation.  
+
+**onFlush**  
+The onFlush event occurs after the change-sets of all managed entities are computed. This event is not a lifecycle callback.  
+
+**postFlush**  
+The postFlush event occurs at the end of a flush operation. This event is not a lifecycle callback.
