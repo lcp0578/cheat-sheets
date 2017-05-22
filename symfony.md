@@ -248,3 +248,46 @@ PreUpdate
 	composer require "twig/extensions"  // 加载twig扩展包
 
     {{ item.address|default('暂无')| truncate(12, false, '...') }}
+
+15.Symfony requirements 检查和优化建议
+
+$ php bin/symfony_requirements
+
+    Symfony Requirements Checker
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    > PHP is using the following php.ini file:
+      F:\xampp\php\php.ini
+    
+    > Checking Symfony requirements:
+      ................................W.WWW.....
+    
+    
+     [OK]
+     Your system is ready to run Symfony projects
+    
+    
+    Optional recommendations to improve your setup
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+     * intl ICU version installed on your system is outdated (51.2) and
+       does not match the ICU data bundled with Symfony (57.1)
+       > To get the latest internationalization data upgrade the ICU
+       > system package and the intl PHP extension.
+    
+     * a PHP accelerator should be installed
+       > Install and/or enable a PHP accelerator (highly recommended).
+    
+     * realpath_cache_size should be at least 5M in php.ini
+       > Setting "realpath_cache_size" to e.g. "5242880" or "5M" in
+       > php.ini* may improve performance on Windows significantly in some
+       > cases.
+    
+     * short_open_tag should be disabled in php.ini
+       > Set short_open_tag to off in php.ini*.
+    
+    
+    Note  The command console could use a different php.ini file
+    ~~~~  than the one used with your web server. To be on the
+      safe side, please check the requirements from your web
+      server using the web/config.php script.
