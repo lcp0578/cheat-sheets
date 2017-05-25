@@ -352,4 +352,6 @@ The preFlush event occurs at the very beginning of a flush operation.
 The onFlush event occurs after the change-sets of all managed entities are computed. This event is not a lifecycle callback.  
 
 **postFlush**  
-The postFlush event occurs at the end of a flush operation. This event is not a lifecycle callback.
+The postFlush event occurs at the end of a flush operation. This event is not a lifecycle callback.  
+
+16.[QueryBuilder examples](QueryBuilder.md "QueryBuilder")
