@@ -70,3 +70,13 @@ UPDATE
 	        ->setParameter(3, $editId)
 	        ->getQuery();
 	$p = $q->execute();
+
+return array result  
+
+
+	$result = $this->getDoctrine()
+               ->getRepository('MyBundle:MyEntity')
+               ->createQueryBuilder('e')
+               ->select('e')
+               ->getQuery()
+               ->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);

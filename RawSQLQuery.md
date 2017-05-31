@@ -50,3 +50,28 @@
         // Get results :)
         $resultDatabase1 = $statementDB1->fetchAll();
         $resultDatabase2 = $statementDB2->fetchAll();
+
+4.executeQuery方式
+
+	$this->getEntityManager()
+        ->getConnection()
+        ->executeQuery('SELECT r.* FROM receive as r LEFT JOIN treat as t ON t.receive_id = r.id WHERE t.id IS NULL AND r.report_time > :start AND r.report_time < :end LIMIT ' . $offset . ','. $pagesize, [
+            'start' => $startDate,
+            'end' => $endDate
+        ])
+        ->fetchAll();
+
+5.executeUpdate  
+
+
+	// UPDATE `mytable` SET is_processing = :is_processing, end_time=NOW() WHERE id IN(:ids)
+	$result = $this->connection->executeUpdate(
+	    $sql,
+	    array(
+	        'is_processing' => false,
+	        'ids' => [3, 25]
+	    ),
+	    array(
+	        'ids' => \Doctrine\DBAL\Connection::PARAM_INT_ARRAY
+	    )
+	);
