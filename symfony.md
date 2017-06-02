@@ -354,4 +354,17 @@ The onFlush event occurs after the change-sets of all managed entities are compu
 **postFlush**  
 The postFlush event occurs at the end of a flush operation. This event is not a lifecycle callback.  
 
-16.[QueryBuilder examples](QueryBuilder.md "QueryBuilder")
+16.[QueryBuilder examples](QueryBuilder.md "QueryBuilder")  
+
+17.[RawSQLQuery examples](RawSQLQuery.md "RawSQLQuery")  
+
+18.twig中调用服务
+
+	#app/config/config.yml
+	twig:
+	    globals:
+	        your_service_name: "@your_service_id"
+
+twig中调用
+
+	{{ 	your_service_name.methodName(param) }}
