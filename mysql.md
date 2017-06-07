@@ -71,3 +71,24 @@
     		| 2017-04-10 15:29:41   						|
     		+-----------------------------------------------+
     		1 row in set (0.00 sec)
+
+4. 字符截取函数
+
+SUBSTR function returns the sub string within a string.
+
+Syntax:
+
+**SUBSTR(string, start_position, length)**
+
+or
+
+**SUBSTRING (string, start_position, length)**
+
+In MySQL both SUBSTR and SUBSTRING will work. SUBSTR is in ANSI standard.
+
+PS:此处有坑，start_position 起始值为： 1  
+
+SUBSTRING_INDEX
+
+	SELECT SUBSTRING_INDEX('www.mysql.com', '.', 2);
+	 // ouput 'www.mysql'
