@@ -75,3 +75,42 @@
 	        'ids' => \Doctrine\DBAL\Connection::PARAM_INT_ARRAY
 	    )
 	);
+
+6.参数处理  
+IN 传参数：
+
+	$stmt = $this->getDoctrine()->getEntityManager()
+     ->getConnection()
+     ->prepare('SELECT t1.id , t1.name
+        FROM table1 t1 
+        WHERE  t1.id IN (:ids)');
+
+	$stmt->bindValue('ids', $idSArray, \Doctrine\DBAL\Connection::PARAM_INT_ARRAY);
+	$stmt->execute();
+or:
+
+
+	$stmt = $this->getDoctrine()->getEntityManager()
+    ->getConnection()
+    ->executeQuery('SELECT t1.id , t1.name 
+        FROM table1 t1 
+        WHERE t1.id IN (:ids)',
+        array('ids' => $idSArray),
+        array('ids' => \Doctrine\DBAL\Connection::PARAM_INT_ARRAY)
+    );
+binding types：  
+
+- \Doctrine\DBAL\Connection::PARAM_INT_ARRAY
+- \Doctrine\DBAL\Connection::PARAM_STR_ARRAY  
+
+
+
+		$stmt = $conn->executeQuery('SELECT * FROM articles WHERE id IN (?)',
+		    array(array(1, 2, 3, 4, 5, 6)),
+		    array(\Doctrine\DBAL\Connection::PARAM_INT_ARRAY)
+		);
+		// Same SQL WITHOUT usage of Doctrine\DBAL\Connection::PARAM_INT_ARRAY
+		$stmt = $conn->executeQuery('SELECT * FROM articles WHERE id IN (?, ?, ?, ?, ?, ?)',
+		    array(1, 2, 3, 4, 5, 6),
+		    array(\PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT)
+		);
