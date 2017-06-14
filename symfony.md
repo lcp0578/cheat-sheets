@@ -266,6 +266,12 @@ PreUpdate
     $em->clear();
 
 14.Twig中常用函数  
+concatenate strings in twig
+
+	{{ 'info_' ~ val.id }}
+	{{ 'info_' ~ val.id ~ '_suffix' }}
+	{{ "brief_#{val.id}" }} //Notice: double quote
+
  Echo raw variable and disable html escaping
 
     {{ content|raw }}
