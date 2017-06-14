@@ -92,3 +92,12 @@ SUBSTRING_INDEX
 
 	SELECT SUBSTRING_INDEX('www.mysql.com', '.', 2);
 	 // ouput 'www.mysql'
+
+5.有外键约束的情况下，删除表
+
+	SET foreign_key_checks = 0;
+	-- Drop tables
+	DROP TABLE table_name;
+	-- Drop views
+	DROP VIEW view_name;
+	SET foreign_key_checks = 1;
