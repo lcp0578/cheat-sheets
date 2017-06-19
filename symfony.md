@@ -284,6 +284,12 @@ concatenate strings in twig
 
 	composer require "twig/extensions"  // 加载twig扩展包
 
+	// services.yml注册服务
+	twig.extension.text:
+        class: Twig_Extensions_Extension_Text
+        tags:
+            - { name: twig.extension }
+
     {{ item.address|default('暂无')| truncate(12, false, '...') }}
 
 15.Symfony requirements 检查和优化建议
@@ -360,9 +366,9 @@ The onFlush event occurs after the change-sets of all managed entities are compu
 **postFlush**  
 The postFlush event occurs at the end of a flush operation. This event is not a lifecycle callback.  
 
-16.[QueryBuilder examples](QueryBuilder.md "QueryBuilder")  
+16.[QueryBuilder examples](symfony/QueryBuilder.md "QueryBuilder")  
 
-17.[RawSQLQuery examples](RawSQLQuery.md "RawSQLQuery")  
+17.[RawSQLQuery examples](symfony/RawSQLQuery.md "RawSQLQuery")  
 
 18.twig中调用服务
 
@@ -375,19 +381,6 @@ twig中调用
 
 	{{ 	your_service_name.methodName(param) }}
 
-19.form builder  
+19.[FormBuilder examples](symfony/FormBuilder.md "FormBuilder") 
 
-	$form = $this->createFormBuilder($user)
-            ->add('username')
-            ->add('password', PasswordType::class)
-            ->add('repassword', PasswordType::class, [
-                'mapped' => false // 添加Entity额外的字段
-            ])
-            ->add('truename')
-            ->add('gender', HiddenType::class)
-            ->add('roles', EntityType::class, [
-                'class' => 'KitRbacBundle:Role',
-                'choice_label' => 'rolename',
-                'label' => '用户组'
-            ])
-            ->getForm();
+	
