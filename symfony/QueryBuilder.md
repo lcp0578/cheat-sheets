@@ -80,3 +80,26 @@ return array result
                ->select('e')
                ->getQuery()
                ->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
+
+	public function getHeaderNav($moduleId, $toArray = false, $ids = null)
+    {
+        $qb = $this->createQueryBuilder('r');
+        $qb->where($qb->expr()
+            ->andX($qb->expr()
+            ->eq('r.status', ':status'), $qb->expr()
+            ->eq('r.pid', ':pid'), $qb->expr()
+            ->isNotNull('r.icon')))
+            ->setParameters([
+            'status' => 1,
+            'pid' => $moduleId
+        ]);
+        if(!empty($ids)){
+            $qb->andWhere('r.id IN(:ids)')->setParameter('ids', $ids);
+        }
+        
+        if ($toArray) {
+            return $qb->getQuery()->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
+        } else {
+            return $qb->getQuery()->getResult();
+        }
+    }
