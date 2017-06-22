@@ -114,3 +114,15 @@ binding types：
 		    array(1, 2, 3, 4, 5, 6),
 		    array(\PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT, \PDO::PARAM_INT)
 		);
+
+7.Affected rows
+
+	$stmt = $this->em->getConnection()->prepare('
+	    UPDATE dbo.my_table SET my_col = :old_col_val WHERE my_col = :new_col_val
+	');
+	
+	$stmt->bindValue('old_col_val', 'Old value');
+	$stmt->bindValue('new_col_val', 'New value');
+	$stmt->execute();
+	
+	$countUpdated = $stmt->rowCount(); // returns number of updated rows
