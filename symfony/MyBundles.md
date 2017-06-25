@@ -13,5 +13,6 @@
  - [liuggio/excelbundle](https://github.com/liuggio/ExcelBundle "ExcelBundle") 基于[PHPExcel](https://github.com/PHPOffice/PHPExcel "PHPExcel")类的symfony集成
  - [friendsofsymfony/rest-bundle](https://github.com/FriendsOfSymfony/FOSRestBundle "FOSRestBundle") 写RESTful API必备bundle
  - [nelmio/api-doc-bundle](https://github.com/nelmio/NelmioApiDocBundle "NelmioApiDocBundle") 根据annotations，生成REST API的文档
+ - [snc/redis-bundle](https://github.com/snc/SncRedisBundle "SncRedisBundle") PHP扩展phpredis和predis的API封装。
  - [friendsofsymfony/elastica-bundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle "FOSElasticaBundle") Elasticsearch的PHP API一套封装
  - [friendsofsymfony/http-cache-bundle](https://github.com/FriendsOfSymfony/FOSHttpCacheBundle "FOSHttpCacheBundle") 提供HTTP caching 
