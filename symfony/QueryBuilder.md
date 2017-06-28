@@ -99,6 +99,8 @@ return array result
         
         if ($toArray) {
             return $qb->getQuery()->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
+			// or 
+			return $qb->getQuery()->getArrayResult();
         } else {
             return $qb->getQuery()->getResult();
         }

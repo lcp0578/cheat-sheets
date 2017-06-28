@@ -16,3 +16,7 @@
  - [snc/redis-bundle](https://github.com/snc/SncRedisBundle "SncRedisBundle") PHP扩展phpredis和predis的API封装。
  - [friendsofsymfony/elastica-bundle](https://github.com/FriendsOfSymfony/FOSElasticaBundle "FOSElasticaBundle") Elasticsearch的PHP API一套封装
  - [friendsofsymfony/http-cache-bundle](https://github.com/FriendsOfSymfony/FOSHttpCacheBundle "FOSHttpCacheBundle") 提供HTTP caching 
+ - [knplabs/knp-snappy-bundle](https://github.com/KnpLabs/KnpSnappyBundle "KnpSnappyBundle") 基于[wkhtmltopdf](http://wkhtmltopdf.org ) 生成网页的PDF或者图片
+ - [pulse00/ffmpeg-bundle](https://github.com/pulse00/ffmpeg-bundle) 封装了[PHP FFmpeg](https://github.com/PHP-FFMpeg/PHP-FFMpeg)，服务式的调用
+ - [knplabs/knp-markdown-bundle](https://github.com/KnpLabs/KnpMarkdownBundle) 基于[php-markdown](https://github.com/michelf/php-markdown),提供markdown解析
+ - [endroid/qrcode](https://github.com/endroid/QrCode) 生成QRCode的bundle

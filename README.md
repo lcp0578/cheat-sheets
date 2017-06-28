@@ -2,6 +2,10 @@
 my cheat sheets
 
 1.  [symfony](symfony.md "symfony") 
+	- [QueryBuilder examples](symfony/QueryBuilder.md "QueryBuilder")  
+	- [RawSQLQuery examples](symfony/RawSQLQuery.md "RawSQLQuery")  
+	- [FormBuilder examples](symfony/FormBuilder.md "FormBuilder") 
+	- [My Bundles Note](symfony/MyBundles.md)
 2.  [chrome extensions](chrome_extensions.md "chrome extensions")
 3.  [mysql](mysql.md "mysql") 
 4.  [composer](composer.md "mysql") 
