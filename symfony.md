@@ -381,8 +381,9 @@ twig中调用
 
 	{{ 	your_service_name.methodName(param) }}
 
-19.[FormBuilder examples](symfony/FormBuilder.md "FormBuilder") 
-20.[My Bundles Note](symfony/MyBundles.md)
-21.[Validation Note](symfony/Validation.md)
+19.[FormBuilder examples](symfony/FormBuilder.md "FormBuilder")   
+20.[My Bundles Note](symfony/MyBundles.md)  
+21.[Validation Note](symfony/Validation.md)  
+22.[Shortcuts methods](symfony/ShortcutsMethods.md)
 
 	
