@@ -74,31 +74,31 @@
 
 4. 字符截取函数
 
-SUBSTR function returns the sub string within a string.
+	SUBSTR function returns the sub string within a string.
+	
+	Syntax:
+	
+	**SUBSTR(string, start_position, length)**
+	
+	or
+	
+	**SUBSTRING (string, start_position, length)**
+	
+	In MySQL both SUBSTR and SUBSTRING will work. SUBSTR is in ANSI standard.
+	
+	PS:此处有坑，start_position 起始值为： 1  
+	
+	**SUBSTRING_INDEX**
+	
+		SELECT SUBSTRING_INDEX('www.mysql.com', '.', 2);
+		 // ouput 'www.mysql'
+	**LEFT(str,len)**  
+	返回字符串str的最左面len个字符。
+	
+	**RIGHT(str,len)**  
+	返回字符串str的最右面len个字符。
 
-Syntax:
-
-**SUBSTR(string, start_position, length)**
-
-or
-
-**SUBSTRING (string, start_position, length)**
-
-In MySQL both SUBSTR and SUBSTRING will work. SUBSTR is in ANSI standard.
-
-PS:此处有坑，start_position 起始值为： 1  
-
-**SUBSTRING_INDEX**
-
-	SELECT SUBSTRING_INDEX('www.mysql.com', '.', 2);
-	 // ouput 'www.mysql'
-**LEFT(str,len)**  
-返回字符串str的最左面len个字符。
-
-**RIGHT(str,len)**  
-返回字符串str的最右面len个字符。
-
-5.有外键约束的情况下，删除表
+5. 有外键约束的情况下，删除表
 
 	SET foreign_key_checks = 0;
 	-- Drop tables
@@ -106,13 +106,13 @@ PS:此处有坑，start_position 起始值为： 1
 	-- Drop views
 	DROP VIEW view_name;
 	SET foreign_key_checks = 1;
-6.命令行导入导出SQL
+6. 命令行导入导出SQL
 
-导出数据：
-
-	mysqldump -u username -p databasename > path/databaseName.sql
-    mysqldump -u username -p databasename tableName > path/tableName.sql
-
-导入数据：
-
-    mysql -u username -p databasename < path/tableName.sql
+	导出数据：
+	
+		mysqldump -u username -p databasename > path/databaseName.sql
+	    mysqldump -u username -p databasename tableName > path/tableName.sql
+	
+	导入数据：
+	
+	    mysql -u username -p databasename < path/tableName.sql
