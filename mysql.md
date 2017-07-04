@@ -88,10 +88,15 @@ In MySQL both SUBSTR and SUBSTRING will work. SUBSTR is in ANSI standard.
 
 PS:此处有坑，start_position 起始值为： 1  
 
-SUBSTRING_INDEX
+**SUBSTRING_INDEX**
 
 	SELECT SUBSTRING_INDEX('www.mysql.com', '.', 2);
 	 // ouput 'www.mysql'
+**LEFT(str,len)**  
+返回字符串str的最左面len个字符。
+
+**RIGHT(str,len)**  
+返回字符串str的最右面len个字符。
 
 5.有外键约束的情况下，删除表
 
