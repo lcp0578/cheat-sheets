@@ -20,3 +20,6 @@
 4. 设置proxy，并升级composer
 	
 		HTTP_PROXY=http://ip:port && composer self-update
+5. 清除缓存
+
+		composer clearcache
