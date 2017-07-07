@@ -9,7 +9,7 @@
 2. 加载一个包
 
     	composer require symfony/finder
-指定版本号：
+	指定版本号：
 
 		composer require knplabs/console-service-provider:2.x
 
