@@ -6,3 +6,12 @@
 
 		composer create-project --prefer-dist yiisoft/yii2-app-basic project_name
 		composer create-project --prefer-dist yiisoft/yii2-app-advanced project_name
+2. 约定  
+	控制器：  
+
+		article 对应 app\controllers\ArticleController;
+		post-comment 对应 app\controllers\PostCommentController;
+		admin/post-comment 对应 app\controllers\admin\PostCommentController;
+		adminPanels/post-comment 对应 app\controllers\adminPanels\PostCommentController.
+3. 生成入口文件  
+	init.bat OR init
