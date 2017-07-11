@@ -21,3 +21,4 @@
  - [knplabs/knp-markdown-bundle](https://github.com/KnpLabs/KnpMarkdownBundle) 基于[php-markdown](https://github.com/michelf/php-markdown),提供markdown解析
  - [endroid/qrcode](https://github.com/endroid/QrCode) 生成QRCode的bundle
  - [cdwv/mysql-dumper-command-bundle](https://github.com/cdwv/MysqlDumperCommandBundle) 命令行下， backup/dump MySQL的bundle
+ - [tetranz/select2entity-bundle](https://github.com/tetranz/select2entity-bundle) select2插件的entity bundle
