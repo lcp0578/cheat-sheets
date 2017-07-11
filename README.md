@@ -22,3 +22,4 @@ my cheat sheets
 13. [framework7](framework7.md "framework7")
 14. [markdown](markdown.md "markdown")
 15. [yii2](yii2.md)
+16. [select2](select2.md)

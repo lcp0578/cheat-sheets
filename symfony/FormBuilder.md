@@ -17,6 +17,30 @@
 	                'label' => '用户组'
 	            ])
 	            ->getForm();
+query builder
+
+		$builder
+            ->add('parent', EntityType::class, [
+                'class' => 'KitNewsBundle:Category',
+                'query_builder' => function(CategoryRepository $repo){
+                    return $repo->getParentCategory();
+                },
+                'choice_label' => 'name',
+                'label' => '父级分类'
+            ]);
+		// query
+		class CategoryRepository extends \Doctrine\ORM\EntityRepository
+		{
+		
+		    public function getParentCategory()
+		    {
+		        return $this->createQueryBuilder('c')
+		            ->select('c')
+		            ->where('c.parentId = 1')
+		            ->andWhere('c.status = 1')
+		            ->orderBy('c.id', 'ASC');
+		    }
+		}
 
 2. ChoiceType  
 
