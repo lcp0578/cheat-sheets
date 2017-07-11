@@ -35,4 +35,5 @@
 21. [yaf](src/yaf.md)
 22. [yar](src/yar.md)
 23. [PHP](src/php.md)
+	- [PHP Extension Install](PHP/php-extension-install.md)
 24. [PHP code](src/php_code.md)
