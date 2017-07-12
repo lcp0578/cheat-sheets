@@ -51,7 +51,7 @@ Loading remote data
 	    "incomplete_results": false,
 	    "items": [
 	        {
-	            "id": 1223,
+	            "id": 1223,  // 返回id键的值，将被设为selected option的值
 	            "html": "<div>test</div>"
 	        },
 	        {
