@@ -3,6 +3,10 @@
 1.twig 中获取GET参数
 
     app.request.query.get('keyword')
+	//获取所有GET参数
+	app.request.query.all
+	//搜索或者翻页需要带参数
+	{{ path('kit_wap_home', {'num':istr.number}|merge(app.request.query.all)) }}
 
 2.获取登录用户信息  
 
