@@ -29,3 +29,5 @@ my cheat sheets
 20. [cakephp](cakephp.md)
 21. [yaf](yaf.md)
 22. [yar](yar.md)
+23. [PHP](php.md)
+24. [PHP code](php_code.md)
