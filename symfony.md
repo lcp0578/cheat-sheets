@@ -388,6 +388,19 @@ twig中调用
 19.[FormBuilder examples](symfony/FormBuilder.md "FormBuilder")   
 20.[My Bundles Note](symfony/MyBundles.md)  
 21.[Validation Note](symfony/Validation.md)  
-22.[Shortcuts methods](symfony/ShortcutsMethods.md)
+22.[Shortcuts methods](symfony/ShortcutsMethods.md)  
+23.获取根目录和host
+
+	$this->getContainer()->get('kernel')->getRootDir()
+	$root = $this->container->get('kernel')->getRootDir();
+	$root = $this->get('kernel')->getRootDir();
+	// xx/xxx/app
+	//Symfony 3.3
+	$root = $this->get('kernel')->getProjectDir()
+	%kernel.project_dir%
+	use %kernel.project_dir%/web/ instead of %kernel.root_dir%/../web/.
+get HOST  
+	
+	$request()->getHost()
 
 	
