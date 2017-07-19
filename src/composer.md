@@ -23,3 +23,18 @@
 5. 清除缓存
 
 		composer clearcache
+6. 关于出现PHP版本异常错误
+	
+		requires php >=5.6 -> your PHP version (7.1.7) overridden by "config.platform.php" version (5.5.9) does not satisfy that requirement.
+	删除相关配置项即可：
+		
+		{
+		    "config": {
+		        "platform":{
+		            "php":"5.5.9"
+		        }
+		    }
+		}
+7. 优化自动加载的文件，提升效率
+	
+		composer dump-autoload --optimize
