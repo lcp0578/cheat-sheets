@@ -6,6 +6,7 @@ my cheat sheets
 	- [RawSQLQuery examples](symfony/RawSQLQuery.md "RawSQLQuery")  
 	- [FormBuilder examples](symfony/FormBuilder.md "FormBuilder") 
 	- [My Bundles Note](symfony/MyBundles.md)
+	- [My Components Note](symfony/MyComponents.md)
 	- [Validation Note](symfony/Validation.md)
 	- [Shortcuts methods](symfony/ShortcutsMethods.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
