@@ -14,16 +14,16 @@
 
 - 获取登录用户信息  
 
- - 控制器中 
+ 	- 控制器中 
 
      		$this->getUser();
-	等价于
+		等价于
 
 		    $this->get('security.token_storage')
 		    ->getToken()
 		    ->getUser(); 
 
- - Twig中：
+ 	- Twig中：
 
     		{% if app.user %}{{ app.user.username }}{% else %}游客{% endif %}
 - 用户密码加密
