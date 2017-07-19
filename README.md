@@ -1,5 +1,4 @@
 # cheat-sheets
-my cheat sheets
 
 1.  [symfony](src/symfony.md "symfony") 
 	- [QueryBuilder examples](symfony/QueryBuilder.md "QueryBuilder")  

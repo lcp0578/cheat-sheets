@@ -38,3 +38,5 @@
 7. 优化自动加载的文件，提升效率
 	
 		composer dump-autoload --optimize
+8. [composer.json.jolicode.com](http://composer.json.jolicode.com/)
+9. [composer config](https://getcomposer.org/doc/06-config.md)
