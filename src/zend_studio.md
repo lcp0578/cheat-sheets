@@ -15,4 +15,7 @@
 	
 		Window -> Preferences -> Team -> Git -> Remote connections
 	单位是s
+4. 修改字体大小  
+	
+		Window -> Preferences -> General -> Appearance -> Basic -> Text font ->edit
 	
