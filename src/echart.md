@@ -58,6 +58,16 @@
         if (option && typeof option === "object") {
             myChart.setOption(option, true);
         }
+		// 绑定click时间，进行事件监听
+		myChart.on('click', function (params) {
+			var url = Routing.generate(opts.route_name,{'param': 'value'});
+			layui.layer.confirm('您是将要跳转到数据列表？', {
+			  btn: ['确定','取消'] //按钮
+			}, function(){
+			  location.href=url;
+			}, function(){
+			});
+		});
         $(window).on("resize", function() {
             myChart.resize();
         });
