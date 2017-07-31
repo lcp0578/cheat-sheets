@@ -1,10 +1,10 @@
 ## mysql cheat sheets
-1. SQL JOINS
+- SQL JOINS
 
 	![SQL JOINS](images/Visual_SQL_JOINS_orig.jpg)
 	
 	原文链接:[http://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join](http://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join "whats-the-difference-between-inner-join-left-join-right-join-and-full-join")
-2. MySQL十进制转化为二进制、八进制、十六进制 
+- MySQL十进制转化为二进制、八进制、十六进制 
 	- BIN(N）返回二进制值N的一个字符串表示
 
 		    > select bin(124);
@@ -34,7 +34,7 @@
     		1 row in set (0.00 sec)
 
 	
-3. MySQL日期 字符串 时间戳互转 
+- MySQL日期 字符串 时间戳互转 
 	- 获取当前时间
 		
 		    >SELECT now();
@@ -72,7 +72,7 @@
     		+-----------------------------------------------+
     		1 row in set (0.00 sec)
 
-4. 字符截取函数
+- 字符截取函数
 
 	SUBSTR function returns the sub string within a string.
 	
@@ -98,7 +98,14 @@
 	**RIGHT(str,len)**  
 	返回字符串str的最右面len个字符。
 
-5. 有外键约束的情况下，删除表
+- 字符连接函数
+	- CONCAT(str1,str2,…)
+	返回结果为连接参数产生的字符串。如有任何一个参数为NULL ，则返回值为 NULL。
+	- CONCAT_WS(separator,str1,str2,...)  
+	CONCAT_WS() 代表 CONCAT With Separator ，是CONCAT()的特殊形式。第一个参数是其它参数的分隔符。分隔符的位置放在要连接的两个字符串之间。分隔符可以是一个字符串，也可以是其它参数。  
+	注意：  
+	如果分隔符为 NULL，则结果为 NULL。函数会忽略任何分隔符参数后的 NULL 值。
+- 有外键约束的情况下，删除表
 
 		SET foreign_key_checks = 0;
 		-- Drop tables
@@ -106,7 +113,7 @@
 		-- Drop views
 		DROP VIEW view_name;
 		SET foreign_key_checks = 1;
-6. 命令行导入导出SQL
+- 命令行导入导出SQL
 
 	导出数据：
 	
@@ -116,10 +123,20 @@
 	导入数据：
 	
 	    mysql -u username -p databasename < path/tableName.sql
-7. 关于直接复制数据库的data文件
+- 关于直接复制数据库的data文件
 	- MyISAM引擎可是正常使用。
 	- Innodb会报错，Table xxx doesn't exist in engine，需要复制ibdata1文件。  
 	相关资料：  
 	[mysql-innodb-lost-tables-but-files-exist](https://superuser.com/questions/675445/mysql-innodb-lost-tables-but-files-exist)  
 	[innodb-error-tablespace-id-in-file](http://www.chriscalender.com/tag/innodb-error-tablespace-id-in-file/)
+-  CAST VS CONVERT  
+	- CAST(expr AS type)  
+	The CAST() function takes an expression of any type and produces a result value of the specified type, similar to CONVERT(). For more information, see the description of CONVERT().  
+	CAST() is standard SQL syntax.
+
+	- CONVERT(expr,type), CONVERT(expr USING transcoding_name)  
+	The CONVERT() function takes an expression of any type and produces a result value of the specified type.  
+	Discussion of CONVERT(expr, type) syntax here also applies to CAST(expr AS type), which is equivalent.  
+	CONVERT(... USING ...) is standard SQL syntax. The non-USING form of CONVERT() is ODBC syntax.	
 	
+			SELECT CAST ('10' as int) * 20, CONVERT (int, '10') * 20
