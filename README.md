@@ -42,3 +42,6 @@
 	- [PHP Extension Install](src/PHP/php-extension-install.md)
 24. [PHP code](src/php_code.md)
 25. [Shell](src/shell.md)
+26. [Nginx](src/nginx.md)
+	- [nginx conf](src/Nginx/nginx.conf.md)
+	- [vhost conf](src/Nginx/vhost.md)
