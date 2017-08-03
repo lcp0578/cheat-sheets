@@ -18,6 +18,7 @@
 	- [MySQL explain](src/MySQL/explain.md)
 	- [MySQL table design](src/MySQL/table_design.md)
 	- [MySQL table index](src/MySQL/table_index.md)
+	- [my confguire](src/MySQL/my_confguire.md)
 4.  [composer](src/composer.md "mysql") 
 5.  [zend studio](src/zend_studio.md "zend studio")
 6.  [guzzle http](src/guzzlehttp.md "guzzle http")
