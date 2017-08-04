@@ -39,6 +39,14 @@ LIKE
 	     ->getQuery()
 	     ->getResult();
 
+IN
+	
+	$qb = $this->createQueryBuilder('u');
+    $qb->where($qb->expr()->in('u.id', ':ids'));
+    //$qb->add('where', $qb->expr()->in('u.id', ':ids'));
+    $qb->setParameter('ids', $ids);
+    return $qb->getQuery()->getArrayResult();
+
 orx  
 
 	$conditions = array('e.type = x', 'e.type = Y', 'e.type = N');
