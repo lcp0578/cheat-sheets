@@ -80,22 +80,11 @@
 IN 传参数：
 
 	$stmt = $this->getDoctrine()->getEntityManager()
-     ->getConnection()
-     ->prepare('SELECT t1.id , t1.name
-        FROM table1 t1 
-        WHERE  t1.id IN (:ids)');
-
-	$stmt->bindValue('ids', $idSArray, \Doctrine\DBAL\Connection::PARAM_INT_ARRAY);
-	$stmt->execute();
-or:
-
-
-	$stmt = $this->getDoctrine()->getEntityManager()
     ->getConnection()
     ->executeQuery('SELECT t1.id , t1.name 
         FROM table1 t1 
         WHERE t1.id IN (:ids)',
-        array('ids' => $idSArray),
+        array('ids' => $idsArray),
         array('ids' => \Doctrine\DBAL\Connection::PARAM_INT_ARRAY)
     );
 binding types：  
