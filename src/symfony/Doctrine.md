@@ -41,10 +41,11 @@
 	    }
 - Entity的filed设置
 
-	    @ORM\Column(name="filed_name", type="string", length=64, nullable=true, options={"default" : "default_value", "comment": "字段注释"})
+	    @ORM\Column(name="filed_name", type="string", length=64, nullable=true, options={"default" : "default_value", "comment": "字段注释","fixed": true})
 	- default设置字段的默认值
 	- nullable设置是否可以为null
 	- comment字段的注释
+	- fixed=true,把varchar=>char
 
 - Entiy中table设置
 
