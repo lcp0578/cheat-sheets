@@ -47,3 +47,5 @@
 26. [Nginx](src/nginx.md)
 	- [nginx conf](src/Nginx/nginx.conf.md)
 	- [vhost conf](src/Nginx/vhost.md)
+27. [Code::Blocks](CodeBlocks.md)
+	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
