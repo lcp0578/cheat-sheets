@@ -14,7 +14,7 @@
 	- [Service](src/symfony/Service.md)
 	- [EventListener](src/symfony/EventListener.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
-3.  [MySQLl](src/MySQL.md "mysql") 
+3.  [MySQL](src/MySQL.md "mysql") 
 	- [MySQL explain](src/MySQL/explain.md)
 	- [MySQL table design](src/MySQL/table_design.md)
 	- [MySQL table index](src/MySQL/table_index.md)
