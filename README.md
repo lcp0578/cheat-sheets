@@ -1,6 +1,7 @@
-# cheat-sheets
+# cheat sheets
 
-1.  [symfony](src/symfony.md "symfony") 
+1.  [symfony](src/symfony/README.md "symfony") 
+	- [Basic](src/symfony/Basic.md)
 	- [Twig](src/symfony/Twig.md)
 	- [Shortcuts methods](src/symfony/ShortcutsMethods.md)
 	- [Doctrine](src/symfony/Doctrine.md)
@@ -9,8 +10,11 @@
 	- [Validation Note](src/symfony/Validation.md) 
 	- [QueryBuilder examples](src/symfony/QueryBuilder.md "QueryBuilder")
 	- [RawSQLQuery examples](src/symfony/RawSQLQuery.md "RawSQLQuery")  
-	- [My Bundles Note](src/symfony/MyBundles.md) 
-	- [My Components Note](src/symfony/components/README.md) 
+	- [Bundles Note](src/symfony/MyBundles.md) 
+	- [Components Note](src/symfony/Components/README.md) 
+		- [Process Component](src/symfony/Components/Process.md) 
+		- [Asset Component](src/symfony/Components/Asset.md) 
+		- [Serializer Component](src/symfony/Components/Serializer.md) 
 	- [Service](src/symfony/Service.md)
 	- [EventListener](src/symfony/EventListener.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")

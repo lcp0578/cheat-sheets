@@ -1,16 +1,4 @@
-## symfony 3.x
-
-- [Twig](../symfony/Twig.md)
-- [Shortcuts methods](../symfony/ShortcutsMethods.md)
-- [Doctrine](../symfony/Doctrine.md)
-- [Console Command](../symfony/Console.md)
-- [FormBuilder examples](../symfony/FormBuilder.md "FormBuilder")
-- [Validation Note](../symfony/Validation.md) 
-- [QueryBuilder examples](../symfony/QueryBuilder.md "QueryBuilder")
-- [RawSQLQuery examples](../symfony/RawSQLQuery.md "RawSQLQuery")  
-- [My Bundles Note](../symfony/MyBundles.md) 
-- [My Components Note](../symfony/Components/README.md) 
-
+##Symfony Basic
 
 - 获取登录用户信息  
 
@@ -65,5 +53,3 @@
 	get HOST  
 		
 		$request()->getHost()
-
-	

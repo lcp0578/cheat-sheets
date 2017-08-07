@@ -1,5 +1,6 @@
 ## symfony
 
+- [Basic](Basic.md)
 - [Twig](Twig.md)
 - [Shortcuts methods](ShortcutsMethods.md)
 - [Doctrine](Doctrine.md)
@@ -8,7 +9,10 @@
 - [Validation Note](Validation.md) 
 - [QueryBuilder examples](QueryBuilder.md "QueryBuilder")
 - [RawSQLQuery examples](RawSQLQuery.md "RawSQLQuery")  
-- [My Bundles Note](MyBundles.md) 
-- [My Components Note](components/README.md) 
+- [Bundles Note](MyBundles.md) 
+- [Components Note](Components/README.md) 
+	- [Process Component](Components/Process.md) 
+	- [Asset Component](Components/Asset.md) 
+	- [Serializer Component](Components/Serializer.md) 
 - [Service](Service.md)
 - [EventListener](EventListener.md)

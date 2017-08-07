@@ -4,7 +4,7 @@
 
 官方文档： [The Serializer Component document.](https://symfony.com/doc/current/components/serializer.html)   
 serializer_workflow  
-![serializer_workflow](../../images/serializer_workflow.png)
+![serializer_workflow](../../../images/serializer_workflow.png)
 
 - 经常遇到的场景，需要把entity的object转成json
 	- symfony > 3.1  
