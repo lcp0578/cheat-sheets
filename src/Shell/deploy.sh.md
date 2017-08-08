@@ -2,8 +2,9 @@
 - 配置ssh key到本地
 	
 		#!/bin/bash
-	 
-		WEB_PATH='/home/wwwroot/kitlabs.cn/lovetosee'
+ 
+		WEB_PATH='/home/wwwroot/kitlabs.cn'
+		WEB_BIN=$WEB_PATH/bin/console
 		WEB_USER='www'
 		WEB_USERGROUP='www'
 		 
@@ -18,9 +19,9 @@
 		chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
 		echo "Finished."
 		echo "start clear cache..."
-		php /home/wwwroot/ar.91zhangyu.com/lovetosee/bin/console  cache:clear --env=prod --no-debug
+		php $WEB_BIN  cache:clear --env=prod --no-debug
 		echo "clear cache end."
 		
-		php /home/wwwroot/ar.91zhangyu.com/lovetosee/bin/console  asset:install
+		php $WEB_BIN  asset:install
 		
 		chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
