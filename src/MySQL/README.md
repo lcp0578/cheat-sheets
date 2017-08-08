@@ -7,3 +7,5 @@
 - [my confguire](my_confguire.md)
 - [MySQL Optimize](optimize.md)
 - [MySQL where](where.md)
+- [mysqldump](mysqldump.md)
+- [Innodb](Innodb.md)
