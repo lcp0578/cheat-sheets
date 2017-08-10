@@ -87,3 +87,62 @@
 		$stream->rewind(); // Seek to the beginning
 		$contents = $stream->getContents(); // returns all the contents
 	Instead, usings PHP's string casting operations, it will reads all the data from the stream from the beginning until the end is reached.
+
+- POST
+	
+		$client = new \GuzzleHttp\Client();
+		$response = $client->request('POST', 'http://www.example.com/user/create', [
+		    'form_params' => [
+		        'email' => 'test@gmail.com',
+		        'name' => 'Test user',
+		        'password' => 'testpassword',
+		    ]
+		]);
+- Request with POST files
+
+		$response = $client->request('POST', 'http://www.example.com/files/post', [
+		    'multipart' => [
+		        [
+		            'name'     => 'file_name',
+		            'contents' => fopen('/path/to/file', 'r')
+		        ],
+		        [
+		            'name'     => 'csv_header',
+		            'contents' => 'First Name, Last Name, Username',
+		            'filename' => 'csv_header.csv'
+		        ]
+		    ]
+		]);	
+- REST verbs usage with params
+		
+		// PUT
+		$client->put('http://www.example.com/user/4', [
+		    'body' => [
+		        'email' => 'test@gmail.com',
+		        'name' => 'Test user',
+		        'password' => 'testpassword',
+		    ],
+		    'timeout' => 5
+		]);
+		
+		// DELETE
+		$client->delete('http://www.example.com/user');
+- Async POST data
+		
+		$client = new \GuzzleHttp\Client();
+		$promise = $client->requestAsync('POST', 'http://www.example.com/user/create', [
+		    'form_params' => [
+		        'email' => 'test@gmail.com',
+		        'name' => 'Test user',
+		        'password' => 'testpassword',
+		    ]
+		]);
+		$promise->then(
+		    function (ResponseInterface $res) {
+		        echo $res->getStatusCode() . "\n";
+		    },
+		    function (RequestException $e) {
+		        echo $e->getMessage() . "\n";
+		        echo $e->getRequest()->getMethod();
+		    }
+		);
