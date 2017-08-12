@@ -16,3 +16,4 @@
 	- [Serializer Component](Components/Serializer.md) 
 - [Service](Service.md)
 - [EventListener](EventListener.md)
+- [Bundle Configuration](BundleConfiguration.md)
