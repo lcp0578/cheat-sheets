@@ -1,6 +1,7 @@
 ## symfony
 
 - [Basic](Basic.md)
+- [routing.yml](routing.yml.md)
 - [Twig](Twig.md)
 - [Shortcuts methods](ShortcutsMethods.md)
 - [Doctrine](Doctrine.md)

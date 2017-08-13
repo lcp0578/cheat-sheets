@@ -2,6 +2,7 @@
 
 1.  [symfony](src/symfony/README.md "symfony") 
 	- [Basic](src/symfony/Basic.md)
+	- [routing.yml](src/symfony/routing.yml.md)
 	- [Twig](src/symfony/Twig.md)
 	- [Shortcuts methods](src/symfony/ShortcutsMethods.md)
 	- [Doctrine](src/symfony/Doctrine.md)
