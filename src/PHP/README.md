@@ -3,4 +3,5 @@
 	
 		ini_set("display_errors", "On");
 		error_reporting(E_ALL);
-- [PHP Extension Install](../PHP/php-extension-install.md)
+- [PHP Extension Install](php-extension-install.md)
+- [opcache configure](opcache.md)
