@@ -18,6 +18,8 @@
 		- [Serializer Component](src/symfony/Components/Serializer.md) 
 	- [Service](src/symfony/Service.md)
 	- [EventListener](src/symfony/EventListener.md)
+	- [Bundle Configuration](src/symfony/BundleConfiguration.md)
+	- [Doctrine Cache](src/symfony/DoctrineCache.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
