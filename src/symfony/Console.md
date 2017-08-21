@@ -162,3 +162,34 @@
 		    ~~~~  than the one used with your web server. To be on the
 		      safe side, please check the requirements from your web
 		      server using the web/config.php script.   
+- 查看bundle的配置示例
+
+		$ php bin/console config:dump-reference kit_pay
+		# Default configuration for extension with alias: "kit_pay"
+		kit_pay:
+		    config:
+		        alipay:
+		            use_sandbox:          true
+		            partner:              ~
+		            app_id:               ~
+		            sign_type:            RAS # One of "RSA"; "RSA2"
+		            ali_public_key:       ~
+		            rsa_private_key:      ~
+		            limit_pay:            []
+		            notify_url:           ~
+		            return_url:           ~
+		            return_raw:           true
+		        weipay:
+		            use_sandbox:          true
+		            app_id:               ~
+		            mch_id:               ~
+		            md5_key:              ~
+		            app_cert_pem:         ~
+		            app_key_pem:          ~
+		            sign_type:            MD5 # One of "MD5"; "HMAC-SHA256"
+		            fee_type:             ~ # One of "CNY"
+		            limit_pay:            []
+		            notify_url:           ~
+		            redirect_url:         ~
+		            return_raw:           true
+
