@@ -162,7 +162,7 @@
 		    ~~~~  than the one used with your web server. To be on the
 		      safe side, please check the requirements from your web
 		      server using the web/config.php script.   
-- 查看bundle的配置示例
+- 打印bundle configure reference
 
 		$ php bin/console config:dump-reference kit_pay
 		# Default configuration for extension with alias: "kit_pay"
