@@ -19,3 +19,4 @@
 - [EventListener](EventListener.md)
 - [Bundle Configuration](BundleConfiguration.md)
 - [Doctrine Cache](DoctrineCache.md)
+- [Custom Exception](CustomException.md)

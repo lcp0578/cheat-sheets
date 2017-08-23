@@ -20,6 +20,7 @@
 	- [EventListener](src/symfony/EventListener.md)
 	- [Bundle Configuration](src/symfony/BundleConfiguration.md)
 	- [Doctrine Cache](src/symfony/DoctrineCache.md)
+	- [Custom Exception](src/symfony/CustomException.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
