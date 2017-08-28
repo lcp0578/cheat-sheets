@@ -192,4 +192,25 @@
 		            notify_url:           ~
 		            redirect_url:         ~
 		            return_raw:           true
+- 调试和查看 event dispatcher
+
+		$ php bin/console debug:event-dispatcher kernel.response
+
+		Registered Listeners for "kernel.response" Event
+		================================================
+		
+		 ------- -------------------------------------------------------------------------------------------- ----------
+		  Order   Callable                                                                                     Priority
+		 ------- -------------------------------------------------------------------------------------------- ----------
+		  #1      Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse()              0
+		  #2      Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector::onKernelResponse()        0
+		  #3      Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse()              0
+		  #4      Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse()       0
+		  #5      Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse()              -100
+		  #6      Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse()   -128
+		  #7      Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse()           -1000
+		  #8      Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse()      -1024
+		 ------- -------------------------------------------------------------------------------------------- ----------
+
+
 
