@@ -20,3 +20,5 @@
 - [Bundle Configuration](BundleConfiguration.md)
 - [Doctrine Cache](DoctrineCache.md)
 - [Custom Exception](CustomException.md)
+- [Dependency Injection Tags](DependencyInjectionTags.md)
+- [Custom Service Tags](CustomServiceTags.md)
