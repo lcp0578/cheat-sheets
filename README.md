@@ -67,3 +67,6 @@
 	- [vhost conf](src/Nginx/vhost.md)
 27. [Code::Blocks](CodeBlocks.md)
 	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
+28. [Ubuntu](src/Ubuntu/README.md)
+	- [开启sshd服务](src/Ubuntu/sshd.md)
+	- [防火墙](src/Ubuntu/firewall.md)
