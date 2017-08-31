@@ -12,9 +12,14 @@
 - [RawSQLQuery examples](RawSQLQuery.md "RawSQLQuery")  
 - [Bundles Note](MyBundles.md) 
 - [Components Note](Components/README.md) 
-	- [Process Component](Components/Process.md) 
-	- [Asset Component](Components/Asset.md) 
-	- [Serializer Component](Components/Serializer.md) 
+	- [Process](Components/Process.md) 在子进程下执行命令
+	- [Asset](Components/Asset.md) 管理静态资源。 
+	- [Serializer](Components/Serializer.md) 序列化和反序列化
+	- [Event Dispatcher](Components/EventDispatcher.md) 事件调度（事件派遣）
+	- [Workflow](Components/Workflow.md) 工作流
+	- [Stopwatch](Components/Stopwatch.md) 性能调试（时间和内存，可分组）
+	- [Finder](Components/Finder.md) 文件和目录查找
+	- [Filesystem](Components/Filesystem.md) 对文件系统做了面向对象的封装
 - [Service](Service.md)
 - [EventListener](EventListener.md)
 - [Bundle Configuration](BundleConfiguration.md)

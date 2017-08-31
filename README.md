@@ -13,9 +13,14 @@
 	- [RawSQLQuery examples](src/symfony/RawSQLQuery.md "RawSQLQuery")  
 	- [Bundles Note](src/symfony/MyBundles.md) 
 	- [Components Note](src/symfony/Components/README.md) 
-		- [Process Component](src/symfony/Components/Process.md) 
-		- [Asset Component](src/symfony/Components/Asset.md) 
-		- [Serializer Component](src/symfony/Components/Serializer.md) 
+		- [Process](src/symfony/Components/Process.md) 在子进程下执行命令
+		- [Asset](src/symfony/Components/Asset.md) 管理静态资源。 
+		- [Serializer](src/symfony/Components/Serializer.md) 序列化和反序列化
+		- [Event Dispatcher](src/symfony/Components/EventDispatcher.md) 事件调度（事件派遣）
+		- [Workflow](src/symfony/Components/Workflow.md) 工作流
+		- [Stopwatch](src/symfony/Components/Stopwatch.md) 性能调试（时间和内存，可分组）
+		- [Finder](src/symfony/Components/Finder.md) 文件和目录查找
+		- [Filesystem](src/symfony/Components/Filesystem.md) 对文件系统做了面向对象的封装
 	- [Service](src/symfony/Service.md)
 	- [EventListener](src/symfony/EventListener.md)
 	- [Bundle Configuration](src/symfony/BundleConfiguration.md)
