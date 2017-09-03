@@ -75,3 +75,4 @@
 28. [Ubuntu](src/Ubuntu/README.md)
 	- [开启sshd服务](src/Ubuntu/sshd.md)
 	- [防火墙](src/Ubuntu/firewall.md)
+29. [svg](src/svg.md)
