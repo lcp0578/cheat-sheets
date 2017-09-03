@@ -11,6 +11,13 @@
 		
 		php bin/console cache:clear
 		php bin/console cache:clear --env=prod --no-debug  //清除生产环境的缓存
+
+	The cache:clear command doesn't clear the Doctrine caches.  
+	clear the Doctrine caches, use:
+
+		php bin/console doctrine:cache:clear-metadata --env=prod
+		php bin/console doctrine:cache:clear-query --env=prod
+		php bin/console doctrine:cache:clear-result --env=prod
 - 生成bundle
 		
 		php bin/console generate:bundle

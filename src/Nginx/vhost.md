@@ -216,11 +216,13 @@
 		}
 - 去掉index.php美化url
 
-	 	#如果请求既不是一个文件，也不是一个目录，则执行一下重写规则
-    	if (!-e $request_filename)  # if后面有空格
-        {
-            #地址作为将参数rewrite到index.php上。
-            rewrite ^/(.*)$ /index.php/$1;
-            #若是子目录则使用下面这句，将subdir改成目录名称即可。
-            #rewrite ^/subdir/(.*)$ /subdir/index.php/$1;
-        }
+		location / {
+		 	#如果请求既不是一个文件，也不是一个目录，则执行一下重写规则
+	    	if (!-e $request_filename)  # if后面有空格
+	        {
+	            #地址作为将参数rewrite到index.php上。
+	            rewrite ^/(.*)$ /index.php/$1;
+	            #若是子目录则使用下面这句，将subdir改成目录名称即可。
+	            #rewrite ^/subdir/(.*)$ /subdir/index.php/$1;
+	        }
+		}
