@@ -35,6 +35,10 @@
 		app.request.query.all
 		//搜索或者翻页需要带参数
 		{{ path('kit_wap_home', {'num':istr.number}|merge(app.request.query.all)) }}
+- 获取route name
+
+		app.request.get('_route')
+
 - 获取登录用户信息
 
 		{% if app.user %}{{ app.user.username }}{% else %}游客{% endif %}

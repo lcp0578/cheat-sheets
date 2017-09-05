@@ -53,3 +53,9 @@
 	get HOST  
 		
 		$request()->getHost()
+- 获取当前路由名称
+	
+		// controller
+		$routeName = $request->get('_route');
+		//twig
+		app.request.get('_route')
