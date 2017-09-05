@@ -29,3 +29,5 @@
 - [Custom Service Tags](CustomServiceTags.md)
 - [Cookie](cookie.md)
 - [Session](session.md)
+- [security authentication](security-authentication.md)
+- [Authenticator demo](Authenticator-demo.md)

@@ -30,6 +30,8 @@
 	- [Custom Service Tags](src/symfony/CustomServiceTags.md)
 	- [Cookie](src/symfony/cookie.md)
 	- [Session](src/symfony/session.md)
+	- [security authentication](src/symfony/security-authentication.md)
+	- [Authenticator demo](src/symfony/Authenticator-demo.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
