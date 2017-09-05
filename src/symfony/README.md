@@ -31,3 +31,4 @@
 - [Session](session.md)
 - [security authentication](security-authentication.md)
 - [Authenticator demo](Authenticator-demo.md)
+- [Login and Register](LoginAndRegister.md)
