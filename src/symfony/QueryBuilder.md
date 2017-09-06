@@ -40,6 +40,15 @@
 		     ->getQuery()
 		     ->getResult();
 
+- between
+
+		$qb = $this->createQueryBuilder('u');
+		$qb->where(
+		         $qb->expr()->between('t.price', $startPrice, $targetPrice)
+		     )
+     	->getQuery()
+     	->getResult();
+
 - IN
 	
 		$qb = $this->createQueryBuilder('u');
