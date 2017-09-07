@@ -4,6 +4,7 @@
 	- [Basic](src/symfony/Basic.md)
 	- [routing.yml](src/symfony/routing.yml.md)
 	- [Twig](src/symfony/Twig.md)
+	- [Twig Extension](src/symfony/TwigExtension.md)
 	- [Shortcuts methods](src/symfony/ShortcutsMethods.md)
 	- [Doctrine](src/symfony/Doctrine.md)
 	- [Console Command](src/symfony/Console.md)

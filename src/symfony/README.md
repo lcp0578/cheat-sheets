@@ -3,6 +3,7 @@
 - [Basic](Basic.md)
 - [routing.yml](routing.yml.md)
 - [Twig](Twig.md)
+- [Twig Extension](TwigExtension.md)
 - [Shortcuts methods](ShortcutsMethods.md)
 - [Doctrine](Doctrine.md)
 - [Console Command](Console.md)
