@@ -33,3 +33,4 @@
 - [security authentication](security-authentication.md)
 - [Authenticator demo](Authenticator-demo.md)
 - [Login and Register](LoginAndRegister.md)
+- [Clear Cache In Controller](ClearCacheInController.md)
