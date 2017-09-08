@@ -100,6 +100,24 @@
 	      The debug:router displays the configured routes:
 	    
 	    php bin/console debug:router
+		$ php bin/console debug:router kit_admin_user
+		+--------------+---------------------------------------------------------+
+		| Property     | Value                                                   |
+		+--------------+---------------------------------------------------------+
+		| Route Name   | kit_admin_user                                          |
+		| Path         | /admin/user/{page}                                      |
+		| Path Regex   | #^/admin/user(?:/(?P<page>\d+))?$#s                     |
+		| Host         | ANY                                                     |
+		| Host Regex   |                                                         |
+		| Scheme       | ANY                                                     |
+		| Method       | ANY                                                     |
+		| Requirements | page: \d+                                               |
+		| Class        | Symfony\Component\Routing\Route                         |
+		| Defaults     | _controller: KitAdminBundle:User:index                  |
+		|              | page: 1                                                 |
+		| Options      | compiler_class: Symfony\Component\Routing\RouteCompiler |
+		+--------------+---------------------------------------------------------+
+
 
 
 - 根据配置创建数据库
