@@ -88,6 +88,23 @@
 		        ->setParameter(3, $editId)
 		        ->getQuery();
 		$p = $q->execute();
+		
+		public function updateStatus($orderNo, $origin, $new)
+	    {
+	        return $this->createQueryBuilder('o')
+	            ->update()
+	            ->set('o.status', $new)
+	            ->set('o.callbackAt', ':datetime')
+	            ->set('o.updateAt',  ':datetime')
+	            ->where('o.orderNo = :orderNo AND o.status = :origin')
+	            ->setParameters([
+	                'orderNo' => $orderNo,
+	                'origin' => $origin
+	            ])
+	            ->setParameter('datetime', new \DateTime(), \Doctrine\DBAL\Types\Type::DATETIME)
+	            ->getQuery()
+	            ->getResult();
+	    }
 
 - return array result  
 
