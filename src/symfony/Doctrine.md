@@ -46,6 +46,11 @@
 	- nullable设置是否可以为null
 	- comment字段的注释
 	- fixed=true,把varchar=>char
+	- type="string"
+		- legth=  255(2 ^ 8 - 1),TINYTEXT 
+		- legth=  65535(2 ^ 16 - 1),TEXT 
+		- legth=  16777215(2 ^ 24 - 1),MEDIUMTEXT 
+		- legth=  4294967295(2 ^ 32 - 1),LONGTEXT 
 
 - Entiy中table设置
 
