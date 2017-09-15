@@ -36,6 +36,7 @@
 	- [Login and Register](src/symfony/LoginAndRegister.md)
 	- [Clear Cache In Controller](src/symfony/ClearCacheInController.md)
 	- [symfony 1.4](src/symfony/symfony1.4.md)
+	- [Table to Entity (reverse engineering)](src/symfony/TableToEntity(reverse_engineering).md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
