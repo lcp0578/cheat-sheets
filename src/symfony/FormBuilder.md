@@ -79,3 +79,4 @@ query builder
 	            'first_options' => ['label' => '密码'],
 	            'second_options' => ['label' => '确认密码'],
 	        ]);
+4. options
