@@ -77,6 +77,7 @@
 	- [crontab](src/Shell/crontab.md)
 	- [network configure](src/Shell/network_configure.md)
 26. [Nginx](src/nginx.md)
+	- [nginx basic](src/Nginx/nginx_basic.md)
 	- [nginx conf](src/Nginx/nginx.conf.md)
 	- [vhost conf](src/Nginx/vhost.md)
 27. [Code::Blocks](CodeBlocks.md)
