@@ -37,3 +37,4 @@
 - [symfony 1.4](symfony1.4.md)
 - [Table to Entity (reverse engineering)](TableToEntity(reverse_engineering).md)
 - [Symfony Performance](symfony-performance.md)
+- [symfony coding standard](symfony-coding-standard.md)
