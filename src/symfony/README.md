@@ -38,3 +38,4 @@
 - [Table to Entity (reverse engineering)](TableToEntity(reverse_engineering).md)
 - [Symfony Performance](symfony-performance.md)
 - [symfony coding standard](symfony-coding-standard.md)
+- [symfony tips and tricks](symfony-tips-and-tricks.md)
