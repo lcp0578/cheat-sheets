@@ -1,7 +1,9 @@
 ## Validation 
 1. 手动校验 csrf token
 	  
-		$this->isCsrfTokenValid('form', $token); // form default tokenId
+		// "form" default tokenId in controller
+		// but, FormType like WebUserType it is "web_user" 
+		$this->isCsrfTokenValid('form', $token);  
 		// isCsrfTokenValid is Shortcuts method
 		
 		// in  Symfony\Bundle\FrameworkBundle\Controller
