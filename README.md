@@ -7,6 +7,7 @@
 	- [Twig Extension](src/symfony/TwigExtension.md)
 	- [Shortcuts methods](src/symfony/ShortcutsMethods.md)
 	- [Doctrine](src/symfony/Doctrine.md)
+	- [DQL(Doctrine Query Language)](src/symfony/DQL.md)
 	- [Console Command](src/symfony/Console.md)
 	- [FormBuilder examples](src/symfony/FormBuilder.md "FormBuilder")
 	- [Validation Note](src/symfony/Validation.md) 
