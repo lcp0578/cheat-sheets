@@ -217,3 +217,18 @@
 		  10 => District {#643 ▶}
 		  11 => District {#640 ▶}
 		]
+- join
+
+		public function getList()
+	    {
+	        return $this->createQueryBuilder('u')
+	            ->select('u.id', 'u.username', 'u.createAt', 'u.updateAt', 'r.rolename')
+	            ->join('u.group', 'r')  // association
+	            //->where('u.status = ?0')
+	            //->setParameter(0, 1) // key, The parameter position or name
+	            ->where('u.status = :status')
+	            ->setParameter('status', 1)
+	            ->getQuery()
+	            ->getResult();
+	       
+	    }
