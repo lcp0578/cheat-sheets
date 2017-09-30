@@ -23,3 +23,9 @@
 8. 手动判断 CSRF token是否合法
 
 		$this->isCsrfTokenValid('token_id', $token);
+9. 把请求转发到其他控制器和方法
+
+		$this->forward('GregwarCaptchaBundle:Captcha:generateCaptcha', ['key' => $key]);
+		//forward($controller, array $path = array(), array $query = array())
+
+	PS： 第二个参数为route上占位符参数，第三个为其他额外的参数
