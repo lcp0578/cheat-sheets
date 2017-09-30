@@ -62,3 +62,21 @@
 		    {% endfor %}
 		    </ul>
 	    {% endverbatim %}
+- Whitespace Control
+
+		{% spaceless %}
+		    <div>
+		        <strong>foo bar</strong>
+		    </div>
+		{% endspaceless %}
+		
+		{# output will be <div><strong>foo bar</strong></div> #}
+或者
+
+		{% set value = 'no spaces' %}
+		{#- No leading/trailing whitespace -#}
+		{%- if true -%}
+		    {{- value -}}
+		{%- endif -%}
+		
+		{# output 'no spaces' #}
