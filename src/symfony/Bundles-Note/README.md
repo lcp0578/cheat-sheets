@@ -1,4 +1,4 @@
-## My Bundles Note
+## Bundles Note
 
 #### Discover bundles [knpbundles.com](http://knpbundles.com/)
  - [friendsofsymfony/user-bundle](https://github.com/FriendsOfSymfony/FOSUserBundle "FOSUserBundle")  FOS用户相关的bundle，代码具有参考价值，暂未真正使用
@@ -22,3 +22,4 @@
  - [endroid/qrcode](https://github.com/endroid/QrCode) 生成QRCode的bundle
  - [cdwv/database-dumper-command-bundle](https://github.com/cdwv/DatabaseDumperCommandBundle) 命令行下， backup/dump MySQL的bundle
  - [tetranz/select2entity-bundle](https://github.com/tetranz/select2entity-bundle) select2插件的entity bundle
+ - [doctrine/doctrine-fixtures-bundle](https://github.com/doctrine/DoctrineFixturesBundle) [ :page_facing_up: my note](DoctrineFixturesBundle.md) 初始化数据的bundle 

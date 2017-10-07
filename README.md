@@ -13,7 +13,7 @@
 	- [Validation Note](src/symfony/Validation.md) 
 	- [QueryBuilder examples](src/symfony/QueryBuilder.md "QueryBuilder")
 	- [RawSQLQuery examples](src/symfony/RawSQLQuery.md "RawSQLQuery")  
-	- [Bundles Note](src/symfony/MyBundles.md) 
+	- [Bundles Note](src/symfony/Bundles-Note/README.md)  
 	- [Components Note](src/symfony/Components/README.md) 
 		- [Process](src/symfony/Components/Process.md) 在子进程下执行命令
 		- [Asset](src/symfony/Components/Asset.md) 管理静态资源。 

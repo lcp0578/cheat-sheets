@@ -12,7 +12,7 @@
 - [Validation Note](Validation.md) 
 - [QueryBuilder examples](QueryBuilder.md "QueryBuilder")
 - [RawSQLQuery examples](RawSQLQuery.md "RawSQLQuery")  
-- [Bundles Note](MyBundles.md) 
+- [Bundles Note](Bundles-Note/README.md) 
 - [Components Note](Components/README.md) 
 	- [Process](Components/Process.md) 在子进程下执行命令
 	- [Asset](Components/Asset.md) 管理静态资源。 
