@@ -29,3 +29,8 @@
 		//forward($controller, array $path = array(), array $query = array())
 
 	PS： 第二个参数为route上占位符参数，第三个为其他额外的参数
+10. 文件下载（symfony >= 3.2）
+
+		$this->file();
+
+	[简单用法示例](FileControllerHelper.md)

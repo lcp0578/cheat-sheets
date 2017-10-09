@@ -105,22 +105,23 @@ binding types：
 		);
 或者使用PDO常量
 
-	public function getListPage($startTime, $endTime, $page, $pagesize)
-    {
-        $offset = ($page - 1) * $pagesize;
-        return $this->getEntityManager()
-        ->getConnection()
-        ->executeQuery('SELECT * FROM case_receive WHERE report_time > :start AND report_time < :end LIMIT :offset,:pagesize', [
-            'start' => $startTime,
-            'end' => $endTime,
-            'offset' => $offset,
-            'pagesize' => $pagesize
-        ], [
-            'offset' => \PDO::PARAM_INT,
-            'pagesize' => \PDO::PARAM_INT
-        ])
-        ->fetchAll();
-    }
+		public function getListPage($startTime, $endTime, $page, $pagesize)
+	    {
+	        $offset = ($page - 1) * $pagesize;
+	        return $this->getEntityManager()
+	        ->getConnection()
+	        ->executeQuery('SELECT * FROM case_receive WHERE report_time > :start AND report_time < :end LIMIT :offset,:pagesize', [
+	            'start' => $startTime,
+	            'end' => $endTime,
+	            'offset' => $offset,
+	            'pagesize' => $pagesize
+	        ], [
+	            'offset' => \PDO::PARAM_INT,
+	            'pagesize' => \PDO::PARAM_INT
+	        ])
+	        ->fetchAll();
+	    }
+
 7.Affected rows
 
 	$stmt = $this->em->getConnection()->prepare('
