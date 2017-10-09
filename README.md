@@ -35,6 +35,7 @@
 	- [security authentication](src/symfony/security-authentication.md)
 	- [Authenticator demo](src/symfony/Authenticator-demo.md)
 	- [Login and Register](src/symfony/LoginAndRegister.md)
+	- [Login Event Listener](src/symfony/LoginListener.md)
 	- [Clear Cache In Controller](src/symfony/ClearCacheInController.md)
 	- [symfony 1.4](src/symfony/symfony1.4.md)
 	- [Table to Entity (reverse engineering)](src/symfony/TableToEntity(reverse_engineering).md)
