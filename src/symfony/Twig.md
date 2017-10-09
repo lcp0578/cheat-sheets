@@ -80,3 +80,8 @@
 		{%- endif -%}
 		
 		{# output 'no spaces' #}
+- 获取session 
+
+	`{{app.session}}` refers to the Session object and not the `$_SESSION` array.
+
+		{{ app.session.get('session_key') }}
