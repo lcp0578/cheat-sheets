@@ -26,7 +26,7 @@
 		}
 		if (false === empty($existing)) {
 		    $qb->andWhere($expr->notIn('itc.item_id', ':item_id'))
-		        ->setParameter('item_id', ((array) $existing), $dc::PARAM_STR_ARRAY);
+		        ->setParameter('item_id', ((array) $existing), , \Doctrine\DBAL\Connection::PARAM_STR_ARRAY);
 		}
 		$items_ids = $qb->execute()->fetchAll(\PDO::FETCH_COLUMN);
 
@@ -54,7 +54,7 @@
 		$qb = $this->createQueryBuilder('u');
 	    $qb->where($qb->expr()->in('u.id', ':ids'));
 	    //$qb->add('where', $qb->expr()->in('u.id', ':ids'));
-	    $qb->setParameter('ids', $ids);
+	    $qb->setParameter('ids', $ids, \Doctrine\DBAL\Connection::PARAM_INT_ARRAY);
 	    return $qb->getQuery()->getArrayResult();
 
 - orx  
@@ -232,3 +232,13 @@
 	            ->getResult();
 	       
 	    }
+- cache result
+
+		return $this->createQueryBuilder('r')
+            ->select('r.name')
+            ->where('r.id IN(:ids)')
+            ->setParameter('ids', $ids, \Doctrine\DBAL\Connection::PARAM_INT_ARRAY)
+            ->getQuery()
+            ->useQueryCache(true)
+            ->useResultCache(true, 86400)
+            ->getArrayResult();
