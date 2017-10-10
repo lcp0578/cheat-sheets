@@ -52,6 +52,24 @@
 		- legth=  16777215(2 ^ 24 - 1),MEDIUMTEXT 
 		- legth=  4294967295(2 ^ 32 - 1),LONGTEXT 
 	- [mapping-matrix](http://doctrine-dbal.readthedocs.io/en/latest/reference/types.html#mapping-matrix)
+	
+	self join
+
+		/**
+	     * One kind has Many kinds.
+	     *
+	     * @ORM\ManyToOne(targetEntity="Menu", inversedBy="children")
+	     * @ORM\JoinColumn(name="parent_id", referencedColumnName="id", onDelete="CASCADE")
+	     */
+	    private $parent;
+	    
+	    /**
+	     * Many kinds have One kind.
+	     *
+	     * @ORM\OneToMany(targetEntity="Menu", mappedBy="parent")
+	     * @ORM\OrderBy({"sort" = "DESC", "id" = "DESC"}) // 排序处理
+	     */
+	    private $children;
 
 - Entiy中table设置
 
