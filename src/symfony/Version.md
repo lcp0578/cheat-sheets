@@ -39,3 +39,5 @@
 		    const END_OF_LIFE = '07/2018';
 		}
 		
+- [version releases](https://symfony.com/doc/current/contributing/community/releases.html)
+- [version roadmap](https://symfony.com/roadmap)
