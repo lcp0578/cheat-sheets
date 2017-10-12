@@ -5,6 +5,7 @@
 	- [routing.yml](src/symfony/routing.yml.md)
 	- [Twig](src/symfony/Twig.md)
 	- [Twig Extension](src/symfony/TwigExtension.md)
+	- [Version](src/symfony/Version.md)
 	- [Shortcuts methods](src/symfony/ShortcutsMethods.md)
 	- [Doctrine](src/symfony/Doctrine.md)
 	- [DQL(Doctrine Query Language)](src/symfony/DQL.md)

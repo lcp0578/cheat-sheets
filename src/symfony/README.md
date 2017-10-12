@@ -4,6 +4,7 @@
 - [routing.yml](routing.yml.md)
 - [Twig](Twig.md)
 - [Twig Extension](TwigExtension.md)
+- [Version](Version.md)
 - [Shortcuts methods](ShortcutsMethods.md)
 - [Doctrine](Doctrine.md)
 - [DQL(Doctrine Query Language)](DQL.md)
