@@ -155,8 +155,8 @@ binding types：
 
 	- PDO::FETCH_NAMED: returns an array with the same form as PDO::FETCH_ASSOC, except that if there are multiple columns with the same name, the value referred to by that key will be an array of all the values in the row that had that column name
 
-PDO::FETCH_NUM: returns an array indexed by column number as returned in your result set, starting at column 0
+	- PDO::FETCH_NUM: returns an array indexed by column number as returned in your result set, starting at column 0
 
-PDO::FETCH_OBJ: returns an anonymous object with property names that correspond to the column names returned in your result set
+	- PDO::FETCH_OBJ: returns an anonymous object with property names that correspond to the column names returned in your result set
 
-PDO::FETCH_PROPS_LATE: when used with PDO::FETCH_CLASS, the constructor of the class is called before the properties are assigned from the respective column values.
+	- PDO::FETCH_PROPS_LATE: when used with PDO::FETCH_CLASS, the constructor of the class is called before the properties are assigned from the respective column values.
