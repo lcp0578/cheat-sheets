@@ -2,7 +2,7 @@
 - 数据库建立user_test表
 
 		CREATE TABLE `user_test` (
-		  `id` int(11) NOT NULL,
+		  `id` int(11) NOT NULL PRIMARY KEY,
 		  `username` varchar(32) NOT NULL,
 		  `mobile` char(11) NOT NULL,
 		  `status` smallint(6) NOT NULL
