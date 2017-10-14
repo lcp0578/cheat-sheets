@@ -43,6 +43,7 @@
 	- [Symfony Performance](src/symfony/symfony-performance.md)
 	- [symfony coding standard](src/symfony/symfony-coding-standard.md)
 	- [symfony tips and tricks](src/symfony/symfony-tips-and-tricks.md)
+	- [Doctrine SQL Filter](src/symfony/SQLFilter.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
