@@ -91,6 +91,7 @@
 	- [nginx basic](src/Nginx/nginx_basic.md)
 	- [nginx conf](src/Nginx/nginx.conf.md)
 	- [vhost conf](src/Nginx/vhost.md)
+	- [proxy_pass](src/Nginx/proxy_pass.md)
 27. [Code::Blocks](CodeBlocks.md)
 	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
 28. [Ubuntu](src/Ubuntu/README.md)
