@@ -70,6 +70,7 @@
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
+	- [Mobile Image Upload](src/javascript/MobileImageUpload.md)
 13. [framework7](src/framework7.md "framework7")
 14. [markdown](src/markdown.md "markdown")
 15. [yii2](src/yii2.md)
