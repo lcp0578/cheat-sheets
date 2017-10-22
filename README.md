@@ -28,6 +28,7 @@
 	- [EventListener](src/symfony/EventListener.md)
 	- [Bundle Configuration](src/symfony/BundleConfiguration.md)
 	- [Doctrine Cache](src/symfony/DoctrineCache.md)
+	- [Doctrine Annotations Reference](src/symfony/DoctrineAnnotationsReference.md)
 	- [Custom Exception](src/symfony/CustomException.md)
 	- [Dependency Injection Tags](src/symfony/DependencyInjectionTags.md)
 	- [Custom Service Tags](src/symfony/CustomServiceTags.md)
