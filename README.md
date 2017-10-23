@@ -58,6 +58,7 @@
 	- [MySQL where](src/MySQL/where.md)
 	- [mysqldump](src/MySQL/mysqldump.md)
 	- [Innodb](src/MySQL/Innodb.md)
+	- [master slave](src/MySQL/master-slave.md)
 4.  [composer](src/composer.md "mysql") 
 5.  [zend studio](src/zend_studio.md "zend studio")
 6.  [guzzle http](src/guzzlehttp.md "guzzle http")

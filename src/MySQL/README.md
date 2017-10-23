@@ -9,3 +9,4 @@
 - [MySQL where](where.md)
 - [mysqldump](mysqldump.md)
 - [Innodb](Innodb.md)
+- [master slave](master-slave.md)
