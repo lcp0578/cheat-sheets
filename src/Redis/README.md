@@ -1,5 +1,6 @@
 ## redis
 - [redis windows](redis_windows.md)
+- [master slave](master-slave.md)
 - redis 设置密码  
 	打开redis.conf，找到requirepass去掉前面的#后面改成你想要设置的密码
 
