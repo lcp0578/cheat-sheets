@@ -38,6 +38,7 @@
 	- [Authenticator demo](src/symfony/Authenticator-demo.md)
 	- [Login and Register](src/symfony/LoginAndRegister.md)
 	- [Login Event Listener](src/symfony/LoginListener.md)
+	- [Logout Handler](src/symfony/LogoutHandler.md)
 	- [Logout Success Handler](src/symfony/LogoutSuccessHandler.md)
 	- [Clear Cache In Controller](src/symfony/ClearCacheInController.md)
 	- [symfony 1.4](src/symfony/symfony1.4.md)
