@@ -116,3 +116,4 @@
 29. [svg](src/svg.md)
 30. [wechat](src/wechat/README.md)
 31. [FFmpeg](src/FFmpeg.md)
+32. [OAuth 2.0](src/OAuth2.0/README.md)
