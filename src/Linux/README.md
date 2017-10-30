@@ -7,3 +7,4 @@
 - [package management](package_management.md)
 - [rsync](rsync.md)
 - [CentOS Local yum repo](CentOSLocalYumRepo.md)
+- [log view 日志查看](log_view.md)

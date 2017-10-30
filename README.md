@@ -74,6 +74,7 @@
 	- [package management](src/Linux/package_management.md)
 	- [rsync](src/Linux/rsync.md)
 	- [CentOS Local yum repo](src/Linux/CentOSLocalYumRepo.md)
+	- [log view](src/Linux/log_view.md)
 9.  [golang](src/golang.md "golang")
 10. [redis](src/Redis/README.md "redis")
 	- [redis windows](src/Redis/redis_windows.md)
