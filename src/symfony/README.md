@@ -47,4 +47,5 @@
 - [symfony coding standard](symfony-coding-standard.md)
 - [symfony tips and tricks](symfony-tips-and-tricks.md)
 - [Doctrine SQL Filter](SQLFilter.md)
+- [Doctrine Query Functions](DoctrineQueryFunctions.md)
 - [Custom DQL Funtions](CustomDQLFunctions.md)
