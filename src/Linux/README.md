@@ -8,3 +8,5 @@
 - [rsync](rsync.md)
 - [CentOS Local yum repo](CentOSLocalYumRepo.md)
 - [log view 日志查看](log_view.md)
+- [netstat](netstat.md)
+- [telenet](telenet.md)
