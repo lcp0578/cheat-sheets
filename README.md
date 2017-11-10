@@ -50,6 +50,7 @@
 	- [Doctrine SQL Filter](src/symfony/SQLFilter.md)
 	- [Doctrine Query Functions](src/symfony/DoctrineQueryFunctions.md)
 	- [Custom DQL Funtions](src/symfony/CustomDQLFunctions.md)
+	- [Webpack Encore](src/symfony/WebpackEncore.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
