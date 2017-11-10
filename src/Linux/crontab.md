@@ -27,4 +27,11 @@
 - 删除crontab文件
 
 		crontab -r
+- 重启crontab服务（需要等几分才会正真执行）
+
+		/etc/init.d/crond restart
+- 按时间记录执行的log
+
+		* * * * * php /home/wwwroot/wateroa.kitcloud.cn/oa/bin/console admin:sms:send >> /home/wwwlogs/sms/`date +\%Y\%m\%d\%H`_sms.log 2>&1
+		
 	
