@@ -103,6 +103,7 @@
 22. [yar](src/yar.md)
 23. [PHP](src/php.md)
 	- [PHP Extension Install](src/PHP/php-extension-install.md)
+	- [Socket](src/PHP/Socket.md)
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md)
