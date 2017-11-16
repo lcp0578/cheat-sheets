@@ -50,3 +50,4 @@
 - [Doctrine Query Functions](DoctrineQueryFunctions.md)
 - [Custom DQL Funtions](CustomDQLFunctions.md)
 - [Webpack Encore](WebpackEncore.md)
+- [Logger](Logger.md)

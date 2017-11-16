@@ -8,7 +8,7 @@
          * @var  \Psr\Log\LoggerInterface $logger
          */
         $logger = $this->get('logger');
-        $logger->alert('pay faild', $result);
+        $logger->alert('pay faild', $result); // $result is array
 - 配置日志存放
 
 		monolog:
