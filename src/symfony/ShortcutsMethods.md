@@ -34,3 +34,6 @@
 		$this->file();
 
 	[简单用法示例](FileControllerHelper.md)
+11. 读取配置参数
+
+		$this->getParameter('kernel.root_dir')；
