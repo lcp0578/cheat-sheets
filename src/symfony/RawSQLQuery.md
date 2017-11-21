@@ -131,8 +131,22 @@ binding types：
 		$stmt->execute();
 		
 		$countUpdated = $stmt->rowCount(); // returns number of updated rows
+8. delete
 
-8. get result
+		// Doctrine\DBAL\Connection
+		$conn = $this->getEntityManager()
+            ->getConnection();
+		$conn->delete('user', array('id' => 1));
+		// DELETE FROM user WHERE id = ? (1)
+9. insert
+
+		$conn->insert('user', array('username' => 'jwage'));
+		// INSERT INTO user (username) VALUES (?) (jwage)
+10. update
+	
+		$conn->update('user', array('username' => 'jwage'), array('id' => 1));
+		// UPDATE user (username) VALUES (?) WHERE id = ? (jwage, 1)
+11. get result
 
 		->fetchAll() // 获取全部结果
 		->fetch() // 获取一条结果
