@@ -105,6 +105,43 @@
 	            ->getQuery()
 	            ->getResult();
 	    }
+- INSERT
+
+		$qb->insert('users')
+		    ->values(
+		        array(
+		            'name' => '?',
+		            'password' => '?'
+		        )
+		    )
+		    ->setParameter(0, $username)
+		    ->setParameter(1, $password)
+		;
+		// OR
+		$qb->insert('users')
+	    ->setValue('name', '?')
+	    ->setValue('password', '?')
+	    ->setParameter(0, $username)
+	    ->setParameter(1, $password)
+		;
+		// OR
+		$qb->insert('users')
+		    ->values(
+		        array(
+		            'name' => '?'
+		        )
+		    )
+		    ->setParameter(0, $username)
+		;
+		// INSERT INTO users (name) VALUES (?)
+		
+		if ($password) {
+		    $queryBuilder
+		        ->setValue('password', '?')
+		        ->setParameter(1, $password)
+		    ;
+		    // INSERT INTO users (name, password) VALUES (?, ?)
+		}
 
 - return array result  
 
@@ -242,3 +279,18 @@
             ->useQueryCache(true)
             ->useResultCache(true, 86400)
             ->getArrayResult();
+- Binding Parameters to Placeholders
+
+		$queryBuilder
+		    ->select('id', 'name')
+		    ->from('users')
+		    ->where('email = ' .  $queryBuilder->createNamedParameter($userInputEmail))
+		;
+		// SELECT id, name FROM users WHERE email = :dcValue1
+		
+		$queryBuilder
+		    ->select('id', 'name')
+		    ->from('users')
+		    ->where('email = ' .  $queryBuilder->createPositionalParameter($userInputEmail))
+		;
+		// SELECT id, name FROM users WHERE email = ?
