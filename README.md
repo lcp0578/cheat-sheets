@@ -26,6 +26,8 @@
 		- [Finder](src/symfony/Components/Finder.md) 文件和目录查找
 		- [Filesystem](src/symfony/Components/Filesystem.md) 对文件系统做了面向对象的封装
 	- [Service](src/symfony/Service.md)
+	- [autowiring](src/symfony/autowiring.md)
+	- [alias private service](src/symfony/alias_private_service.md)
 	- [EventListener](src/symfony/EventListener.md)
 	- [Bundle Configuration](src/symfony/BundleConfiguration.md)
 	- [Doctrine Cache](src/symfony/DoctrineCache.md)
