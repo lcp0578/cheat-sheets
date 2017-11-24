@@ -25,6 +25,10 @@
 	- [Finder](Components/Finder.md) 文件和目录查找
 	- [Filesystem](Components/Filesystem.md) 对文件系统做了面向对象的封装
 - [Service](Service.md)
+- [autowiring](autowiring.md)
+- [alias private service](alias_private_service.md)
+- [service decoration](service_decoration.md)
+- [service id](src/symfony/Service_id.md)
 - [EventListener](EventListener.md)
 - [Bundle Configuration](BundleConfiguration.md)
 - [Doctrine Cache](DoctrineCache.md)
@@ -51,3 +55,4 @@
 - [Custom DQL Funtions](CustomDQLFunctions.md)
 - [Webpack Encore](WebpackEncore.md)
 - [Logger](Logger.md)
+- [New in Symfony 3.4](NewInSymfony3.4/README.md)
