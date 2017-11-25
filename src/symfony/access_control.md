@@ -1,0 +1,1 @@
+https://symfony.com/doc/current/security/access_control.html
