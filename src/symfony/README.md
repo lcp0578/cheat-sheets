@@ -56,3 +56,4 @@
 - [Webpack Encore](WebpackEncore.md)
 - [Logger](Logger.md)
 - [New in Symfony 3.4](NewInSymfony3.4/README.md)
+- [argument_value_resolver](argument_value_resolver.md)

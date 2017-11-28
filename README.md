@@ -57,6 +57,7 @@
 	- [Webpack Encore](src/symfony/WebpackEncore.md)
 	- [Logger](src/symfony/Logger.md)
 	- [New in Symfony 3.4](src/symfony/NewInSymfony3.4/README.md)
+	- [argument_value_resolver](src/symfony/argument_value_resolver.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
