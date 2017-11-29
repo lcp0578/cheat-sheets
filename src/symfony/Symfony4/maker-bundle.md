@@ -1,0 +1,1 @@
+http://symfony.com/blog/introducing-the-symfony-maker-bundle
