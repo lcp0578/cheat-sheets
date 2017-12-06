@@ -102,6 +102,7 @@
 11. [git note](src/git/README.md "git")
 	- [git branch](src/git/branch.md)
 	- [git tag](src/git/tag.md)
+	- [rm commit log](src/git/rm-commit-log.md)
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
