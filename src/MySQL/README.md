@@ -11,3 +11,4 @@
 - [Innodb](Innodb.md)
 - [master slave](master-slave.md)
 - [grant](grant.md)
+- [sql_mode](sql_mode.md)
