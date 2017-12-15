@@ -11,3 +11,4 @@
 - [netstat](netstat.md)
 - [telenet](telenet.md)
 - [iptables](iptables.md)
+- [tar](tar.md)

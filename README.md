@@ -96,6 +96,7 @@
 	- [netstat](src/Linux/netstat.md)
 	- [telenet](src/Linux/telenet.md)
 	- [iptables](src/Linux/iptables.md)
+	- [tar](src/Linux/tar.md)
 9.  [golang](src/golang.md "golang")
 10. [redis](src/Redis/README.md "redis")
 	- [redis windows](src/Redis/redis_windows.md)
