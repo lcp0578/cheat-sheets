@@ -125,7 +125,6 @@
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md)
-	- [crontab](src/Shell/crontab.md)
 	- [network configure](src/Shell/network_configure.md)
 26. [Nginx](src/nginx.md)
 	- [nginx basic](src/Nginx/nginx_basic.md)
