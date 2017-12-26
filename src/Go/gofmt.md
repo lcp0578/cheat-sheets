@@ -1,7 +1,7 @@
 ## gofmt VS go fmt
 ### gofmt
 
-	$ gofmt --help
+	$ gofmt --help // or go doc cmd/gofmt
 	usage: gofmt [flags] [path ...]
 	  -cpuprofile string
 	        write cpu profile to this file
@@ -30,7 +30,7 @@ gofmt的参数介绍
 
 ### go fmt
 	
-	$ go help fmt
+	$ go help fmt //or go fmt --help
 	usage: go fmt [-n] [-x] [packages]
 	
 	Fmt runs the command 'gofmt -l -w' on the packages named
