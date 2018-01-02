@@ -18,3 +18,12 @@
 		mysql>
 		mysql> flush privileges;
 		Query OK, 0 rows affected (0.01 sec)
+- 如果提示密码过期
+
+	Your password has expired. To log in you must change it using a client that supports expired passwords.
+
+		$ mysqladmin -u root -p password
+		Enter password: *******
+		New password: *******
+		Confirm new password: *******
+		Warning: Since password will be sent to server in plain text, use ssl connection to ensure password safety.
