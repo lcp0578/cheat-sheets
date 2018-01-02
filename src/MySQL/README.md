@@ -12,3 +12,4 @@
 - [master slave](master-slave.md)
 - [grant](grant.md)
 - [sql_mode](sql_mode.md)
+- [update root password](root_password.md)
