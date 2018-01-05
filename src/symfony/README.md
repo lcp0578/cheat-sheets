@@ -35,6 +35,7 @@
 - [Bundle Configuration](BundleConfiguration.md)
 - [Doctrine Cache](DoctrineCache.md)
 - [Doctrine Annotations Reference](DoctrineAnnotationsReference.md)
+- [Doctrine Schema Manager](DoctrineSchemaManager.md) Doctrine 模式管理器
 - [Custom Exception](CustomException.md)
 - [Dependency Injection Tags](DependencyInjectionTags.md)
 - [Custom Service Tags](CustomServiceTags.md)
