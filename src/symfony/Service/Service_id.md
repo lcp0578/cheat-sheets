@@ -18,6 +18,13 @@
 		router
 		// alias for "router.default"
 		// Symfony\Bundle\FrameworkBundle\Routing\Router
+- 请求(request_stack)
+	
+		request_stack
+		// Symfony\Component\HttpFoundation\RequestStack
+		// 拿到当前请求对象
+		$request = $this->requestStack->getCurrentRequest();
+		
 - 日志
 
 		logger
