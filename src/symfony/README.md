@@ -30,6 +30,7 @@
 - [FormBuilder examples](Form/FormBuilder.md "FormBuilder")
 - [Validation Note](Form/Validation.md)  
 - [argument value resolver](Form/argument_value_resolver.md)
+- [create form type](Form/create_form_type.md)
 - [create form type extension](Form/create_form_type_extension.md)
 - [Custom Form Theme](Form/CustomFormTheme.md)
 - [DataTransformers](Form/DataTransformers.md)
