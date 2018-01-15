@@ -1,24 +1,73 @@
 # :elephant: cheat sheets :memo:
 
 1.  [symfony](src/symfony/README.md "symfony") 
-	- [Basic](src/symfony/Basic.md)
-	- [routing.yml](src/symfony/routing.yml.md)
-	- [Twig](src/symfony/Twig.md)
-	- [Twig Extension](src/symfony/TwigExtension.md)
-	- [Version](src/symfony/Version.md)
-	- [Shortcuts methods](src/symfony/ShortcutsMethods.md)
-	- [Upload File](src/symfony/UploadFile.md)
-	- [Doctrine](src/symfony/Doctrine.md)
-	- [DQL(Doctrine Query Language)](src/symfony/DQL.md)
-	- [multiple database](src/symfony/multiple-database.md)
-	- [Console Command](src/symfony/Console.md)
-	- [Command call Command](src/symfony/CommandCallCommand.md)
-	- [FormBuilder examples](src/symfony/FormBuilder.md "FormBuilder")
-	- [Validation Note](src/symfony/Validation.md) 
-	- [QueryBuilder examples](src/symfony/QueryBuilder.md "QueryBuilder")
-	- [RawSQLQuery examples](src/symfony/RawSQLQuery.md "RawSQLQuery")  
-	- [Bundles Note](src/symfony/Bundles-Note/README.md)  
-	- [Components Note](src/symfony/Components/README.md) 
+	- [Basic](src/symfony/Basic/README.md) 基础和常用
+		- [Basic](src/symfony/Basic/Basic.md) 基础知识点
+		- [Symfony Twig Extensions](src/symfony/Basic/SymfonyTwigExtensions.md) symfony对Twig的扩展
+		- [Shortcuts Methods](src/symfony/Basic/ShortcutsMethods.md) 控制器中的快捷方法
+		- [FileControllerHelper](src/symfony/Basic/FileControllerHelper.md) 文件处理的helper
+		- [Json Response](src/symfony/Basic/JsonResponse.md) Json响应及参数设置
+		- [Streamed Response](src/symfony/Basic/StreamedResponse.md) 流响应
+	- [Twig](src/symfony/Twig/README.md) Twig相关
+		- [Twig](src/symfony/Twig/Twig.md) Twig基础
+		- [Twig Extension](src/symfony/Twig/TwigExtension.md) Twig扩展示例
+		- [Twig Form Reference](src/symfony/Twig/TwigFormReference.md) Twig From相关的函数与变量
+		- [Twig functions](src/symfony/Twig/functions.md) Twig函数用法示例
+	- [Doctrine](src/symfony/Doctrine/README.md) Doctrine相关
+		- [Doctrine](src/symfony/Doctrine/Doctrine.md) Doctrine基础知识
+		- [Doctrine Cache](src/symfony/Doctrine/DoctrineCache.md) 配置Doctrine缓存配置
+		- [Doctrine Annotations Reference](src/symfony/Doctrine/DoctrineAnnotationsReference.md)
+		- [Doctrine Schema Manager](src/symfony/Doctrine/DoctrineSchemaManager.md) Doctrine 模式管理器
+		- [Doctrine SQL Filter](src/symfony/Doctrine/SQLFilter.md) SQL过滤器示例
+		- [Doctrine Query Functions](src/symfony/Doctrine/DoctrineQueryFunctions.md) DQL使用SQL函数，例如：DATE_FORMAT
+		- [Custom DQL Funtions](src/symfony/Doctrine/CustomDQLFunctions.md) 自定义DQL函数
+		- [DQL(Doctrine Query Language)](src/symfony/Doctrine/DQL.md) DQL相关
+		- [QueryBuilder examples](src/symfony/Doctrine/QueryBuilder.md "QueryBuilder") 查询构造器示例
+		- [RawSQLQuery examples](src/symfony/Doctrine/RawSQLQuery.md "RawSQLQuery") 原生SQL查询
+		- [Table to Entity (reverse engineering)](src/symfony/Doctrine/TableToEntity.md) 数据表转Entity（逆向工程）
+		- [MultipleDatabase](src/symfony/Doctrine/MultipleDatabase.md) 多数据库配置与使用
+	- [Router](src/symfony/Router/README.md) 路由相关
+		- [routing.yml](src/symfony/Router/routing.yml.md) yml路由配置示例
+	- [Form](src/symfony/Form/README.md) 表单相关
+		- [FormBuilder examples](src/symfony/Form/FormBuilder.md "FormBuilder")
+		- [Validation Note](src/symfony/Form/Validation.md)  
+		- [argument value resolver](src/symfony/Form/argument_value_resolver.md)
+		- [create custom field type](src/symfony/Form/create_custom_field_type.md)
+		- [create form type extension](src/symfony/Form/create_form_type_extension.md)
+		- [Custom Form Theme](src/symfony/Form/CustomFormTheme.md)
+		- [DataTransformers](src/symfony/Form/DataTransformers.md)
+		- [Pass Custom Options Form](src/symfony/Form/PassCustomOptionsForm.md)
+	- [Service](src/symfony/Service/README.md) 服务相关
+		- [Service](src/symfony/Service/Service.md)
+		- [service id](src/symfony/Service/Service_id.md) 服务ID
+		- [autowiring](src/symfony/Service/autowiring.md) 服务的自动注册
+		- [alias private service](src/symfony/Service/alias_private_service.md)
+		- [Custom Service Tags](src/symfony/Service/CustomServiceTags.md)
+		- [service decoration](src/symfony/Service/service_decoration.md)
+		- [Service Container](src/symfony/Service/ServiceContainer.md)
+	- [Dependency Injection](src/symfony/DependencyInjection/REAMDE.md) 依赖注入相关
+		- [Dependency Injection Tags](src/symfony/DependencyInjection/DependencyInjectionTags.md)
+		- [Compiler Pass](src/symfony/DependencyInjection/CompilerPass.md)
+	- [Security](src/symfony/Security/README.md) 安全相关
+		- [security authentication](src/symfony/DependencyInjection/security-authentication.md)
+		- [Authenticator demo](src/symfony/DependencyInjection/Authenticator-demo.md)
+		- [Login and Register](src/symfony/DependencyInjection/LoginAndRegister.md)
+		- [Logout Handler](src/symfony/DependencyInjection/LogoutHandler.md)
+		- [Logout Success Handler](src/symfony/DependencyInjection/LogoutSuccessHandler.md)
+		- [multi field login](src/symfony/DependencyInjection/multi-field-login.md)
+	- [EventListener](src/symfony/EventListener/README.md) 事件监听相关
+		- [EventListener](src/symfony/EventListener/EventListener.md) 事件监听
+		- [Login Event Listener](src/symfony/EventListener/LoginListener.md) 登录事件监听
+		- [Api Version](src/symfony/EventListener/ApiVersion.md) API版本控制
+	- [Command](src/symfony/Command/README.md)
+		- [Console Command](src/symfony/Command/Console.md) 常用的console命令
+		- [Command call Command](src/symfony/Command/CommandCallCommand.md) command之间调用
+		- [command in controller](src/symfony/Command/command_in_controller.md) 在控制器调用command
+		- [Custom Command](src/symfony/Command/CustomCommand.md) 自定义command
+	- [ReusableBundle](src/symfony/ReusableBundle/REAMDE.md) 创建可重复使用bundle相关
+		- [BundleStruct](src/symfony/ReusableBundle/BundleStruct.md) 可复用bundle结构
+		- [Bundle Configuration](src/symfony/ReusableBundle/BundleConfiguration.md) Bundle配置示例
+	- [Components](src/symfony/Components/README.md) 组件相关
 		- [Process](src/symfony/Components/Process.md) 在子进程下执行命令
 		- [Asset](src/symfony/Components/Asset.md) 管理静态资源。 
 		- [Serializer](src/symfony/Components/Serializer.md) 序列化和反序列化
@@ -27,46 +76,31 @@
 		- [Stopwatch](src/symfony/Components/Stopwatch.md) 性能调试（时间和内存，可分组）
 		- [Finder](src/symfony/Components/Finder.md) 文件和目录查找
 		- [Filesystem](src/symfony/Components/Filesystem.md) 对文件系统做了面向对象的封装
-	- [Service](src/symfony/Service.md)
-	- [autowiring](src/symfony/autowiring.md)
-	- [alias private service](src/symfony/alias_private_service.md)
-	- [service decoration](src/symfony/service_decoration.md)
-	- [service id](src/symfony/Service_id.md)
-	- [EventListener](src/symfony/EventListener.md)
-	- [Bundle Configuration](src/symfony/BundleConfiguration.md)
-	- [Doctrine Cache](src/symfony/DoctrineCache.md)
-	- [Doctrine Annotations Reference](src/symfony/DoctrineAnnotationsReference.md)
-	- [Doctrine Schema Manager](src/symfony/DoctrineSchemaManager.md) Doctrine 模式管理器
-	- [Custom Exception](src/symfony/CustomException.md)
-	- [Dependency Injection Tags](src/symfony/DependencyInjectionTags.md)
-	- [Custom Service Tags](src/symfony/CustomServiceTags.md)
-	- [Cookie](src/symfony/cookie.md)
-	- [Session](src/symfony/session.md)
-	- [security authentication](src/symfony/security-authentication.md)
-	- [Authenticator demo](src/symfony/Authenticator-demo.md)
-	- [Login and Register](src/symfony/LoginAndRegister.md)
-	- [Login Event Listener](src/symfony/LoginListener.md)
-	- [Logout Handler](src/symfony/LogoutHandler.md)
-	- [Logout Success Handler](src/symfony/LogoutSuccessHandler.md)
-	- [Clear Cache In Controller](src/symfony/ClearCacheInController.md)
-	- [symfony 1.4](src/symfony/symfony1.4.md)
-	- [Table to Entity (reverse engineering)](src/symfony/TableToEntity(reverse_engineering).md)
-	- [Symfony Performance](src/symfony/symfony-performance.md)
-	- [symfony coding standard](src/symfony/symfony-coding-standard.md)
-	- [symfony tips and tricks](src/symfony/symfony-tips-and-tricks.md)
-	- [Doctrine SQL Filter](src/symfony/SQLFilter.md)
-	- [Doctrine Query Functions](src/symfony/DoctrineQueryFunctions.md)
-	- [Custom DQL Funtions](src/symfony/CustomDQLFunctions.md)
-	- [Webpack Encore](src/symfony/WebpackEncore.md)
-	- [Logger](src/symfony/Logger.md)
-	- [New in Symfony 3.4](src/symfony/NewInSymfony3.4/README.md)
-	- [argument_value_resolver](src/symfony/argument_value_resolver.md)
-	- [create form type extension](src/symfony/create_form_type_extension.md)
-	- [Symfony4](src/symfony/Symfony4/README.md)
+	- [Bundles Note](src/symfony/Bundles-Note/README.md) 第三方bundle使用笔记 
+	- [symfony coding standard](src/symfony/SymfonyCodingStandard/README.md) Symfony编码规范
+		- [code conventions](src/symfony/SymfonyCodingStandard/code-conventions.md) 代码约定
+		- [code standards](src/symfony/SymfonyCodingStandard/code-standards.md) 代码标准
+	- [Others](src/symfony/Others/README.md) 其他杂项
+		- [Version](src/symfony/Others/Version.md) Symfony版本查看
+		- [Upload File](src/symfony/Others/UploadFile.md) 文件上传示例
+		- [Cookie](src/symfony/Others/cookie.md) cookie相关
+		- [Session](src/symfony/Others/session.md) session相关
+		- [Clear Cache In Controller](src/symfony/Others/ClearCacheInController.md)
+		- [Symfony Performance](src/symfony/Others/symfony-performance.md)
+		- [symfony tips and tricks](src/symfony/Others/symfony-tips-and-tricks.md)
+		- [Logger](src/symfony/Others/Logger.md)
+		- [symfony 3.3 features](src/symfony/Others/symfony-3.4-features.md)
+		- [symfony 3.4 features](src/symfony/Others/symfony-3.4-features.md)
+	- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore相关
+		- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore介绍
+		- [Webpack Encore Example](src/symfony/WebpackEncore/example.md) Webpack Encore使用示例
+	- [Symfony4](src/symfony/Symfony4/README.md) sf4相关
 		- [flex](src/symfony/Symfony4/flex.md)
 		- [maker-bundle](src/symfony/Symfony4/maker-bundle.md)
 		- [recipes-contrib](src/symfony/Symfony4/recipes-contrib.md)
 		- [recipes](src/symfony/Symfony4/recipes.md)
+	- [Symfony 1.x](src/symfony/Symfony1/README.md)
+		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
