@@ -98,7 +98,7 @@
 	- [CentOS Local yum repo](src/Linux/CentOSLocalYumRepo.md)
 	- [log view](src/Linux/log_view.md)
 	- [netstat](src/Linux/netstat.md)
-	- [telenet](src/Linux/telenet.md)
+	- [telnet](src/Linux/telnet.md)
 	- [iptables](src/Linux/iptables.md)
 	- [tar](src/Linux/tar.md)
 9.  [Go](src/Go/README.md "golang")
