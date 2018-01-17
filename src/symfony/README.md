@@ -38,7 +38,7 @@
 #### [Service](Service/README.md) 服务相关
 - [Service](Service/Service.md)
 - [service id](Service/Service_id.md) 服务ID
-- [autowiring](Service/autowiring.md) 服务的自动注册
+- [autowiring](Service/autowiring.md) 服务的自动装配
 - [alias private service](Service/alias_private_service.md)
 - [Custom Service Tags](Service/CustomServiceTags.md)
 - [service decoration](Service/service_decoration.md)
@@ -74,6 +74,7 @@
 - [Stopwatch](Components/Stopwatch.md) 性能调试（时间和内存，可分组）
 - [Finder](Components/Finder.md) 文件和目录查找
 - [Filesystem](Components/Filesystem.md) 对文件系统做了面向对象的封装
+- [Dotenv](Components/Dotenv.md) 设置环境变量
 #### [Bundles Note](Bundles-Note/README.md) 第三方bundle使用笔记 
 #### [symfony coding standard](SymfonyCodingStandard/README.md) Symfony编码规范
 - [code conventions](SymfonyCodingStandard/code-conventions.md) 代码约定
