@@ -50,12 +50,12 @@
 		- [Dependency Injection Tags](src/symfony/DependencyInjection/DependencyInjectionTags.md)
 		- [Compiler Pass](src/symfony/DependencyInjection/CompilerPass.md)
 	- [Security](src/symfony/Security/README.md) 安全相关
-		- [security authentication](src/symfony/DependencyInjection/security-authentication.md)
-		- [Authenticator demo](src/symfony/DependencyInjection/Authenticator-demo.md)
-		- [Login and Register](src/symfony/DependencyInjection/LoginAndRegister.md)
-		- [Logout Handler](src/symfony/DependencyInjection/LogoutHandler.md)
-		- [Logout Success Handler](src/symfony/DependencyInjection/LogoutSuccessHandler.md)
-		- [multi field login](src/symfony/DependencyInjection/multi-field-login.md)
+		- [security authentication](src/symfony/Security/security-authentication.md)
+		- [Authenticator demo](src/symfony/Security/Authenticator-demo.md)
+		- [Login and Register](src/symfony/Security/LoginAndRegister.md)
+		- [Logout Handler](src/symfony/Security/LogoutHandler.md)
+		- [Logout Success Handler](src/symfony/Security/LogoutSuccessHandler.md)
+		- [multi field login](src/symfony/Security/multi-field-login.md)
 	- [EventListener](src/symfony/EventListener/README.md) 事件监听相关
 		- [EventListener](src/symfony/EventListener/EventListener.md) 事件监听
 		- [Login Event Listener](src/symfony/EventListener/LoginListener.md) 登录事件监听

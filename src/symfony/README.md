@@ -48,12 +48,12 @@
 - [Dependency Injection Tags](DependencyInjection/DependencyInjectionTags.md)
 - [Compiler Pass](DependencyInjection/CompilerPass.md)
 #### [Security](Security/README.md) 安全相关
-- [security authentication](DependencyInjection/security-authentication.md)
-- [Authenticator demo](DependencyInjection/Authenticator-demo.md)
-- [Login and Register](DependencyInjection/LoginAndRegister.md)
-- [Logout Handler](DependencyInjection/LogoutHandler.md)
-- [Logout Success Handler](DependencyInjection/LogoutSuccessHandler.md)
-- [multi field login](DependencyInjection/multi-field-login.md)
+- [security authentication](Security/security-authentication.md)
+- [Authenticator demo](Security/Authenticator-demo.md)
+- [Login and Register](Security/LoginAndRegister.md)
+- [Logout Handler](Security/LogoutHandler.md)
+- [Logout Success Handler](Security/LogoutSuccessHandler.md)
+- [multi field login](Security/multi-field-login.md)
 #### [EventListener](EventListener/README.md) 事件监听相关
 - [EventListener](EventListener/EventListener.md) 事件监听
 - [Login Event Listener](EventListener/LoginListener.md) 登录事件监听
@@ -91,6 +91,8 @@
 - [Logger](Others/Logger.md)
 - [symfony 3.3 features](Others/symfony-3.4-features.md)
 - [symfony 3.4 features](Others/symfony-3.4-features.md)
+#### [Deployment](Deployment/README.md)
+- [proxies](Deployment/proxies.md) 设置代理
 #### [Webpack Encore](WebpackEncore/README.md) Webpack Encore相关
 - [Webpack Encore](WebpackEncore/README.md) Webpack Encore介绍
 - [Webpack Encore Example](example.md) Webpack Encore使用示例
