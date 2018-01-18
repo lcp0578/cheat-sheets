@@ -165,6 +165,7 @@
 23. [PHP](src/php.md)
 	- [PHP Extension Install](src/PHP/php-extension-install.md)
 	- [Socket](src/PHP/Socket.md)
+	- [control structures alternative syntax](src/PHP/alternative-syntax.md) 流程控制的替代语法
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md)
