@@ -141,6 +141,7 @@
 	- [gofmt vs go fmt](src/Go/gofmt.md)
 	- [Compiler Directives](src/Go/CompilerDirectives.md)
 	- [for select](src/Go/for-select.md)
+	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
 10. [redis](src/Redis/README.md "redis")
 	- [redis windows](src/Redis/redis_windows.md)
 	- [master slave](src/Redis/master-slave.md)
