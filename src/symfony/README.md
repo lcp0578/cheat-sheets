@@ -23,6 +23,7 @@
 - [DQL(Doctrine Query Language)](Doctrine/DQL.md) DQL相关
 - [QueryBuilder examples](Doctrine/QueryBuilder.md "QueryBuilder") 查询构造器示例
 - [RawSQLQuery examples](Doctrine/RawSQLQuery.md "RawSQLQuery") 原生SQL查询
+- [associations](Doctrine/associations.md) 表之间关联
 - [Table to Entity (reverse engineering)](Doctrine/TableToEntity.md) 数据表转Entity（逆向工程）
 - [MultipleDatabase](Doctrine/MultipleDatabase.md) 多数据库配置与使用
 #### [Router](Router/README.md) 路由相关
