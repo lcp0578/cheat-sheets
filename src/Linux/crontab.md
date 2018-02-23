@@ -32,6 +32,9 @@
 		/etc/init.d/crond restart
 - 按时间记录执行的log
 
-		* * * * * php /home/wwwroot/wateroa.kitcloud.cn/oa/bin/console admin:sms:send >> /home/wwwlogs/sms/`date +\%Y\%m\%d\%H`_sms.log 2>&1
+		* * * * * php /home/wwwroot/oa/bin/console admin:sms:send >> /home/wwwlogs/sms/`date +\%Y\%m\%d\%H`_sms.log 2>&1
+		* * * * * php /home/wwwroot/oa/bin/console admin:sms:send >> "/home/wwwlogs/sms/$(date +"\%Y\%m\%d\%H")_sms.log" 2>&1
+
+	PS:2>&1 表示把标准错误输出重定向到与标准输出一致
 		
 	
