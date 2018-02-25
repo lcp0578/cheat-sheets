@@ -145,6 +145,7 @@
 	- [for select](src/Go/for-select.md)
 	- [string](src/Go/string.md) 字符串操作相关
 	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
+	- [vgo](src/Go/vgo.md) 版本控制
 10. [redis](src/Redis/README.md "redis")
 	- [redis windows](src/Redis/redis_windows.md)
 	- [master slave](src/Redis/master-slave.md)
