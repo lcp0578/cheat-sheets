@@ -147,8 +147,11 @@
 	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
 	- [vgo](src/Go/vgo.md) 版本控制
 10. [redis](src/Redis/README.md "redis")
-	- [redis windows](src/Redis/redis_windows.md)
-	- [master slave](src/Redis/master-slave.md)
+	- [basic](src/Redis/basic.md) redis基础
+	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
+	- [master slave](src/Redis/master-slave.md) redis配置主从
+	- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
+	- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
 11. [git note](src/git/README.md "git")
 	- [git branch](src/git/branch.md)
 	- [git tag](src/git/tag.md)

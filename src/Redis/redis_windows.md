@@ -24,6 +24,8 @@
 	
 		    [REDIS]
 	    	extension=php_redis.dll
+			// PHP7 
+			extension=php_redis
 	需要查看phpinfo或者php -m 查看redis扩展是否正确安装。
 	- 测试
 		
