@@ -80,3 +80,53 @@ query builder
 	            'second_options' => ['label' => '确认密码'],
 	        ]);
 4. options
+
+		public function buildForm(FormBuilderInterface $builder, array $options)
+	    {
+	        $builder->add('name', null, [
+	            'label' => '类别名称',
+	            'attr' => [
+	                'lay-verify' => "required",
+	                'placeholder' => "请输入类别名称",
+	                'autocomplete' => "off"
+	            ]
+	        ])
+	            ->add('status', ChoiceType::class, [
+	            'choices' => [
+	                '启用' => 1,
+	                '禁用' => 0
+	            ],
+	            'expanded' => true,
+	            'label' => '状态',
+	            'data' => $options['data_status'],
+	            'label_attr' => [
+	                'class' => 'radio-inline'
+	            ],
+	            'choice_attr' => function ($val, $key, $index) {
+	                // adds a class like attending_yes, attending_no, etc
+	                return [
+	                    'lay-filter' => 'status-radio'
+	                ];
+	            }
+	        ])
+	            ->add('submit', SubmitType::class, [
+	            'label' => '提交',
+	            'attr' => [
+	                'lay-submit' => 1,
+	                'lay-filter' => "formDemo"
+	            ]
+	        ]);
+	    }
+
+	    /**
+	     *
+	     * {@inheritdoc}
+	     *
+	     */
+	    public function configureOptions(OptionsResolver $resolver)
+	    {
+	        $resolver->setDefaults(array(
+	            'data_class' => 'DispatchBundle\Entity\CanalCategory',
+	            'data_status' => 1
+	        ));
+	    }
