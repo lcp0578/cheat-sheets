@@ -120,6 +120,7 @@
 	- [grant](src/MySQL/grant.md)
 	- [sql_mode](src/MySQL/sql_mode.md)
 	- [update root password](src/MySQL/root_password.md)
+	- [windows mysql](src/MySQL/windows_mysql.md) windows下安装mysql
 4.  [composer](src/composer.md "mysql") 
 5.  [zend studio](src/zend_studio.md "zend studio")
 6.  [guzzle http](src/guzzlehttp.md "guzzle http")

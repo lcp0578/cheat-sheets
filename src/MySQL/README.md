@@ -13,3 +13,4 @@
 - [grant](grant.md)
 - [sql_mode](sql_mode.md)
 - [update root password](root_password.md)
+- [windows mysql](windows_mysql.md) windows下安装mysql
