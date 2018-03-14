@@ -28,6 +28,7 @@
 		- [associations](src/symfony/Doctrine/associations.md) 表之间关联
 		- [Table to Entity (reverse engineering)](src/symfony/Doctrine/TableToEntity.md) 数据表转Entity（逆向工程）
 		- [MultipleDatabase](src/symfony/Doctrine/MultipleDatabase.md) 多数据库配置与使用
+		- [ColumnDefaultValue](src/symfony/Doctrine/ColumnDefaultValue.md) 设置字段默认值的那些坑
 	- [Router](src/symfony/Router/README.md) 路由相关
 		- [routing.yml](src/symfony/Router/routing.yml.md) yml路由配置示例
 	- [Form](src/symfony/Form/README.md) 表单相关
