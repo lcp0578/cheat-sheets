@@ -59,3 +59,6 @@
 		$routeName = $request->get('_route');
 		//twig
 		app.request.get('_route')
+- 获取头部信息
+
+		$ua = $request->headers->get('User-Agent');
