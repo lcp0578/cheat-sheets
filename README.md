@@ -52,12 +52,13 @@
 		- [Dependency Injection Tags](src/symfony/DependencyInjection/DependencyInjectionTags.md)
 		- [Compiler Pass](src/symfony/DependencyInjection/CompilerPass.md)
 	- [Security](src/symfony/Security/README.md) 安全相关
-		- [security authentication](src/symfony/Security/security-authentication.md)
-		- [Authenticator demo](src/symfony/Security/Authenticator-demo.md)
-		- [Login and Register](src/symfony/Security/LoginAndRegister.md)
-		- [Logout Handler](src/symfony/Security/LogoutHandler.md)
-		- [Logout Success Handler](src/symfony/Security/LogoutSuccessHandler.md)
-		- [multi field login](src/symfony/Security/multi-field-login.md)
+		- [security authentication](src/symfony/Security/security-authentication.md)  安全相关介绍
+		- [Authenticator demo](src/symfony/Security/Authenticator-demo.md) 认证器的demo
+		- [Login and Register](src/symfony/Security/LoginAndRegister.md) 登录和注册相关
+		- [Logout Handler](src/symfony/Security/LogoutHandler.md) 退出登录（包含失败）处理
+		- [Logout Success Handler](src/symfony/Security/LogoutSuccessHandler.md) 成功退出登录处理
+		- [multi field login](src/symfony/Security/multi-field-login.md) 支持多字段登录系统
+		- [SetLoginToken](src/symfony/Security/SetLoginToken.md) 手动用户登录，设置token
 	- [EventListener](src/symfony/EventListener/README.md) 事件监听相关
 		- [EventListener](src/symfony/EventListener/EventListener.md) 事件监听
 		- [Login Event Listener](src/symfony/EventListener/LoginListener.md) 登录事件监听
