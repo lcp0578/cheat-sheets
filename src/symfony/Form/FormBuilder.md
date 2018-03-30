@@ -65,6 +65,25 @@ query builder
 	            ->add('submit', SubmitType::class, [
 	            'label' => '提交'
 	        ]);
+		// 为radio设置属性
+		->add('status', ChoiceType::class, [
+            'choices' => [
+                '启用' => 1,
+                '禁用' => 0
+            ],
+            'expanded' => true,
+            'label' => '状态',
+            'data' => $options['data_status'],
+            'label_attr' => [
+                'class' => 'radio-inline'
+            ],
+            'choice_attr' => function ($val, $key, $index) {
+                // adds a class like attending_yes, attending_no, etc
+                return [
+                    'lay-filter' => 'status-radio'
+                ];
+            }
+        ])
 
 3. RepeatedType
 
