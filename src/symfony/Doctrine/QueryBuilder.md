@@ -74,6 +74,7 @@
 		       $qb->expr()->eq('u.id', '?1'),
 		       $qb->expr()->like('u.nickname', '?2')
 		   ))
+           ->distinct() //DISTINCT 去重
 		   ->orderBy('u.surname', 'ASC');
 
 - UPDATE
