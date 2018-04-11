@@ -174,3 +174,5 @@ binding types：
 	- PDO::FETCH_OBJ: returns an anonymous object with property names that correspond to the column names returned in your result set
 
 	- PDO::FETCH_PROPS_LATE: when used with PDO::FETCH_CLASS, the constructor of the class is called before the properties are assigned from the respective column values.
+12. delete() 删除
+	
