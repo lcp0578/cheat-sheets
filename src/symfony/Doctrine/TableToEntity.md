@@ -95,5 +95,10 @@
 		     */
 		    private $status;
 		}
-	PS: 此处有个小bug，fixed=true没有了，需要手东加一下限制
+	PS: 此处有个小bug，fixed=true没有了，需要手动加一下限制
+- 生成getter和setter
+
+		php bin/console doctrine:generate:entities KitAdminBundle:UserTest
+        
+	OK,大功告成！
 	

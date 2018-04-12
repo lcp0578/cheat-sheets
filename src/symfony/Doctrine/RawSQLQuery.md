@@ -176,3 +176,6 @@ binding types：
 	- PDO::FETCH_PROPS_LATE: when used with PDO::FETCH_CLASS, the constructor of the class is called before the properties are assigned from the respective column values.
 12. delete() 删除
 	
+    	->delete('users', array('id' => 1));
+		// This is the same as running the following query
+		// DELETE FROM users WHERE id = 1
