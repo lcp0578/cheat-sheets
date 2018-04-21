@@ -150,6 +150,10 @@
 	- [string](src/Go/string.md) 字符串操作相关
 	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
 	- [vgo](src/Go/vgo.md) 版本控制
+	- [Byte Order](src/Go/ByteOrder.md) 字节序
+	- Standard library 标准库笔记
+        - [strconv](src/Go/StandardLibrary/strconv.md)
+        - [binary](src/Go/StandardLibrary/binary.md)
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
