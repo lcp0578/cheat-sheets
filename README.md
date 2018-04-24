@@ -125,9 +125,9 @@
 	- [windows mysql](src/MySQL/windows_mysql.md) windows下安装mysql
 	- [DROP INDEX](src/MySQL/DROP_INDEX.md)
 4.  [composer](src/composer/README.md "composer")
-	- [composer basic](src/composerbasic.md) composer基础使用
-    - [composer config](src/composerconfig.md) composer配置相关
-    - [composer versions](src/composerversions.md) composer包版本约定
+	- [composer basic](src/composer/basic.md) composer基础使用
+    - [composer config](src/composer/config.md) composer配置相关
+    - [composer versions](src/composer/versions.md) composer包版本约定
 5.  [zend studio](src/zend_studio.md "zend studio")
 6.  [guzzle http](src/guzzlehttp.md "guzzle http")
 7.  [silex](src/silex.md "silex")
