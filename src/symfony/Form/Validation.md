@@ -18,3 +18,17 @@
 	手动生成csrf token
 	
 		$_token = $this->get('security.csrf.token_manager')->generateCsrfToken('form');
+        
+2. 使用entity的constraint校验表单的数据
+
+		/**
+         * @var \Symfony\Component\Validator\Validator\ValidatorInterface $validator
+         */
+		$validator = $this->get('validator');
+        /**
+         * @var \Symfony\Component\Validator\ConstraintViolationListInterface $errors
+         */
+        $errors = $validator->validate($egressApply);
+        if (count($errors) == 0) {
+        	
+        }

@@ -43,3 +43,7 @@
 
 		security.token_storage
 		// Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage
+- 验证器validator
+
+		validator
+		//Symfony\Component\Validator\Validator\ValidatorInterface
