@@ -18,5 +18,7 @@
 		            type: stream
 		            path: "%kernel.logs_dir%/%kernel.environment%_alert.log"
 		            level: alert
+- 日志的错误级别
+> The LoggerInterface exposes eight methods to write logs to the eight RFC 5424 levels (debug, info, notice, warning, error, critical, alert, emergency).  
 
 https://codereviewvideos.com/course/log-log-it-s-better-than-bad-it-s-good/video/10-tips-for-a-better-symfony-debug-log
