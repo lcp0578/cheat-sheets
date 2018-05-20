@@ -40,6 +40,12 @@
 		        
 		        return in_array($targetEntity->getReflectionClass()->name, $entities);
 		    }
+            
+            //还可以定义interface来区分是否可以启动filter
+            private function checkInterface(ClassMetadata $targetEntity)
+            {
+                return in_array('BaseBundle\Entity\LevelInterface', $targetEntity->getReflectionClass()->getInterfaceNames());
+            }
 		}
 - 配置SQLFilter
 
@@ -118,3 +124,4 @@
         $sqlFilter = $this->get('kit.sql_filter_service');
         $result = $sqlFilter->enableFilter($em, 'police_station');
         $category = $this->getDoctrine()->getRepository('KitCaseBundle:ReceiveCategory')->findAll();
+- [定义事件监听，全局使用SQL Filter](../EventListener/EnableFilterListener.md)
