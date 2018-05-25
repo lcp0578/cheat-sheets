@@ -13,6 +13,13 @@
 	 * Menu
 	 *
 	 * @ORM\Table(name="menu")
+	 * * @ORM\Table(
+     *          name="menu",
+     *          options={"comment": "菜单表"}, 
+     *          indexes={
+     *          @ORM\Index(name="case_english_name_idx", columns={"english_name"}),
+     *          @ORM\Index(name="case_date_idx", columns={"create_at", "update_at"})
+     *          })
 	 * @ORM\Entity(repositoryClass="AdminBundle\Repository\MenuRepository")
 	 * @ORM\HasLifecycleCallbacks()
 	 * @UniqueEntity(
