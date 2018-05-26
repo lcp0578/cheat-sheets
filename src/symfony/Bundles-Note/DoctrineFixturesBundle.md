@@ -83,6 +83,15 @@
 		        ];
 		    }
 		}
+        
+- 新版本需要定义service配置tag
+
+        system.menu_datafixtures:
+            class: SystemBundle\DataFixtures\MenuFixtures
+            tags: ['doctrine.fixture.orm']
+        system.ridset_datafixtures:
+            class: SystemBundle\DataFixtures\RidsetFixtures
+            tags: ['doctrine.fixture.orm']
 - 使用Container 
 - Fixtures之间调用
 - 设置Fixtures的顺序或优先级
