@@ -67,6 +67,7 @@
 		- [Guzzle Http Event Listener](src/symfony/EventListener/GuzzleListener.md) GuzzleHttp事件监听
 		- [Enable SQL Filter Event Listener](src/symfony/EventListener/EnableFilterListener.md) SQL Filter 事件监听
 		- [Api Version](src/symfony/EventListener/ApiVersion.md) API版本控制
+		- [kernel view](src/symfony/EventListener/kernel.view.md) 模板层监听
 	- [Command](src/symfony/Command/README.md)
 		- [Console Command](src/symfony/Command/Console.md) 常用的console命令
 		- [Command call Command](src/symfony/Command/CommandCallCommand.md) command之间调用
