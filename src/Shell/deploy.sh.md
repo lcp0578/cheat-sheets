@@ -18,10 +18,19 @@
 		echo "changing permissions..."
 		chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
 		echo "Finished."
+        
 		echo "start clear cache..."
 		php $WEB_BIN  cache:clear --env=prod --no-debug
 		echo "clear cache end."
 		
+        echo "start update db schema"
+        php $WEB_BIN doctrine:schema:update --force
+        echo "update db schema end."
+        
+        echo "start install asset"
 		php $WEB_BIN  asset:install
+        echo "install asset end."
 		
+        echo "start chown"
 		chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
+        echo "chown end."
