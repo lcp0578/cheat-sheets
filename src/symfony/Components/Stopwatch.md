@@ -57,6 +57,7 @@
 		        $toutiao = $repository->getToutiao(1);
 		        $event = $stopwatch->stop('news');
 		        dump($event);
+				dump($event->getPeriods()); // 获取各个节点之间的时间信息
 		        dump($event->getCategory());   // Returns the category the event was started in
 		        dump($event->getOrigin());     // Returns the event start time in milliseconds
 		        dump($event->ensureStopped()); // Stops all periods not already stopped
