@@ -174,6 +174,7 @@
 	- [git branch](src/git/branch.md)
 	- [git tag](src/git/tag.md)
 	- [rm commit log](src/git/rm-commit-log.md)
+	- [git ssh](src/git/git_ssh.md) git ssh配置
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
