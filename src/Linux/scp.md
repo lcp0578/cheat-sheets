@@ -4,3 +4,4 @@
 - 命令格式： 
 
 		scp local_file remote_username@remote_ip:remote_folder 
+        scp -P 62222 -r images root@192.168.2.164:/data/maps // -r 代表是文件夹 -P是端口号
