@@ -17,6 +17,7 @@
 		- [Doctrine](src/symfony/Doctrine/Doctrine.md) Doctrine基础知识
 		- [Doctrine Types](src/symfony/Doctrine/Types.md) Doctrine字段类型
 		- [An Entity Demo](src/symfony/Doctrine/Entity.md) 一个略复杂的Entity的示例
+		- [Validation Constraints](src/symfony/Doctrine/constraints.md) 验证约束设置
 		- [Doctrine Cache](src/symfony/Doctrine/DoctrineCache.md) 配置Doctrine缓存配置
 		- [Doctrine Annotations Reference](src/symfony/Doctrine/DoctrineAnnotationsReference.md)
 		- [Doctrine Schema Manager](src/symfony/Doctrine/DoctrineSchemaManager.md) Doctrine 模式管理器
