@@ -126,12 +126,13 @@
 	- [MySQL where](src/MySQL/where.md)
 	- [mysqldump](src/MySQL/mysqldump.md)
 	- [Innodb](src/MySQL/Innodb.md)
-	- [master slave](src/MySQL/master-slave.md)
+	- [master slave](src/MySQL/master-slave.md) 主从配置
 	- [grant](src/MySQL/grant.md)
 	- [sql_mode](src/MySQL/sql_mode.md) SQL MODE设置与介绍
 	- [update root password](src/MySQL/root_password.md)
 	- [windows mysql](src/MySQL/windows_mysql.md) windows下安装mysql
 	- [DROP INDEX](src/MySQL/DROP_INDEX.md)
+	- [Atlas](Atlas.md) Atlas (MySQL proxy) 使用
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
