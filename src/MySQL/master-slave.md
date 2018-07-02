@@ -9,6 +9,8 @@
 		server-id=220
 		log-bin=mysql-bin
 		binlog-do-db=mybbs
+        binlog-do-db=需要复制的数据库名，如果复制多个数据库，重复设置这个选项即可
+		binlog-ignore-db=不需要复制的数据库名，如果复制多个数据库，重复设置这个选项即可
 - 创建从库连接主库用户
 
 		# mysql -u root -p
