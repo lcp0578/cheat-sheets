@@ -8,6 +8,7 @@
     开发版包 
     		
         composer require knplabs/console-service-provider:2.x-dev
+        composer require gregwar/image-bundle:dev-master
 
 - 更新自动加载的文件
 	
