@@ -170,6 +170,7 @@
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
+	- [redis install](src/Redis/install.md) Redis源码编译安装
 	- [master slave](src/Redis/master-slave.md) redis配置主从
 	- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
 	- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
