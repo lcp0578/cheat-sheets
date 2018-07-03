@@ -27,3 +27,10 @@
 
 		daemonize no 改为daemonize yes
         requirepass lcp0578 # 设置密码
+- 启动redis
+
+		cd /usrlocal/redis
+        ./bin/redis-server conf/redis.cnf
+- 关闭redis
+
+		./bin/redis-cli shutdown

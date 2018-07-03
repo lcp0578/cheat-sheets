@@ -5,6 +5,9 @@
 	指定版本号：
 
 		composer require knplabs/console-service-provider:2.x
+    开发版包 
+    		
+        composer require knplabs/console-service-provider:2.x-dev
 
 - 更新自动加载的文件
 	
