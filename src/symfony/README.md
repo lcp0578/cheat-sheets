@@ -95,6 +95,7 @@
 - [Upload File](Others/UploadFile.md) 文件上传示例
 - [Cookie](Others/cookie.md) cookie相关
 - [Session](Others/session.md) session相关
+- [parameters.yml.dist](Others/parameters.yml.dist.md) 配置parameters.yml不更新
 - [Clear Cache In Controller](Others/ClearCacheInController.md)
 - [Symfony Performance](Others/symfony-performance.md)
 - [symfony tips and tricks](Others/symfony-tips-and-tricks.md)
