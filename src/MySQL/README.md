@@ -16,3 +16,4 @@
 - [windows mysql](windows_mysql.md) windows下安装mysql
 - [DROP INDEX](DROP_INDEX.md)
 - [Atlas](Atlas.md) Atlas (MySQL proxy) 使用
+- [MySQL 8 windows install](mysql8_windows_install.md) MySQL8在windows下的安装
