@@ -227,7 +227,7 @@
 35. [webpack](src/webpack/README.md)
 36. [vuejs](src/vuejs/README.md)
 37. [HAProxy](src/HAProxy/README.md)
-38. [phpStudy](src/phpStudy.md)
+38. [phpStudy](src/phpStudy.md)  phpStudy升级php&MySQL
 39. [windows](src/windows/README.md)
 	- [taskkill](src/windows/taskkill.md) 杀进程
 40. [assembly](src/assembly/README.md)汇编语言
