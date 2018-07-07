@@ -76,7 +76,7 @@
 		    public function onAuthenticationSuccess(Request $request, TokenInterface $token, $providerKey)
 		    {
 				// 设置登录成功后的跳转链接
-		        $url = $this->router->generate('kit_user_homepage');
+		        $url = $this->getDefaultSuccessRedirectUrl();
 		        
 		        return new RedirectResponse($url);
 		    }
@@ -86,7 +86,7 @@
 				// 失败跳转uri
 		        $request->getSession()->set(Security::AUTHENTICATION_ERROR, $exception);
 		        
-		        $url = $this->router->generate('kit_web_login');
+		        $url = $this->getLoginUrl();
 		        
 		        return new RedirectResponse($url);
 		    }
