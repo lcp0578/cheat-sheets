@@ -247,3 +247,4 @@
 46. [MSSQL](src/MSSQL/README.md)
 	- [install php sqlsrv extension](src/MSSQL/sqlsrv.md) 安装sqlsrv扩展
 47. [Oracle](src/Oracle/README.md) Oracle数据库相关
+48. [TiDB](src/TiDB/README.md) TiDB分布式数据库
