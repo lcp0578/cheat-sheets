@@ -246,3 +246,4 @@
 	- [chrome](src/mac/chrome.md) Chrome快捷键
 46. [MSSQL](src/MSSQL/README.md)
 	- [install php sqlsrv extension](src/MSSQL/sqlsrv.md) 安装sqlsrv扩展
+47. [Oracle](src/Oracle/README.md) Oracle数据库相关
