@@ -177,10 +177,11 @@
 	- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
 	- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
 11. [git note](src/git/README.md "git")
-	- [git branch](src/git/branch.md)
-	- [git tag](src/git/tag.md)
+	- [git branch](src/git/branch.md) git分支相关
+	- [git tag](src/git/tag.md) git标签相关
 	- [rm commit log](src/git/rm-commit-log.md)
 	- [git ssh](src/git/git_ssh.md) git ssh配置
+	- - [fork sync](src/git/fork_sync.md) fork仓库与原仓同步
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
