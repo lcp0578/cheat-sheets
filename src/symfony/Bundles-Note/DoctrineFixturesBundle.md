@@ -37,8 +37,8 @@
 		$ php bin/console doctrine:fixtures:load --append
 	默认加载所有fixtures，可以指定，目录加载部分，--fixtures允许有多个值 
 		
-		php bin/console doctrine:fixtures:load --fixtures=/path/to/fixtures1 --fixtu
-		res=/path/to/fixtures2
+		php bin/console doctrine:fixtures:load --fixtures=/path/to/fixtures1 --fixtures=/path/to/fixtures2
+        php bin/console doctrine:fixtures:load --fixtures=src/AdminBundle/DataFixtures/Water
 		
 - 简单fixtures定义demo
 
