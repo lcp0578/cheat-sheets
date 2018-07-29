@@ -31,6 +31,7 @@
 - 设置.env文件
 
 		# web/.env,可新建.env.dist 为默认配置文件
+        # this is theme config
         THEME=Default
 - 获取环境变量
 
