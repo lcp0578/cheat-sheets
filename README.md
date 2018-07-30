@@ -183,7 +183,8 @@
 	- [git tag](src/git/tag.md) git标签相关
 	- [rm commit log](src/git/rm-commit-log.md)
 	- [git ssh](src/git/git_ssh.md) git ssh配置
-	- - [fork sync](src/git/fork_sync.md) fork仓库与原仓同步
+	- [fork sync](src/git/fork_sync.md) fork仓库与原仓同步
+	- [Github](src/git/github.md) Github clone慢配置
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
