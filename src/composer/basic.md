@@ -35,3 +35,24 @@
 - 优化自动加载的文件，提升效率
 	
 		composer dump-autoload --optimize
+- 查看包信息和版本号信息
+
+		composer show -a kitlabs/kit-generator-bundle
+        name     : kitlabs/kit-generator-bundle
+        descrip. : extend SensioGeneratorBundle
+        keywords : Generator Bundle, generate crud, generate form
+        versions : dev-master, v0.2.7, v0.2.6, v0.2.5, v0.2.4, v0.2.3, v0.2.2, v0.2.1, v0.2.0, v0.1.3, v0.1.2
+        type     : symfony-bundle
+        license  : MIT License (MIT) (OSI approved) https://spdx.org/licenses/MIT.html#licenseText
+        source   : [git] https://github.com/kitlabs-cn/KitGeneratorBundle.git 06a2e6f09cc8b71f5aeef1b3ef88fa7fef1fcf78
+        dist     : [zip] https://api.github.com/repos/kitlabs-cn/KitGeneratorBundle/zipball/06a2e6f09cc8b71f5aeef1b3ef88fa7fef1fcf78 06a2e6f09cc8b71f5aeef1b3ef88fa7fef1fcf78
+        names    : kitlabs/kit-generator-bundle
+
+        autoload
+        psr-4
+        Kit\GeneratorBundle\ => .
+
+        requires
+        php >=5.5.9
+        sensio/generator-bundle >=v3.0
+        knplabs/knp-paginator-bundle ^2.8
