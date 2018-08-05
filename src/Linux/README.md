@@ -14,3 +14,4 @@
 - [tar](tar.md)
 - [df & du](df_du.md)
 - [scp](scp.md)
+- [rz & sz](rzsz.md)
