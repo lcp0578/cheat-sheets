@@ -187,6 +187,7 @@
 	- [fork sync](src/git/fork_sync.md) fork仓库与原仓同步
 	- [Github](src/git/github.md) Github clone慢配置
 	- [git update](src/git/update.md) git升级
+	- [rm git index](src/git/rm.md) 移除文件或目录的git索引
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
