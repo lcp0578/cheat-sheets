@@ -46,7 +46,7 @@
         
 - 为某个项目设置中国的镜像
 
-    	composer config repo.packagist composer https://packagist.phpcomposer.com
+    	composer config repo.packagist composer https://packagist.phpcomposer.com #https://packagist.laravel-china.org/
 	
 	站点地址：[https://pkg.phpcomposer.com/](https://pkg.phpcomposer.com/)
 - 移除全局镜像设置
