@@ -221,6 +221,7 @@
 	- [vhost conf](src/Nginx/vhost.md)
 	- [proxy_pass](src/Nginx/proxy_pass.md)
 	- [ssl](src/Nginx/ssl.md)
+	- [errors](src/Nginx/nginx_errors.md) Nginx报错解决
 27. [Code::Blocks](CodeBlocks.md)
 	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
 28. [Ubuntu](src/Ubuntu/README.md)
