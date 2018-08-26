@@ -1,0 +1,9 @@
+## 其他类库
+- [github.com/igm/sockjs-go](https://github.com/igm/sockjs-go) sockjs的go版server端
+- [github.com/rs/cors](https://github.com/rs/cors)解决CORS同源限制
+- [github.com/smartystreets/goconvey](https://github.com/smartystreets/goconvey) 浏览器go test
+- [github.com/gorilla/websocket](https://github.com/gorilla/websocket) websocket实现
+- [github.com/nsqio/nsq](https://github.com/nsqio/nsq) 分布式消息平台
+- [github.com/uber-go/zap](https://github.com/uber-go/zap) Uber日志库
+- [github.com/disintegration/imaging](https://github.com/disintegration/imaging) 图像处理服务
+- [github.com/jroimartin/gocui](https://github.com/jroimartin/gocui) Go命令行用户交互UI

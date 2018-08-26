@@ -172,6 +172,7 @@
 	- Standard library 标准库笔记
         - [strconv](src/Go/StandardLibrary/strconv.md)
         - [binary](src/Go/StandardLibrary/binary.md)
+    - [Others Library](src/Go/OthersLibrary/README.md) 其他类库笔记
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
