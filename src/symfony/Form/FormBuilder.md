@@ -169,9 +169,6 @@ query builder
                 'expanded' => true, //单选，multiple默认false
                 'label' => '状态',
                 'data' => 1,
-                'label_attr' => [
-                    'class' => 'radio-inline'
-                ]
             ])
             //expanded，multiple默认值均为false，所以如下代码为单选下拉框
             ->add('dropdown', ChoiceType::class, [
@@ -181,21 +178,16 @@ query builder
                 ],
                 'label' => '下拉名称',
                 'data' => 1,
-                'label_attr' => [
-                    'class' => 'radio-inline'
-                ]
             ])
             //复选框
-            ->add('status', ChoiceType::class, [
+            ->add('hobbit', ChoiceType::class, [
                 'choices' => [
-                    '启用' => 1,
-                    '禁用' => 0
+                    '篮球' => 1,
+                    '足球' => 2,
+                    '排球' => 3,
                 ],
                 'expanded' => true,
                 'multiple' => true,
-                'label' => '状态',
+                'label' => '爱好',
                 'data' => [1], //此处需要注意，由于值为多个，所以默认选中需要传数组
-                'label_attr' => [
-                    'class' => 'radio-inline'
-                    ]
             ])
