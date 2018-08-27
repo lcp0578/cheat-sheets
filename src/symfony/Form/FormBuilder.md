@@ -149,3 +149,53 @@ query builder
 	            'data_status' => 1
 	        ));
 	    }
+- ChoiceType详解
+	- 两个关键参数
+	
+    | 目的类型 | expanded | multiple |
+    | ------ | ------ | ------ |
+    | 单选下拉框(select) | false | false |
+    | 复选下拉框(multi-select) | false | true |
+    | 单选框（radio） | true | false |
+    | 复选框（checkboxes） | true | true |
+	- 示例
+	
+    		// 单选框
+    		->add('status', ChoiceType::class, [
+                'choices' => [
+                    '启用' => 1,
+                    '禁用' => 0
+                ],
+                'expanded' => true, //单选，multiple默认false
+                'label' => '状态',
+                'data' => 1,
+                'label_attr' => [
+                    'class' => 'radio-inline'
+                ]
+            ])
+            //expanded，multiple默认值均为false，所以如下代码为单选下拉框
+            ->add('dropdown', ChoiceType::class, [
+                'choices' => [
+                    '下拉菜单1' => 1,
+                    '下拉菜单2' => 0
+                ],
+                'label' => '下拉名称',
+                'data' => 1,
+                'label_attr' => [
+                    'class' => 'radio-inline'
+                ]
+            ])
+            //复选框
+            ->add('status', ChoiceType::class, [
+                'choices' => [
+                    '启用' => 1,
+                    '禁用' => 0
+                ],
+                'expanded' => true,
+                'multiple' => true,
+                'label' => '状态',
+                'data' => [1], //此处需要注意，由于值为多个，所以默认选中需要传数组
+                'label_attr' => [
+                    'class' => 'radio-inline'
+                    ]
+            ])
