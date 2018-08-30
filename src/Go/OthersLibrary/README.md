@@ -8,4 +8,7 @@
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging) 图像处理服务
 - [github.com/jroimartin/gocui](https://github.com/jroimartin/gocui) Go命令行用户交互UI
 - [github.com/gorilla/mux](https://github.com/gorilla/mux) 路由类库
-- [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式Key-Value数据存储系统
+- [github.com/etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式Key-Value数据存储系统
+#### 数据库相关
+- [github.com/go-xorm/xorm](https://github.com/go-xorm/xorm) xorm库
+- [github.com/jinzhu/gorm](https://github.com/jinzhu/gorm) gorm库
