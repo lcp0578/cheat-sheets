@@ -7,3 +7,5 @@
 - [github.com/uber-go/zap](https://github.com/uber-go/zap) Uber日志库
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging) 图像处理服务
 - [github.com/jroimartin/gocui](https://github.com/jroimartin/gocui) Go命令行用户交互UI
+- [github.com/gorilla/mux](https://github.com/gorilla/mux) 路由类库
+- [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式Key-Value数据存储系统
