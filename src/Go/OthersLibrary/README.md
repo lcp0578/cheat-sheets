@@ -9,6 +9,7 @@
 - [github.com/jroimartin/gocui](https://github.com/jroimartin/gocui) Go命令行用户交互UI
 - [github.com/gorilla/mux](https://github.com/gorilla/mux) 路由类库
 - [github.com/etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式Key-Value数据存储系统
+- [github.com/afex/hystrix-go](https://github.com/afex/hystrix-go)go版hystrix（提供熔断、降级、隔离等）
 #### 数据库相关
 - [github.com/go-xorm/xorm](https://github.com/go-xorm/xorm) xorm库
 - [github.com/jinzhu/gorm](https://github.com/jinzhu/gorm) gorm库
