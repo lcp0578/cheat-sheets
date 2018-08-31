@@ -23,3 +23,4 @@
  - [cdwv/database-dumper-command-bundle](https://github.com/cdwv/DatabaseDumperCommandBundle) 命令行下， backup/dump MySQL的bundle
  - [tetranz/select2entity-bundle](https://github.com/tetranz/select2entity-bundle) select2插件的entity bundle
  - [doctrine/doctrine-fixtures-bundle](https://github.com/doctrine/DoctrineFixturesBundle) [ :page_facing_up: my note](DoctrineFixturesBundle.md) 初始化数据的bundle 
+ - [nelmio/cors-bundle](https://github.com/nelmio/NelmioCorsBundle) 解决API的CORS同源策略限制
