@@ -10,6 +10,13 @@
 - [github.com/gorilla/mux](https://github.com/gorilla/mux) 路由类库
 - [github.com/etcd-io/etcd](https://github.com/etcd-io/etcd) 分布式Key-Value数据存储系统
 - [github.com/afex/hystrix-go](https://github.com/afex/hystrix-go)go版hystrix（提供熔断、降级、隔离等）
+- [github.com/junegunn/fzf](https://github.com/junegunn/fzf)命令行下的模糊查找器
+- [github.com/hybridgroup/gobot](https://github.com/hybridgroup/gobot) 机器人、无人机和物联网框架
+- [github.com/gomods/athens](https://github.com/gomods/athens) A Go module datastore and proxy
+- [github.com/hybridgroup/gocv](https://github.com/hybridgroup/gocv)使用OpenCV3+视觉库
 #### 数据库相关
 - [github.com/go-xorm/xorm](https://github.com/go-xorm/xorm) xorm库
 - [github.com/jinzhu/gorm](https://github.com/jinzhu/gorm) gorm库
+### 监控相关
+- [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)系统监控报警框架
+- [github.com/grafana/grafana](https://github.com/grafana/grafana)(时序)数据可视化平台
