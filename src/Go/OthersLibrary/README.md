@@ -1,4 +1,5 @@
 ## 其他类库
+- [github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)优秀的go资源
 - [github.com/igm/sockjs-go](https://github.com/igm/sockjs-go) sockjs的go版server端
 - [github.com/rs/cors](https://github.com/rs/cors)解决CORS同源限制
 - [github.com/smartystreets/goconvey](https://github.com/smartystreets/goconvey) 浏览器go test
@@ -20,3 +21,16 @@
 ### 监控相关
 - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)系统监控报警框架
 - [github.com/grafana/grafana](https://github.com/grafana/grafana)(时序)数据可视化平台
+### 测试相关
+### 框架相关
+- [github.com/astaxie/beego](https://github.com/astaxie/beego)谢大的beego
+- [github.com/gobuffalo/buffalo](https://github.com/gobuffalo/buffalo)全栈解决方案的框架
+- [github.com/name5566/leaf](https://github.com/name5566/leaf)游戏服务端框架
+- [github.com/go-macaron/macaron](https://github.com/go-macaron/macaron)无闻的模块式开发框架
+- [github.com/gocolly/colly](https://github.com/gocolly/colly)爬虫框架
+- [github.com/revel/revel](https://github.com/revel/revel)
+- [github.com/kataras/iris](https://github.com/kataras/iris)
+- [github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+- [github.com/micro/go-micro](https://github.com/micro/go-micro)
+- [github.com/labstack/echo](https://github.com/labstack/echo)
+- [github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
