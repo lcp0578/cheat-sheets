@@ -25,3 +25,4 @@
 - [Guzzle Listener](GuzzleListener.md) GuzzleHttp请求相关监听
 - [API version](ApiVersion.md) API版本控制监听
 - [kernel view](kernel.view.md) 模板层监听
+- [Api Exception Listener](ExceptionListener.md) API异常监听
