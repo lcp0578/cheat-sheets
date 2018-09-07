@@ -15,6 +15,13 @@
 - [github.com/hybridgroup/gobot](https://github.com/hybridgroup/gobot) 机器人、无人机和物联网框架
 - [github.com/gomods/athens](https://github.com/gomods/athens) A Go module datastore and proxy
 - [github.com/hybridgroup/gocv](https://github.com/hybridgroup/gocv)使用OpenCV3+视觉库
+- [github.com/aykevl/tinygo](https://github.com/aykevl/tinygo)
+- [github.com/m3db/m3](https://github.com/m3db/m3)
+- [github.com/Jeffail/benthos](https://github.com/Jeffail/benthos)
+- [github.com/MichaelMure/git-bug](https://github.com/MichaelMure/git-bug)
+- [github.com/facebookincubator/fbender](https://github.com/facebookincubator/fbender)
+- [github.com/snail007/goproxy](https://github.com/snail007/goproxy)
+- [github.com/fatedier/frp](https://github.com/fatedier/frp)
 #### 数据库相关
 - [github.com/go-xorm/xorm](https://github.com/go-xorm/xorm) xorm库
 - [github.com/jinzhu/gorm](https://github.com/jinzhu/gorm) gorm库
@@ -37,3 +44,9 @@
 ### RPC
 - [github.com/smallnest/rpcx](https://github.com/smallnest/rpcx) 新浪RPC
 - [github.com/grpc/grpc-go](https://github.com/grpc/grpc-go) grpc的go版
+### gateway
+- [github.com/uber/zanzibar](https://github.com/uber/zanzibar)
+- [github.com/TykTechnologies/tyk](https://github.com/TykTechnologies/tyk)
+- [github.com/hellofresh/janus](https://github.com/hellofresh/janus)
+- [github.com/eolinker/GoKu-API-Gateway](https://github.com/eolinker/GoKu-API-Gateway)
+- [github.com/fagongzi/gateway](https://github.com/fagongzi/gateway)
