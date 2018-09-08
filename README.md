@@ -138,6 +138,7 @@
 	- [DROP INDEX](src/MySQL/DROP_INDEX.md)
 	- [Atlas](src/MySQL/Atlas.md) Atlas (MySQL proxy) 使用
 	- [MySQL 8 windows install](src/MySQL/mysql8_windows_install.md) MySQL8在windows下的安装
+	- [MySQL8 authentication plugin](src/MySQL/mysql8_authentication_plugin.md)MySQL8密码验证插件更换后，问题解决办法
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关

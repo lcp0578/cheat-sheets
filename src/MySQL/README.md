@@ -17,3 +17,4 @@
 - [DROP INDEX](DROP_INDEX.md)
 - [Atlas](Atlas.md) Atlas (MySQL proxy) 使用
 - [MySQL 8 windows install](mysql8_windows_install.md) MySQL8在windows下的安装
+- [MySQL8 authentication plugin](mysql8_authentication_plugin.md)MySQL8密码验证插件更换后，问题解决办法
