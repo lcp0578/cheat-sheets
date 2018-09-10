@@ -70,6 +70,7 @@
 - [Api Version](EventListener/ApiVersion.md) API版本控制
 - [kernel view](EventListener/kernel.view.md) 模板层监听
 - [Api Exception Listener](EventListener/ExceptionListener.md) API异常监听
+- [Doctrine Event Listeners Subscribers](EventListener/doctrine_event_listeners_subscribers.md)Doctrine的事件监听
 #### [Command](Command/README.md)
 - [Console Command](Command/Console.md) 常用的console命令
 - [Command call Command](Command/CommandCallCommand.md) command之间调用

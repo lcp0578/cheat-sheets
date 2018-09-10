@@ -72,6 +72,7 @@
 		- [Api Version](src/symfony/EventListener/ApiVersion.md) API版本控制
 		- [kernel view](src/symfony/EventListener/kernel.view.md) 模板层监听
 		- [Api Exception Listener](src/symfony/EventListener/ExceptionListener.md) API异常监听
+		- [Doctrine Event Listeners Subscribers](src/symfony/EventListener/doctrine_event_listeners_subscribers.md)Doctrine的事件监听
 	- [Command](src/symfony/Command/README.md)
 		- [Console Command](src/symfony/Command/Console.md) 常用的console命令
 		- [Command call Command](src/symfony/Command/CommandCallCommand.md) command之间调用
