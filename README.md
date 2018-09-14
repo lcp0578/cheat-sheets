@@ -146,6 +146,7 @@
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
     - [composer versions](src/composer/versions.md) composer包版本约定
+    - [recover composer.json](src/composer/recover_composer.json.md) 恢复composer.json
 5.  [zend studio](src/zend_studio.md "zend studio")
 6.  [guzzle http](src/guzzlehttp.md "guzzle http")
 7.  [silex](src/silex.md "silex")
