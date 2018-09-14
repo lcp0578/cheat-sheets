@@ -106,7 +106,8 @@
 		- [Clear Cache In Controller](src/symfony/Others/ClearCacheInController.md)
 		- [Symfony Performance](src/symfony/Others/symfony-performance.md)
 		- [symfony tips and tricks](src/symfony/Others/symfony-tips-and-tricks.md)
-		- [Logger](src/symfony/Others/Logger.md)
+		- [Logger](src/symfony/Others/Logger.md)配置错误日志
+		- [Customize Error Pages](src/symfony/Others/customize_error_pages.md) 自定义错误页面
 		- [symfony 3.3 features](src/symfony/Others/symfony-3.4-features.md)
 		- [symfony 3.4 features](src/symfony/Others/symfony-3.4-features.md)
 	- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore相关

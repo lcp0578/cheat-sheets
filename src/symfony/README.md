@@ -104,6 +104,7 @@
 - [Clear Cache In Controller](Others/ClearCacheInController.md)
 - [Symfony Performance](Others/symfony-performance.md)
 - [symfony tips and tricks](Others/symfony-tips-and-tricks.md)
+- [Customize Error Pages](src/symfony/Others/customize_error_pages.md) 自定义错误页面
 - [Logger](Others/Logger.md)
 - [symfony 3.3 features](Others/symfony-3.4-features.md)
 - [symfony 3.4 features](Others/symfony-3.4-features.md)
