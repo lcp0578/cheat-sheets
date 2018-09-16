@@ -79,6 +79,7 @@
 		- [Command call Command](src/symfony/Command/CommandCallCommand.md) command之间调用
 		- [command in controller](src/symfony/Command/command_in_controller.md) 在控制器调用command
 		- [Custom Command](src/symfony/Command/CustomCommand.md) 自定义command
+		- [Command Lifecycle](src/symfony/Command/command_lifecycle.md)Command生命周期函数
 	- [ReusableBundle](src/symfony/ReusableBundle/REAMDE.md) 创建可重复使用bundle相关
 		- [BundleStruct](src/symfony/ReusableBundle/BundleStruct.md) 可复用bundle结构
 		- [Bundle Configuration](src/symfony/ReusableBundle/BundleConfiguration.md) Bundle配置示例
