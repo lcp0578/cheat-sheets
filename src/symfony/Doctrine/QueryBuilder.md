@@ -1,4 +1,16 @@
 ## Query Builder
+- count
+
+		public function getUnreadCount($userId)
+        {
+            return $this->createQueryBuilder('u')
+            ->select('count(u.id)')
+            ->where('u.userId = :uid AND u.isRead = 0')
+            ->setParameter('uid', $userId)
+            ->orderBy('u.publicId', 'DESC')
+            ->getQuery()
+            ->getSingleScalarResult();
+        }
 - expr 
 
 		$qb = $this->createQueryBuilder();
@@ -104,45 +116,22 @@
 	            ])
 	            ->setParameter('datetime', new \DateTime(), \Doctrine\DBAL\Types\Type::DATETIME)
 	            ->getQuery()
-	            ->getResult();
+	            ->execute();
 	    }
-- INSERT
+        
+        public function setRead($mimeId, $toId)
+        {
+            return $this->createQueryBuilder('r')
+            ->update()
+            ->set('r.status', 1)
+            ->where('r.mimeId = :mid AND r.toId = :tid')
+            ->getQuery()
+            ->execute([
+                'mid' => $mimeId,
+                'tid' => $toId
+            ]);
+        }
 
-		$qb->insert('users')
-		    ->values(
-		        array(
-		            'name' => '?',
-		            'password' => '?'
-		        )
-		    )
-		    ->setParameter(0, $username)
-		    ->setParameter(1, $password)
-		;
-		// OR
-		$qb->insert('users')
-	    ->setValue('name', '?')
-	    ->setValue('password', '?')
-	    ->setParameter(0, $username)
-	    ->setParameter(1, $password)
-		;
-		// OR
-		$qb->insert('users')
-		    ->values(
-		        array(
-		            'name' => '?'
-		        )
-		    )
-		    ->setParameter(0, $username)
-		;
-		// INSERT INTO users (name) VALUES (?)
-		
-		if ($password) {
-		    $queryBuilder
-		        ->setValue('password', '?')
-		        ->setParameter(1, $password)
-		    ;
-		    // INSERT INTO users (name, password) VALUES (?, ?)
-		}
 
 - return array result  
 

@@ -35,6 +35,7 @@
 		- [MultipleDatabase](src/symfony/Doctrine/MultipleDatabase.md) 多数据库配置与使用
 		- [ColumnDefaultValue](src/symfony/Doctrine/ColumnDefaultValue.md) 设置字段默认值的那些坑
 		- [Schema Manager](src/symfony/Doctrine/Schema.md) Schema管理器的使用
+		- [batch processing](src/symfony/Doctrine/batch_processing.md) 批量处理
 	- [Router](src/symfony/Router/README.md) 路由相关
 		- [routing.yml](src/symfony/Router/routing.yml.md) yml路由配置示例
 	- [Form](src/symfony/Form/README.md) 表单相关

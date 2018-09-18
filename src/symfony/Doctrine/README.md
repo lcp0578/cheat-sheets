@@ -3,7 +3,7 @@
 - [Doctrine Types](Types.md) Doctrine字段类型
 - [An Entity Demo](Entity.md) 一个略复杂的Entity的示例
 - [Validation Constraints](constraints.md) 验证约束设置
-- [Custom Constraint.md](custom_constraint.md)自定义验证约束
+- [Custom Constraint](custom_constraint.md)自定义验证约束
 - [Doctrine Cache](DoctrineCache.md) 配置Doctrine缓存配置
 - [Doctrine Annotations Reference](DoctrineAnnotationsReference.md)
 - [Doctrine Schema Manager](DoctrineSchemaManager.md) Doctrine 模式管理器
@@ -18,3 +18,4 @@
 - [MultipleDatabase](MultipleDatabase.md) 多数据库配置与使用
 - [ColumnDefaultValue](ColumnDefaultValue.md) 设置字段默认值的那些坑
 - [Schema Manager](Schema.md) Schema管理器的使用
+- [batch processing](batch_processing.md) 批量处理
