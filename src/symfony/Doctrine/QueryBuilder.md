@@ -11,6 +11,19 @@
             ->getQuery()
             ->getSingleScalarResult();
         }
+- delete
+
+		public function deleteByUserId($userId, $contactId)
+        {
+            $this->createQueryBuilder('c')
+            ->delete()
+            ->where('c.userId = :uid AND c.contactId = :cid')
+            ->setParameters([
+                'uid' => $userId,
+                'cid' => $contactId
+            ])
+            ->getQuery()->getResult();
+        }
 - expr 
 
 		$qb = $this->createQueryBuilder();
