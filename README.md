@@ -197,6 +197,7 @@
 	- [Github](src/git/github.md) Github clone慢配置
 	- [git update](src/git/update.md) git升级
 	- [rm git index](src/git/rm.md) 移除文件或目录的git索引
+	- [git recover](src/git/git_recover.md) git还原某个提交ID
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
