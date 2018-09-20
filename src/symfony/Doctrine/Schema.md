@@ -1,4 +1,6 @@
 ## Schema 管理
+> https://www.doctrine-project.org/projects/doctrine-dbal/en/2.8/reference/schema-manager.html
+
 - SchemaTool 根据Entity的metadata创建表
 
         public function createTable($number)
