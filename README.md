@@ -218,6 +218,7 @@
 23. [PHP](src/php.md)
 	- [PHP Extension Install](src/PHP/php-extension-install.md) PHP扩展编译安装
 	- [Memcached](src/PHP/memcached.md) PHP Memcached扩展安装
+	- [oci8](src/PHP/oci8.md)PHP Oracle连接扩展
 	- [Socket](src/PHP/Socket.md)
 	- [control structures alternative syntax](src/PHP/alternative-syntax.md) 流程控制的替代语法
 	- [SOAP](src/PHP/soap.md) 调用SOAP服务
