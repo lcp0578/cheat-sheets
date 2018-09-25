@@ -1,6 +1,18 @@
 ## composer config 配置相关
 > [composer config](https://getcomposer.org/doc/06-config.md) 官方文档
 
+- 全局设置中国的镜像
+
+    	composer config -g repo.packagist composer https://packagist.laravel-china.org/
+	
+	站点地址：[https://packagist.laravel-china.org/](https://packagist.laravel-china.org/)
+    
+- 为某个项目设置中国的镜像
+
+    	composer config repo.packagist composer https://packagist.laravel-china.org/
+	
+	站点地址：[https://packagist.laravel-china.org/](https://packagist.laravel-china.org/)
+
 - 查看全局配置项
 
 		$ composer config --global --list
@@ -44,11 +56,7 @@
         [htaccess-protect] 1
         [home] C:/Users/Administrator/AppData/Roaming/Composer
         
-- 为某个项目设置中国的镜像
 
-    	composer config repo.packagist composer https://packagist.phpcomposer.com #https://packagist.laravel-china.org/
-	
-	站点地址：[https://pkg.phpcomposer.com/](https://pkg.phpcomposer.com/)
 - 移除全局镜像设置
 
 		$ composer config --global --unset repo.packagist
