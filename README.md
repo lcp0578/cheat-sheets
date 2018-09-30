@@ -229,6 +229,7 @@
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md)
 	- [network configure](src/Shell/network_configure.md)
+	- [exit code](src/Shell/exit_code.md)退出码
 26. [Nginx](src/nginx.md)
 	- [nginx basic](src/Nginx/nginx_basic.md)
 	- [nginx conf](src/Nginx/nginx.conf.md)
