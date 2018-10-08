@@ -170,6 +170,7 @@
 	- [df & du](src/Linux/df_du.md)
 	- [scp](src/Linux/scp.md)
 	- [rz & sz](src/Linux/rzsz.md)
+	- [iconv](src/Linux/iconv.md)
 9.  [Go](src/Go/README.md "golang")
 	- [gofmt vs go fmt](src/Go/gofmt.md)
 	- [Compiler Directives](src/Go/CompilerDirectives.md)
