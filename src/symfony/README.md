@@ -13,6 +13,7 @@
 - [Twig functions](Twig/functions.md) Twig函数用法示例
 - [Whitespace Control](Twig/WhitespaceControl.md) 空格控制
 - [Twig tags](Twig/tags.md) Twig Tags用法示例
+- [Twig macro](Twig/macro.md) macro宏的示例
 #### [Doctrine](Doctrine/README.md) Doctrine相关
 - [Doctrine](Doctrine/Doctrine.md) Doctrine基础知识
 - [Doctrine Types](Doctrine/Types.md) Doctrine字段类型
