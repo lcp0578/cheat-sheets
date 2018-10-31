@@ -178,6 +178,7 @@
 	- [for select](src/Go/for-select.md)
 	- [string](src/Go/string.md) 字符串操作相关
 	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
+	- [number base conversion](src/GO/NumberBaseConversion.md)进制转换
 	- [vgo](src/Go/vgo.md) 版本控制
 	- [Byte Order](src/Go/ByteOrder.md) 字节序
 	- Standard library 标准库笔记
