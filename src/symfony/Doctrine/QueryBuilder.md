@@ -1,4 +1,7 @@
 ## Query Builder
+- order by multiple
+
+		$qb->add('orderBy','first_name ASC, last_name ASC')
 - count
 
 		public function getUnreadCount($userId)
