@@ -184,6 +184,7 @@
 	- Standard library 标准库笔记
         - [strconv](src/Go/StandardLibrary/strconv.md)
         - [binary](src/Go/StandardLibrary/binary.md)
+        - [hex](src/Go/StandardLibrary/hex.md) 16进制操作包
     - [Others Library](src/Go/OthersLibrary/README.md) 其他类库笔记
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
