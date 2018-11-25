@@ -7,3 +7,20 @@
             panic(err)
         }
         fmt.Printf("%x", data)
+- []byte 相互转换
+
+		/**
+            []bytes asc to hex
+         */
+        func BytesAcsToHex(data []byte)[]byte {
+            command, err := hex.DecodeString(string(data))
+            if err != nil {
+                beego.Error(err)
+                return nil
+            }
+            return command
+        }
+
+        func BytesHexToAsc(data []byte)[]byte{
+            return []byte(hex.EncodeToString(data))
+        }
