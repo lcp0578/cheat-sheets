@@ -13,6 +13,8 @@
 		doctrine.orm.entity_manager
 		// alias for doctrine.orm.default_entity_manager
 		// Doctrine\ORM\EntityManager
+        // 多库时
+        //doctrine.orm.rtu_entity_manager
 - 路由
 
 		router
