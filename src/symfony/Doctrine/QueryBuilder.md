@@ -27,6 +27,36 @@
             ])
             ->getQuery()->getResult();
         }
+
+- query
+
+		 public function getList($userId, $page, $pagesize, $condition = [])
+        {
+            $offset = ($page - 1) * $pagesize;
+            $qb = $this->createQueryBuilder('o')->select("o.id,o.orderNo as order_no, o.number,o.subject,o.status,o.ammount,DATE_FORMAT(o.payAt,'%Y-%m-%d %H:%i') as pay_at,DATE_FORMAT(o.createAt,'%Y-%m-%d %H:%i') as create_at");
+            $qb->where('o.clientId = :cid');
+            $parameters = [
+                'cid' => $userId
+            ];
+            if(isset($condition['subject']) && !empty($condition['subject'])){
+                $qb->andWhere($qb->expr()->like('o.subject', ':subject'));
+                $parameters['subject'] = '%'. $condition['subject']. '%';
+            }
+            if(isset($condition['start_time']) && !empty($condition['start_time'])){
+                $qb->andWhere($qb->expr()->gte('o.createAt', ':start'));
+                $parameters['start'] = $condition['start_time'];
+            }
+
+            if(isset($condition['end_time']) && !empty($condition['end_time'])){
+                $qb->andWhere($qb->expr()->lte('o.createAt', $condition['end_time']));
+                $parameters['end'] = $condition['end_time'];
+            }
+            $qb->setParameters($parameters);
+            $qb->setMaxResults($pagesize);
+            $qb->setFirstResult($offset);   
+            return $qb->getQuery()->getArrayResult();
+        }
+}
 - expr 
 
 		$qb = $this->createQueryBuilder();
