@@ -230,6 +230,8 @@
 	- [control structures alternative syntax](src/PHP/alternative-syntax.md) 流程控制的替代语法
 	- [SOAP](src/PHP/soap.md) 调用SOAP服务
 	- [preg_match VS preg_match_all](src/PHP/preg_match.md) 正则匹配对比
+	- [PHP Functions](src/PHP/functions/README.md) PHP常用函数
+	- [PHP Extensions](src/PHP/extensions/README.md) PHP常用扩展
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md)
