@@ -1,4 +1,4 @@
-## macro
+## macro（注意：Twig >=2.x时，引入的macro在继承的模板无效）
 - 定义macro
 
 		{% macro no_content(num) %}

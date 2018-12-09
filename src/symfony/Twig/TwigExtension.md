@@ -73,3 +73,37 @@
 		{{ theme_name }} //使用注册的全局变量
 		{{ asset(theme('style.css')) }} // 使用扩展函数
 		{{ asset('style.css' | theme )}} //使用扩展过滤器
+- 高级参数
+	- is_safe
+	
+            class MacroExtension extends \Twig_Extension
+            {
+
+                public function getFunctions()
+                {
+                    return array(
+                        new \Twig_SimpleFunction('macro_no_content', [
+                            $this,
+                            'noContent'
+                        ], [
+                            'is_safe' => [
+                                'html'
+                            ]
+                        ])
+                    );
+                }
+
+                public function noContent($num)
+                {
+                    return <<<EOF
+                    <tr>
+                    <td colspan="$num" align="center">
+                    <img src="/public/img/no_content.gif"/>
+                    </td>
+                    </tr>
+            EOF;
+                }
+            }
+	- needs_context
+	- needs_environment
+- [官方Extension仓库:github.com/twigphp/Twig-extensions](https://github.com/twigphp/Twig-extensions)
