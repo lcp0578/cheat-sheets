@@ -43,6 +43,10 @@
 	     *
 	     * @ORM\Column(name="name", type="string", length=60，unique=true, options={"comment": "菜单名称"})
 	     * @Assert\NotBlank(message="名称不能为空")
+	     * @Assert\Length(
+     	 *      max = 60,
+     	 *      maxMessage = "名称最多60个字符"
+     	 *      )
 	     */
 	    private $name;
 		/**
@@ -58,6 +62,13 @@
 	     * @ORM\Column(name="level", type="smallint")
 	     */
 	    private $level;
+        
+        /**
+         * @var string
+         *
+         * @ORM\Column(name="number", type="decimal", precision=30, scale=2, options={"comment":"数值"})
+         */
+        private $number;
 	        
 	    /**
 	     * @var \DateTime
