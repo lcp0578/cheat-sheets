@@ -88,3 +88,6 @@
 - 获取头部信息
 
 		{{ app.request.headers.get('User-Agent') }}
+- 获取当前运行环境
+
+		{{ app.environment }} {# dev、prod、test #}
