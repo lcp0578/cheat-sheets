@@ -113,6 +113,7 @@
 - [Logger](Others/Logger.md)
 - [symfony 3.3 features](Others/symfony-3.4-features.md)
 - [symfony 3.4 features](Others/symfony-3.4-features.md)
+- [web server configuration](Others/web_server_configuration.md)
 #### [Deployment](Deployment/README.md)
 - [proxies](Deployment/proxies.md) 设置代理
 #### [Webpack Encore](WebpackEncore/README.md) Webpack Encore相关

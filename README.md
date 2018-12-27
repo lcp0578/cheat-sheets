@@ -115,6 +115,7 @@
 		- [Customize Error Pages](src/symfony/Others/customize_error_pages.md) 自定义错误页面
 		- [symfony 3.3 features](src/symfony/Others/symfony-3.4-features.md)
 		- [symfony 3.4 features](src/symfony/Others/symfony-3.4-features.md)
+		- [web server configuration](src/symfony/Others/web_server_configuration.md)
 	- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore相关
 		- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore介绍
 		- [Webpack Encore Example](src/symfony/WebpackEncore/example.md) Webpack Encore使用示例
