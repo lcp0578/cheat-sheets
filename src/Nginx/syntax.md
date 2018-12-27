@@ -15,3 +15,6 @@
 	https://www.hi-linux.com/posts/53878.html
 - location
 	https://www.cnblogs.com/qinyujie/p/8979464.html
+- rewrite
+    https://blog.coding.net/blog/tips-in-configuring-Nginx-location
+    http://seanlook.com/2015/05/17/nginx-location-rewrite/

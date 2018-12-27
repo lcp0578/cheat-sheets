@@ -239,12 +239,13 @@
 	- [network configure](src/Shell/network_configure.md)
 	- [exit code](src/Shell/exit_code.md)退出码
 26. [Nginx](src/nginx.md)
-	- [nginx basic](src/Nginx/nginx_basic.md)
-	- [nginx conf](src/Nginx/nginx.conf.md)
-	- [vhost conf](src/Nginx/vhost.md)
-	- [proxy_pass](src/Nginx/proxy_pass.md)
-	- [ssl](src/Nginx/ssl.md)
-	- [errors](src/Nginx/nginx_errors.md) Nginx报错解决
+	- [nginx basic](src/Nginx/nginx_basic.md) nginx基础
+    - [nginx conf](src/Nginx/nginx.conf.md) nginx.conf注释版
+    - [vhost conf](src/Nginx/vhost.md) vhost配置示例
+    - [proxy_pass](src/Nginx/proxy_pass.md) 代理转发
+    - [ssl](src/Nginx/ssl.md) SSL配置示例
+    - [syntax](src/Nginx/syntax.md) 配置语法
+    - [nginx errors](src/Nginx/nginx_errors.md) 常见错误及修复办法
 27. [Code::Blocks](CodeBlocks.md)
 	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
 28. [Ubuntu](src/Ubuntu/README.md)
