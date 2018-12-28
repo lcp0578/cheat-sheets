@@ -146,3 +146,6 @@
 		        echo $e->getRequest()->getMethod();
 		    }
 		);
+- POST JSON数据包
+
+		$response = $client->request('POST', '/api', ['json' => ['username' => 'lcp0578']]);
