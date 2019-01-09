@@ -1,26 +1,26 @@
 ## backup shell
 - 备份shell脚本
 	
-		#!/bin/bash
-        
-        # backup file dir
-        BACK_DIR="/data/backup/bak_web"
+	  #!/bin/bash
 
-        # file name
-        DATE=`date +%Y%m%d-%H%M%S`
-        # save time
-        DAYS=365
-        # dist dir
-        DIST_DIR="/data/web"
+      # backup file dir
+      BACKUP_DIR="/home/backup"
 
-        # file prefix
-        BACKUP_PREFIX=Web
+      # file name
+      DATE=`date +%Y%m%d-%H%M%S`
+      # save time
+      DAYS=365
+      # dist dir
+      DIST_DIR="/home/wwwroot/test"
 
-        # do tar
-        tar zcvf ${BACK_DIR}/${BACKUP_PREFIX}${DATE}.tar.gz ${DIST_DIR} -X /data/backup/exclude.txt
+      # file prefix
+      BACKUP_PREFIX=wateroa
 
-        #只保留指定时间内的文件
-        find ${WEBBACK_DIR} -name "${BACKUP_PREFIX}*" -type f -mtime +${DAYS} -exec rm {} \;
+      # do tar
+      tar -zcPf ${BACKUP_DIR}/${BACKUP_PREFIX}${DATE}.tar.gz ${DIST_DIR} -X ${BACKUP_DIR}/exclude.txt
+
+      # remove outdate file
+      find ${BACKUP_DIR} -name "${BACKUP_PREFIX}*" -type f -mtime +${DAYS} -exec rm {} \;
          
 - 排除某些目录(日志和缓存),exclude.txt文件中写入
          
