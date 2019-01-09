@@ -237,9 +237,10 @@
 	- [PHP Extensions](src/PHP/extensions/README.md) PHP常用扩展
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
-	- [deploy.sh](src/Shell/deploy.sh.md)
+	- [deploy.sh](src/Shell/deploy.sh.md) 部署项目shell脚本
 	- [network configure](src/Shell/network_configure.md)
 	- [exit code](src/Shell/exit_code.md)退出码
+	- [backup.sh](src/Shell/backup.sh.md) 备份项目shell脚本
 26. [Nginx](src/nginx.md)
 	- [nginx basic](src/Nginx/nginx_basic.md) nginx基础
     - [nginx conf](src/Nginx/nginx.conf.md) nginx.conf注释版
