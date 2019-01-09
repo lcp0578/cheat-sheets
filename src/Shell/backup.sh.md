@@ -23,5 +23,6 @@
         find ${WEBBACK_DIR} -name "${BACKUP_PREFIX}*" -type f -mtime +${DAYS} -exec rm {} \;
          
 - 排除某些目录(日志和缓存),exclude.txt文件中写入
-         #/data/web/var
-         #/data/web/logs
+         
+        #/data/web/var
+        #/data/web/logs
