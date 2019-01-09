@@ -58,6 +58,9 @@
 	- Slave_IO_Running： Yes #读取主程序二进制日志的I/O线程是否正在运行 
 	- Slave_SQL_Running： Yes #执行读取主服务器中二进制日志事件的SQL线程是否正在运行。与I/O线程一样 
 	- Seconds_Behind_Master #是否为0，0就是已经同步了
+- 清空所有binlog
+
+		reset master; # 清空所有 binlog 文件
 
 ### 参考资料
 https://jasonhzy.github.io/2016/02/05/master-slave/  

@@ -21,27 +21,37 @@
   
 		# vi /usr/local/rsync/rsyncd.conf  
   
-		pid file = /var/run/rsyncd.pid  
-		port = 873  
-		pid = root  
-		gid = root  
-		use chroot = no  
-		max connections = 200  
-		timeout 600  
-		lock file = /var/run/rsyncd.lock  
-		log file = /var/run/rsyncd.log  
-		secrets file = /usr/local/rsync/rsyncd.secrets   
-		motd file = /etc/rsyncd.motd  
-		  
-		[test]  
-		path = /test/  
-		ignore errors  
-		read only = true  
-		list = false  
-		hosts allow = *  
-		#hosts deny = 0.0.0.0/32  
-		auth users root  #该用户系统中存在且对后面指定的备份目录拥有权限  
-		comment = ocpyang  test     
+		  pid file = /var/run/rsyncd.pid #pid文件
+          port = 873
+          uid = root #启动用户
+          gid = root #启动用户组
+          use chroot = no
+          max connections = 5 #最大连接数
+          timeout 600
+          lock file = /var/run/rsyncd.lock #指定lock文件
+          log file = /var/run/rsyncd.log #日志文件
+          secrets file = /usr/local/rsync/rsyncd.secrets
+          motd file = /usr/local/rsync/rsyncd.motd #指定欢迎消息文件
+
+          [wateroa_code]
+          path = /home/backup/code
+          ignore errors
+          read only = false
+          list = false
+          hosts allow = 172.18.1.12
+          #hosts deny = 0.0.0.0/32
+          auth users root
+          comment = wateroa_code
+
+          [wateroa_db]
+          path = /home/backup/db
+          ignore errors
+          read only = false
+          list = false
+          hosts allow = 172.18.1.14
+          #hosts deny = 0.0.0.0/32
+          auth users root
+          comment = wateroa_db
    
   
   
