@@ -95,6 +95,9 @@
 - [Filesystem](Components/Filesystem.md) 对文件系统做了面向对象的封装
 - [Dotenv](Components/Dotenv.md) 设置环境变量
 - [Ldap](Components/Ldap.md) LDAP server连接相关
+- [Config](Components/Config.md) 配置文件组件，支持YAML, XML, INI格式或数据库。
+- [Debug](Components/Debug.md) 方便调试的组件
+- [VarDumper](Components/VarDumper) 调试时打印信息的组件
 #### [Bundles Note](Bundles-Note/README.md) 第三方bundle使用笔记 
 - [DoctrineFixturesBundle](Bundles-Note/DoctrineFixturesBundle.md)	初始化数据Bundle笔记
 #### [symfony coding standard](SymfonyCodingStandard/README.md) Symfony编码规范

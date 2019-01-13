@@ -8,3 +8,6 @@
 - [Finder](Finder.md) 文件和目录查找
 - [Filesystem](Filesystem.md) 对文件系统做了面向对象的封装
 - [Ldap](Ldap.md) LDAP server连接相关
+- [Config](Config.md) 配置文件组件，支持YAML, XML, INI格式或数据库。
+- [Debug](Debug.md) 方便调试的组件
+- [VarDumper](VarDumper) 调试时打印信息的组件
