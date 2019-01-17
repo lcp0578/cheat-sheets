@@ -313,3 +313,10 @@
 	- 单点登录SSO
 	- CAS
 	- OAuth2
+57. 消息队列
+	- nsq
+	- RabbitMQ
+	- Kafka
+	- ZeroMQ
+	- ActiveMQ
+	- RocketMQ
