@@ -220,6 +220,7 @@
 	- [knockoutjs](src/javascript/knockoutjs.md)
 	- [vuejs](src/javascript/vuejs.md)
 	- [ActiveX Object](src/javascript/activex_object.md)判断对象是否存在的方法
+	- [requirejs](src/javascript/requirejs.md) requrejs引入js、css、fonts等
 13. [framework7](src/framework7.md "framework7")
 14. [markdown](src/markdown.md "markdown")
 15. [yii2](src/yii2.md)
