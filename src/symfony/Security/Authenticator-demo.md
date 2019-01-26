@@ -76,9 +76,20 @@
 		    public function onAuthenticationSuccess(Request $request, TokenInterface $token, $providerKey)
 		    {
 				// 设置登录成功后的跳转链接
-		        $url = $this->getDefaultSuccessRedirectUrl();
 		        
-		        return new RedirectResponse($url);
+                $session = $request->getSession();
+                $key = '_security.web_firewalls.target_path'; // where "web_firewalls" is your firewall name
+                // check if the referrer session key has been set
+                if ($session->has($key)) {
+                    // set the url based on the link they were trying to access before being authenticated
+                    $url = $session->get($key);
+                    // remove the session key
+                    $session->remove($key);
+                } else {
+                    //if the referrer key was never set, redirect to a default route
+                    $url = $this->getDefaultSuccessRedirectUrl();
+                }
+                return new RedirectResponse($url);
 		    }
 		
 		    public function onAuthenticationFailure(Request $request, AuthenticationException $exception)
