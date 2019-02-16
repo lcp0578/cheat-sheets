@@ -316,12 +316,12 @@
 	- CAS
 	- OAuth2
 57. 消息队列
-	- nsq
-	- RabbitMQ
-	- Kafka
-	- ZeroMQ
-	- ActiveMQ
-	- RocketMQ
+	- [nsq](src/MQ/nsq.md)
+	- [RabbitMQ](src/MQ/RabbitMQ.md)
+	- [Kafka](src/MQ/Kafka.md)
+	- [ZeroMQ](src/MQ/ZeroMQ.md)
+	- [ActiveMQ](src/MQ/ActiveMQ.md)
+	- [RocketMQ](src/MQ/RocketMQ.md)
 58. [ZooKeeper](src/ZooKeeper/README.md)
 	- [基本概念](basic.md)
 	- [典型应用场景](scene.md)

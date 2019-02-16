@@ -70,6 +70,9 @@
 #### message
 - [github.com/mafanr/meq](https://github.com/mafanr/meq) 基于MQTT消息平台，支持Message Push、IM、Group Chatting、IoT等
 - [github.com/fanux/lhttp](https://github.com/fanux/lhttp) websocket IM服务端
+- [github.com/eranyanay/1m-go-websockets](https://github.com/eranyanay/1m-go-websockets)处理百万级ws连接
+- [github.com/gobwas/ws](https://github.com/gobwas/ws)websocket类
+- [github.com/streadway/amqp](https://github.com/streadway/amqp)Go Client for AMQP 0.9.1 
 
 #### HTTP Client
 - [github.com/asmcos/requests](https://github.com/asmcos/requests)类似python requests的HTTP类库
