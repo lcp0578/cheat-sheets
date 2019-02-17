@@ -323,5 +323,5 @@
 	- [ActiveMQ](src/MQ/ActiveMQ.md)
 	- [RocketMQ](src/MQ/RocketMQ.md)
 58. [ZooKeeper](src/ZooKeeper/README.md)
-	- [基本概念](basic.md)
-	- [典型应用场景](scene.md)
+	- [基本概念](src/ZooKeeper/basic.md)
+	- [典型应用场景](src/ZooKeeper/scene.md)
