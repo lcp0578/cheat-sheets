@@ -325,3 +325,6 @@
 58. [ZooKeeper](src/ZooKeeper/README.md)
 	- [基本概念](src/ZooKeeper/basic.md)
 	- [典型应用场景](src/ZooKeeper/scene.md)
+59. [Erlang](src/Erlang/README.md)
+60. [Scala](src/Scala/README.md)
+61. [Kotlin](src/Kotlin/README.md)
