@@ -266,6 +266,12 @@
 31. [FFmpeg](src/FFmpeg/README.md)
 	- [PHP-FFMpeg](src/FFmpeg/PHP-FFMpeg.md)
 32. [OAuth 2.0](src/OAuth2.0/README.md)
+	- [rfc 6749](src/OAuth2.0/rfc6749.md)
+    - Go
+        - [github.com/golang/oauth2](https://github.com/golang/oauth2)
+        - [github.com/dexidp/dex](https://github.com/dexidp/dex)
+        - [github.com/ory/fosite](https://github.com/ory/fosite)
+    - PHP
 33. [Modbus](src/Modbus/README.md)
 	- [SSCOM串口调试软件](src/Modbus/SSCOM.md)
 34. [CSS3](src/CSS3/README.md)
