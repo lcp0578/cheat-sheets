@@ -189,6 +189,11 @@
 		      server using the web/config.php script.   
 - 打印bundle configure reference
 
+		# displays the default config values defined by Symfony
+ 		php bin/console config:dump-reference twig
+		# displays the actual config values used by your application
+ 		php bin/console debug:config twig
+
 		$ php bin/console config:dump-reference kit_pay
 		# Default configuration for extension with alias: "kit_pay"
 		kit_pay:

@@ -97,6 +97,9 @@
 		- [Filesystem](src/symfony/Components/Filesystem.md) 对文件系统做了面向对象的封装
 		- [Dotenv](src/symfony/Components/Dotenv.md) 设置环境变量
 		- [Ldap](src/symfony/Components/Ldap.md) LDAP server连接相关
+		- [Config](src/symfony/Components/Config.md) 配置文件组件，支持YAML, XML, INI格式或数据库。
+		- [Debug](src/symfony/Components/Debug.md) 方便调试的组件
+		- [VarDumper](src/symfony/Components/VarDumper) 调试时打印信息的组件
 	- [Bundles Note](src/symfony/Bundles-Note/README.md) 第三方bundle使用笔记 
 		- [DoctrineFixturesBundle](src/symfony/Bundles-Note/DoctrineFixturesBundle.md)	初始化数据Bundle笔记
 	- [symfony coding standard](src/symfony/SymfonyCodingStandard/README.md) Symfony编码规范
@@ -115,6 +118,7 @@
 		- [Customize Error Pages](src/symfony/Others/customize_error_pages.md) 自定义错误页面
 		- [symfony 3.3 features](src/symfony/Others/symfony-3.4-features.md)
 		- [symfony 3.4 features](src/symfony/Others/symfony-3.4-features.md)
+		- [web server configuration](src/symfony/Others/web_server_configuration.md)
 	- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore相关
 		- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore介绍
 		- [Webpack Encore Example](src/symfony/WebpackEncore/example.md) Webpack Encore使用示例
@@ -187,6 +191,10 @@
         - [binary](src/Go/StandardLibrary/binary.md)
         - [hex](src/Go/StandardLibrary/hex.md) 16进制操作包
     - [Others Library](src/Go/OthersLibrary/README.md) 其他类库笔记
+    - [windows下开发](src/Go/windows/README.md)
+		- [call cmd.exe](src/Go/windows/call_cmd.md) 调用cmd.exe并隐藏窗口
+	- [Fatal Error](src/Go/FatalError/README.md) 常见的fatal error
+		- [fatal error: concurrent map read and map write](src/Go/FatalError/ConcurrentMap.md)并发读写map错误
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
@@ -212,6 +220,8 @@
 	- [knockoutjs](src/javascript/knockoutjs.md)
 	- [vuejs](src/javascript/vuejs.md)
 	- [ActiveX Object](src/javascript/activex_object.md)判断对象是否存在的方法
+	- [requirejs](src/javascript/requirejs.md) requrejs引入js、css、fonts等
+	- [art template](src/javascript/art-template.md) art-template模板引擎
 13. [framework7](src/framework7.md "framework7")
 14. [markdown](src/markdown.md "markdown")
 15. [yii2](src/yii2.md)
@@ -230,18 +240,22 @@
 	- [control structures alternative syntax](src/PHP/alternative-syntax.md) 流程控制的替代语法
 	- [SOAP](src/PHP/soap.md) 调用SOAP服务
 	- [preg_match VS preg_match_all](src/PHP/preg_match.md) 正则匹配对比
+	- [PHP Functions](src/PHP/functions/README.md) PHP常用函数
+	- [PHP Extensions](src/PHP/extensions/README.md) PHP常用扩展
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
-	- [deploy.sh](src/Shell/deploy.sh.md)
+	- [deploy.sh](src/Shell/deploy.sh.md) 部署项目shell脚本
 	- [network configure](src/Shell/network_configure.md)
 	- [exit code](src/Shell/exit_code.md)退出码
+	- [backup.sh](src/Shell/backup.sh.md) 备份项目shell脚本
 26. [Nginx](src/nginx.md)
-	- [nginx basic](src/Nginx/nginx_basic.md)
-	- [nginx conf](src/Nginx/nginx.conf.md)
-	- [vhost conf](src/Nginx/vhost.md)
-	- [proxy_pass](src/Nginx/proxy_pass.md)
-	- [ssl](src/Nginx/ssl.md)
-	- [errors](src/Nginx/nginx_errors.md) Nginx报错解决
+	- [nginx basic](src/Nginx/nginx_basic.md) nginx基础
+    - [nginx conf](src/Nginx/nginx.conf.md) nginx.conf注释版
+    - [vhost conf](src/Nginx/vhost.md) vhost配置示例
+    - [proxy_pass](src/Nginx/proxy_pass.md) 代理转发
+    - [ssl](src/Nginx/ssl.md) SSL配置示例
+    - [syntax](src/Nginx/syntax.md) 配置语法
+    - [nginx errors](src/Nginx/nginx_errors.md) 常见错误及修复办法
 27. [Code::Blocks](CodeBlocks.md)
 	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
 28. [Ubuntu](src/Ubuntu/README.md)
@@ -252,6 +266,12 @@
 31. [FFmpeg](src/FFmpeg/README.md)
 	- [PHP-FFMpeg](src/FFmpeg/PHP-FFMpeg.md)
 32. [OAuth 2.0](src/OAuth2.0/README.md)
+	- [rfc 6749](src/OAuth2.0/rfc6749.md)
+    - Go
+        - [github.com/golang/oauth2](https://github.com/golang/oauth2)
+        - [github.com/dexidp/dex](https://github.com/dexidp/dex)
+        - [github.com/ory/fosite](https://github.com/ory/fosite)
+    - PHP
 33. [Modbus](src/Modbus/README.md)
 	- [SSCOM串口调试软件](src/Modbus/SSCOM.md)
 34. [CSS3](src/CSS3/README.md)
@@ -280,7 +300,11 @@
 47. [Oracle](src/Oracle/README.md) Oracle数据库相关
 	- [mac docker oracle](src/Oracle/mac_docker_oracle.md) mac下通过docker安装Oracle
 	- [SQL errors](src/Oracle/sql_errors.md) SQL错误笔记
-48. [TiDB](src/TiDB/README.md) TiDB分布式数据库
+48. [DB](src/DB/README.md) 新型数据相关
+	- [TiDB](src/DB/TiDB/README.md)开源分布式 NewSQL 关系型数据库
+	- [RadonDB](src/DB/RadonDB/README.md) 云原生的MySQL数据库,可以无限扩展
+	- [influxdb](src/DB/influxdb/README.md) 开源时序型数据库
+	- [vitess](src/DB/vitess/README.md) 数据库中间件，用于部署、扩展和管理大型MySQL实例集群。
 49. [hadoop](src/hadoop/README.md) hadoop分布式计算平台
 50. [TCP/IP](src/TCPIP/README.md) TCP/IP协议相关
 	- [MQTT](src/TCPIP/MQTT/README.md) 消息队列遥测传输协议
@@ -291,3 +315,28 @@
 53. [JavaBridge](src/JavaBridge/README.md)
 54. [ios](src/ios/README.md)
 	- [xcode](src/ios/xcode.md)
+55. **Security代码安全**
+	- [APP接口安全设计要点](src/Security/APP_API.md)
+	- 源代码安全审计
+		- [cobra](src/Security/cobra.md)
+56. 用户认证与授权
+	- 单点登录SSO
+	- CAS
+	- OAuth2
+57. 消息队列
+	- [nsq](src/MQ/nsq.md)
+	- [RabbitMQ](src/MQ/RabbitMQ.md)
+	- [Kafka](src/MQ/Kafka.md)
+	- [ZeroMQ](src/MQ/ZeroMQ.md)
+	- [ActiveMQ](src/MQ/ActiveMQ.md)
+	- [RocketMQ](src/MQ/RocketMQ.md)
+58. [ZooKeeper](src/ZooKeeper/README.md)
+	- [基本概念](src/ZooKeeper/basic.md)
+	- [典型应用场景](src/ZooKeeper/scene.md)
+59. [Erlang](src/Erlang/README.md)
+60. [Scala](src/Scala/README.md)
+61. [Kotlin](src/Kotlin/README.md)
+62. [Go & PHP](src/GoPHP/README.md)
+	- goridge
+	- roadrunner
+	- Spiral Framework

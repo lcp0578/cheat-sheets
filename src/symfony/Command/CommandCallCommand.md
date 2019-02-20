@@ -1,5 +1,45 @@
 ## Command call Command
-- demo
+- 示例1
+
+		protected function execute(InputInterface $input, OutputInterface $output)
+        {
+            $output->writeln([
+                'start backup database',
+                '---------------'
+            ]);
+            $command = $this->getApplication()->find('backup-manager:backup');
+            $fileName = 'backup/'.date('YmdHis'). '_'. mt_rand(10, 99) .'.sql';
+            $args = [
+                'command' => 'backup-manager:backup',
+                'database' => 'production',
+                'destinations' => ['local'],
+                '-c' => 'gzip',
+                '--filename' => $fileName
+            ];
+            $commandInput = new ArrayInput($args);
+            try {
+                $returnCode = $command->run($commandInput, $output);
+                if($returnCode == 0){
+                    $this->flushDb($fileName);
+                }
+                $output->writeln([
+                    'backup-manager:',
+                    'code:' . $returnCode
+                ]);
+            } catch (\Exception $e) {
+                $output->writeln([
+                    'exception:',
+                    '   code' . $e->getCode(),
+                    '   msg' . $e->getMessage()
+
+                ]);
+            }
+            $output->writeln([
+                'end backup database',
+                '--------------'
+            ]);
+        }
+- 示例2
 
 		<?php
 		namespace KitAdminBundle\Command;
