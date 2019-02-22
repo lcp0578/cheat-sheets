@@ -202,7 +202,7 @@
 	- [master slave](src/Redis/master-slave.md) redis配置主从
 	- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
 	- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
-11. [git note](src/git/README.md "git")
+11. [git相关](src/git/README.md "git")
 	- [git branch](src/git/branch.md) git分支相关
 	- [git tag](src/git/tag.md) git标签相关
 	- [rm commit log](src/git/rm-commit-log.md)
@@ -212,6 +212,8 @@
 	- [git update](src/git/update.md) git升级
 	- [rm git index](src/git/rm.md) 移除文件或目录的git索引
 	- [git recover](src/git/git_recover.md) git还原某个提交ID
+	- [Gogs](src/git/gogs.md) Gogs代码平台
+	- [Gitea](src/git/gitea.md) Gitea(Gogs的一个克隆)
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
@@ -315,15 +317,12 @@
 53. [JavaBridge](src/JavaBridge/README.md)
 54. [ios](src/ios/README.md)
 	- [xcode](src/ios/xcode.md)
-<<<<<<< HEAD
 55. **Security代码安全**
 	- [APP接口安全设计要点](src/Security/APP_API.md)
 	- 源代码安全审计
 		- [cobra](src/Security/cobra.md)
-=======
 55. 源代码安全审计
 	- [cobra](cobra.md)
->>>>>>> 747b9f8a62cb65f8c039a0a0c1c3fdb4d56bb818
 56. 用户认证与授权
 	- 单点登录SSO
 	- CAS
