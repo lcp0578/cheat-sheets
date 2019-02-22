@@ -16,3 +16,4 @@
 - [scp](scp.md)
 - [rz & sz](rzsz.md)
 - [iconv](iconv.md)
+- [Aliyun服务器配置IPV6](ipv6_aliyun.md)
