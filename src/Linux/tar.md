@@ -56,4 +56,4 @@
 
         unrar e file.rar //解压rar
 
-		unzip file.zip //解压zip
+		unzip file.zip -d dir //解压zip,到dir中
