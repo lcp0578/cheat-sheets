@@ -36,6 +36,7 @@
 - [Schema Manager](Doctrine/Schema.md) Schema管理器的使用
 - [batch processing](Doctrine/batch_processing.md) 批量处理
 - [truncate table](Doctrine/truncate_table.md) 截断表
+- [SQL log](Doctrine/sql_log.md) 开发模式下配置SQL log
 #### [Router](Router/README.md) 路由相关
 - [routing.yml](Router/routing.yml.md) yml路由配置示例
 #### [Form](Form/README.md) 表单相关

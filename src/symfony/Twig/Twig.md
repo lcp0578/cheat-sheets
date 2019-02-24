@@ -85,6 +85,10 @@
 	`{{app.session}}` refers to the Session object and not the `$_SESSION` array.
 
 		{{ app.session.get('session_key') }}
+- 获取cookie
+
+		{{ dump(app.request.cookies) }}
+		{{ app.request.cookies.get('cookie_key') }}
 - 获取头部信息
 
 		{{ app.request.headers.get('User-Agent') }}

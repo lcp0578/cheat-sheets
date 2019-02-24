@@ -74,5 +74,18 @@
 - [github.com/gobwas/ws](https://github.com/gobwas/ws)websocket类
 - [github.com/streadway/amqp](https://github.com/streadway/amqp)Go Client for AMQP 0.9.1 
 
-#### HTTP Client
+#### HTTP
 - [github.com/asmcos/requests](https://github.com/asmcos/requests)类似python requests的HTTP类库
+- [github.com/gojektech/heimdall](https://github.com/gojektech/heimdall) 增强版HTTP Client
+- [github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)HTTP request router 
+- [github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)Fast HTTP package for Go
+
+#### template
+- [github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)高性能html/template替代方案
+- [github.com/unrolled/render](https://github.com/unrolled/render)  easily rendering JSON, XML, text, binary data, and HTML templates.
+- [github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)go.rice is a Go package that makes working with resources such as html,js,css,images and templates easy. 
+- [github.com/shiyanhui/hero](https://github.com/shiyanhui/hero) A handy, fast and powerful go template engine.
+
+#### git
+- [github.com/src-d/go-git](https://github.com/src-d/go-git) A highly extensible Git implementation in pure Go.
+- [github.com/src-d/gitbase](https://github.com/src-d/gitbase) SQL interface to Git repositories, written in Go.

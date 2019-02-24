@@ -19,3 +19,5 @@
 - [ColumnDefaultValue](ColumnDefaultValue.md) 设置字段默认值的那些坑
 - [Schema Manager](Schema.md) Schema管理器的使用
 - [batch processing](batch_processing.md) 批量处理
+- [truncate table](trncate_table.md) 截断表
+- [SQL log](sql_log.md) 开发模式下配置SQL log
