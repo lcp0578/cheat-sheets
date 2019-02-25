@@ -20,6 +20,13 @@
 		  Autowired          no
 		  Autowiring Types   -
 		 ------------------ --------------------------------------------------
+- 设置优先级
+
+		mobile.token_listener:
+            class: MobileBundle\EventListener\TokenLoginListener
+            arguments: ["@router", "@security.token_storage"]
+            tags:
+                - { name: kernel.event_listener, event: kernel.request, priority: 9 }
 - [Login Listener](LoginListener.md) 登录的事件监听
 - [Enable Filter Listener](EnableFilterListener.md) 开启过滤器监听
 - [Guzzle Listener](GuzzleListener.md) GuzzleHttp请求相关监听
