@@ -62,3 +62,7 @@
 - 获取头部信息
 
 		$ua = $request->headers->get('User-Agent');
+- 获取referer
+
+		$this->getRequest()->headers->get('referer')；
+        $request->server->get('HTTP_REFERER');
