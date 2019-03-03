@@ -346,3 +346,4 @@
 	- goridge
 	- roadrunner
 	- Spiral Framework
+	- [github.com/VKCOM/noverify](https://github.com/VKCOM/noverify)  Pretty fast linter (code static analysis utility) for PHP
