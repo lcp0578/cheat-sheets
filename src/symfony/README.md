@@ -120,6 +120,7 @@
 - [web server configuration](Others/web_server_configuration.md)
 #### [Deployment](Deployment/README.md)
 - [proxies](Deployment/proxies.md) 设置代理
+- [symfony deploy](Deployment/deploy.md) symfony项目部署文档
 #### [Webpack Encore](WebpackEncore/README.md) Webpack Encore相关
 - [Webpack Encore](WebpackEncore/README.md) Webpack Encore介绍
 - [Webpack Encore Example](example.md) Webpack Encore使用示例
