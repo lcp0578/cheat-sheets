@@ -4,12 +4,12 @@
 
 	导出数据：
 	
-		mysqldump -u username -p --default-character-set=utf8 databasename > path/databaseName.sql
-	    mysqldump -u username -p --default-character-set=utf8 databasename tableName > path/tableName.sql
+		mysqldump -u root -p --default-character-set=utf8 databasename > path/databaseName.sql
+	    mysqldump -u root -p --default-character-set=utf8 databasename tableName > path/tableName.sql
 	
 	导入数据：
 	
-	    mysql -u username -p --default-character-set=utf8 databasename < path/tableName.sql
+	    mysql -u root -p --default-character-set=utf8 databasename < path/tableName.sql
 	PS: 如果sql文件比较大，会报字符集错误，其实不然，是单独的SQL太大导致。故需要修改配置
 		
 		[mysqld]
