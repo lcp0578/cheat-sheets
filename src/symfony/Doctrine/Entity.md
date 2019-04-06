@@ -25,7 +25,9 @@
 	 * @UniqueEntity(
 	 *     fields={"name", "filed_name"},
 	 *     message="{{ value }}已存在"
-	 * )
+	 * ) //组合不相同
+	 * @DoctrineAssert\UniqueEntity(fields = "fieldA", message="filedA {{ value }}已存在")
+ 	 * @DoctrineAssert\UniqueEntity(fields = "fieldB", message="filedB {{ value }}已存在")
 	 */
 	class Menu
 	{
