@@ -184,6 +184,7 @@
 	- [rz & sz](src/Linux/rzsz.md)
 	- [iconv](src/Linux/iconv.md)
 	- [Aliyun服务器配置IPV6](src/Linux/ipv6_aliyun.md)
+	- [chinese support](src/Linux/chinese_support.md) 中文支持
 9.  [Go](src/Go/README.md "golang")
 	- [gofmt vs go fmt](src/Go/gofmt.md)
 	- [Compiler Directives](src/Go/CompilerDirectives.md)
