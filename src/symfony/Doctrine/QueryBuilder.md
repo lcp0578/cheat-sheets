@@ -1,4 +1,7 @@
 ## Query Builder
+> Doctrine 关于Query Builder的文档
+> https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/query-builder.html
+
 - order by multiple
 
 		$qb->add('orderBy','first_name ASC, last_name ASC')
