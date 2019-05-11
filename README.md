@@ -279,7 +279,7 @@
 29. [svg](src/svg.md)
 30. [wechat](src/wechat/README.md)
 31. [FFmpeg](src/FFmpeg/README.md)
-	- [FFmpeg install](src/FFmpeg/install.md) 编译安装FFmpeg
+	- [FFmpeg install](src/FFmpeg/install.md)  编译安装FFmpeg
 	- [PHP-FFmpeg](src/FFmpeg/PHP-FFmpeg.md) PHP-FFmpeg类库
 32. [OAuth 2.0](src/OAuth2.0/README.md)
 	- [rfc 6749](src/OAuth2.0/rfc6749.md)
