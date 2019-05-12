@@ -11,7 +11,7 @@
         git clone --depth 1 git://github.com/yasm/yasm.git
         cd yasm
         autoreconf -fiv
-        ./configure --prefix="$HOME/ffmpeg_build"--bindir="$HOME/bin"
+        ./configure --prefix="$HOME/ffmpeg_build" --bindir="$HOME/bin"
         make
         make install
         make distclean
@@ -20,7 +20,8 @@
 		cd ~/ffmpeg_sources
         git clone --depth 1 git://git.videolan.org/x264
         cd x264
-        PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./configure --prefix="$HOME/ffmpeg_build"--bindir="$HOME/bin"--enable-static
+        PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" 
+        ./configure --prefix="$HOME/ffmpeg_build" --bindir="$HOME/bin" --enable-static
         make
         make install
         make distclean
@@ -29,7 +30,7 @@
 		cd ~/ffmpeg_sources
         hg clone https://bitbucket.org/multicoreware/x265
         cd ~/ffmpeg_sources/x265/build/linux
-        cmake -G"Unix Makefiles"-DCMAKE_INSTALL_PREFIX="$HOME/ffmpeg_build"-DENABLE_SHARED:bool=off ../../source
+        cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="$HOME/ffmpeg_build" -DENABLE_SHARED:bool=off ../../source
         make
         make install
 - 安装libfdk_aac ，AAC 音频编码器 ，需要ffmpeg编译的时候添加 –enable-libfdk-aac (以及 –enable-nonfree 如果你添加了 –enable-gpl的话)
@@ -38,7 +39,7 @@
         git clone--depth1git://git.code.sf.net/p/opencore-amr/fdk-aac
         cd fdk-aac
         autoreconf-fiv
-        ./configure--prefix="$HOME/ffmpeg_build"--disable-shared
+        ./configure --prefix="$HOME/ffmpeg_build" --disable-shared
         make
         make install
         make distclean
@@ -48,7 +49,7 @@
         curl -L -O http://downloads.sourceforge.net/project/lame/lame/3.99/lame-3.99.5.tar.gz
         tar xzvf lame-3.99.5.tar.gz
         cd lame-3.99.5
-        ./configure --prefix="$HOME/ffmpeg_build"--bindir="$HOME/bin"--disable-shared --enable-nasm
+        ./configure --prefix="$HOME/ffmpeg_build" --bindir="$HOME/bin" --disable-shared --enable-nasm
         make
         make install
         make distclean
@@ -58,7 +59,7 @@
         git clone https://git.xiph.org/opus.git
         cd opus
         autoreconf -fiv
-        ./configure --prefix="$HOME/ffmpeg_build"--disable-shared
+        ./configure --prefix="$HOME/ffmpeg_build" --disable-shared
         make
         make install
         make distclean
@@ -68,7 +69,9 @@
         curl -O http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.4.tar.gz
         tar xzvf libvorbis-1.3.4.tar.gz
         cd libvorbis-1.3.4
-        LDFLAGS="-L$HOME/ffmeg_build/lib"CPPFLAGS="-I$HOME/ffmpeg_build/include"./configure --prefix="$HOME/ffmpeg_build"--with-ogg="$HOME/ffmpeg_build"--disable-shared
+        LDFLAGS="-L$HOME/ffmeg_build/lib" 
+        CPPFLAGS="-I$HOME/ffmpeg_build/include"
+        ./configure --prefix="$HOME/ffmpeg_build" --with-ogg="$HOME/ffmpeg_build" --disable-shared
         make
         make install
         make distclean
@@ -77,7 +80,7 @@
         cd ~/ffmpeg_sources
         git clone https://github.com/webmproject/libvpx.git
         cd libvpx
-        ./configure --prefix="$HOME/ffmpeg_build"--disable-examples
+        ./configure --prefix="$HOME/ffmpeg_build" --disable-examples
         make
         make install
         make clean
