@@ -27,5 +27,17 @@
             {
                 proxy_pass http://127.0.0.1:12001;
             }
+        }
+- Nginx反向代理websocket
 
+		server
+        {
+            listen 8082;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection "upgrade";
+            server_name wateroa.sxjicheng.com;
+            location / {
+                    proxy_pass http://127.0.0.1:8084;
+            }
         }

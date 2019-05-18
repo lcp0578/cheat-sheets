@@ -19,3 +19,4 @@
 - [Aliyun服务器配置IPV6](ipv6_aliyun.md)
 - [chinese support](chinese_support.md) 中文支持
 - [fdisk](fdisk.md) Linux下磁盘挂载
+- [date](date.md) 修改服务器时间
