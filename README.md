@@ -207,6 +207,7 @@
 		- [call cmd.exe](src/Go/windows/call_cmd.md) 调用cmd.exe并隐藏窗口
 	- [Package Management](src/Go/PackageManagement/README.md) 包管理相关
 		- [go modules](src/Go/PackageManagement/gomodules.md)
+		- [goproxy](src/Go/PackageManagement/goproxy.md) 包下载代理
 		- [athens](src/Go/PackageManagement/athens.md)
 	- [Fatal Error](src/Go/FatalError/README.md) 常见的fatal error
 		- [fatal error: concurrent map read and map write](src/Go/FatalError/ConcurrentMap.md)并发读写map错误

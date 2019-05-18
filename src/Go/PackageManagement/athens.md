@@ -1,1 +1,2 @@
 ## athens
+> Athens provides a server for Go Modules that you can run. It serves public code and your private code for you, so you don’t have to pull directly from a version control system (VCS) like GitHub or GitLab.
