@@ -189,6 +189,7 @@
 	- [fdisk](src/Linux/fdisk.md) Linux下磁盘挂载
 	- [date](src/Linux/date.md) 修改服务器时间
 9.  [Go](src/Go/README.md "golang")
+	- [path](src/Go/path.md) 环境变量配置
 	- [gofmt vs go fmt](src/Go/gofmt.md)
 	- [Compiler Directives](src/Go/CompilerDirectives.md)
 	- [for select](src/Go/for-select.md)

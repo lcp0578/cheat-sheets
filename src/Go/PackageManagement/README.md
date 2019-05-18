@@ -39,3 +39,7 @@
 		- `dep status` 查看状态
 		- ·dep ensure -update· 修改Gopkg.toml版本约束后，更新包
 - go module(Go > 1.11)
+	- https://blog.csdn.net/cnwyt/article/details/85695947
+	- https://blog.csdn.net/guoguolifang/article/details/88974747
+	- https://www.jianshu.com/p/bbed916d16ea
+	- https://www.cnblogs.com/apocelipes/archive/2018/08/25/9534885.html

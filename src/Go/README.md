@@ -1,4 +1,5 @@
 ## Go
+- [path](path.md) 环境变量配置
 - [gofmt vs go fmt](gofmt.md)
 - [Compiler Directives](CompilerDirectives.md)
 - [for select](for-select.md)
@@ -14,8 +15,8 @@
 - [windows下开发](windows/README.md)
 	- [call cmd.exe](windows/call_cmd.md) 调用cmd.exe并隐藏窗口
 - [Package Management](README.md) 包管理相关
-	- [go modules](gomodules.md)
-	- [athens](athens.md)
+	- [go modules](PackageManagement/gomodules.md)
+	- [athens](PackageManagement/athens.md)
 - Fatal Error 常见的fatal error
 	- [fatal error: concurrent map read and map write](FatalError/ConcurrentMap.md)并发读写map错误
 - rules  
