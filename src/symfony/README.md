@@ -17,6 +17,7 @@
 #### [Doctrine](Doctrine/README.md) Doctrine相关
 - [Doctrine](Doctrine/Doctrine.md) Doctrine基础知识
 - [Doctrine Types](Doctrine/Types.md) Doctrine字段类型
+- [Doctrine Uuid Type](Doctrine/UuidType.md) UuidType自定义字段类型
 - [An Entity Demo](Doctrine/Entity.md) 一个略复杂的Entity的示例
 - [Validation Constraints](Doctrine/constraints.md) 验证约束设置
 - [Custom Constraint.md](Doctrine/custom_constraint.md)自定义验证约束

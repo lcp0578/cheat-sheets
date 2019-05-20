@@ -6,6 +6,9 @@
 
         # git --version
         git version 1.7.1
+- 卸载系统自带的低版本git
+
+		# yum remove git
 - 升级git
 	- 更新yum
 	
@@ -16,6 +19,7 @@
 	- 下载git源码包
 	
     		wget https://github.com/git/git/archive/v2.18.0.tar.gz
+            //或 https://mirrors.edge.kernel.org/pub/software/scm/git/
     - 解压、安装
     
     		# tar -zxvf v2.18.0.tar.gz
