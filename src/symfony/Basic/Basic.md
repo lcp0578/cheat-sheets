@@ -31,7 +31,7 @@ $encoder->isPasswordValid($user, $userForm->getPassword())；
 ```
 	密码加密:
 ``` php
-	    $password = $encoder->encodePassword($user, $userForm->getPlainPassword());
+$password = $encoder->encodePassword($user, $userForm->getPlainPassword());
 ```
 - 文件上传相关
 ``` php
