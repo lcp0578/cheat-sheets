@@ -242,9 +242,9 @@ mysql> show variables like'log_bin%';
     include-gtids                     (No default value)
     exclude-gtids                     (No default value)
 ```
-	- 常用选项：
-    	- --start-position=953                   起始pos点
-        - --stop-position=1437                   结束pos点
-        - --start-datetime="2019-05-27 13:18:54" 起始时间点
-        - --stop-datetime="2019-05-28 13:21:53"  结束时间点
-        - --database=zyyshop                     指定只恢复zyyshop数据库(一台主机上往往有多个数据库，只限本地log日志)
+- 常用选项：
+    - --start-position=953                   起始pos点
+    - --stop-position=1437                   结束pos点
+    - --start-datetime="2019-05-27 13:18:54" 起始时间点
+    - --stop-datetime="2019-05-28 13:21:53"  结束时间点
+    - --database=zyyshop                     指定只恢复zyyshop数据库(一台主机上往往有多个数据库，只限本地log日志)
