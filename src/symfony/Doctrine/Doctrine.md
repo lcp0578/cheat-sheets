@@ -51,7 +51,7 @@
 		- length=  65535(2 ^ 16 - 1),TEXT 
 		- length=  16777215(2 ^ 24 - 1),MEDIUMTEXT 
 		- length=  4294967295(2 ^ 32 - 1),LONGTEXT 
-	- [mapping-matrix](http://doctrine-dbal.readthedocs.io/en/latest/reference/types.html#mapping-matrix)
+	- [doctrine types 文档](https://www.doctrine-project.org/projects/doctrine-dbal/en/2.6/reference/types.html)
 	
 	self join
 
