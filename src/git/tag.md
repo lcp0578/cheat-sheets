@@ -19,6 +19,10 @@
 - 删除标签
 
 		git tag -d v0.3.2
+        //推送到远端
+        git push origin :refs/tags/v0.3.2
+        To https://github.com/kitlabs-cn/KitCryptBundle.git
+         - [deleted]         v0.3.2
 - 补打标签
 
 		git tag -a v0.3.3 9e768cd048356937ac7dd32e58dde42e64c3bf84 //给指定的commit打标签，查看提交ID通过git log
