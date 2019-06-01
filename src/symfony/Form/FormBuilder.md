@@ -1,9 +1,9 @@
-### FromBuilder  
+### FormBuilder  
 
 1. EntityType  
 
 
-		$form = $this->createFormBuilder($user)
+		$form = $this->createFormBuilder($user) //在控制器
 	            ->add('username')
 	            ->add('password', PasswordType::class)
 	            ->add('repassword', PasswordType::class, [
