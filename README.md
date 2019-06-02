@@ -384,3 +384,5 @@
 	- [upgrade python](src/python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 67. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md) 
+	- [cosocket](src/OpenResty/cosocket.md)
+	- [LuaJIT](src/OpenResty/luajit.md)
