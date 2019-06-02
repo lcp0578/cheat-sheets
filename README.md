@@ -381,4 +381,6 @@
         - [github.com/PuerkitoBio/gocrawl](https://github.com/PuerkitoBio/gocrawl) Polite, slim and concurrent web crawler.
         - [github.com/MontFerret/ferret](https://github.com/MontFerret/ferret) Declarative web scraping
 66. [Python](src/python/README.md)
-- [upgrade python](src/python/upgrade.md) CentOS 6 升级Python 2.6到3.6
+	- [upgrade python](src/python/upgrade.md) CentOS 6 升级Python 2.6到3.6
+67. [OpenResty](src/OpenResty/README.md)
+	- [OpenResty基础](src/OpenResty/basic.md) 
