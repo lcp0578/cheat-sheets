@@ -12,3 +12,4 @@
 - [preg_match VS preg_match_all](preg_match.md) 正则匹配对比
 - [PHP Functions](functions/README.md) PHP常用函数
 - [PHP Extensions](extensions/README.md) PHP常用扩展
+- [php-lua](php_lua.md) PHP调用lua

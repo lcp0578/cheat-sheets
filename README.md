@@ -263,6 +263,7 @@
 	- [preg_match VS preg_match_all](src/PHP/preg_match.md) 正则匹配对比
 	- [PHP Functions](src/PHP/functions/README.md) PHP常用函数
 	- [PHP Extensions](src/PHP/extensions/README.md) PHP常用扩展
+	- [php-lua](src/PHP/php_lua.md) PHP调用lua
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md) 部署项目shell脚本
