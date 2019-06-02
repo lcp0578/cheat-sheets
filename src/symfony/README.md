@@ -86,8 +86,8 @@
 - [command in controller](Command/command_in_controller.md) 在控制器调用command
 - [Custom Command](Command/CustomCommand.md) 自定义command
 - [command lifecycle](Command/command_lifecycle.md)Command生命周期函数
-#### [ReusableBundle](ReusableBundle/REAMDE.md) 创建可重复使用bundle相关
-- [BundleStruct](ReusableBundle/BundleStruct.md) 可复用bundle结构
+#### [ReusableBundle](ReusableBundle/best_practices.md) 创建可重复使用bundle相关
+- [best practices](ReusableBundle/best_practices.md) 可复用bundle的最佳实战
 - [Bundle Configuration](ReusableBundle/BundleConfiguration.md) Bundle配置示例
 #### [Components](Components/README.md) 组件相关
 - [Process](Components/Process.md) 在子进程下执行命令

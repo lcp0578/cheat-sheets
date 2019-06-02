@@ -1,4 +1,6 @@
 ## Defining Services Dependencies Automatically (Autowiring) 自动装配
+> https://symfony.com/doc/3.4/service_container/autowiring.html
+> https://symfony.com/doc/3.4/service_container/3.3-di-changes.html
 - service.yml
 
 		services:

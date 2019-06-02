@@ -46,7 +46,7 @@
 		- [FormBuilder examples](src/symfony/Form/FormBuilder.md "FormBuilder") 表单构造器示例
         - [Validation Note](src/symfony/Form/Validation.md) 表单验证相关 
         - [Validation Groups](src/symfony/Form/ValidationGroups.md) 验证组
-        - [Data Transformers](src/symfony/Form/DataTransformers.md)
+        - [Data Transformers](src/symfony/Form/DataTransformers.md) 数据转换
         - [Pass Custom Options Form](src/symfony/Form/PassCustomOptionsForm.md)
         - [argument value resolver](src/symfony/Form/argument_value_resolver.md)
         - [create custom field type](src/symfony/Form/create_custom_field_type.md)
@@ -88,8 +88,8 @@
 		- [command in controller](src/symfony/Command/command_in_controller.md) 在控制器调用command
 		- [Custom Command](src/symfony/Command/CustomCommand.md) 自定义command
 		- [Command Lifecycle](src/symfony/Command/command_lifecycle.md)Command生命周期函数
-	- [ReusableBundle](src/symfony/ReusableBundle/REAMDE.md) 创建可重复使用bundle相关
-		- [BundleStruct](src/symfony/ReusableBundle/BundleStruct.md) 可复用bundle结构
+	- [ReusableBundle](src/symfony/ReusableBundle/best_practices.md) 创建可重复使用bundle相关
+		- [best practices](src/symfony/ReusableBundle/best_practices.md) 可复用bundle的最佳实战
 		- [Bundle Configuration](src/symfony/ReusableBundle/BundleConfiguration.md) Bundle配置示例
 	- [Components](src/symfony/Components/README.md) 组件相关
 		- [Process](src/symfony/Components/Process.md) 在子进程下执行命令
@@ -266,6 +266,7 @@
 	- [PHP Functions](src/PHP/functions/README.md) PHP常用函数
 	- [PHP Extensions](src/PHP/extensions/README.md) PHP常用扩展
 	- [php-lua](src/PHP/php_lua.md) PHP调用lua
+	- [fgets](src/PHP/fgets.md) fget读取的宽字节字符集问题
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md) 部署项目shell脚本
