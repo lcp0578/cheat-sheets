@@ -5,3 +5,5 @@
 - [master slave](master-slave.md) redis配置主从
 - [redis.conf](redis.conf.md) redis配置文件介绍
 - [Predis VS phpredis](PredisVSphpredis.md) Predis与phpredis对比
+- [persistence](persistence.md)数据持久化
+- [commands](commands.md) 常用命令

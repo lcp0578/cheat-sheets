@@ -221,6 +221,8 @@
 	- [master slave](src/Redis/master-slave.md) redis配置主从
 	- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
 	- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
+	- [persistence](src/Redis/persistence.md)数据持久化
+	- [commands](src/Redis/commands.md) 常用命令
 11. [git相关](src/git/README.md "git")
 	- [git branch](src/git/branch.md) git分支相关
 	- [git tag](src/git/tag.md) git标签相关
