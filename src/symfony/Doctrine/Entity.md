@@ -71,6 +71,19 @@ class Menu
      * @ORM\Column(name="number", type="decimal", precision=30, scale=2, options={"comment":"数值"})
      */
     private $number;
+    
+     /**
+     * @var string
+     *
+     * @ORM\Column(name="mobile", type="string", length=11, options={"comment":"联系人手机号"})
+     * @Assert\NotBlank(message="联系人手机号不能为空")
+     * @Assert\Length(
+     *      max = 11,
+     *      min = 11,
+     *      exactMessage = "联系人手机号应为11位"
+     *      )
+     */
+    private $mobile;
 
     /**
      * @var \DateTime
