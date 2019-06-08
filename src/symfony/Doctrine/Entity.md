@@ -23,11 +23,11 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
  * @ORM\Entity(repositoryClass="AdminBundle\Repository\MenuRepository")
  * @ORM\HasLifecycleCallbacks()
  * @UniqueEntity(
- *     fields={"name", "filed_name"},
+ *     fields={"name", "itemCode"},
  *     message="{{ value }}已存在"
- * ) //组合不相同
- * @UniqueEntity(fields = "fieldA", message="filedA {{ value }}已存在")
- * @UniqueEntity(fields = "fieldB", message="filedB {{ value }}已存在")
+ * ) //两个值的组合不相同,注意name和itemCode必须都在FormType里面，且不能设置为disabled，可以设置readonly
+ * @UniqueEntity(fields = {"itemCode"}, message="itemCode {{ value }}已存在") //itemCode不能相同
+ * @UniqueEntity(fields = {"name"}, message="name {{ value }}已存在")
  */
 class Menu
 {
@@ -154,15 +154,17 @@ class Menu
     {
         return $this->name;
     }
+    
     /**
-    * format name
-    * 
-    * 美化返回名称
-    * /
+     * format name
+     *
+     * 美化返回名称
+     */
     public function getDropName()
     {
         return str_pad(' ', $this->level) . $this->name;
     }
+    
     /**
      * Set englishName
      *
