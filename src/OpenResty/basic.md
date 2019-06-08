@@ -1,7 +1,11 @@
 ## OpenResty基础
 - 启动与关闭
-	- 指定配置文件`$ openresty -p `pwd` -c conf/nginx.conf`
-	- 关闭 `$ openresty -s stop`
+	- 指定配置文件
+	
+    		$ openresty -p `pwd` -c conf/nginx.conf
+	- 关闭 
+	
+    		$ openresty -s stop
 - 查看openresty版本信息和编译参数
 ``` shell
 $ openresty -v

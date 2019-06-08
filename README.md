@@ -393,4 +393,5 @@
 	- [LuaJIT](src/OpenResty/luajit.md)
 	- [APISIX](src/OpenResty/apisix.md)  APISIX is a Cloud-Native Microservices API Gateway
 68. [PostgreSQL](src/PostgreSQL/README.md)
+	- [PostgreSQL for mac](src/PostgreSQL/mac.md) mac下安装及使用
 69. [ICU4C VS ICU4J](src/ICU/README.md)
