@@ -284,6 +284,9 @@
     - [syntax](src/Nginx/syntax.md) 配置语法
     - [nginx errors](src/Nginx/nginx_errors.md) 常见错误及修复办法
     - [install](src/Nginx/install.md) nginx源码编译安装
+27. Apache 
+	- [.htaccess](htaccess.md) 开启.htaccess配置
+	- [mac](mac.md) mac下使用
 27. [Code::Blocks](CodeBlocks.md)
 	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
 28. [Ubuntu](src/Ubuntu/README.md)
