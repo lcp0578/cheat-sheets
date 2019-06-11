@@ -285,7 +285,8 @@
     - [syntax](src/Nginx/syntax.md) 配置语法
     - [nginx errors](src/Nginx/nginx_errors.md) 常见错误及修复办法
     - [install](src/Nginx/install.md) nginx源码编译安装
-27. Apache 
+    - [awk](src/Nginx/awk.md) 利用awk分析access日志
+27. [Apache](src/Apache/README.md) 
 	- [.htaccess](src/Apache/htaccess.md) 开启.htaccess配置
 	- [mac](src/Apache/mac.md) mac下使用
 27. [Code::Blocks](CodeBlocks.md)
