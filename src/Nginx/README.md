@@ -9,3 +9,4 @@
 - [nginx errors](nginx_errors.md) 常见错误及修复办法
 - [install](install.md) nginx源码编译安装
 - [awk](awk.md) 利用awk分析access日志
+- [req limit](limit.md) nginx请求限制
