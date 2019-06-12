@@ -153,9 +153,10 @@
 		
 		public function updateStatus($orderNo, $origin, $new)
 	    {
-	        return $this->createQueryBuilder('o')
+	        $qb = $this->createQueryBuilder('o')
 	            ->update()
-	            ->set('o.status', $new)
+	            ->set('o.status', $new) #int可以直接设置值
+                ->set('o.name', $qb->expr->literal($new)) #string类型需要转换一下
 	            ->set('o.callbackAt', ':datetime')
 	            ->set('o.updateAt',  ':datetime')
 	            ->where('o.orderNo = :orderNo AND o.status = :origin')
