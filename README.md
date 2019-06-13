@@ -194,6 +194,7 @@
 	- [fdisk](src/Linux/fdisk.md) Linux下磁盘挂载
 	- [date](src/Linux/date.md) 修改服务器时间
 	- [lsof](src/Linux/lsof.md) mac下查看端口。lsof（list open files）是一个查看当前系统文件的工具。
+	- [SELinux](src/Linux/SELinux.md) SELinux状态与关闭
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [gofmt vs go fmt](src/Go/gofmt.md)

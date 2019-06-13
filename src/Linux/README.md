@@ -21,3 +21,4 @@
 - [fdisk](fdisk.md) Linux下磁盘挂载
 - [date](date.md) 修改服务器时间
 - [lsof](lsof.md) mac下查看端口。lsof（list open files）是一个查看当前系统文件的工具。
+- [SELinux](SELinux.md) SELinux状态与关闭
