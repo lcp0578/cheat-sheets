@@ -11,3 +11,4 @@
 - [Config](Config.md) 配置文件组件，支持YAML, XML, INI格式或数据库。
 - [Debug](Debug.md) 方便调试的组件
 - [VarDumper](VarDumper) 调试时打印信息的组件
+- [Cache](Cache.md) 缓存组件，遵循PSR-6、PSR-16规范
