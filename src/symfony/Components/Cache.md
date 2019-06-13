@@ -49,11 +49,11 @@
     ```
 - Basic Usage (PSR-6)  
 To use the more-advanced, PSR-6 Caching abilities, you'll need to learn its key concepts:
-	- Item
+	- Item  
 	A single unit of information stored as a key/value pair, where the key is the unique identifier of the information and the value is its contents;
-	- Pool
+	- Pool  
 	A logical repository of cache items. All cache operations (saving items, looking for items, etc.) are performed through the pool. Applications can define as many pools as needed.
-	- Adapter
+	- Adapter  
 	It implements the actual caching mechanism to store the information in the filesystem, in a database, etc. The component provides several ready to use adapters for common caching backends (Redis, APCu, Doctrine, PDO, etc.)
     ``` php
     use Symfony\Component\Cache\Adapter\FilesystemAdapter;
