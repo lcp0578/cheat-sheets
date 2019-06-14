@@ -1,6 +1,7 @@
 # :elephant: cheat sheets :memo:
 
 1.  [symfony](src/symfony/README.md "symfony") 
+	- [Symfony Guide 入门指南](src/symfony/Guide/README.md)
 	- [Basic](src/symfony/Basic/README.md) 基础和常用
 		- [Basic](src/symfony/Basic/Basic.md) 基础知识点
 		- [Symfony Twig Extensions](src/symfony/Basic/SymfonyTwigExtensions.md) symfony对Twig的扩展
