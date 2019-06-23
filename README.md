@@ -199,6 +199,7 @@
 	- [glibc 简介与升级](src/Linux/glibc.md)
 	- [init 6 VS reboot](src/Linux/init6_reboot.md)
 	- [rpm包使用命令](src/Linux/rpm.md)
+	- [logrotate 日志分割](src/Linux/logrotate.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [gofmt vs go fmt](src/Go/gofmt.md)

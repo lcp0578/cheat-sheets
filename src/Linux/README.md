@@ -25,3 +25,4 @@
 - [glibc 简介与升级](glibc.md)
 - [init 6 VS reboot](init6_reboot.md)
 - [rpm包使用命令](rpm.md)
+- [logrotate 日志分割](logrotate.md)
