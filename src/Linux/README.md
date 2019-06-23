@@ -23,3 +23,5 @@
 - [lsof](lsof.md) mac下查看端口。lsof（list open files）是一个查看当前系统文件的工具。
 - [SELinux](SELinux.md) SELinux状态与关闭
 - [glibc 简介与升级](glibc.md)
+- [init 6 VS reboot](init6_reboot.md)
+- [rpm包使用命令](rpm.md)
