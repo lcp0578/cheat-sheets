@@ -223,29 +223,10 @@
 		            redirect_url:         ~
 		            return_raw:           true
 - 调试与查看当前配置文件信息
-region i { $ php bin/console debug:config monolog
-Current configuration for extension with alias "monolog"
-        ========================================================
+<details>
+<summary>`$ php bin/console debug:config monolog`</summary>
 
-        monolog:
-            handlers:
-                main:
-                    type: stream
-                    path: /home/data/wateroa.sxjicheng.com/wateroa/var/logs/dev.log
-                    level: debug
-                    channels:
-                        type: exclusive
-                        elements:
-                            - event
-                    priority: 0
-                    bubble: true
-                    app_name: null
-                    include_stacktraces: false
-} region
-
-		$ php bin/console debug:config monolog
-
-        Current configuration for extension with alias "monolog"
+		Current configuration for extension with alias "monolog"
         ========================================================
 
         monolog:
@@ -442,6 +423,7 @@ Current configuration for extension with alias "monolog"
                     nested: false
             use_microseconds: true
             channels: {  }
+</details>
 - 调试和查看 event dispatcher
 
 		$ php bin/console debug:event-dispatcher kernel.response
