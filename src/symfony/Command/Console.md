@@ -223,207 +223,207 @@
 		            redirect_url:         ~
 		            return_raw:           true
 - 调试与查看当前配置文件信息
-<details>
-<summary> ```$ php bin/console debug:config monolog ```</summary>
+    <details>
+    <summary>$ php bin/console debug:config monolog</summary>
 
- Current configuration for extension with alias "monolog"
-        ========================================================
+     Current configuration for extension with alias "monolog"
+            ========================================================
 
-        monolog:
-            handlers:
-                main:
-                    type: stream
-                    path: /home/data/wateroa.sxjicheng.com/wateroa/var/logs/dev.log
-                    level: debug
-                    channels:
-                        type: exclusive
-                        elements:
-                            - event
-                    priority: 0
-                    bubble: true
-                    app_name: null
-                    include_stacktraces: false
-                    process_psr_3_messages: true
-                    file_permission: null
-                    filename_format: '{filename}-{date}'
-                    date_format: Y-m-d
-                    ident: false
-                    logopts: 1
-                    facility: user
-                    max_files: 0
-                    action_level: WARNING
-                    activation_strategy: null
-                    stop_buffering: true
-                    passthru_level: null
-                    excluded_404s: {  }
-                    excluded_http_codes: {  }
-                    accepted_levels: {  }
-                    min_level: DEBUG
-                    max_level: EMERGENCY
-                    buffer_size: 0
-                    flush_on_overflow: false
-                    exchange_name: log
-                    message_format: text
-                    api_version: null
-                    channel: null
-                    bot_name: Monolog
-                    use_attachment: true
-                    use_short_attachment: false
-                    include_extra: false
-                    icon_emoji: null
-                    notify: false
-                    nickname: Monolog
-                    use_ssl: true
-                    title: null
-                    host: null
-                    port: 514
-                    index: monolog
-                    document_type: logs
-                    ignore_error: false
-                    config: {  }
-                    members: {  }
-                    to_email: {  }
-                    content_type: null
-                    mailer: mailer
-                    lazy: true
-                    time: 60
-                    deduplication_level: 400
-                    store: null
-                    client_id: null
-                    auto_log_stacks: false
-                    release: null
-                    message_type: 0
-                    tags: {  }
-                    nested: false
-                console:
-                    type: console
-                    process_psr_3_messages: false
-                    channels:
-                        type: exclusive
-                        elements:
-                            - event
-                            - doctrine
-                            - console
-                    priority: 0
-                    level: DEBUG
-                    bubble: true
-                    app_name: null
-                    include_stacktraces: false
-                    path: /home/data/wateroa.sxjicheng.com/wateroa/var/logs/dev.log
-                    file_permission: null
-                    filename_format: '{filename}-{date}'
-                    date_format: Y-m-d
-                    ident: false
-                    logopts: 1
-                    facility: user
-                    max_files: 0
-                    action_level: WARNING
-                    activation_strategy: null
-                    stop_buffering: true
-                    passthru_level: null
-                    excluded_404s: {  }
-                    excluded_http_codes: {  }
-                    accepted_levels: {  }
-                    min_level: DEBUG
-                    max_level: EMERGENCY
-                    buffer_size: 0
-                    flush_on_overflow: false
-                    exchange_name: log
-                    message_format: text
-                    api_version: null
-                    channel: null
-                    bot_name: Monolog
-                    use_attachment: true
-                    use_short_attachment: false
-                    include_extra: false
-                    icon_emoji: null
-                    notify: false
-                    nickname: Monolog
-                    use_ssl: true
-                    title: null
-                    host: null
-                    port: 514
-                    index: monolog
-                    document_type: logs
-                    ignore_error: false
-                    config: {  }
-                    members: {  }
-                    to_email: {  }
-                    content_type: null
-                    mailer: mailer
-                    lazy: true
-                    time: 60
-                    deduplication_level: 400
-                    store: null
-                    client_id: null
-                    auto_log_stacks: false
-                    release: null
-                    message_type: 0
-                    tags: {  }
-                    nested: false
-                server_log:
-                    type: server_log
-                    process_psr_3_messages: false
-                    host: '127.0.0.1:9911'
-                    priority: 0
-                    level: DEBUG
-                    bubble: true
-                    app_name: null
-                    include_stacktraces: false
-                    path: /home/data/wateroa.sxjicheng.com/wateroa/var/logs/dev.log
-                    file_permission: null
-                    filename_format: '{filename}-{date}'
-                    date_format: Y-m-d
-                    ident: false
-                    logopts: 1
-                    facility: user
-                    max_files: 0
-                    action_level: WARNING
-                    activation_strategy: null
-                    stop_buffering: true
-                    passthru_level: null
-                    excluded_404s: {  }
-                    excluded_http_codes: {  }
-                    accepted_levels: {  }
-                    min_level: DEBUG
-                    max_level: EMERGENCY
-                    buffer_size: 0
-                    flush_on_overflow: false
-                    exchange_name: log
-                    message_format: text
-                    api_version: null
-                    channel: null
-                    bot_name: Monolog
-                    use_attachment: true
-                    use_short_attachment: false
-                    include_extra: false
-                    icon_emoji: null
-                    notify: false
-                    nickname: Monolog
-                    use_ssl: true
-                    title: null
-                    port: 514
-                    index: monolog
-                    document_type: logs
-                    ignore_error: false
-                    config: {  }
-                    members: {  }
-                    to_email: {  }
-                    content_type: null
-                    mailer: mailer
-                    lazy: true
-                    time: 60
-                    deduplication_level: 400
-                    store: null
-                    client_id: null
-                    auto_log_stacks: false
-                    release: null
-                    message_type: 0
-                    tags: {  }
-                    nested: false
-            use_microseconds: true
-            channels: {  }
-</details>
+            monolog:
+                handlers:
+                    main:
+                        type: stream
+                        path: /home/data/wateroa.sxjicheng.com/wateroa/var/logs/dev.log
+                        level: debug
+                        channels:
+                            type: exclusive
+                            elements:
+                                - event
+                        priority: 0
+                        bubble: true
+                        app_name: null
+                        include_stacktraces: false
+                        process_psr_3_messages: true
+                        file_permission: null
+                        filename_format: '{filename}-{date}'
+                        date_format: Y-m-d
+                        ident: false
+                        logopts: 1
+                        facility: user
+                        max_files: 0
+                        action_level: WARNING
+                        activation_strategy: null
+                        stop_buffering: true
+                        passthru_level: null
+                        excluded_404s: {  }
+                        excluded_http_codes: {  }
+                        accepted_levels: {  }
+                        min_level: DEBUG
+                        max_level: EMERGENCY
+                        buffer_size: 0
+                        flush_on_overflow: false
+                        exchange_name: log
+                        message_format: text
+                        api_version: null
+                        channel: null
+                        bot_name: Monolog
+                        use_attachment: true
+                        use_short_attachment: false
+                        include_extra: false
+                        icon_emoji: null
+                        notify: false
+                        nickname: Monolog
+                        use_ssl: true
+                        title: null
+                        host: null
+                        port: 514
+                        index: monolog
+                        document_type: logs
+                        ignore_error: false
+                        config: {  }
+                        members: {  }
+                        to_email: {  }
+                        content_type: null
+                        mailer: mailer
+                        lazy: true
+                        time: 60
+                        deduplication_level: 400
+                        store: null
+                        client_id: null
+                        auto_log_stacks: false
+                        release: null
+                        message_type: 0
+                        tags: {  }
+                        nested: false
+                    console:
+                        type: console
+                        process_psr_3_messages: false
+                        channels:
+                            type: exclusive
+                            elements:
+                                - event
+                                - doctrine
+                                - console
+                        priority: 0
+                        level: DEBUG
+                        bubble: true
+                        app_name: null
+                        include_stacktraces: false
+                        path: /home/data/wateroa.sxjicheng.com/wateroa/var/logs/dev.log
+                        file_permission: null
+                        filename_format: '{filename}-{date}'
+                        date_format: Y-m-d
+                        ident: false
+                        logopts: 1
+                        facility: user
+                        max_files: 0
+                        action_level: WARNING
+                        activation_strategy: null
+                        stop_buffering: true
+                        passthru_level: null
+                        excluded_404s: {  }
+                        excluded_http_codes: {  }
+                        accepted_levels: {  }
+                        min_level: DEBUG
+                        max_level: EMERGENCY
+                        buffer_size: 0
+                        flush_on_overflow: false
+                        exchange_name: log
+                        message_format: text
+                        api_version: null
+                        channel: null
+                        bot_name: Monolog
+                        use_attachment: true
+                        use_short_attachment: false
+                        include_extra: false
+                        icon_emoji: null
+                        notify: false
+                        nickname: Monolog
+                        use_ssl: true
+                        title: null
+                        host: null
+                        port: 514
+                        index: monolog
+                        document_type: logs
+                        ignore_error: false
+                        config: {  }
+                        members: {  }
+                        to_email: {  }
+                        content_type: null
+                        mailer: mailer
+                        lazy: true
+                        time: 60
+                        deduplication_level: 400
+                        store: null
+                        client_id: null
+                        auto_log_stacks: false
+                        release: null
+                        message_type: 0
+                        tags: {  }
+                        nested: false
+                    server_log:
+                        type: server_log
+                        process_psr_3_messages: false
+                        host: '127.0.0.1:9911'
+                        priority: 0
+                        level: DEBUG
+                        bubble: true
+                        app_name: null
+                        include_stacktraces: false
+                        path: /home/data/wateroa.sxjicheng.com/wateroa/var/logs/dev.log
+                        file_permission: null
+                        filename_format: '{filename}-{date}'
+                        date_format: Y-m-d
+                        ident: false
+                        logopts: 1
+                        facility: user
+                        max_files: 0
+                        action_level: WARNING
+                        activation_strategy: null
+                        stop_buffering: true
+                        passthru_level: null
+                        excluded_404s: {  }
+                        excluded_http_codes: {  }
+                        accepted_levels: {  }
+                        min_level: DEBUG
+                        max_level: EMERGENCY
+                        buffer_size: 0
+                        flush_on_overflow: false
+                        exchange_name: log
+                        message_format: text
+                        api_version: null
+                        channel: null
+                        bot_name: Monolog
+                        use_attachment: true
+                        use_short_attachment: false
+                        include_extra: false
+                        icon_emoji: null
+                        notify: false
+                        nickname: Monolog
+                        use_ssl: true
+                        title: null
+                        port: 514
+                        index: monolog
+                        document_type: logs
+                        ignore_error: false
+                        config: {  }
+                        members: {  }
+                        to_email: {  }
+                        content_type: null
+                        mailer: mailer
+                        lazy: true
+                        time: 60
+                        deduplication_level: 400
+                        store: null
+                        client_id: null
+                        auto_log_stacks: false
+                        release: null
+                        message_type: 0
+                        tags: {  }
+                        nested: false
+                use_microseconds: true
+                channels: {  }
+    </details>
 
 - 调试和查看 event dispatcher
 
