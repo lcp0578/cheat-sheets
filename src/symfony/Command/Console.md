@@ -224,9 +224,9 @@
 		            return_raw:           true
 - 调试与查看当前配置文件信息
 <details>
-<summary> <code> $ php bin/console debug:config monolog </code> </summary>
+<summary> ```$ php bin/console debug:config monolog ```</summary>
 
-	Current configuration for extension with alias "monolog"
+ Current configuration for extension with alias "monolog"
         ========================================================
 
         monolog:
@@ -424,6 +424,7 @@
             use_microseconds: true
             channels: {  }
 </details>
+
 - 调试和查看 event dispatcher
 
 		$ php bin/console debug:event-dispatcher kernel.response
