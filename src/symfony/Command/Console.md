@@ -224,9 +224,9 @@
 		            return_raw:           true
 - 调试与查看当前配置文件信息
 <details>
-<summary>`$ php bin/console debug:config monolog`</summary>
+<summary> <code> $ php bin/console debug:config monolog </code> </summary>
 
-		Current configuration for extension with alias "monolog"
+	Current configuration for extension with alias "monolog"
         ========================================================
 
         monolog:
