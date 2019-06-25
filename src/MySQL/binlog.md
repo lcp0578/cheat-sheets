@@ -6,8 +6,8 @@ binlog_format = row    //binlog日志格式，建议使用row
 log-bin = mysql-bin    //binlog日志文件
 expire_logs_days = 7               //binlog过期清理时间
 max_binlog_size = 1G             //binlog每个日志文件大小
-binlog_cache_size = 4m             //binlog缓存大小
-max_binlog_cache_size = 512m        //最大binlog缓存大小
+binlog_cache_size = 64M            //binlog缓存大小
+max_binlog_cache_size = 512M        //最大binlog缓存大小
 binlog_row_image = full
 ```
 - [binlog_format](binlog_format.md)  binlog_format模式介绍
