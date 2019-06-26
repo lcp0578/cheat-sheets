@@ -1,5 +1,5 @@
 ## show processlist
-> https://dev.mysql.com/doc/refman/5.7/en/general-thread-states.html
+> 查看状态，官方文档：https://dev.mysql.com/doc/refman/5.7/en/general-thread-states.html
 
 
 		mysql> SHOW PROCESSLIST;
