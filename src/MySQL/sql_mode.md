@@ -26,7 +26,7 @@
 	在严格模式，不要将 '0000-00-00'做为合法日期。你仍然可以用IGNORE选项插入零日期。在非严格模式，可以接受该日期，但会生成警告
 	- ERROR_FOR_DIVISION_BY_ZERO：  
 	在严格模式，在INSERT或UPDATE过程中，如果被零除(或MOD(X，0))，则产生错误(否则为警告)。如果未给出该模式，被零除时MySQL返回NULL。如果用到INSERT IGNORE或UPDATE IGNORE中，MySQL生成被零除警告，但操作结果为NULL。
-	- NO_AUTO_CREATE_USER  
+	- NO_AUTO_CREATE_USER    **注意：MySQL8移除了此模式**
 	防止GRANT自动创建新用户，除非还指定了密码。
 	- NO_ENGINE_SUBSTITUTION：  
 	如果需要的存储引擎被禁用或未编译，那么抛出错误。不设置此值时，用默认的存储引擎替代，并抛出一个异常
@@ -34,7 +34,7 @@
 	
 		[mysqld] #必须写到此模块下，才可生效
 		....
-		sql_mode ='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';
+		sql_mode ='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 - 设置NO_ZERO_DATE
 
         ERROR 1292 (22007): Incorrect datetime value: '0000-00-00 00:00:00'
