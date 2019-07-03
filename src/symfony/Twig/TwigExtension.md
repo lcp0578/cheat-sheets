@@ -7,7 +7,7 @@
 		
 		use Symfony\Component\DependencyInjection\ContainerInterface;
 		
-		class ThemeExtension extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
+		class ThemeExtension extends \Twig\Extension\AbstractExtension implements \Twig\Extension\GlobalsInterface
 		{
 		    private $container;
 		    
