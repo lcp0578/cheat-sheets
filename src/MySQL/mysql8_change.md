@@ -11,6 +11,7 @@
             The PASSWORD() function. Additionally, PASSWORD() removal means that SET PASSWORD ... = PASSWORD('auth_string') syntax is no longer available.
 	- 默认加密方式为`caching_sha2_password`
 	
+    		[mysqld]
     		default_authentication_plugin=mysql_native_password #更换为原来的加密方式
 - X Plugin默认跟随启动。
 	- 跟随启动后，如果你是用socket，它会在相同目录生成mysqlx.sock。并且他的连接方式强制要SSL。

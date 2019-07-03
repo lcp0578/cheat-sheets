@@ -45,6 +45,7 @@
 		- [log日志配置](src/symfony/config/log.md)
 	- [Router](src/symfony/Router/README.md) 路由相关
 		- [routing.yml](src/symfony/Router/routing.yml.md) yml路由配置示例
+		- [Custom Route Loader](src/symfony/Router/Custom Route Loader.md) 定制路由加载器
 	- [Form](src/symfony/Form/README.md) 表单相关
 		- [FormBuilder examples](src/symfony/Form/FormBuilder.md "FormBuilder") 表单构造器示例
         - [Validation Note](src/symfony/Form/Validation.md) 表单验证相关 
@@ -92,6 +93,7 @@
 		- [command in controller](src/symfony/Command/command_in_controller.md) 在控制器调用command
 		- [Custom Command](src/symfony/Command/CustomCommand.md) 自定义command
 		- [Command Lifecycle](src/symfony/Command/command_lifecycle.md)Command生命周期函数
+		- [Console Command Style](src/symfony/Command/Style.md) 命令样式
 	- [ReusableBundle](src/symfony/ReusableBundle/best_practices.md) 创建可重复使用bundle相关
 		- [best practices](src/symfony/ReusableBundle/best_practices.md) 可复用bundle的最佳实战
 		- [Bundle Configuration](src/symfony/ReusableBundle/BundleConfiguration.md) Bundle配置示例
