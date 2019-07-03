@@ -1,6 +1,6 @@
 ## Router
 - [routing.yml](routing.yml.md) yml路由配置示例
-- [Custom Route Loader](Custom Route Loader.md) 定制路由加载器
+- [Custom Route Loader](CustomRouteLoader.md) 自定义路由加载器
 - 用命令调试route
 
 		php bin/console debug:router api_login_index

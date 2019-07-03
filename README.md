@@ -45,7 +45,7 @@
 		- [log日志配置](src/symfony/config/log.md)
 	- [Router](src/symfony/Router/README.md) 路由相关
 		- [routing.yml](src/symfony/Router/routing.yml.md) yml路由配置示例
-		- [Custom Route Loader](src/symfony/Router/Custom Route Loader.md) 定制路由加载器
+		- [Custom Route Loader](src/symfony/Router/CustomRouteLoader.md) 自定义路由加载器
 	- [Form](src/symfony/Form/README.md) 表单相关
 		- [FormBuilder examples](src/symfony/Form/FormBuilder.md "FormBuilder") 表单构造器示例
         - [Validation Note](src/symfony/Form/Validation.md) 表单验证相关 
