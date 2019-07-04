@@ -51,6 +51,10 @@
 		        ])
 		            ->getQuery()
 		            ->useQueryCache(true) // query cache
-		            ->useResultCache(true, 86400, 'left_nav') //result cache
+		            ->useResultCache(true, 86400, sprintf('left_nav_%s', implode('_' , $ids)) //result cache
 		            ->getResult();
 		    }
+	- 更新或者删除时，让缓存失效
+	
+    		// in Repository
+    		$this->_em->getConfiguration()->getResultCacheImpl()->delete($cacheId);

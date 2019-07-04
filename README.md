@@ -417,3 +417,5 @@
 70. [PostgreSQL](src/PostgreSQL/README.md)
 	- [PostgreSQL for mac](src/PostgreSQL/mac.md) mac下安装及使用
 71. [ICU4C VS ICU4J](src/ICU/README.md)
+72. [VS Code](src/VSCode/README.md)
+	- [go 环境配置](src/VSCode/go.md)
