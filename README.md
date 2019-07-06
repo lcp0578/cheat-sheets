@@ -205,6 +205,7 @@
 	- [init 6 VS reboot](src/Linux/init6_reboot.md)
 	- [rpm包使用命令](src/Linux/rpm.md)
 	- [logrotate 日志分割](src/Linux/logrotate.md)
+	- [find 文件查找](src/Linux/find.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [gofmt vs go fmt](src/Go/gofmt.md)
@@ -335,7 +336,7 @@
 	- [InstallShield](src/VisualStudio/InstallShield.md)
 43. [java](src/java/README.md)
 	- [eclipse](src/java/eclipse.md)eclipse相关
-	- [jar](src/java/jar.md) jar反编译
+	- [jar](src/java/jar.md) jar运行、反编译
 	- [jdk](src/java/jdk.md) jdk安装
 	- [tomcat](src/java/tomcat.md)Tomcat安装
 44. [xunsearch](src/xunsearch/README.md)
