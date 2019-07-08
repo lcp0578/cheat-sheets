@@ -6,6 +6,7 @@
 - [github.com/gorilla/websocket](https://github.com/gorilla/websocket) websocket实现
 - [github.com/nsqio/nsq](https://github.com/nsqio/nsq) 分布式消息平台
 - [github.com/uber-go/zap](https://github.com/uber-go/zap) Uber日志库
+- [github.com/sirupsen/logrus](https://github.com/sirupsen/logrus) 日志库
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging) 图像处理服务
 - [github.com/jroimartin/gocui](https://github.com/jroimartin/gocui) Go命令行用户交互UI
 - [github.com/gorilla/mux](https://github.com/gorilla/mux) 路由类库
