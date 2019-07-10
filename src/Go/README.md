@@ -12,6 +12,7 @@
 	- [binary](StandardLibrary/binary.md)
 	- [hex](StandardLibrary/hex.md) 16进制操作包
 	- [context](StandardLibrary/context.md)
+	- [sync](StandardLibrary/sync.md)
 - [Others Library](OthersLibrary/README.md) 其他类库笔记
 - [windows下开发](windows/README.md)
 	- [call cmd.exe](windows/call_cmd.md) 调用cmd.exe并隐藏窗口

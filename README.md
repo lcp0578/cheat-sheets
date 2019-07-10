@@ -221,6 +221,7 @@
         - [binary](src/Go/StandardLibrary/binary.md)
         - [hex](src/Go/StandardLibrary/hex.md) 16进制操作包
         - [context](src/Go/StandardLibrary/context.md)
+        - [sync](src/Go/StandardLibrary/sync.md)
     - [Others Library](src/Go/OthersLibrary/README.md) 其他类库笔记
     - [windows下开发](src/Go/windows/README.md)
 		- [call cmd.exe](src/Go/windows/call_cmd.md) 调用cmd.exe并隐藏窗口

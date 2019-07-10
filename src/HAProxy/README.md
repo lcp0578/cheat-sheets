@@ -1,4 +1,10 @@
 ## HAProxy
+> http://www.haproxy.org
+
+- 相关资料
+	- [https://segmentfault.com/a/1190000007532860](https://segmentfault.com/a/1190000007532860)
+	- [HAProxy用法详解 全网最详细中文文档](http://www.ttlsa.com/linux/haproxy-study-tutorial/)
+
 - 下载
 
 		wget http://fossies.org/linux/misc/haproxy-1.6.9.tar.gz
