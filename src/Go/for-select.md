@@ -1,4 +1,6 @@
 ## for select
+> https://wudaijun.com/2017/10/go-select/
+
 - return 退出
 
 		package main 
