@@ -195,6 +195,8 @@
 	- [tar](src/Linux/tar.md)
 	- [df & du](src/Linux/df_du.md)
 	- [scp](src/Linux/scp.md)
+	- [history](src/Linux/history.md)
+	- [sed](src/Linux/sed.md)
 	- [rz & sz](src/Linux/rzsz.md)
 	- [iconv](src/Linux/iconv.md)
 	- [Aliyun服务器配置IPV6](src/Linux/ipv6_aliyun.md)

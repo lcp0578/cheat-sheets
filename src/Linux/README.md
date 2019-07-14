@@ -14,6 +14,8 @@
 - [tar](tar.md)
 - [df & du](df_du.md)
 - [scp](scp.md)
+- [history](history.md)
+- [sed](sed.md)
 - [rz & sz](rzsz.md)
 - [iconv](iconv.md)
 - [Aliyun服务器配置IPV6](ipv6_aliyun.md)
