@@ -15,7 +15,9 @@
 - [update root password](root_password.md)
 - [windows mysql](windows_mysql.md) windows下安装mysql
 - [DROP INDEX](DROP_INDEX.md)
-- [Atlas](Atlas.md) Atlas (MySQL proxy) 使用
+- [360 Atlas (MySQL proxy)](Atlas.md)
+- [ProxySQL (C++实现的MySQL Proxy)](ProxySQL.md)
+- [kingshard (go实现，MySQL Proxy和简化分库分表)](kingshard.md)
 - [MySQL 8 的变化](mysql8_change.md)
 - [MySQL 8 windows install](mysql8_windows_install.md) MySQL8在windows下的安装
 - [MySQL8 authentication plugin](mysql8_authentication_plugin.md)MySQL8密码验证插件更换后，问题解决办法
