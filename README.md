@@ -41,6 +41,8 @@
 		- [batch processing](src/symfony/Doctrine/batch_processing.md) 批量处理
 		- [truncate table](src/symfony/Doctrine/truncate_table.md) 截断表
 		- [SQL log](src/symfony/Doctrine/sql_log.md) 开发模式下配置SQL log
+		- [Working with Objects 对象工作模式](src/symfony/Doctrine/WorkingWithObjects.md)
+		- [Transactions And Concurrency 事务与并发](src/symfony/Doctrine/TransactionsAndConcurrency.md) 
 	- [config 框架配置相关](src/symfony/config/README.md)
 		- [log日志配置](src/symfony/config/log.md)
 	- [Router](src/symfony/Router/README.md) 路由相关

@@ -21,3 +21,5 @@
 - [batch processing](batch_processing.md) 批量处理
 - [truncate table](trncate_table.md) 截断表
 - [SQL log](sql_log.md) 开发模式下配置SQL log
+- [Working with Objects 对象工作模式](WorkingWithObjects.md)
+- [Transactions And Concurrency 事务与并发](TransactionsAndConcurrency.md) 
