@@ -1,4 +1,6 @@
 ## Transactions and Concurrency
+> https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/transactions-and-concurrency.html
+
 - Transaction Demarcation 事务划分
 	- For the most part, Doctrine 2 already takes care of proper transaction demarcation for you: All the write operations (INSERT/UPDATE/DELETE) are queued until EntityManager#flush() is invoked which wraps all of these changes in a single transaction. 
 	- 在大多数情况下，Doctrine 2已经为你完成了正确的事务划分：所有写操作（INSERT / UPDATE / DELETE）都会排队，直到调用EntityManager＃flush（），它会在单个事务中包装所有这些更改。

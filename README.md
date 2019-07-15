@@ -173,6 +173,10 @@
 	- [MySQL8 authentication plugin](src/MySQL/mysql8_authentication_plugin.md)MySQL8密码验证插件更换后，问题解决办法
 	- [show processlist](src/MySQL/show_processlist.md) 查看正在运行的线程
 	- [bin log](src/MySQL/binlog.md) bin log恢复数据
+	- [Optimistic and Pessimistic Lock 乐观锁与悲观锁](src/MySQL/PessimisticOptimisticLock.md)
+	- [MVCC 多版本并发控制](src/MySQL/MVCC.md)
+	- [MySQL数据库事务隔离级别(Transaction Isolation Level)](src/MySQL/TransactionIsolationLevel.md)
+	- [Innodb锁机制](src/MySQL/InnodbLock.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关

@@ -23,3 +23,7 @@
 - [MySQL8 authentication plugin](mysql8_authentication_plugin.md)MySQL8密码验证插件更换后，问题解决办法
 - [show processlist](show_processlist.md) 查看正在运行的线程
 - [bin log](binlog.md) bin log恢复数据
+- [Optimistic and Pessimistic Lock 乐观锁与悲观锁](PessimisticOptimisticLock.md)
+- [MVCC 多版本并发控制](MVCC.md)
+- [MySQL数据库事务隔离级别(Transaction Isolation Level)](TransactionIsolationLevel.md)
+- [Innodb锁机制](InnodbLock.md)
