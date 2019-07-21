@@ -370,6 +370,7 @@
 	- [MQTT](src/TCPIP/MQTT/README.md) 消息队列遥测传输协议
 51. [Docker](src/Docker/README.md) Docker相关
 	- [在CentOS上安装Docker CE](src/Docker/install_centos.md)
+	- [docker-compose 安装与介绍](src/Docker/docker-compose.md)
 52. [OA](src/OA/README.md)
 	- [file2pdf](src/OA/file2pdf.md) 文件转PDF
 	- [install fonts](src/OA/install_fonts.md)安装中文字体 	
