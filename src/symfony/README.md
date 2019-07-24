@@ -30,6 +30,7 @@
 - [Custom DQL Funtions](Doctrine/CustomDQLFunctions.md) 自定义DQL函数
 - [DQL(Doctrine Query Language)](Doctrine/DQL.md) DQL相关
 - [QueryBuilder examples](Doctrine/QueryBuilder.md "QueryBuilder") 查询构造器示例
+- [Query Builder SubQuery 查询构造器嵌套子查询](Doctrine/QueryBuilderSubQuery.md)
 - [RawSQLQuery examples](Doctrine/RawSQLQuery.md "RawSQLQuery") 原生SQL查询
 - [associations](Doctrine/associations.md) 表之间关联
 - [Table to Entity (reverse engineering)](Doctrine/TableToEntity.md) 数据表转Entity（逆向工程）
