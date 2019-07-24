@@ -116,6 +116,7 @@
 		- [Cache](src/symfony/Components/Cache.md) 缓存组件，遵循PSR-6、PSR-16规范
 	- [Bundles Note](src/symfony/Bundles-Note/README.md) 第三方bundle使用笔记 
 		- [DoctrineFixturesBundle](src/symfony/Bundles-Note/DoctrineFixturesBundle.md)	初始化数据Bundle笔记
+		- [KnpPaginatorBundle 分页bundle使用遇到的问题](src/symfony/Bundles-Note/knp-paginator-bundle.md)
 	- [symfony coding standard](src/symfony/SymfonyCodingStandard/README.md) Symfony编码规范
 		- [code conventions](src/symfony/SymfonyCodingStandard/code-conventions.md) 代码约定
 		- [code standards](src/symfony/SymfonyCodingStandard/code-standards.md) 代码标准
