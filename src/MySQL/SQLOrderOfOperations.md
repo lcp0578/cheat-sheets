@@ -1,0 +1,35 @@
+## SQL Order of Operations SQL操作顺序
+> As we said, the SQL standard defines the order of execution for the different SQL query clauses. Said that, modern databases are already challanaging that default order by applying some optimization tricks which might change the actual order of execution, though they must end up returning the same result as if they were running the query at the default execution order.
+> Why would they do that? Well, it can be silly if the database would first fetch all data mentioned in the FROM clause (including the JOINs), before looking into the WHERE clause and its indexes. Those tables can hold lots of data, so you can imagine what will happen if the database’s optimizer would stick to the traditional order of operations of an SQL query.
+
+Let’s look into each of the SQL query parts according to their execution order.
+1. FROM, including JOINs
+> The tables specified in the FROM clause (including JOINs), will be evaluated first, to determine the entire working set which is relevant for the query. The database will merge the data from all tables, according to the JOINs ON clauses, while also fetching data from the subqueries, and might even create some temporary tables to hold the data returned from the subqueries in this clause.
+> In many cases though, the database’s optimizer will choose to evaluate the WHERE part first, to see which part of the working set can be left out (preferably using indexes), so it won’t inflate the data set too much if it doesn’t really have to.
+2. WHERE
+> The WHERE clause will be the second to be evaluated, after the FROM clause. We have the working data set in place, and now we can filter the data according to the conditions in the WHERE clause.
+> These conditions can include references to the data and tables from the FROM clause, but cannot include any references to aliases defined in the SELECT clause, as that data and those aliases may not yet ‘exist’ in that context, as that clause wasn’t yet evaluated by the database.
+> Also, a common pitfall for the WHERE clause would be to try and filter out aggregated values in the WHERE clause, for example with this clause: “WHERE sum(available_stock) > 0“. This statement will fail the query execution, because aggregations will be evaluated later in the process (see the GROUP BY section below). To apply filtering condition on aggregated data, you should use the HAVING clause and not the WHERE clause.
+3. GROUP BY
+> Now that we filtered the data set using the WHERE clause, we can aggregate the data according to one or more columns appearing in the GROUP BY clause. Grouping the data is actually splitting it to different chunks or buckets, where each bucket has one key and a list of rows that match that key. Not having a GROUP BY clause is like putting all rows in a one huge bucket.
+> Once you aggregate the data, you can now use aggregation functions to return a per-group value for each of the buckets. Such aggregation functions include COUNT, MIN, MAX, SUM and others.
+4. HAVING
+> Now that we have grouped the data using the GROUP BY clause, we can use the HAVING clause to filter out some buckets. The conditions in the HAVING clause can refer to the aggregation functions, so the example which didn’t work in the WHERE clause above, will work just fine in the HAVING clause: “HAVING sum(available_stock) > 0″.
+> As we’ve already grouped the data, we can no longer access the original rows at this point, so we can only apply conditions to filter entire buckets, and not single rows in a bucket.
+> Also, as we mentioned in previous sections, aliases defined in the SELECT clause cannot be accessed in the section either, as they weren’t yet evaluated by the database (this is true in most databases).
+5. WINDOW functions([MySQL 8.0.2新增](https://mysqlserverteam.com/mysql-8-0-2-introducing-window-functions/))
+> If you are using Window functions, this is the point where they’ll be executed. Just like the grouping mechanism, Window functions are also performing a calculation on a set of rows. The main difference is that when using Window functions, each row will keep its own identity and won’t be grouped into a bucket of other similar rows.
+> Window functions can only be used in either the SELECT or the ORDER BY clause. You can use aggregation functions inside the Window functions, for example:
+		SUM(COUNT(*)) OVER ()
+6. SELECT
+> Now that we are done with discarding rows from the data set and grouping the data, we can select the data we want to be fetched from the query to the client side. You can use column names, aggregations and subqueries inside the SELECT clause. Keep in mind that if you’re using a reference to an aggregation function, such as COUNT(*) in the SELECT clause, it’s merely a reference to an aggregation which already occurred when the grouping took place, so the aggregation itself doesn’t happen in the SELECT clause, but this is only a reference to its result set.
+7. DISTINCT
+> The syntax of the DISTINCT keyword is a bit confusing, because the keyword takes its place before the column names in the SELECT clause. But, the actual DISTINCT operation takes place after the SELECT. When using the DISTINCT keyword, the database will discard rows with duplicate values from the remaining rows left after the filtering and aggregations took place.
+8. UNION
+> The UNION keyword combines the result sets of two queries into one result set. Most databases will allow you to choose between UNION DISTINCT (which will discard duplicate rows from the combined result set) or UNION ALL (which just combines the result sets without applying any duplication check).
+> You can apply sorting (ORDER BY) and limiting (LIMIT) on the UNION’s result set, the same way you can apply it on a regular query.
+9. ORDER BY
+> Sorting takes place once the database has the entire result set ready (after filtering, grouping, duplication removal). Once we have that, the database can now sort the result set using columns, selected aliases, or aggregation functions, even if they aren’t part of the selected data. The only exception is when using the DISTINCT keyword, which prevents sorting by a non-selected column, as in that case the result set’s order will be undefined.
+> You can choose to sort the data using a descending (DESC) order or an ascending (ASC) order. The order can be unique for each of the order parts, so the following is valid: ORDER BY firstname ASC, age DESC
+10. LIMIT and OFFSET
+> In most use cases (excluding a few like reporting), we would want to discard all rows but the first X rows of the query’s result. The LIMIT clause, which is executed after sorting, allows us to do just that. In addition, you can choose which row to start fetching the data from and how many to exclude, using a combination of the LIMIT and OFFSET keywords. The following example will fetch 50 rows starting row #100: LIMIT 50 OFFSET 100

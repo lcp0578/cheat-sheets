@@ -27,3 +27,4 @@
 - [MVCC 多版本并发控制](MVCC.md)
 - [MySQL数据库事务隔离级别(Transaction Isolation Level)](TransactionIsolationLevel.md)
 - [Innodb锁机制](InnodbLock.md)
+- [SQL Order of Operations SQL操作顺序](SQLOrderOfOperations.md)
