@@ -180,6 +180,7 @@
 	- [MySQL数据库事务隔离级别(Transaction Isolation Level)](src/MySQL/TransactionIsolationLevel.md)
 	- [Innodb锁机制](src/MySQL/InnodbLock.md)
 	- [SQL Order of Operations SQL操作顺序](src/MySQL/SQLOrderOfOperations.md)
+	- [MySQL 8 新特性 Window Functions](src/MySQL/WindowFunctions.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关

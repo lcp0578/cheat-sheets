@@ -28,3 +28,4 @@
 - [MySQL数据库事务隔离级别(Transaction Isolation Level)](TransactionIsolationLevel.md)
 - [Innodb锁机制](InnodbLock.md)
 - [SQL Order of Operations SQL操作顺序](SQLOrderOfOperations.md)
+- [MySQL 8 新特性 Window Functions](WindowFunctions.md)
