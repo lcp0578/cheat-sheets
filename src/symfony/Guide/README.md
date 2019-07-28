@@ -4,8 +4,9 @@
 	- 安装框架有两种方式
 		- symfony安装器
 		- composer安装(推荐)
-		
-        		 composer create-project symfony/framework-standard-edition my_project_name "3.4.*"
+		``` php
+        composer create-project symfony/framework-standard-edition my_project_name "3.4.*"
+        ```
 - vhost介绍
 	- 配置多站点虚拟域名访问
 	- apache
@@ -18,7 +19,9 @@
 	- 分为三种环境：prod，生产环境；dev，开发环境；test，测试环境
 	- 一般在开发过程中，使用dev模式，需要在连接上加上`app_dev.php`
 	- 修改了代码后，想要在prod模式生效，必须执行清除缓存的命令
-			php bin/console cache:clear --env=prod
+	``` php
+	php bin/console cache:clear --env=prod
+    ```
 - bundles 介绍
 - annotations 注解介绍
 - Configuring 配置相关
