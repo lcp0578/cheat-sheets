@@ -17,7 +17,7 @@
 	- [YAML 语言教程 阮一峰](http://www.ruanyifeng.com/blog/2016/07/yaml.html)
 - symfony环境介绍
 	- 分为三种环境：prod，生产环境；dev，开发环境；test，测试环境
-	- 一般在开发过程中，使用dev模式，需要在连接上加上`app_dev.php`
+	- 一般在开发过程中，使用dev模式，需要在链接上加上`app_dev.php`
 	- 修改了代码后，想要在prod模式生效，必须执行清除缓存的命令
 	``` php
 	php bin/console cache:clear --env=prod
