@@ -6,15 +6,16 @@
 	- oracle instant client下载地址
 		[www.oracle.com/technetwork/database/database-technologies/instant-client/overview/index.html](https://www.oracle.com/technetwork/database/database-technologies/instant-client/overview/index.html)
         下载后解压至：`/usr/local/instantclient`，供编译时调用。
-    - 编译安装
+    - 编译安装([下载oci8扩展](http://pecl.php.net/package/oci8))
     		
     		$ tar zxvf oci8-2.1.8.tar.gz 
             $ cd oci8-2.1.8
+            $ phpize
             $ ./configure --help
             .....
             --with-oci8=DIR Include Oracle Database OCI8 support. DIR defaults to $ORACLE_HOME.
                             Use --with-oci8=instantclient,/path/to/instant/client/lib
                             to use an Oracle Instant Client installation
-            $ ./configure --with-oci8=instantclient,/usr/local/instantclient --with-php-config=/usr/local/Homebrew/Cellar/php/7.2.4/bin/php-config
+            $ ./configure --with-oci8=instantclient,/usr/local/instantclient --with-php-config=/usr/local/php/bin/php-config
             $ make && make install
            

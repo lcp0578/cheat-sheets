@@ -288,6 +288,7 @@
 22. [yar](src/yar.md)
 23. [PHP](src/php.md)
 	- [PHP Extension Install](src/PHP/php-extension-install.md) PHP扩展编译安装
+	- [phpize报错，升级autoconf](src/PHP/autoconf.md)
 	- [Memcached](src/PHP/memcached.md) PHP Memcached扩展安装
 	- [oci8](src/PHP/oci8.md)PHP Oracle连接扩展
 	- [Socket](src/PHP/Socket.md)
@@ -374,7 +375,9 @@
 	- [MQTT](src/TCPIP/MQTT/README.md) 消息队列遥测传输协议
 51. [Docker](src/Docker/README.md) Docker相关
 	- [在CentOS上安装Docker CE](src/Docker/install_centos.md)
-	- [docker-compose 安装与介绍](src/Docker/docker-compose.md)
+	- [docker-compose 安装与介绍](src/Docker/compose.md)
+	- [Docker Machine](src/Docker/machine.md)
+	- [Docker Swarm](src/Docker/swarm.md)
 52. [OA](src/OA/README.md)
 	- [file2pdf](src/OA/file2pdf.md) 文件转PDF
 	- [install fonts](src/OA/install_fonts.md)安装中文字体 	

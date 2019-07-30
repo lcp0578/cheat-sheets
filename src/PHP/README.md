@@ -4,6 +4,7 @@
 		ini_set("display_errors", "On");
 		error_reporting(E_ALL);
 - [PHP Extension Install](php-extension-install.md) PHP扩展编译安装
+- [phpize报错，升级autoconf](autoconf.md)
 - [Memcached](memcached.md) PHP Memcached扩展安装
 - [oci8](oci8.md)PHP Oracle连接扩展
 - [Socket](Socket.md)
