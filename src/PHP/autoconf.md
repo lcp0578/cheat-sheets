@@ -5,7 +5,7 @@
 $ wget http://ftp.gnu.org/gnu/autoconf/autoconf-latest.tar.gz
 $ tar -zxvf autoconf-latest.tar.gz 
 $ cd autoconf-2.69/
-$ ./configure
+$ ./configure --prefix=/usr
 $ make
 $ make install
 $ autoconf --version 
