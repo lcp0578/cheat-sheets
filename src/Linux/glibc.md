@@ -8,25 +8,32 @@ Centos 为了稳定使用的glibc版本通常比较低。而安装有些程序�
 - 升级过程
 	- 下载安装包
 	
-    		wget http://ftp.gnu.org/gnu/glibc/glibc-2.15.tar.gz
-            #解压
-            tar xvf glibc-2.15.tar.gz
+    		# wget http://ftp.gnu.org/gnu/glibc/glibc-2.15.tar.gz
+            ##解压
+            # tar xvf glibc-2.15.tar.gz
 	- 安装gcc
 	
-    		yum -y install gcc
+    		# yum -y install gcc
 	- 编译
 	
-    		mkdir build
-            cd build
-            ../configure --prefix=/opt/glibc-2.15
+    		# mkdir build
+            # cd build
+            # ../configure --prefix=/opt/glibc-2.15
+            # make && make install
+    - 若在make install时，报错
+    
+    		Can't open configuration file/opt/glibc-2.15/etc/ld.so.conf: No such file or directory
+            # find / -name"ld.so.conf"
+			/etc/ld.so.conf
+			# cp /etc/ld.so.conf /opt/glibc-2.15/etc/  //执行完后，继续make install
 	- 建立glibc软链
 	
-    		$ rm -rf /lib64/libc.so.6
-            $ ln -s /opt/glibc-2.15/lib/libc-2.15.so /lib64/libc.so.6
+    		# rm -rf /lib64/libc.so.6
+            # LD_PRELOAD=/lib64/libc-2.12.so ln -s /opt/glibc-2.15/lib/libc-2.15.so /lib64/libc.so.6
     - 失败回滚方法
     
     		#原理
-            $ ll /lib64/libc.so.6
+            # ll /lib64/libc.so.6
 			lrwxrwxrwx 1 root root 12 Jun 22 18:08 /lib64/libc.so.6 -> libc-2.12.so
-            ln -s /lib64/libc-2.12.so /lib64/libc.so.6
+            # LD_PRELOAD=/lib64/libc-2.12.so ln -s /lib64/libc-2.12.so /lib64/libc.so.6
 
