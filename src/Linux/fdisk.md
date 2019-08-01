@@ -25,20 +25,20 @@
            v   verify the partition table
            w   write table to disk and exit
            x   extra functionality (experts only)
-           命令(输入 m 获取帮助)：n
+           命令(输入 m 获取帮助)：n //第一步，创建分区
             Partition type:
                p   primary (0 primary, 0 extended, 4 free)
                e   extended
-            Select (default p): 
+            Select (default p): p //第二步，输入分区类型
             Using default response p
-            分区号 (1-4，默认 1)：
+            分区号 (1-4，默认 1)：1 //第三步，输入分区号
             起始 扇区 (2048-3221225471，默认为 2048)：
             将使用默认值 2048
-            Last 扇区, +扇区 or +size{K,M,G} (2048-3221225471，默认为 3221225471)：
+            Last 扇区, +扇区 or +size{K,M,G} (2048-3221225471，默认为 3221225471)： //第四步，设置结束扇区，默认值即可
             将使用默认值 3221225471
             分区 1 已设置为 Linux 类型，大小设为 1.5 TiB
             
-            命令(输入 m 获取帮助)：w
+            命令(输入 m 获取帮助)：w //第五步，进行保存
             The partition table has been altered!
 
             Calling ioctl() to re-read partition table.
