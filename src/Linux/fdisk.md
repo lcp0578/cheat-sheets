@@ -46,7 +46,7 @@
 - 使用fdisk -l命令查看，已经有分区了
 - 建好分区后要格式化分区，建立文件系统
 
-		# mkfs.xfs -f /dev/sdb
+		# mkfs.xfs -f /dev/sdb1
 - 选择一个挂载点挂上就可以了，我挂载在/home/data/ 下了
 
 		# mount /dev/sdb1 /home/data/

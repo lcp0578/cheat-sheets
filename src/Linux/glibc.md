@@ -36,4 +36,9 @@ Centos 为了稳定使用的glibc版本通常比较低。而安装有些程序�
             # ll /lib64/libc.so.6
 			lrwxrwxrwx 1 root root 12 Jun 22 18:08 /lib64/libc.so.6 -> libc-2.12.so
             # LD_PRELOAD=/lib64/libc-2.12.so ln -s /lib64/libc-2.12.so /lib64/libc.so.6
-
+	- 升级后，语言包报错问题
+	
+    		locale: Cannot set LC_CTYPE to default locale: No such file or directory
+			locale: Cannot set LC_ALL to default locale: No such file or directory
+            //复制语言包到glibc中
+            cp -R /usr/lib/locale /opt/glibc-2.15/lib/
