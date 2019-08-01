@@ -29,3 +29,4 @@
 - [rpm包使用命令](rpm.md)
 - [logrotate 日志分割](logrotate.md)
 - [find 文件查找](find.md)
+- [升级gcc 4.8.5](gcc.md)

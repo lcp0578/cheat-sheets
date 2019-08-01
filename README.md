@@ -220,6 +220,7 @@
 	- [rpm包使用命令](src/Linux/rpm.md)
 	- [logrotate 日志分割](src/Linux/logrotate.md)
 	- [find 文件查找](src/Linux/find.md)
+	- [升级gcc 4.8.5](src/Linux/gcc.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [gofmt vs go fmt](src/Go/gofmt.md)
