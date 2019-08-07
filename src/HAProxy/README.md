@@ -12,17 +12,18 @@
 		wget http://www.haproxy.org/download/2.0/src/haproxy-2.0.3.tar.gz
 - 解压
 
-		tar -zxvf haproxy-1.6.9.tar.gz
-		cd haproxy-1.6.9
+		tar -zxvf haproxy-2.0.3.tar.gz
+		cd haproxy-2.0.3
 - 安装
 
-		make TARGET=linux2628 ARCH=x86_64 PREFIX=/usr/local/haproxy
+		make TARGET=linux2628 ARCH=x86_64 USE_NS= PREFIX=/usr/local/haproxy
 		make install PREFIX=/usr/local/haproxy
 
 		// 参数说明
 
 		TARGET=linux26 #内核版本，使用uname -r查看内核，如：2.6.18-371.el5，此时该参数就为linux26；kernel 大于2.6.28的用：TARGET=linux2628
 		ARCH=x86_64 #系统位数
+        USE_NS= #在centos6下会报错，`undefined reference to setns`，原因：setns() is supported since linux kernel 3.0，所以centos6（kernel 2.6）安装时需要禁用它
 		PREFIX=/usr/local/haprpxy # /usr/local/haprpxy为haprpxy安装路径
 
 - 配置文件haproxy.cfg
