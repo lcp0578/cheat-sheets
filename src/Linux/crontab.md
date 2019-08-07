@@ -35,6 +35,7 @@
 		* * * * * php /home/wwwroot/oa/bin/console admin:sms:send >> /home/wwwlogs/sms/`date +\%Y\%m\%d\%H`_sms.log 2>&1
 		* * * * * php /home/wwwroot/oa/bin/console admin:sms:send >> "/home/wwwlogs/sms/$(date +"\%Y\%m\%d\%H")_sms.log" 2>&1
 
-	PS:2>&1 表示把标准错误输出重定向到与标准输出一致
+	PS: 2>&1 表示把标准错误输出重定向到与标准输出一致
+    PS: 注意`+` 前面有空格，之后不能有空格
 		
 	

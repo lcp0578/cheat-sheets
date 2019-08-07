@@ -9,7 +9,7 @@
 
 - 下载
 
-		wget http://fossies.org/linux/misc/haproxy-1.6.9.tar.gz
+		wget http://www.haproxy.org/download/2.0/src/haproxy-2.0.3.tar.gz
 - 解压
 
 		tar -zxvf haproxy-1.6.9.tar.gz
