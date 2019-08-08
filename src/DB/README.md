@@ -1,4 +1,5 @@
-## 新型DB相关
+## DB相关
+- [ Sharding VS Partitioning](ShardingPartitioning.md)
 - [TiDB](TiDB/README.md)开源分布式 NewSQL 关系型数据库
 - [RadonDB](RadonDB/README.md) 云原生的MySQL数据库,可以无限扩展
 - [influxdb](influxdb/README.md) 开源时序型数据库

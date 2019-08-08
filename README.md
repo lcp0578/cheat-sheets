@@ -368,7 +368,8 @@
 47. [Oracle](src/Oracle/README.md) Oracle数据库相关
 	- [mac docker oracle](src/Oracle/mac_docker_oracle.md) mac下通过docker安装Oracle
 	- [SQL errors](src/Oracle/sql_errors.md) SQL错误笔记
-48. [DB](src/DB/README.md) 新型数据相关
+48. [DB](src/DB/README.md) 数据库相关
+	- [ Sharding VS Partitioning](src/DB/ShardingPartitioning.md)
 	- [TiDB](src/DB/TiDB/README.md)开源分布式 NewSQL 关系型数据库
 	- [RadonDB](src/DB/RadonDB/README.md) 云原生的MySQL数据库,可以无限扩展
 	- [influxdb](src/DB/influxdb/README.md) 开源时序型数据库
