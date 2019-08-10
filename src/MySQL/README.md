@@ -29,3 +29,4 @@
 - [Innodb锁机制](InnodbLock.md)
 - [SQL Order of Operations SQL操作顺序](SQLOrderOfOperations.md)
 - [MySQL 8 新特性 Window Functions](WindowFunctions.md)
+- [Overview of Partitioning in MySQL](partitioning.md)
