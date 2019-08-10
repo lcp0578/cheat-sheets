@@ -37,6 +37,8 @@ An associative array of options to pass to the client.
                     $response = $client->__soapCall('SEND', [
                         'parameters' => $params
                     ]);
+                    //打印和调试上一次的请求
+                    dump($client->__getLastRequest());
                     $xml = simplexml_load_string($response->return, "SimpleXMLElement", LIBXML_NOCDATA);
                     $result = json_decode(json_encode($xml), true);
                     if (isset($result['flag']) && $result['flag'] == '00') {
@@ -80,7 +82,10 @@ An associative array of options to pass to the client.
              */
             private function getSoapClinet()
             {
-                return new \SoapClient("http://ip:port/GATWebService/SMSWebService?wsdl");
+                return new \SoapClient("http://ip:port/GATWebService/SMSWebService?wsdl", [
+                	'trace' => 1, //开启调试模式
+                    'soap_version' => SOAP_1_1 //或者SOAP_1_2
+                ]);
             }
 
             /**
