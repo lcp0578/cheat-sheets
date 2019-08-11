@@ -376,6 +376,7 @@
 	- [RadonDB](src/DB/RadonDB/README.md) 云原生的MySQL数据库,可以无限扩展
 	- [influxdb](src/DB/influxdb/README.md) 开源时序型数据库
 	- [vitess](src/DB/vitess/README.md) 数据库中间件，用于部署、扩展和管理大型MySQL实例集群。
+	- [LinDB 饿了么开源的时序数据库，LinDB is an open-source Time Series Database which provides high performance, high availability and horizontal scalability.](src/DB/LinDB/README.md) 
 49. [hadoop](src/hadoop/README.md) hadoop分布式计算平台
 50. [TCP/IP](src/TCPIP/README.md) TCP/IP协议相关
 	- [MQTT](src/TCPIP/MQTT/README.md) 消息队列遥测传输协议
