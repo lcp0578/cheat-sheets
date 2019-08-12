@@ -184,14 +184,11 @@ class SmsSoapService
             ];
         }
     }
-    
     public function getSendStatus($sendNumber, $mobile)
     {
         $client = $this->getSoapClinet();
-        
         $header = new \SoapHeader('http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd', 'Security', $this->getHeaderSoapVar());
         $client->__setSoapHeaders($header);
-        
         $response = $client->__soapCall("notifySmsDeliveryReceipt", array(
             new \SoapParam($this->getStatusSoapVar($sendNumber, $mobile), 'notifySmsDeliveryReceipt')
         ));
@@ -212,7 +209,6 @@ class SmsSoapService
             'soap_version' => SOAP_1_1
         )); // 互联网区
     }
-
     private function getHeaderSoapVar()
     {
         $spId = 12345678;
@@ -241,7 +237,6 @@ XML;
 XML;
         return new \SoapVar($statusXml, XSD_ANYXML);
     }
-
     private function getRequestParam($mobile, $type, $code = "")
     {
         switch ($type) {
@@ -254,7 +249,6 @@ XML;
                 $msg = $code;
                 break;
         }
-        
         $requestxml = <<<XML
 <loc:sendSms xmlns:loc="http://www.csapi.org/schema/parlayx/sms/send/v2_2/local">
  <loc:addresses>tel:{$mobile}</loc:addresses>

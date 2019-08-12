@@ -1,7 +1,7 @@
 ## Redis install 源码编译安装
 - 下载源码包，并解压
 
-		tar -zxvf redis-4.0.10.tar.gz
+		tar -zxvf redis-5.0.5.tar.gz
 - 建立安装目录
 
 		mkdir /usr/local/redis
@@ -21,7 +21,7 @@
 		
         cd /usr/local/redis
         mkdir conf
-        cp ~/redis-4.0.10/redis.conf conf/
+        cp ~/redis-5.0.5/redis.conf conf/
       
 - 修改配置文件
 
@@ -30,7 +30,7 @@
 - 启动redis
 
 		cd /usrlocal/redis
-        ./bin/redis-server conf/redis.cnf
+        ./bin/redis-server conf/redis.conf
 - 关闭redis
 
-		./bin/redis-cli shutdown
+		./bin/redis-cli -a lcp0578 shutdown # -a 后面跟密码
