@@ -2,8 +2,10 @@
 - [basic](basic.md) redis基础
 - [redis windows](redis_windows.md)redis在windows上的使用
 - [redis install](install.md) Redis源码编译安装
-- [master slave](master-slave.md) redis配置主从
 - [redis.conf](redis.conf.md) redis配置文件介绍
 - [Predis VS phpredis](PredisVSphpredis.md) Predis与phpredis对比
 - [persistence](persistence.md)数据持久化
 - [commands](commands.md) 常用命令
+- [Redis主从 master slave ](master-slave.md)
+- [Redis哨兵 sentinel ](sentinel.md)
+- [Redis集群 cluster](cluster.md)

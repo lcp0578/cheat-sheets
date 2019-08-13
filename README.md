@@ -225,6 +225,7 @@
 	- [logrotate 日志分割](src/Linux/logrotate.md)
 	- [find 文件查找](src/Linux/find.md)
 	- [升级gcc 4.8.5](src/Linux/gcc.md)
+	- [kill 批量杀掉筛选的进程](src/Linux/kill.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [gofmt vs go fmt](src/Go/gofmt.md)
@@ -254,11 +255,13 @@
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
 	- [redis install](src/Redis/install.md) Redis源码编译安装
-	- [master slave](src/Redis/master-slave.md) redis配置主从
 	- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
 	- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
 	- [persistence](src/Redis/persistence.md)数据持久化
 	- [commands](src/Redis/commands.md) 常用命令
+	- [Redis主从 master slave ](src/Redis/master-slave.md)
+    - [Redis哨兵 sentinel ](src/Redis/sentinel.md)
+    - [Redis集群 cluster](src/Redis/cluster.md)
 11. [git相关](src/git/README.md "git")
 	- [git branch](src/git/branch.md) git分支相关
 	- [git tag](src/git/tag.md) git标签相关

@@ -23,6 +23,12 @@
 		php $WEB_BIN  cache:clear --env=prod --no-debug
 		echo "clear cache end."
 		
+        echo "start clear doctrine cache..."
+        php $WEB_BIN doctrine:cache:clear-metadata --env=prod
+        php $WEB_BIN doctrine:cache:clear-query --env=prod
+        php $WEB_BIN doctrine:cache:clear-result --env=prod
+        echo "clear doctrine cache end."
+  
         echo "start update db schema"
         php $WEB_BIN doctrine:schema:update --force
         echo "update db schema end."
