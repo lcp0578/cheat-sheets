@@ -22,5 +22,6 @@
 	- [athens](PackageManagement/athens.md)
 - Fatal Error 常见的fatal error
 	- [fatal error: concurrent map read and map write](FatalError/ConcurrentMap.md)并发读写map错误
+- [Goland 快捷键](goland.md)
 - rules  
 ![go_rules](../../images/go_rules.png)

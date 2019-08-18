@@ -1,0 +1,15 @@
+## Goland 快捷键
+- 在当前文件中搜索关键字 `command + F`
+- 在当前文件中替换关键字	`command + R`
+- 在所有文件中搜索关键字 `shift + command + F`
+- 在所有文件中替换关键字 `shift + command + R`
+- 搜索文件名	`shift + command + O`
+- 复制当前行内容到下一行 `command + D`
+- 删除当前行	`command + delete`
+- 格式化代码	`option + command + L`
+- 跳转到指定行 `command + L`
+- 在当前行下一行增加空行 `shift + enter`
+- 在当前行上一行增加空行 `option + command + enter`
+- 展开所有代码块 `shift + command + =`
+- 折叠所有代码块 `shift + command + -`
+- 折叠或展开当前代码块 `command + .`

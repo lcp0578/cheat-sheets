@@ -251,6 +251,7 @@
 		- [athens](src/Go/PackageManagement/athens.md)
 	- [Fatal Error](src/Go/FatalError/README.md) 常见的fatal error
 		- [fatal error: concurrent map read and map write](src/Go/FatalError/ConcurrentMap.md)并发读写map错误
+	- [Goland 快捷键](src/Go/goland.md)
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
