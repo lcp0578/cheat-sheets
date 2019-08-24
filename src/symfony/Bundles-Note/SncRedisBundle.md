@@ -24,16 +24,20 @@ snc_redis:
     doctrine:
         metadata_cache:
             client: cache
+            namespace: application_name     #应用名称，防止多个应用使用同一redis时，缓存覆盖
             entity_manager: default          # the name of your entity_manager connection
             document_manager: default        # the name of your document_manager connection
         result_cache:
             client: cache
+            namespace: application_name     #应用名称，防止多个应用使用同一redis时，缓存覆盖
             entity_manager: default  # you may specify multiple entity_managers
         query_cache:
             client: cache
+            namespace: application_name     #应用名称，防止多个应用使用同一redis时，缓存覆盖
             entity_manager: default
         second_level_cache:
             client: cache
+            namespace: application_name     #应用名称，防止多个应用使用同一redis时，缓存覆盖
             entity_manager: default
     session:
         client: session
