@@ -13,7 +13,6 @@
             ->select('count(u.id)')
             ->where('u.userId = :uid AND u.isRead = 0')
             ->setParameter('uid', $userId)
-            ->orderBy('u.publicId', 'DESC')
             ->getQuery()
             ->getSingleScalarResult();
         }
