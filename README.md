@@ -254,6 +254,7 @@
 		- [fatal error: concurrent map read and map write](src/Go/FatalError/ConcurrentMap.md)并发读写map错误
 	- [Go工具和调试详解](src/Go/go_tools.md)
 	- [Goland 快捷键](src/Go/goland.md)
+	- [IEEE 754 解析](src/Go/IEEE754.md)
 	- [Go's Assembler](src/Go/asm.md)
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础

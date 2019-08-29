@@ -25,6 +25,7 @@
 	- [fatal error: concurrent map read and map write](FatalError/ConcurrentMap.md)并发读写map错误
 - [Go工具和调试详解](go_tools.md)
 - [Goland 快捷键](goland.md)
+- [IEEE 754 解析](IEEE754.md)
 - [Go's Assembler](asm.md)
 - rules  
 ![go_rules](../../images/go_rules.png)
