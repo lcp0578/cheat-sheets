@@ -16,6 +16,8 @@
 	- [hex](StandardLibrary/hex.md) 16进制操作包
 	- [context 上下文](StandardLibrary/context.md)
 	- [sync](StandardLibrary/sync.md)
+	- [database/sql](StandardLibrary/database_sql.md)
+	- [runtime/debug](StandardLibrary/runtime_debug.md)
 - [Others Library](OthersLibrary/README.md) 其他类库笔记
 - [windows下开发](windows/README.md)
 	- [call cmd.exe](windows/call_cmd.md) 调用cmd.exe并隐藏窗口
@@ -30,5 +32,6 @@
 - [IEEE 754 解析](IEEE754.md)
 - [Go's Assembler](asm.md)
 - [cgo](cgo.md)
+- [Web Assembly](WebAssembly.md)
 - rules  
 ![go_rules](../../images/go_rules.png)
