@@ -1,5 +1,6 @@
 ## 其他类库
 #### 基础类库
+- [github.com/go-delve/delve](https://github.com/go-delve/delve) a debugger
 - [github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)优秀的go资源
 - [github.com/igm/sockjs-go](https://github.com/igm/sockjs-go) sockjs的go版server端
 - [github.com/rs/cors](https://github.com/rs/cors)解决CORS同源限制
