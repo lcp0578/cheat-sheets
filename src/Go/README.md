@@ -7,6 +7,8 @@
 - [string number](StringToNumber.md) 数字与字符串之间的转换
 - [vgo](vgo.md) 版本控制
 - [interface 理解](interface.md)
+- [同步原语与锁](sync-primitives.md)
+- ["泛型编程"](generic-programming.md)
 - [Byte Order](ByteOrder.md) 字节序
 - Standard Library 标准库笔记
 	- [strconv](StandardLibrary/strconv.md)
@@ -27,5 +29,6 @@
 - [Goland 快捷键](goland.md)
 - [IEEE 754 解析](IEEE754.md)
 - [Go's Assembler](asm.md)
+- [cgo](cgo.md)
 - rules  
 ![go_rules](../../images/go_rules.png)

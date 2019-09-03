@@ -235,6 +235,8 @@
 	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
 	- [number base conversion](src/Go/NumberBaseConversion.md)进制转换
 	- [interface 理解](src/Go/interface.md)
+	- [同步原语与锁](src/Go/sync-primitives.md)
+	- ["泛型编程"](src/Go/generic-programming.md)
 	- [vgo](src/Go/vgo.md) 版本控制
 	- [Byte Order](src/Go/ByteOrder.md) 字节序
 	- Standard library 标准库笔记
@@ -256,6 +258,7 @@
 	- [Goland 快捷键](src/Go/goland.md)
 	- [IEEE 754 解析](src/Go/IEEE754.md)
 	- [Go's Assembler](src/Go/asm.md)
+	- [cgo](src/Go/cgo.md)
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
