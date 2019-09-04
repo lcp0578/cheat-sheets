@@ -33,5 +33,6 @@
 - [Go's Assembler](asm.md)
 - [cgo](cgo.md)
 - [Web Assembly](WebAssembly.md)
+- [composition 组合](composition.md)
 - rules  
 ![go_rules](../../images/go_rules.png)

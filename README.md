@@ -185,6 +185,7 @@
 	- [SQL Order of Operations SQL操作顺序](src/MySQL/SQLOrderOfOperations.md)
 	- [MySQL 8 新特性 Window Functions](src/MySQL/WindowFunctions.md)
 	- [Overview of Partitioning in MySQL](src/MySQL/partitioning.md)
+	- [sql prepare](src/MySQL/sql-prepare.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
@@ -261,6 +262,7 @@
 	- [IEEE 754 解析](src/Go/IEEE754.md)
 	- [Go's Assembler](src/Go/asm.md)
 	- [cgo](src/Go/cgo.md)
+	- [composition 组合](src/Go/composition.md)
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
