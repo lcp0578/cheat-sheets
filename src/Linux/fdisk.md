@@ -4,7 +4,7 @@
 		# fdisk -l
 - 若发现有磁盘，路径为/dev/sdb。然后使用fdisk命令进行建立分区
 
-		# fdisk /dev/sdb
+		# fdisk /dev/vdb
         命令(输入 m 获取帮助)：m
         命令操作
            a   toggle a bootable flag
@@ -46,16 +46,17 @@
 - 使用fdisk -l命令查看，已经有分区了
 - 建好分区后要格式化分区，建立文件系统
 
-		# mkfs.xfs -f /dev/sdb1
+		# mkfs.xfs -f /dev/vdb1
 - 选择一个挂载点挂上就可以了，我挂载在/home/data/ 下了
 
-		# mount /dev/sdb1 /home/data/
+		# mkdir /home/data
+		# mount /dev/vdb1 /home/data/
 - 查看一下挂载是否成功了
 
 		df -TH /home/data/
 - 修改一下系统配置加入下列行到/etc/fstab，让系统启动后自动挂载，否则有可能会掉
 
-		/dev/sdb1  /home/data xfs  defaults  0  0
+		/dev/vdb1  /home/data xfs  defaults  0  0
 - PS：文件系统的区别
 	- 文件系统EXT3，EXT4和XFS的区别： 
 		- EXT3 
