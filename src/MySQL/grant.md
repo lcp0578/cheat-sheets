@@ -1,6 +1,10 @@
 ## MySQL grant
 - 授权
 
+		// MySQL8 创建用户和赋予权限必须分开
+        CREATE USER 'mysql221'@'192.168.252.221' IDENTIFIED BY 'mysql_221';
+        GRANT ALL PRIVILEGES ON *.* TO 'username'@'ip address'；
+        // MySQL8之前版本可以写到一起
 		GRANT ALL PRIVILEGES ON *.* TO 'username'@'ip address' IDENTIFIED BY 'user password';
 		GRANT ALL PRIVILEGES ON db_name.* TO 'username'@'ip address' IDENTIFIED BY 'user password';
 		GRANT ALL PRIVILEGES ON db_name.table_name TO 'username'@'ip address' IDENTIFIED BY 'user password';
