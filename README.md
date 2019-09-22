@@ -466,3 +466,4 @@
 	- [go 环境配置](src/VSCode/go.md)
 73. [PLC](src/PLC/README.md)
 	- [西门子 S7-200SmartPLC](src/PLC/Siemens.md)
+74. [HHKB](src/hhkb/README.md)
