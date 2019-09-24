@@ -18,6 +18,7 @@
 	- [sync](StandardLibrary/sync.md)
 	- [database/sql](StandardLibrary/database_sql.md)
 	- [runtime/debug](StandardLibrary/runtime_debug.md)
+	- [bufio](StandardLibrary/bufio.md)
 - [Others Library](OthersLibrary/README.md) 其他类库笔记
 - [windows下开发](windows/README.md)
 	- [call cmd.exe](windows/call_cmd.md) 调用cmd.exe并隐藏窗口

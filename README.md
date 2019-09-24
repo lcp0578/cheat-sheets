@@ -248,6 +248,7 @@
         - [sync](src/Go/StandardLibrary/sync.md)
         - [database/sql](src/Go/StandardLibrary/database_sql.md)
 		- [runtime/debug](src/Go/StandardLibrary/runtime_debug.md)
+		- [bufio](src/Go/StandardLibrary/bufio.md)
     - [Others Library](src/Go/OthersLibrary/README.md) 其他类库笔记
     - [windows下开发](src/Go/windows/README.md)
 		- [call cmd.exe](src/Go/windows/call_cmd.md) 调用cmd.exe并隐藏窗口
