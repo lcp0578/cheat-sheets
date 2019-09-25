@@ -1,7 +1,15 @@
 ## HHKB
 - 键盘布局
 ![hhkb](hhkb.png)
-	- 切换大小写：fn + Caps
+	- fn + tab : 切换大小写
+	- cmd + 空格 ：切换输入法
+	- fn + O : 光线变暗
+	- fn + P :光线变亮
+	- fn + [ : 上键
+	- fn + " : 右键
+	- fn + ? : 下键
+	- fn + A : 声音降
+	- fn + S : 声音升
 	- HHKB键盘提供了三种模式，分别是HHK模式、Lite Ext.模式和Mac/iOS模式。通过调节“1”“2”号DIP开关，可以随时在三种模式中切换。
 		- 默认状态下键盘为HHK模式，即“1”号开关OFF，“2”号开关OFF
 		- “1”号开关ON，“2”号开关OFF，则为Lite Ext.模式。
