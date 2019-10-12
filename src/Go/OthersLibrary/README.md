@@ -25,6 +25,7 @@
 - [github.com/snail007/goproxy](https://github.com/snail007/goproxy)
 - [github.com/fatedier/frp](https://github.com/fatedier/frp)
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging)图片处理相关
+- [github.com/asaskevich/govalidator](https://github.com/asaskevich/govalidator)
 
 #### console command
 - [github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) git command
@@ -91,3 +92,5 @@
 #### git
 - [github.com/src-d/go-git](https://github.com/src-d/go-git) A highly extensible Git implementation in pure Go.
 - [github.com/src-d/gitbase](https://github.com/src-d/gitbase) SQL interface to Git repositories, written in Go.
+#### database
+- [github.com/volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler)
