@@ -35,6 +35,7 @@
 - [cgo](cgo.md)
 - [Web Assembly](WebAssembly.md)
 - [composition 组合](composition.md)
-- [protability 可移植性、交叉编译](protability.md)
+- [portability 可移植性、交叉编译](portability.md)
+- [reflect 反射原理](reflect.md)
 - rules  
 ![go_rules](../../images/go_rules.png)

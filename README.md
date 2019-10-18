@@ -265,7 +265,8 @@
 	- [Go's Assembler](src/Go/asm.md)
 	- [cgo](src/Go/cgo.md)
 	- [composition 组合](src/Go/composition.md)
-	- [protability 可移植性、交叉编译](src/Go/protability.md)
+	- [portability 可移植性、交叉编译](src/Go/portability.md)
+	- [reflect 反射原理](src/Go/reflect.md)
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
