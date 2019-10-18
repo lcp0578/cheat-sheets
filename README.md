@@ -229,6 +229,7 @@
 	- [kill 批量杀掉筛选的进程](src/Linux/kill.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
+	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
 	- [gofmt vs go fmt](src/Go/gofmt.md)
 	- [Compiler Directives](src/Go/CompilerDirectives.md)
 	- [for select](src/Go/for-select.md)
@@ -264,6 +265,7 @@
 	- [Go's Assembler](src/Go/asm.md)
 	- [cgo](src/Go/cgo.md)
 	- [composition 组合](src/Go/composition.md)
+	- [protability 可移植性、交叉编译](src/Go/protability.md)
 10. [redis](src/Redis/README.md "redis")
 	- [basic](src/Redis/basic.md) redis基础
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
