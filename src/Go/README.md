@@ -25,6 +25,7 @@
 - [Package Management](README.md) 包管理相关
 	- [go modules](PackageManagement/gomodules.md)
 	- [goproxy](PackageManagement/goproxy.md) 包下载代理
+	- [Go Module Proxy](PackageManagement/GoModuleProxy.md)
 	- [athens](PackageManagement/athens.md)
 - Fatal Error 常见的fatal error
 	- [fatal error: concurrent map read and map write](FatalError/ConcurrentMap.md)并发读写map错误
