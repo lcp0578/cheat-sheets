@@ -31,3 +31,4 @@
 - [find 文件查找](find.md)
 - [升级gcc 4.8.5](gcc.md)
 - [kill 批量杀掉筛选的进程](kill.md)
+- [系统监测工具sysstat](sysstat.md)
