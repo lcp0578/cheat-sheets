@@ -38,5 +38,7 @@
 - [composition 组合](composition.md)
 - [portability 可移植性、交叉编译](portability.md)
 - [reflect 反射原理](reflect.md)
+- [The Uber Go Style Guide](https://github.com/uber-go/guide)
+- [Uber Go 语言编码规范中文版](https://github.com/xxjwxc/uber_go_guide_cn)
 - rules  
 ![go_rules](../../images/go_rules.png)
