@@ -26,6 +26,7 @@
 - [github.com/fatedier/frp](https://github.com/fatedier/frp)
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging)图片处理相关
 - [github.com/asaskevich/govalidator](https://github.com/asaskevich/govalidator)
+- [github.com/silenceper/wechat](https://github.com/silenceper/wechat) 微信SDK
 
 #### console command
 - [github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) git command
