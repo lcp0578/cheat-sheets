@@ -274,6 +274,7 @@
 	- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
 	- [redis install](src/Redis/install.md) Redis源码编译安装
 	- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
+	- [bind配置参数的坑](src/Redis/bind.md)
 	- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
 	- [persistence](src/Redis/persistence.md)数据持久化
 	- [commands](src/Redis/commands.md) 常用命令

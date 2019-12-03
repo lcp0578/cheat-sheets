@@ -68,7 +68,7 @@
 	# IF YOU ARE SURE YOU WANT YOUR INSTANCE TO LISTEN TO ALL THE INTERFACES
 	# JUST COMMENT THE FOLLOWING LINE.
 	# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	bind 127.0.0.1 192.168.1.1 # 绑定局域网链接，空格分开
+	bind 127.0.0.1 192.168.1.1 # 绑定局域网链接，空格分开，redis的本机IP，访问IP地址
 	
 	# Protected mode is a layer of security protection, in order to avoid that
 	# Redis instances left open on the internet are accessed and exploited.

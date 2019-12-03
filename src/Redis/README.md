@@ -3,6 +3,7 @@
 - [redis windows](redis_windows.md)redis在windows上的使用
 - [redis install](install.md) Redis源码编译安装
 - [redis.conf](redis.conf.md) redis配置文件介绍
+- [bind配置参数的坑](bind.md)
 - [Predis VS phpredis](PredisVSphpredis.md) Predis与phpredis对比
 - [persistence](persistence.md)数据持久化
 - [commands](commands.md) 常用命令
