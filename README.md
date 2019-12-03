@@ -227,6 +227,7 @@
 	- [find 文件查找](src/Linux/find.md)
 	- [升级gcc 4.8.5](src/Linux/gcc.md)
 	- [kill 批量杀掉筛选的进程](src/Linux/kill.md)
+	- [Systemd 介绍](src/Linux/Systemd.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
