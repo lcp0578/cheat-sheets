@@ -476,3 +476,4 @@
 	- [西门子 S7-200SmartPLC](src/PLC/Siemens.md)
 74. [HHKB](src/hhkb/README.md)
 75. [WireShark](src/WireShark/README.md)
+76. [Graylog 日志收集](src/Graylog/README.md)

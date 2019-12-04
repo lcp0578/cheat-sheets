@@ -1,0 +1,13 @@
+## Graylog
+- Graylog 是一个简单易用、功能较全面的日志管理工具，相比 ELK 组合， 优点：
+	- 部署维护简单
+	- 查询语法简单易懂(对比ES的语法…)
+	- 内置简单的告警
+	- 可以将搜索结果导出为 json
+	- 提供简单的聚合统计功能
+	- UI 比较友好
+- 拓展性上比 ELK 差很多。
+- 整套依赖：
+	- Graylog 提供 graylog 对外接口， CPU 密集
+	- Elasticsearch 日志文件的持久化存储和检索， IO 密集
+	- MongoDB 只是存储一些 Graylog 的配置
