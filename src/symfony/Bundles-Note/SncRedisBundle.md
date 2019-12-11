@@ -46,3 +46,8 @@ snc_redis:
         locking: true
         spin_lock_wait: 150000
 ```
+- 使用
+
+		$redis = $this->get('snc_redis.default');
+        $codeTime = $redis->get('captcha_' . $code);
+        $redis->set('captcha_' . $phrase, time());
