@@ -87,7 +87,7 @@
             snow01@0256
             # chmod 600 /usr/local/rsync/rsyncd.secrets
 
-	- 新建同步脚本
+	- 新建同步脚本（推）
 
             # vi /rsync.sh
             #!/bin/bash
