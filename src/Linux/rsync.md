@@ -8,8 +8,7 @@
 		# tar -zxvf rsync-3.1.2.tar.gz  
 		# cd rsync-3.1.2  
 	    # ./configure --prefix=/usr/local/rsync --disable-ipv6  
-  	  	# make  
-		# make install  
+		#  make && make install  
   
 		# ln -s /usr/local/rsync/bin/rsync /usr/local/bin/rsync  
   
@@ -71,14 +70,15 @@
 			ln -s /usr/local/rsync/rsyncd.secrets  /etc/rsyncd.secrets 
 	- 启动rsync  
   
-            # /usr/bin/rsync --daemon --config=/etc/rsyncd.conf
-            # echo "/usr/bin/rsync --daemon --config=/etc/rsyncd.conf" >> /etc/rc.d/rc.local
+            # /usr/local/bin/rsync --daemon --config=/etc/rsyncd.conf
+            # echo "/usr/local/bin/rsync --daemon --config=/etc/rsyncd.conf" >> /etc/rc.d/rc.local
             # cat /etc/rc.d/rc.local
                 #!/bin/sh
                 #  
                 # This script will be executed *after* all the other init scripts.  
                 # You can put your own initialization stuff in here if you don't  
                 # want to do the full Sys V style init stuff.  
+                /usr/local/bin/rsync --daemon --config=/etc/rsyncd.conf
 
 - 客户端服务器配置
 	- 新建客户端密码文件(客户端不带用户名)
