@@ -18,17 +18,24 @@
 	
             # vim /usr/local/rsync/rsyncd.conf  
 
-              pid file = /var/run/rsyncd.pid #pid文件
+			  #pid文件
+              pid file = /var/run/rsyncd.pid
               port = 873
-              uid = root #启动用户
-              gid = root #启动用户组
+              #启动用户
+              uid = root
+              #启动用户组
+              gid = root
               use chroot = no
-              max connections = 5 #最大连接数
+              #最大连接数
+              max connections = 5
               timeout 600
-              lock file = /var/run/rsyncd.lock #指定lock文件
-              log file = /var/run/rsyncd.log #日志文件
+              #指定lock文件
+              lock file = /var/run/rsyncd.lock
+              #日志文件
+              log file = /var/run/rsyncd.log
               secrets file = /usr/local/rsync/rsyncd.secrets
-              motd file = /usr/local/rsync/rsyncd.motd #指定欢迎消息文件
+              #指定欢迎消息文件
+              motd file = /usr/local/rsync/rsyncd.motd
 
               [wateroa_code]
               path = /home/backup/code
