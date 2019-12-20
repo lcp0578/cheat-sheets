@@ -61,6 +61,9 @@
 	- .tar 
 		- 解包：tar xvf FileName.tar
 		- 打包：tar cvf FileName.tar DirName
+	- .xz
+		- 解压：tar -Jxf linux-3.12.tar.xz
+		- 打包：tar -Jcf linux-3.12.tar.xz linux-3.12/
 	- .gz
 		- 解压1：gunzip FileName.gz
 		- 解压2：gzip -d FileName.gz

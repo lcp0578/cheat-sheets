@@ -93,13 +93,18 @@
             #vim /usr/local/rsync/rsyncd.secrets
             snow01@0256
             # chmod 600 /usr/local/rsync/rsyncd.secrets
+	- rsync命令常用参数
+		- `--delete` 删除目标文件比源文件多余的文件
+		- `--progress` 显示进度情况
+		- `--exclude` 排除的文件(文件不会被同步)，可以写多个
 
 	- 新建同步脚本（推）
 
             # vi /rsync.sh
             #!/bin/bash
 
-            rsync -avzH --progress --delete --password-file=/usr/local/rsync/rsyncd.secrets /home/wwwroot/wateroa/ root@172.18.1.13::wateroa_code
+            /usr/local/rsync/bin/rsync -avzH --progress --exclude=.* --exclude=var --password-file=/usr/local/rsync/rsyncd.secrets /home/wwwroot/wateroa/ root@172.18.1.13::wateroa_code
+            
 	- 自动同步:每隔五分钟同步一次
 
             # crontab -e
