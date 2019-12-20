@@ -328,6 +328,7 @@
 	- [PHP Extensions](src/PHP/extensions/README.md) PHP常用扩展
 	- [php-lua](src/PHP/php_lua.md) PHP调用lua
 	- [fgets](src/PHP/fgets.md) fget读取的宽字节字符集问题
+	- [php-fpm](src/PHP/php-fpm.md)
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md) 部署项目shell脚本
