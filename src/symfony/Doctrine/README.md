@@ -24,6 +24,7 @@
 - [SQL log](sql_log.md) 开发模式下配置SQL log
 - [Working with Objects 对象工作模式](WorkingWithObjects.md)
 - [Transactions And Concurrency 事务与并发](TransactionsAndConcurrency.md) 
+- [Optimistic Locking 乐观锁](OptimisticLocking.md)
 - [Doctrine使用Oracle](Oracle.md)
 - [Doctrine Sharding](sharding.md)
 - [Entity State 四个状态](EntityState.md)

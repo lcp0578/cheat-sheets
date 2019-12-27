@@ -44,6 +44,7 @@
 		- [SQL log](src/symfony/Doctrine/sql_log.md) 开发模式下配置SQL log
 		- [Working with Objects 对象工作模式](src/symfony/Doctrine/WorkingWithObjects.md)
 		- [Transactions And Concurrency 事务与并发](src/symfony/Doctrine/TransactionsAndConcurrency.md) 
+		- [Optimistic Locking 乐观锁](src/symfony/Doctrine/OptimisticLocking.md)
 		- [Doctrine使用Oracle](src/symfony/Doctrine/Oracle.md)
 		- [Doctrine Sharding](src/symfony/Doctrine/sharding.md)
 		- [Entity State 四个状态](src/symfony/Doctrine/EntityState.md)
