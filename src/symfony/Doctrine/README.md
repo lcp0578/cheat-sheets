@@ -26,3 +26,4 @@
 - [Transactions And Concurrency 事务与并发](TransactionsAndConcurrency.md) 
 - [Doctrine使用Oracle](Oracle.md)
 - [Doctrine Sharding](sharding.md)
+- [Entity State 四个状态](EntityState.md)
