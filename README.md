@@ -1,6 +1,13 @@
 # :elephant: cheat sheets :memo:
 
-1.  [symfony](src/symfony/README.md "symfony") 
+1. [TiDB](src/TiDB/README.md)
+	- [install 安装](src/TiDB/install.md)
+2. [ElasticSearch](src/ElasticSearch/README.md)
+	- [install 安装](src/ElasticSearch/install.md)
+3. [Kafka](src/Kafka/README.md)
+4. [Spark](src/Spark/README.md)
+5. [nsq](src/nsq/README.md)
+6.  [symfony](src/symfony/README.md "symfony") 
 	- [Symfony Guide 入门指南](src/symfony/Guide/README.md)
 	- [Basic](src/symfony/Basic/README.md) 基础和常用
 		- [Basic](src/symfony/Basic/Basic.md) 基础知识点

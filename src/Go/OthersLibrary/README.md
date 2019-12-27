@@ -5,9 +5,6 @@
 - [github.com/igm/sockjs-go](https://github.com/igm/sockjs-go) sockjs的go版server端
 - [github.com/rs/cors](https://github.com/rs/cors)解决CORS同源限制
 - [github.com/gorilla/websocket](https://github.com/gorilla/websocket) websocket实现
-- [github.com/nsqio/nsq](https://github.com/nsqio/nsq) 分布式消息平台
-- [github.com/uber-go/zap](https://github.com/uber-go/zap) Uber日志库
-- [github.com/sirupsen/logrus](https://github.com/sirupsen/logrus) 日志库
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging) 图像处理服务
 - [github.com/jroimartin/gocui](https://github.com/jroimartin/gocui) Go命令行用户交互UI
 - [github.com/gorilla/mux](https://github.com/gorilla/mux) 路由类库
@@ -27,6 +24,14 @@
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging)图片处理相关
 - [github.com/asaskevich/govalidator](https://github.com/asaskevich/govalidator)
 - [github.com/silenceper/wechat](https://github.com/silenceper/wechat) 微信SDK
+
+#### 队列
+- [github.com/nsqio/nsq](https://github.com/nsqio/nsq) 分布式消息平台
+- [github.com/Shopify/sarama](https://github.com/Shopify/sarama) a Go library for Apache Kafka 0.8, and up. 
+
+#### 日志
+- [github.com/uber-go/zap](https://github.com/uber-go/zap) Uber日志库
+- [github.com/sirupsen/logrus](https://github.com/sirupsen/logrus) 日志库
 
 #### console command
 - [github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) git command
@@ -95,3 +100,6 @@
 - [github.com/src-d/gitbase](https://github.com/src-d/gitbase) SQL interface to Git repositories, written in Go.
 #### database
 - [github.com/volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler)
+
+#### crawler
+- [github.com/crawlab-team/crawlab](https://github.com/crawlab-team/crawlab)
