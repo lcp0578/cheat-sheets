@@ -55,6 +55,7 @@
 		- [Doctrine使用Oracle](src/symfony/Doctrine/Oracle.md)
 		- [Doctrine Sharding](src/symfony/Doctrine/sharding.md)
 		- [Entity State 四个状态](src/symfony/Doctrine/EntityState.md)
+		- [The EntityManager is closed](src/symfony/Doctrine/closed.md)
 	- [config 框架配置相关](src/symfony/config/README.md)
 		- [log日志配置](src/symfony/config/log.md)
 	- [Router](src/symfony/Router/README.md) 路由相关

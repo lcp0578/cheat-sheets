@@ -46,6 +46,7 @@
 - [Doctrine使用Oracle](Doctrine/Oracle.md)
 - [Doctrine Sharding](Doctrine/sharding.md)
 - [Entity State 四个状态](Doctrine/EntityState.md)
+- [The EntityManager is closed](Doctrine/closed.md)
 #### [config 框架配置相关](config/README.md)
 - [log日志配置](config/log.md)
 #### [Router](Router/README.md) 路由相关

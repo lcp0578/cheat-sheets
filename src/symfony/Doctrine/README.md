@@ -28,3 +28,4 @@
 - [Doctrine使用Oracle](Oracle.md)
 - [Doctrine Sharding](sharding.md)
 - [Entity State 四个状态](EntityState.md)
+- [The EntityManager is closed](closed.md)
