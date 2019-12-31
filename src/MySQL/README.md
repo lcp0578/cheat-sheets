@@ -8,6 +8,7 @@
 - [MySQL Optimize](optimize.md)
 - [MySQL where](where.md)
 - [mysqldump](mysqldump.md)
+- [maxbube/mydumper 性能更好的迁移工具](mydumper.md)
 - [Innodb](Innodb.md)
 - [master slave](master-slave.md) 主从配置
 - [grant](grant.md)

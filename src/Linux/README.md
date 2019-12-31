@@ -34,3 +34,5 @@
 - [kill 批量杀掉筛选的进程](kill.md)
 - [系统监测工具sysstat](sysstat.md)
 - [Systemd 介绍](Systemd.md)
+- [openssh 升级](openssh.md)
+- [tmpfs 介绍](tmpfs.md)

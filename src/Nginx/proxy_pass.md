@@ -1,4 +1,6 @@
 ## proxy_pass
+> https://www.cnblogs.com/luxianghao/p/6807081.html
+
 - www.a.com/sfapi 转发到 www.b.com
 
         location /sfapi/ {

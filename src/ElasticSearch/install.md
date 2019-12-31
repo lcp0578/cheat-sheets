@@ -15,6 +15,24 @@
         Created elasticsearch keystore in /etc/elasticsearch
 - 安装目录 `/usr/share/elasticsearch/`
 - 配置文件目录 `/etc/elasticsearch/`
-- 
+- 启动 `./bin/elasticsearch -d`
+- 启动报错
+	- error1:(修改配置文件)
+
+			[cluster.initial master nodes] is empty on this node
+
+	- error2:(修改配置文件)
+
+			the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+    - max number of threads [1024] for user [es] likely too low, increase to at least [4096]
+	原因：无法创建本地线程问题,用户最大可创建线程数太小
+	解决方案：切换到root用户，进入limits.d目录下，修改90-nproc.conf 配置文件。
+    
+            vi /etc/security/limits.d/90-nproc.conf
+            #找到如下内容：
+            * soft nproc 1024
+            #修改为
+            * soft nproc 4096
+
 
 

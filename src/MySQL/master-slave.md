@@ -61,6 +61,32 @@
 - 清空所有binlog
 
 		reset master; # 清空所有 binlog 文件
+- 正确关闭slave步骤
+	- 执行STOP SLAVE语句
+	- 使用SHOW STATUS检查slave_open_temp_tables变量的值
+        如果值为0，使用mysqladmin shutdown命令关闭从服务器
+        如果值不为0，用START SLAVE重启从服务器线程
+        slave_open_temp_tables值显示，当前slave创建了多少临时表，注意由client显示创建的
+        即便是这样，在使用临时表的场景下，如果服务器宕机，将遇到不可预知的问题。
+        所以比较保险的做法是，创建实体表，虽然会由于分配的文件刷新到磁盘。
+        mysql> show status like '%slave%';
+        +------------------------+-------+
+        | Variable_name | Value |
+        +------------------------+-------+
+        | Com_show_slave_hosts | 0 |
+        | Com_show_slave_status | 0 |
+        | Com_slave_start | 0 |
+        | Com_slave_stop | 0 |
+        | Slave_open_temp_tables | 0 |
+        +-----------------------
+
+- mysql 删除 主从信息
+
+        mysql> slave stop;
+        mysql>reset slave;
+        mysql>change master to master_user='', master_host=' ', master_password='';
+
+
 
 ### 参考资料
 https://jasonhzy.github.io/2016/02/05/master-slave/  

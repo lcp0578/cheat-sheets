@@ -10,3 +10,4 @@
 - [install](install.md) nginx源码编译安装
 - [awk](awk.md) 利用awk分析access日志
 - [req limit](limit.md) nginx请求限制
+- [rewrite url重写](rewrite.md)

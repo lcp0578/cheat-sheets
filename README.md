@@ -3,9 +3,15 @@
 1. [TiDB](src/TiDB/README.md)
 	- [install 安装](src/TiDB/install.md)
 2. [ElasticSearch](src/ElasticSearch/README.md)
-	- [install 安装](src/ElasticSearch/install.md)
+	- [CentOS下安装](src/ElasticSearch/install.md)
+    - [DSL查询语法](src/ElasticSearch/dsl.md)
+    - [kibana 可视化工具](src/ElasticSearch/kibana.md)
+    - [go-mysql-elasticsearch MySQL数据同步到ES](src/ElasticSearch/go-mysql-elasticsearch.md)
+    - [elasticsearch-php Official PHP low-level client](src/ElasticSearch/elasticsearch-php.md)
+    - [FOSElasticaBundle  integration with Elasticsearch and Elastica with Symfony](src/ElasticSearch/FOSElasticaBundle.md)
 3. [Kafka](src/Kafka/README.md)
 4. [Spark](src/Spark/README.md)
+	- [Spark初识](src/Spark/basic.md)
 5. [nsq](src/nsq/README.md)
 6.  [symfony](src/symfony/README.md "symfony") 
 	- [Symfony Guide 入门指南](src/symfony/Guide/README.md)
@@ -173,6 +179,7 @@
 	- [MySQL Optimize](src/MySQL/optimize.md)
 	- [MySQL where](src/MySQL/where.md)
 	- [mysqldump](src/MySQL/mysqldump.md)
+	- [maxbube/mydumper 性能更好的迁移工具](src/MySQL/mydumper.md)
 	- [Innodb](src/MySQL/Innodb.md)
 	- [master slave](src/MySQL/master-slave.md) 主从配置
 	- [grant](src/MySQL/grant.md)
@@ -239,6 +246,8 @@
 	- [升级gcc 4.8.5](src/Linux/gcc.md)
 	- [kill 批量杀掉筛选的进程](src/Linux/kill.md)
 	- [Systemd 介绍](src/Linux/Systemd.md)
+	- [openssh 升级](src/Linux/openssh.md)
+	- [tmpfs 介绍](src/Linux/tmpfs.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
@@ -357,6 +366,7 @@
     - [install](src/Nginx/install.md) nginx源码编译安装
     - [awk](src/Nginx/awk.md) 利用awk分析access日志
     - [req limit](src/Nginx/limit.md) nginx请求限制
+    - [rewrite url重写](src/Nginx/rewrite.md)
 27. [Apache](src/Apache/README.md) 
 	- [.htaccess](src/Apache/htaccess.md) 开启.htaccess配置
 	- [mac](src/Apache/mac.md) mac下使用
@@ -429,6 +439,7 @@
 	- [xcode](src/ios/xcode.md)
 55. **Security代码安全**
 	- [APP接口安全设计要点](src/Security/APP_API.md)
+	- [恶意代码分析相关工具&漏洞挖掘相关工具](src/Security/tools.md)
 	- 源代码安全审计
 		- [cobra](src/Security/cobra.md)
 56. 源代码安全审计
