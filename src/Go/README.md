@@ -23,7 +23,7 @@
 - [windows下开发](windows/README.md)
 	- [call cmd.exe](windows/call_cmd.md) 调用cmd.exe并隐藏窗口
 - [Package Management](README.md) 包管理相关
-	- [go modules](PackageManagement/gomodules.md)
+	- [go module](PackageManagement/gomodule.md)
 	- [goproxy](PackageManagement/goproxy.md) 包下载代理
 	- [Go Module Proxy](PackageManagement/GoModuleProxy.md)
 	- [athens](PackageManagement/athens.md)

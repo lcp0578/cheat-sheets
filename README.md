@@ -276,7 +276,7 @@
     - [windows下开发](src/Go/windows/README.md)
 		- [call cmd.exe](src/Go/windows/call_cmd.md) 调用cmd.exe并隐藏窗口
 	- [Package Management](src/Go/PackageManagement/README.md) 包管理相关
-		- [go modules](src/Go/PackageManagement/gomodules.md)
+		- [go module](src/Go/PackageManagement/gomodule.md)
 		- [goproxy](src/Go/PackageManagement/goproxy.md) 包下载代理
 		- [athens](src/Go/PackageManagement/athens.md)
 	- [Fatal Error](src/Go/FatalError/README.md) 常见的fatal error
