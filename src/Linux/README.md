@@ -36,3 +36,4 @@
 - [Systemd 介绍](Systemd.md)
 - [openssh 升级](openssh.md)
 - [tmpfs 介绍](tmpfs.md)
+- [chmod 递归修改权限](chmod.md)

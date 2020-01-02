@@ -14,7 +14,9 @@
 	- [Spark初识](src/Spark/basic.md)
 5. [nsq](src/nsq/README.md)
 	- [nsq 初探](src/nsq/install.md)
-6.  [symfony](src/symfony/README.md "symfony") 
+6. [open-falcon](src/open-falcon/README.md)
+	- [mymon: MySQL Monitor Script](src/open-falcon/mymom.md)
+7. [symfony](src/symfony/README.md "symfony") 
 	- [Symfony Guide 入门指南](src/symfony/Guide/README.md)
 	- [Basic](src/symfony/Basic/README.md) 基础和常用
 		- [Basic](src/symfony/Basic/Basic.md) 基础知识点
@@ -249,6 +251,7 @@
 	- [Systemd 介绍](src/Linux/Systemd.md)
 	- [openssh 升级](src/Linux/openssh.md)
 	- [tmpfs 介绍](src/Linux/tmpfs.md)
+	- [chmod 递归修改权限](src/Linux/chmod.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
