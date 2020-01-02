@@ -1,9 +1,10 @@
-## Go Modules
-> https://www.jianshu.com/p/a858ea54acc5
-
+## Go Module
 - 前言  
    随着 go1.11 的发布，go 官方引入了 go module 来解决依赖管理问题，go module 被集成到原生的 go cmd 中，但是如果你的代码库在$GOPATH中，go1.11 的 module 功能是默认不会开启的，想要开启也非常简单, 通过一个环境变量即可开启go module：`export GO111MODULE=on`。
-- GO111MODULE(go 1.11 默认值为auto；go 1.12 默认为on)  
+- GO111MODULE 行为变化
+	- 在Go 1.12版本中，GO111MODULE默认值为auto，在auto模式下，GOPATH/src下面的repo以及在GOPATH之外的repo依旧使用GOPATH mode，不使用go.mod来管理依赖；
+	- 在Go 1.13中，module mode优先级提升，GO111MODULE的默认值依然为auto，但在这个auto下，无论是在GOPATH/src下还是GOPATH之外的repo中，只要目录下有go.mod，go编译器都会使用go module来管理依赖。
+- GO111MODULE
 	go mod 可以通过GO111MODULE来控制是否启用，GO111MODULE有一下三种类型。
 	- on 所有的构建，都使用Module机制
 	- off 所有的构建，都不使用Module机制，而是使用GOPATH和Vendor

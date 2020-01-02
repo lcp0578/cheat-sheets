@@ -13,6 +13,7 @@
 4. [Spark](src/Spark/README.md)
 	- [Spark初识](src/Spark/basic.md)
 5. [nsq](src/nsq/README.md)
+	- [nsq 初探](src/nsq/install.md)
 6.  [symfony](src/symfony/README.md "symfony") 
 	- [Symfony Guide 入门指南](src/symfony/Guide/README.md)
 	- [Basic](src/symfony/Basic/README.md) 基础和常用
