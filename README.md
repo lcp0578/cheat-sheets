@@ -12,6 +12,7 @@
 3. [Kafka](src/Kafka/README.md)
 4. [Spark](src/Spark/README.md)
 	- [Spark初识](src/Spark/basic.md)
+5. [Hive](src/Hive/README.md)
 5. [nsq](src/nsq/README.md)
 	- [nsq 初探](src/nsq/install.md)
 6. [open-falcon](src/open-falcon/README.md)
