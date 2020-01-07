@@ -253,6 +253,7 @@
 	- [openssh 升级](src/Linux/openssh.md)
 	- [tmpfs 介绍](src/Linux/tmpfs.md)
 	- [chmod 递归修改权限](src/Linux/chmod.md)
+	- [audit Linux的审计功能](src/Linux/audit.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
