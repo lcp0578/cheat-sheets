@@ -256,6 +256,7 @@
 	- [audit Linux的审计功能](src/Linux/audit.md)
 	- [内存查看与手动释放 free & drop_caches](src/Linux/drop_caches.md)
 	- [fsck:file system check 磁盘检查](src/Linux/fsck.md)
+	- [通过 ulimit 改善系统性能](src/Linux/ulimt.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
