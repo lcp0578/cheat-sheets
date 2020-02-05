@@ -492,8 +492,9 @@
         - [github.com/henrylee2cn/pholcus](https://github.com/henrylee2cn/pholcus) Pholcus is a distributed, high concurrency and powerful web crawler software.
         - [github.com/PuerkitoBio/gocrawl](https://github.com/PuerkitoBio/gocrawl) Polite, slim and concurrent web crawler.
         - [github.com/MontFerret/ferret](https://github.com/MontFerret/ferret) Declarative web scraping
-68. [Python](src/python/README.md)
-	- [upgrade python](src/python/upgrade.md) CentOS 6 升级Python 2.6到3.6
+68. [Python](src/Python/README.md)
+	- [Python 基础](src/Python/base.md)
+	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md) 
 	- [cosocket](src/OpenResty/cosocket.md)
