@@ -32,6 +32,7 @@
 - [Go工具和调试详解](go_tools.md)
 - [访问DWARF调试信息](dwarf.md)
 - [gdb调试](gdb.md)
+- [delve debugger](delve.md)
 - [Goland 快捷键](goland.md)
 - [IEEE 754 解析](IEEE754.md)
 - [Go's Assembler](asm.md)

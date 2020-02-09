@@ -292,6 +292,7 @@
 	- [Go工具和调试详解](src/Go/go_tools.md)
 	- [访问DWARF调试信息](src/Go/dwarf.md)
 	- [gdb调试](src/Go/gdb.md)
+	- [delve debugger](src/Go/delve.md)
 	- [Goland 快捷键](src/Go/goland.md)
 	- [IEEE 754 解析](src/Go/IEEE754.md)
 	- [Go's Assembler](src/Go/asm.md)
