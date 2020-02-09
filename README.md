@@ -495,6 +495,8 @@
 68. [Python](src/Python/README.md)
 	- [Python 基础](src/Python/base.md)
 	- [Python 发行版](src/Python/Distribution.md)
+	- [关键字 keywords](src/Python/keywords.md)
+	- [列表 List 和 元组 tuple](src/Python/ListTuple.md)
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md) 
