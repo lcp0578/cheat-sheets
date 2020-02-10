@@ -501,6 +501,7 @@
 	- [关键字 keywords](src/Python/keywords.md)
 	- [列表 List 和 元组 tuple](src/Python/ListTuple.md)
 	- [dict(字典) 和 set](src/Python/DictSet.md)
+	- [条件语句 & 循环语句](src/Python/iffor.md)
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md) 
