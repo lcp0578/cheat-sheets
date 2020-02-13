@@ -499,10 +499,12 @@
 	- [Python 基础](src/Python/base.md)
 	- [Python 发行版](src/Python/Distribution.md)
 	- [关键字 keywords](src/Python/keywords.md)
+	- [占位符 `%s%d%f`](src/Python/placeholer.md)
 	- [列表 List 和 元组 tuple](src/Python/ListTuple.md)
 	- [dict(字典) 和 set](src/Python/DictSet.md)
 	- [条件语句 & 循环语句](src/Python/iffor.md)
 	- [函数](src/Python/func.md)
+	- [迭代器和生成器](src/Python/IterYield.md)
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md) 
