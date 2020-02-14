@@ -32,3 +32,4 @@
 - [MySQL 8 新特性 Window Functions](WindowFunctions.md)
 - [Overview of Partitioning in MySQL](partitioning.md)
 - [sql prepare](sql-prepare.md)
+- [Limits on Table Column Count and Row Size](ColumnCountAndRowSize.md)

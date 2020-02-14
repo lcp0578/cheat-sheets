@@ -207,6 +207,7 @@
 	- [MySQL 8 新特性 Window Functions](src/MySQL/WindowFunctions.md)
 	- [Overview of Partitioning in MySQL](src/MySQL/partitioning.md)
 	- [sql prepare](src/MySQL/sql-prepare.md)
+	- [Limits on Table Column Count and Row Size](src/MySQL/ColumnCountAndRowSize.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
