@@ -505,9 +505,10 @@
 	- [条件语句 & 循环语句](src/Python/iffor.md)
 	- [函数](src/Python/func.md)
 	- [迭代器和生成器](src/Python/IterYield.md)
+	- [类和对象](src/Python/class.md)
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 69. [OpenResty](src/OpenResty/README.md)
-	- [OpenResty基础](src/OpenResty/basic.md) 
+	- [OpenResty基础](src/OpenResty/basic.md)
 	- [cosocket](src/OpenResty/cosocket.md)
 	- [LuaJIT](src/OpenResty/luajit.md)
 	- [APISIX](src/OpenResty/apisix.md)  APISIX is a Cloud-Native Microservices API Gateway
