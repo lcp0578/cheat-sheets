@@ -9,5 +9,6 @@
 - [函数](func.md)
 - [迭代器和生成器](IterYield.md)
 - [类和对象](class.md)
+- [模块与包](module.md)
 - [upgrade python](upgrade.md) CentOS 6 升级Python 2.6到3.6
 - [Anaconda之conda的使用](Anaconda.md)

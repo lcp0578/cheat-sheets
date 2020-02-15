@@ -213,6 +213,7 @@
     - [composer config](src/composer/config.md) composer配置相关
     - [composer versions](src/composer/versions.md) composer包版本约定
     - [recover composer.json](src/composer/recover_composer.json.md) 恢复composer.json
+    - [packagist.org 配置 Github Hook让包自动更新](src/composer/packagist_hook.md)
 5.  [zend studio](src/zend_studio.md "zend studio")
 6.  [guzzle http](src/guzzlehttp.md "guzzle http")
 7.  [silex](src/silex.md "silex")
@@ -507,6 +508,7 @@
 	- [函数](src/Python/func.md)
 	- [迭代器和生成器](src/Python/IterYield.md)
 	- [类和对象](src/Python/class.md)
+	- [模块与包](src/Python/module.md)
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
