@@ -2,6 +2,11 @@
 
 1. [TiDB](src/TiDB/README.md)
 	- [install 安装](src/TiDB/install.md)
+2. deep learning
+	- [PyTorch](src/deep-learning/PyTorch.md)
+	- [MXNet](src/deep-learning/MXNet.md)
+	- [TensorFlow](src/deep-learning/TensorFlow.md)
+	- [ONNX](src/deep-learning/ONNX.md)
 2. [ElasticSearch](src/ElasticSearch/README.md)
 	- [CentOS下安装](src/ElasticSearch/install.md)
     - [DSL查询语法](src/ElasticSearch/dsl.md)
