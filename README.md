@@ -2,7 +2,7 @@
 
 1. [TiDB](src/TiDB/README.md)
 	- [install 安装](src/TiDB/install.md)
-2. deep learning
+2. [deep learning](src/deep-learning/README.md)
 	- [PyTorch](src/deep-learning/PyTorch.md)
 	- [MXNet](src/deep-learning/MXNet.md)
 	- [TensorFlow](src/deep-learning/TensorFlow.md)
