@@ -344,7 +344,9 @@
 	- [requirejs](src/javascript/requirejs.md) requrejs引入js、css、fonts等
 	- [art template](src/javascript/art-template.md) art-template模板引擎
 13. [framework7](src/framework7.md "framework7")
-14. [markdown](src/markdown.md "markdown")
+14. [markdown](src/markdown/README.md "markdown")
+    - [基础语法：上下角标和表格](src/markdown/table.md)
+    - [嵌入数学公式](src/markdown/formula.md)
 15. [yii2](src/yii2.md)
 16. [select2](src/select2.md)
 17. [discuz](src/discuz.md)
