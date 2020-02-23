@@ -220,6 +220,7 @@
     - [composer versions](src/composer/versions.md) composer包版本约定
     - [recover composer.json](src/composer/recover_composer.json.md) 恢复composer.json
     - [packagist.org 配置 Github Hook让包自动更新](src/composer/packagist_hook.md)
+    - [composer使用常见错误](src/composer/error.md)
 5.  [zend studio](src/zend_studio.md "zend studio")
 6.  [guzzle http](src/guzzlehttp.md "guzzle http")
 7.  [silex](src/silex.md "silex")

@@ -7,3 +7,4 @@
 - [composer config](https://getcomposer.org/doc/06-config.md)
 - [recover composer.json](recover_composer.json.md) 恢复composer.json
 - [packagist.org 配置 Github Hook让包自动更新](packagist_hook.md)
+- [composer使用常见错误](error.md)
