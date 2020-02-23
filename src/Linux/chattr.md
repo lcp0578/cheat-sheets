@@ -1,4 +1,4 @@
-## chattr
+## chattr & lsattr
 - 介绍
 在Linux ext文件系统中，权限控制除了常规的chmod，还会有文件属性管理，故出现了chattr命令。 
 在linux系统中，内核在2.6以上的，均可执行此命令。通过chattr命令修改属性能够提高系统的安全性，但是它并不适合所有的目录。chattr命令不能保护/、/dev、/tmp、/var目录。lsattr命令是显示chattr命令设置的文件属性。
@@ -22,3 +22,12 @@
     drwxr-xr-x  2 www  www  4096 5月  23 09:41 .
     drwxr-xr-x 38 root root 4096 5月  13 14:43 ..
 ```
+- 用chattr命令防止系统中某个关键文件被修改：
+
+		# chattr +i /etc/resolv.conf
+- 使用 lsattr 命令来显示文件属性：
+
+		# lsattr /etc/resolv.conf
+- 让某个文件只能往里面追加数据，但不能删除，适用于各种日志文件：
+
+		# chattr +a /var/log/messages

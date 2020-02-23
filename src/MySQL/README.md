@@ -33,3 +33,4 @@
 - [Overview of Partitioning in MySQL](partitioning.md)
 - [sql prepare](sql-prepare.md)
 - [Limits on Table Column Count and Row Size](ColumnCountAndRowSize.md)
+- [MySQL8 rpm install](mysql8_rpm_install.md)

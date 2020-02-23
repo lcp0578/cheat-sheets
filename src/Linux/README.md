@@ -18,6 +18,7 @@
 - [history](history.md)
 - [sed](sed.md)
 - [rz & sz](rzsz.md)
+- [chattr & lsattr](chattr.md)
 - [iconv](iconv.md)
 - [Aliyun服务器配置IPV6](ipv6_aliyun.md)
 - [chinese support](chinese_support.md) 中文支持

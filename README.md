@@ -213,6 +213,7 @@
 	- [Overview of Partitioning in MySQL](src/MySQL/partitioning.md)
 	- [sql prepare](src/MySQL/sql-prepare.md)
 	- [Limits on Table Column Count and Row Size](src/MySQL/ColumnCountAndRowSize.md)
+	- [MySQL8 rpm install](src/MySQL/mysql8_rpm_install.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
@@ -242,6 +243,7 @@
 	- [history](src/Linux/history.md)
 	- [sed](src/Linux/sed.md)
 	- [rz & sz](src/Linux/rzsz.md)
+	- [chattr & lsattr](src/Linux/chattr.md)
 	- [iconv](src/Linux/iconv.md)
 	- [Aliyun服务器配置IPV6](src/Linux/ipv6_aliyun.md)
 	- [chinese support](src/Linux/chinese_support.md) 中文支持
