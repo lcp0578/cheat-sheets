@@ -82,13 +82,21 @@
 
 - mysql 删除 主从信息
 
-        mysql> slave stop;
-        mysql>reset slave;
+        mysql> stop slave;
+        mysql> reset slave;
         mysql>change master to master_user='', master_host=' ', master_password='';
 
+- MySQL8 异常报错
 
+		Last_IO_Error: error connecting to master 'mysql_2@172.17.0.2:3306' - retry-time: 60 retries: 1 message: Authentication plugin 'caching_sha2_password' reported error: Authentication requires secure connection.
+需要先在 slave 上连接 master 获取 public-key，如下
 
+		mysql --ssl-mode=DISABLED -h [masterIP] -u [mysql_user] -p [mysql_password] --get-server-public-key
+然后重启下 slave 线程
+
+        stop slave;
+        start slave;
 ### 参考资料
-https://jasonhzy.github.io/2016/02/05/master-slave/  
-https://www.hi-linux.com/posts/61083.html
+- https://jasonhzy.github.io/2016/02/05/master-slave/  
+- https://www.hi-linux.com/posts/61083.html
 
