@@ -5,7 +5,7 @@
 
         location /sfapi/ {
             #rewrite ^/sfapi/(.*) /$1 last;
-            proxy_pass http:/www.b.com/;
+            proxy_pass http://www.b.com/;
             #proxy_redirect     off;
             #proxy_set_header   Host $host;
         }
