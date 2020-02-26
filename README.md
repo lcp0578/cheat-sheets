@@ -391,6 +391,7 @@
     - [awk](src/Nginx/awk.md) 利用awk分析access日志
     - [req limit](src/Nginx/limit.md) nginx请求限制
     - [rewrite url重写](src/Nginx/rewrite.md)
+    - [location表达式类型与优先级](src/Nginx/location.md)
 27. [Apache](src/Apache/README.md) 
 	- [.htaccess](src/Apache/htaccess.md) 开启.htaccess配置
 	- [mac](src/Apache/mac.md) mac下使用

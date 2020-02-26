@@ -9,6 +9,12 @@
             #proxy_redirect     off;
             #proxy_set_header   Host $host;
         }
+- www.a.com/sfapi 转发到 www.b.com/sfapi
+
+        location /sfapi/ {
+            proxy_pass http://www.b.com/sfapi/;
+            proxy_set_header User-Agent: $ua;
+        }
 - go应用转发
 
 		server
