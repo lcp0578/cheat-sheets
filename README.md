@@ -520,6 +520,7 @@
 	- [迭代器和生成器](src/Python/IterYield.md)
 	- [类和对象](src/Python/class.md)
 	- [模块与包](src/Python/module.md)
+	- [枚举类](src/Python/Enum.md)
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
