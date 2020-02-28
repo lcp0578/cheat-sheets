@@ -433,6 +433,7 @@
 	- [tomcat](src/java/tomcat.md)Tomcat安装
 44. [xunsearch](src/xunsearch/README.md)
 45. [mac](src/mac/README.md) mac相关
+	- [升级系统版本、禁用SIP、设置屏幕比例、修改显存](src/mac/upgrade.md)
 	- [keyboard](src/mac/keyboard.md)系统快捷键
 	- [chrome](src/mac/chrome.md) Chrome快捷键
 46. [MSSQL](src/MSSQL/README.md)
