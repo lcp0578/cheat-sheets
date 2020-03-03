@@ -214,6 +214,7 @@
 	- [sql prepare](src/MySQL/sql-prepare.md)
 	- [Limits on Table Column Count and Row Size](src/MySQL/ColumnCountAndRowSize.md)
 	- [MySQL8 rpm install](src/MySQL/mysql8_rpm_install.md)
+	- [MySQL慢日志分析](src/MySQL/slow_log.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
@@ -267,6 +268,7 @@
 	- [内存查看与手动释放 free & drop_caches](src/Linux/drop_caches.md)
 	- [fsck:file system check 磁盘检查](src/Linux/fsck.md)
 	- [通过 ulimit 改善系统性能](src/Linux/ulimt.md)
+	- [内存优化总结:ptmalloc、TCMalloc和JeMalloc](src/Linux/ptmalloc_tcmalloc_jemalloc.md)
 9.  [Go](src/Go/README.md "golang")
 	- [path](src/Go/path.md) 环境变量配置
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
