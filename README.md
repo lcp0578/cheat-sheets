@@ -439,6 +439,7 @@
 	- [升级系统版本、禁用SIP、设置屏幕比例、修改显存](src/mac/upgrade.md)
 	- [keyboard](src/mac/keyboard.md)系统快捷键
 	- [chrome](src/mac/chrome.md) Chrome快捷键
+	- [mac终端走代理](src/mac/proxy.md)
 46. [MSSQL](src/MSSQL/README.md)
 	- [install php sqlsrv extension](src/MSSQL/sqlsrv.md) 安装sqlsrv扩展
 47. [Oracle](src/Oracle/README.md) Oracle数据库相关
