@@ -333,6 +333,7 @@
 	- [git ssh](src/git/git_ssh.md) git ssh配置
 	- [fork sync](src/git/fork_sync.md) fork仓库与原仓同步
 	- [Github](src/git/github.md) Github clone慢配置
+	- [Github Help 使用技巧](src/git/github_help.md)
 	- [git update](src/git/update.md) git升级
 	- [rm git index](src/git/rm.md) 移除文件或目录的git索引
 	- [git recover](src/git/git_recover.md) git还原某个提交ID

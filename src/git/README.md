@@ -5,6 +5,7 @@
 - [git ssh](git_ssh.md) git ssh配置
 - [fork sync](fork_sync.md) fork仓库与原仓同步
 - [Github](github.md) Github clone慢配置
+- [Github Help 使用技巧](github_help.md)
 - [Git update](update.md) git升级
 - [rm git index](rm.md) 移除文件或目录的git索引
 - [git recover](git_recover.md) git还原某个提交ID
