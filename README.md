@@ -275,6 +275,7 @@
 	- [gofmt vs go fmt](src/Go/gofmt.md)
 	- [Compiler Directives](src/Go/CompilerDirectives.md)
 	- [for select](src/Go/for-select.md)
+	- [byte和rune](src/Go/byte_rune.md)
 	- [string](src/Go/string.md) 字符串操作相关
 	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
 	- [number base conversion](src/Go/NumberBaseConversion.md)进制转换
