@@ -58,6 +58,13 @@
             2.replace时必须使用相对路径比如../ ./
             3.require 的包后必须带版本号,replace中可带可不带
             4.目录不能为v1、v2之类，否则会报invalid path
+- go.sum
+	- go.sum是一个构建状态跟踪文件。它会记录当前module所有的顶层和间接依赖，以及这些依赖的校验和，从而提供一个可以100%复现的构建过程并对构建对象提供安全性的保证。
+	- go.sum同时还会保留过去使用的包的版本信息，以便日后可能的版本回退，这一点也与普通的锁文件不同。所以go.sum并不是包管理器的锁文件。
+	- go.sum 的每一行都是一个条目，大致是这样的格式：
+
+            <module> <version> <hash>
+            <module> <version>/go.mod <hash>
 - GOSUMDB
 	- GOSUMDB可以用来校验你下载的库的哈希是否和官方的哈希值是否一样，避免被proxy给修改了，万一proxy给你的下载库加上挖矿代码就惨了，毫无疑问也被墙了，即使专为中国区设置的域名/服务器也被墙。你可以使用goproxy.cn作为GOSUMDB服务器，或者心大使用GOSUMDB=off进行禁用。
 	- GOPRIVATE用来设置不使用代理的仓库，比如一些公司内部的仓库等等，如
@@ -70,4 +77,6 @@
 	- `go help module-get`了解go get命令的变化。
     - `go help gopath-get`显示先前的基于GOPATH的go get功能。
 	- `go help module-private`了解私有库的设置。
-
+- 延伸阅读
+	- https://xuanwo.io/2019/05/27/go-modules/
+	- https://research.swtch.com/vgo
