@@ -285,7 +285,9 @@
 	- [vgo](src/Go/vgo.md) 版本控制
 	- [Byte Order](src/Go/ByteOrder.md) 字节序
 	- Standard library 标准库笔记
-        - [strconv](src/Go/StandardLibrary/strconv.md)
+        - [strconv 字符串数据类型转换](src/Go/StandardLibrary/strconv.md)
+        - [strings 字符串操作](src/Go/StandardLibrary/strings.md)
+		- [time 时间操作](src/Go/StandardLibrary/time.md)
         - [binary](src/Go/StandardLibrary/binary.md)
         - [hex](src/Go/StandardLibrary/hex.md) 16进制操作包
         - [context 上下文](src/Go/StandardLibrary/context.md)

@@ -12,7 +12,9 @@
 - ["泛型编程"](generic-programming.md)
 - [Byte Order](ByteOrder.md) 字节序
 - Standard Library 标准库笔记
-	- [strconv](StandardLibrary/strconv.md)
+	- [strconv 字符串类型转换](StandardLibrary/strconv.md)
+	- [strings 字符串操作](StandardLibrary/strings.md)
+	- [time 时间操作](StandardLibrary/time.md)
 	- [binary](StandardLibrary/binary.md)
 	- [hex](StandardLibrary/hex.md) 16进制操作包
 	- [context 上下文](StandardLibrary/context.md)
