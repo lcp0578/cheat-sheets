@@ -14,7 +14,7 @@
 	- `go mod init <项目模块名称> `初始化模块，会在项目根目录下生成 go.mod文件。
 	- `go mod tidy` 根据go.mod文件来处理依赖关系。
 	- `go mod edit` 命令行中编辑go.mod
-	- `go mod vendor` 将依赖包复制到项目下的 vendor目录。建议一些使用了被墙包的话可以这么处理，方便用户快速使用命令go build -mod=vendor编译
+	- `go mod vendor` 将依赖包复制到项目下的 vendor目录。建议一些使用了被墙包的话可以这么处理，方便用户快速使用命令`go build -mod=vendor`编译(因为在 go modules 模式下 `go build` 是屏蔽 vendor 机制的，所以需要特定参数重新开启 vendor 机制)
 	- `go mod verify` 校验下载到本地缓存中的依赖库自下载后未被修改
 	- `go mod why` 解释为什么需要一个依赖库(肯定是有代码使用它了,
 	- `go mod download <path@version>`下载依赖。参数<path@version>是非必写的，path是包的路径，version是包的版本。
