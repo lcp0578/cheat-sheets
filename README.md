@@ -365,6 +365,7 @@
 21. [yaf](src/yaf.md)
 22. [yar](src/yar.md)
 23. [PHP](src/php.md)
+	- [php.ini 常用配置项](src/PHP/php.ini.md)
 	- [PHP Extension Install](src/PHP/php-extension-install.md) PHP扩展编译安装
 	- [phpize报错，升级autoconf](src/PHP/autoconf.md)
 	- [Memcached](src/PHP/memcached.md) PHP Memcached扩展安装

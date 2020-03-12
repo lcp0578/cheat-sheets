@@ -3,6 +3,7 @@
 	
 		ini_set("display_errors", "On");
 		error_reporting(E_ALL);
+- [php.ini 常用配置项](php.ini.md)
 - [PHP Extension Install](php-extension-install.md) PHP扩展编译安装
 - [phpize报错，升级autoconf](autoconf.md)
 - [Memcached](memcached.md) PHP Memcached扩展安装

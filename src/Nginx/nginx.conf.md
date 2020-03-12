@@ -39,6 +39,7 @@
 		tcp_nopush on; #防止网络阻塞
 		tcp_nodelay on; #防止网络阻塞
 		keepalive_timeout 120; #长连接超时时间，单位是秒
+        server_tokens off; #nginx隐藏版本
 		 
 		#FastCGI相关参数是为了改善网站的性能：减少资源占用，提高访问速度。下面参数看字面意思都能理解。
 		fastcgi_connect_timeout 300;
