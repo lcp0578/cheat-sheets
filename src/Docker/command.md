@@ -1,0 +1,17 @@
+## docker常用命令
+- 常用命令
+	- `docker search image_name` //搜索镜像
+	- `docker pull image_name:version_number` //拉取对应版本的镜像
+	- `docker pull image_name` //默认拉取最新的镜像
+	- `docker images` //查看本地已下载的镜像
+	- `docker ps` //查看正在运行的容器
+	- `docker ps -a` //查看所有的容器（包括run、stop、exited状态的）
+	- `docker logs [container_id]` //根据容器id查看相关日志
+	- `docker container ls` //查看正在运行的容器
+	- `docker rm [container_id]` //只能删除没有在运行的容器
+	- `docker rm -f [container_id]` //可以删除正在运行的容器
+	- `docker run -p local_port:container_port --name container_name [-e config_item] -d image_name` //-p 本地主机端口号:容器服务端口号 --name 容器名字 [-e 配置信息修改] -d 镜像名字
+	- `docker start [container_name|container_id]`//启动容器
+	- `docker stop [container_name|container_id]` //终止容器
+	- `docker rmi [container_name|container_id]` //删除镜像
+	- `docker exec -it [container_name|container_id] bash` //以交互模型打开pseudo-TTY,执行bash
