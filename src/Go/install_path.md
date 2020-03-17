@@ -1,4 +1,7 @@
-## go环境变量配置
+## go安装与环境变量配置
+- 安装
+
+		$ tar -C /usr/local -xzf go1.14.linux-amd64.tar.gz
 - GOROOT
 	- go的安装路径
 	- 在~/.bash_profile中添加下面语句:
@@ -19,5 +22,6 @@
 	- 配置, 在~/.bash_profile中添加如下语句:
 	
             GOPATH=/home/go
+            export GOPATH
             export $PATH:$GOPATH/bin
 

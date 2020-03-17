@@ -270,7 +270,7 @@
 	- [通过 ulimit 改善系统性能](src/Linux/ulimt.md)
 	- [内存优化总结:ptmalloc、TCMalloc和JeMalloc](src/Linux/ptmalloc_tcmalloc_jemalloc.md)
 9.  [Go](src/Go/README.md "golang")
-	- [path](src/Go/path.md) 环境变量配置
+	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
 	- [gofmt vs go fmt](src/Go/gofmt.md)
 	- [Compiler Directives](src/Go/CompilerDirectives.md)

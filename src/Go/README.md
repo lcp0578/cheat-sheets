@@ -1,5 +1,5 @@
 ## Go
-- [path](path.md) 环境变量配置
+- [go安装与环境变量配置](install_path.md)
 - [gofmt vs go fmt](gofmt.md)
 - [Compiler Directives](CompilerDirectives.md)
 - [for select](for-select.md)
