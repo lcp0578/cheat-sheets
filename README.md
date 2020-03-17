@@ -215,6 +215,7 @@
 	- [Limits on Table Column Count and Row Size](src/MySQL/ColumnCountAndRowSize.md)
 	- [MySQL8 rpm install](src/MySQL/mysql8_rpm_install.md)
 	- [MySQL慢日志分析](src/MySQL/slow_log.md)
+	- [Docker搭建MySQL集群](src/MySQL/docker.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
