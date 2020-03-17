@@ -467,6 +467,7 @@
 	- [docker-compose 安装与介绍](src/Docker/compose.md)
 	- [Docker Machine](src/Docker/machine.md)
 	- [Docker Swarm](src/Docker/swarm.md)
+	- [启动异常时，查看容器logs](src/Docker/logs.md)
 52. [OA](src/OA/README.md)
 	- [file2pdf](src/OA/file2pdf.md) 文件转PDF
 	- [install fonts](src/OA/install_fonts.md)安装中文字体 	

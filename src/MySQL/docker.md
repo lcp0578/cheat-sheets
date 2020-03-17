@@ -32,3 +32,8 @@
 	
     		$ docker run -d -e MYSQL_ROOT_PASSWORD=lcp0578 --name=slave --restart=always -v ~/docker/mysql/slave/data:/var/lib/mysql -v ~/docker/mysql/slave/cnf:/etc/mysql/conf.d -p 3308:3306 mysql:8.0 
 - 查看容器状态
+
+		$ docker ps
+        CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES
+        515af0558e89        mysql:8.0           "docker-entrypoint.s…"   13 seconds ago      Up 11 seconds       33060/tcp, 0.0.0.0:3308->3306/tcp   slave
+        a728461c784b        mysql:8.0           "docker-entrypoint.s…"   3 minutes ago       Up 3 minutes        33060/tcp, 0.0.0.0:3307->3306/tcp   master
