@@ -20,7 +20,7 @@
 - 构建两个MySQL容器
 	- master，端口 3307
 	
-    		$ docker run -d mysql:8.0 -e MYSQL_ROOT_PASSWORD=lcp0578 --name=master --restart=always -v ~/docker/mysql/master/data:/var/lib/mysql -v ~/docker/mysql/master/cnf:/etc/mysql/conf.d -p 3307:3306
+    		$ docker run -d -e MYSQL_ROOT_PASSWORD=lcp0578 --name=master --restart=always -v ~/docker/mysql/master/data:/var/lib/mysql -v ~/docker/mysql/master/cnf:/etc/mysql/conf.d -p 3307:3306 mysql:8.0
 		- 命令说明
 			- `-d` 
 			- `-e`
@@ -30,5 +30,5 @@
 			- `--restart`
 	- slave, 端口 3308
 	
-    		$ docker run -d mysql:8.0 -e MYSQL_ROOT_PASSWORD=lcp0578 --name=slave --restart=always -v ~/docker/mysql/slave/data:/var/lib/mysql -v ~/docker/mysql/slave/cnf:/etc/mysql/conf.d -p 3308:3306
+    		$ docker run -d -e MYSQL_ROOT_PASSWORD=lcp0578 --name=slave --restart=always -v ~/docker/mysql/slave/data:/var/lib/mysql -v ~/docker/mysql/slave/cnf:/etc/mysql/conf.d -p 3308:3306 mysql:8.0 
 - 查看容器状态
