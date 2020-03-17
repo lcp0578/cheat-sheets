@@ -37,3 +37,17 @@
         CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES
         515af0558e89        mysql:8.0           "docker-entrypoint.s…"   13 seconds ago      Up 11 seconds       33060/tcp, 0.0.0.0:3308->3306/tcp   slave
         a728461c784b        mysql:8.0           "docker-entrypoint.s…"   3 minutes ago       Up 3 minutes        33060/tcp, 0.0.0.0:3307->3306/tcp   master
+- 进入容器bash, `exit`退出
+
+		//根据容器名称进入
+		$ docker exec -it master bash
+        $ docker exec -it slave bash
+        //或者，根据容器id进入
+        $ docker exec -it 515af0558e89 bash
+        $ docker exec -it a728461c784b bash
+        //命令说明： -it以交互模式打开pseudo-TTY，执行bash
+- 在本机连接master、slave数据库
+
+		$ mysql -uroot -P3307 -p
+        $ mysql -uroot -P3308 -p
+- 配置主从
