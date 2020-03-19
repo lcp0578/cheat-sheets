@@ -12,3 +12,4 @@
 - [req limit](limit.md) nginx请求限制
 - [rewrite url重写](rewrite.md)
 - [location表达式类型与优先级](location.md)
+- [Tengine](tengine.md)

@@ -1,2 +1,2 @@
 ## APISIX is a Cloud-Native Microservices API Gateway
-> https://github.com/iresty/apisix
+> https://github.com/apache/incubator-apisix

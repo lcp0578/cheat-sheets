@@ -22,12 +22,12 @@
 	
     		$ docker run -d -e MYSQL_ROOT_PASSWORD=lcp0578 --name=master --restart=always -v ~/docker/mysql/master/data:/var/lib/mysql -v ~/docker/mysql/master/cnf:/etc/mysql/conf.d -p 3307:3306 mysql:8.0
 		- 命令说明
-			- `-d` 
-			- `-e`
-			- `-v`
-			- `-p`
-			- `--name`
-			- `--restart`
+			- `-d` 代表后台运行
+			- `-e` 修改环境变量
+			- `-v` 目录挂载与映射
+			- `-p` 端口映射
+			- `--name` 设置容器名称
+			- `--restart` 容器异常挂掉后的重启策略
 	- slave, 端口 3308
 	
     		$ docker run -d -e MYSQL_ROOT_PASSWORD=lcp0578 --name=slave --restart=always -v ~/docker/mysql/slave/data:/var/lib/mysql -v ~/docker/mysql/slave/cnf:/etc/mysql/conf.d -p 3308:3306 mysql:8.0 
@@ -46,8 +46,29 @@
         $ docker exec -it 515af0558e89 bash
         $ docker exec -it a728461c784b bash
         //命令说明： -it以交互模式打开pseudo-TTY，执行bash
-- 在本机连接master、slave数据库
+- 在本机连接master、slave数据库(mac下-P参数有bug)
 
 		$ mysql -uroot -P3307 -p
         $ mysql -uroot -P3308 -p
+- 查看容器ip，IPAddress
+
+		$ docker inspect master // "IPAddress": "172.17.0.2"
+        $ docker inspect slave  // "IPAddress": "172.17.0.3"
 - 配置主从
+	- master
+	
+    		mysql> create user 'mysql_slave_3'@'172.17.0.3' identified by 'mysql@slave_3';
+			Query OK, 0 rows affected (0.00 sec)
+	
+			mysql> grant replication slave on *.* to 'mysql_slave_3'@'172.17.0.3';
+			Query OK, 0 rows affected (0.01 sec)
+
+	- slave配置配置
+	
+    		mysql> CHANGE MASTER TO MASTER_HOST='172.17.0.2', MASTER_USER='mysql_slave_3', MASTER_PASSWORD='mysql@slave_3', MASTER_LOG_FILE='mysql-bin.000001'
+			Query OK, 0 rows affected, 2 warnings (0.06 sec)
+            
+            mysql> start slave;
+            Query OK, 0 rows affected (0.00 sec)
+
+            mysql> show slave status
