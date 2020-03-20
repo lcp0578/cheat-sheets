@@ -38,3 +38,5 @@
 - [Docker搭建MySQL集群](docker.md)
 - [Galera Cluster for MySQL](Galera.md)
 - [MHA - Master High Availability](MHA.md)
+- [cobar - a proxy for sharding databases and tables](cobar.md)
+- [canal - 阿里巴巴 MySQL binlog 增量订阅&消费组件](canal.md)
