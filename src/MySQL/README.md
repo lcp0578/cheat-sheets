@@ -36,3 +36,4 @@
 - [MySQL8 rpm install](mysql8_rpm_install.md)
 - [MySQL慢日志分析](slow_log.md)
 - [Docker搭建MySQL集群](docker.md)
+- [Galera Cluster for MySQL](Galera.md)

@@ -26,14 +26,14 @@
 		    public function getFilters()
 		    {
 		        return array(
-		            new \Twig_SimpleFilter('theme', array($this, 'themeFilter')),
+		            new \Twig\TwigFilter('theme', array($this, 'themeFilter')),
 		        );
 		    }
 		    // 注册一个theme的函数
 		    public function getFunctions()
 		    {
 		        return array(
-		            new \Twig_SimpleFunction('theme', array($this, 'themeFunction')),
+		            new \Twig\TwigFunction('theme', array($this, 'themeFunction')),
 		        );
 		    }
 		    
@@ -82,7 +82,7 @@
                 public function getFunctions()
                 {
                     return array(
-                        new \Twig_SimpleFunction('macro_no_content', [
+                        new \Twig\TwigFunction('macro_no_content', [
                             $this,
                             'noContent'
                         ], [
