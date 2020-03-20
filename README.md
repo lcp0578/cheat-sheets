@@ -216,6 +216,8 @@
 	- [MySQL8 rpm install](src/MySQL/mysql8_rpm_install.md)
 	- [MySQL慢日志分析](src/MySQL/slow_log.md)
 	- [Docker搭建MySQL集群](src/MySQL/docker.md)
+	- [Galera Cluster for MySQL](src/MySQL/Galera.md)
+	- [MHA - Master High Availability](src/MySQL/MHA.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
