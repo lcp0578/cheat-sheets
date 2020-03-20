@@ -40,3 +40,4 @@
 - [MHA - Master High Availability](MHA.md)
 - [cobar - a proxy for sharding databases and tables](cobar.md)
 - [canal - 阿里巴巴 MySQL binlog 增量订阅&消费组件](canal.md)
+- [MySQL 8.0 自带的4个系统数据库](MySQL8database.md)
