@@ -84,6 +84,7 @@
 - [multi field login](Security/multi-field-login.md) 支持多字段登录系统
 - [SetLoginToken](Security/SetLoginToken.md) 手动用户登录，设置token
 - [Ajax Authentication Listener](Security/AjaxAuthenticationListener.md) Ajax验证监听
+- [security advanced user interface 高级用户接口](Security/security-advanced-user-interface.md)
 #### [EventListener](EventListener/README.md) 事件监听相关
 - [EventListener](EventListener/README.md) 事件监听
 - [Login Event Listener](EventListener/LoginListener.md) 登录事件监听

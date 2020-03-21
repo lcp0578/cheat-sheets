@@ -108,6 +108,7 @@
 		- [multi field login](src/symfony/Security/multi-field-login.md) 支持多字段登录系统
 		- [SetLoginToken](src/symfony/Security/SetLoginToken.md) 手动用户登录，设置token
 		- [Ajax Authentication Listener](src/symfony/Security/AjaxAuthenticationListener.md) Ajax验证监听
+		- [security advanced user interface 高级用户接口](src/symfony/Security/security-advanced-user-interface.md)
 	- [EventListener](src/symfony/EventListener/README.md) 事件监听相关
 		- [EventListener](src/symfony/EventListener/README.md) 事件监听
 		- [Login Event Listener](src/symfony/EventListener/LoginListener.md) 登录事件监听
