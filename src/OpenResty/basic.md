@@ -6,6 +6,9 @@
 	- 关闭 
 	
     		$ openresty -s stop
+	- 重启
+	
+    		$ openresty -s reload
 - 查看openresty版本信息和编译参数
 ``` shell
 $ openresty -v
