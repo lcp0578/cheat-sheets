@@ -1,4 +1,6 @@
 ## OpenResty基础
+- OpenResty版本号
+	-  OpenResty 的版本号是跟着它所使用的 Nginx 来确定的，比如 OpenResty 的 1.15.8.1，使用的 Nginx 版本号就是 1.15.8，最后的 1 是 OpenResty 自己的小版本号
 - 启动与关闭
 	- 指定配置文件
 	

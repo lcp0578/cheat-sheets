@@ -545,6 +545,8 @@
 	- [Anaconda之conda的使用](src/Python/Anaconda.md)
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
+	- [OpenResty 配置](src/OpenResty/config.md)
+	- [第三方包管理：OPM和LuaRocks](src/OpenResty/luarocks_opm.md)
 	- [cosocket](src/OpenResty/cosocket.md)
 	- [LuaJIT](src/OpenResty/luajit.md)
 	- [APISIX](src/OpenResty/apisix.md)  APISIX is a Cloud-Native Microservices API Gateway
