@@ -435,6 +435,10 @@
 35. [webpack](src/webpack/README.md)
 36. [vuejs](src/vuejs/README.md)
 37. [HAProxy](src/HAProxy/README.md)
+	- [源码编译安装](src/HAProxy/install.md)
+    - [常用配置示例](src/HAProxy/config.md)
+    - [ACL配置](src/HAProxy/ACL.md)
+    - [HAProxy Nginx获取客户端真实IP](src/HAProxy/real_ip.md)
 38. [phpStudy](src/phpStudy.md)  phpStudy升级php&MySQL
 39. [windows](src/windows/README.md)
 	- [taskkill](src/windows/taskkill.md) 杀进程
