@@ -568,3 +568,5 @@
 	- [jira 项目管理](src/atlassian/jira.md)
 	- [confluence 站内wiki](src/atlassian/confluence.md)
 87. [CesiumJS](src/CesiumJS/README.md)
+88. [水利](src/water/README.md)
+	- [巴歇尔槽计算公式](src/water/ParshallFlume.md)
