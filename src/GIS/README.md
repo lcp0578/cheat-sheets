@@ -2,6 +2,7 @@
 - [OSGeo](OSGeo.md)
 - [OSGeo4W](OSGeo4W.md)
 - [QGIS](QGIS.md)
+- [osgEarth - Geospatial SDK for OpenSceneGraph](osgEarth.md)
 - [google earthenterprise](google_earthenterprise.md)
 - [GeoServer](GeoServer.md)
 - [MapServer](MapServer.md)
