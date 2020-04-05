@@ -17,6 +17,8 @@
 2. [C/C++](src/c_cpp/README.md)
 	- [Vcpkg 包管理工具](src/c_cpp/vcpkg.md)
 	- [boost库](src/c_cpp/boost.md)
+2. [OpenGL](src/OpenGL/README.md)
+	- [GLSL基础语法介绍](src/OpenGL/GLSL.md)
 2. [TiDB](src/TiDB/README.md)
 	- [install 安装](src/TiDB/install.md)
 3. [deep learning](src/deep-learning/README.md)
