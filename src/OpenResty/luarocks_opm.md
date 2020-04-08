@@ -7,6 +7,15 @@
         pintsized/lua-resty-http                          Lua HTTP client cosocket driver for OpenResty/ngx_lua
         agentzh/lua-resty-http                            Lua HTTP client cosocket driver for OpenResty/ngx_lua
 PS:在 OpenResty 世界中，如果你使用 cosocket 实现了一个包，那么就要使用 lua-resty- 这个前缀，算是一个不成文的规定。
+        $ opm search lua-resty-waf
+        p0pr0ck5/lua-resty-waf                            High-performance WAF built on the OpenResty stack
+        $ opm install p0pr0ck5/lua-resty-waf
+        * Fetching p0pr0ck5/lua-resty-waf
+          Downloading https://opm.openresty.org/api/pkg/tarball/p0pr0ck5/lua-resty-waf-0.8.2.opm.tar.gz
+          % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                         Dload  Upload   Total   Spent    Left  Speed
+        100 47681  100 47681    0     0  83797      0 --:--:-- --:--:-- --:--:-- 83650
+        Package p0pr0ck5/lua-resty-waf 0.8.2 installed successfully under /usr/local/Homebrew/Cellar/openresty/1.15.8.3_1/site/ .
 - LuaRocks 是 OpenResty 世界的另一个包管理器，诞生在 OPM 之前。不同于 OPM 里只包含 OpenResty 相关的包，LuaRocks 里面还包含 Lua 世界的库。
 
 		$ luarocks search lua-resty-http
