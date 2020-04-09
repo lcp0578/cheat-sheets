@@ -571,7 +571,7 @@
 	- [Anaconda之conda的使用](src/Python/Anaconda.md)
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
-	- [CentOS 安装 OpenResty](src/OpenResty/contos.md)
+	- [CentOS 安装 OpenResty](src/OpenResty/CentOS.md)
 	- [OpenResty 配置](src/OpenResty/config.md)
 	- [第三方包管理：OPM和LuaRocks](src/OpenResty/luarocks_opm.md)
 	- [cosocket](src/OpenResty/cosocket.md)

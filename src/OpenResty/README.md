@@ -1,6 +1,6 @@
 ## OpenResty
 - [OpenResty基础](basic.md)
-- [CentOS 安装 OpenResty](contos.md)
+- [CentOS 安装 OpenResty](CentOS.md)
 - [OpenResty 配置](config.md)
 - [第三方包管理：OPM和LuaRocks](luarocks_opm.md)
 - [cosocket](cosocket.md)
