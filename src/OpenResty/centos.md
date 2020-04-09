@@ -74,4 +74,79 @@
                 no file '/usr/local/lib/lua/5.1/rex_pcre.so'
                 no file '/usr/local/openresty/luajit/lib/lua/5.1/rex_pcre.so'
                 no file '/usr/local/lib/lua/5.1/loadall.so'
-           
+- 修改配置文件nginx.conf
+
+        http {
+            server_tokens off;
+            include waf_init.conf;
+            ...
+            server {
+                listen       8080;
+                server_name  localhost;
+				...
+                location / {
+                    include waf_exec.conf;
+                    ....
+                }
+            }
+        }
+- waf_init.conf
+
+		init_by_lua_block {
+                -- use resty.core for performance improvement, see the status note above
+                require "resty.core"
+
+                -- require the base module
+                local lua_resty_waf = require "resty.waf"
+
+                -- perform some preloading and optimization
+                lua_resty_waf.init()
+        }
+- waf_exec.conf
+
+        access_by_lua_block {
+            local lua_resty_waf = require "resty.waf"
+
+            local waf = lua_resty_waf:new()
+
+            -- define options that will be inherited across all scopes
+            waf:set_option("debug", true)
+            waf:set_option("mode", "ACTIVE")
+
+            -- this may be desirable for low-traffic or testing sites
+            -- by default, event logs are not written until the buffer is full
+            -- for testing, flush the log buffer every 5 seconds
+            --
+            -- this is only necessary when configuring a remote TCP/UDP
+            -- socket server for event logs. otherwise, this is ignored
+            waf:set_option("event_log_periodic_flush", 5)
+
+            -- run the firewall
+            waf:exec()
+        }
+
+        header_filter_by_lua_block {
+            local lua_resty_waf = require "resty.waf"
+
+            -- note that options set in previous handlers (in the same scope)
+            -- do not need to be set again
+            local waf = lua_resty_waf:new()
+
+            waf:exec()
+        }
+
+        body_filter_by_lua_block {
+            local lua_resty_waf = require "resty.waf"
+
+            local waf = lua_resty_waf:new()
+
+            waf:exec()
+        }
+
+        log_by_lua_block {
+            local lua_resty_waf = require "resty.waf"
+
+            local waf = lua_resty_waf:new()
+
+            waf:exec()
+        }
