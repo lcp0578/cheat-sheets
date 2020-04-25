@@ -43,3 +43,4 @@
 - [fsck:file system check 磁盘检查](fsck.md)
 - [通过 ulimit 改善系统性能](ulimt.md)
 - [内存优化总结:ptmalloc、TCMalloc和JeMalloc](ptmalloc_tcmalloc_jemalloc.md)
+- [traceroute](traceroute.md)

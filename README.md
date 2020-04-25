@@ -298,6 +298,7 @@
 	- [fsck:file system check 磁盘检查](src/Linux/fsck.md)
 	- [通过 ulimit 改善系统性能](src/Linux/ulimt.md)
 	- [内存优化总结:ptmalloc、TCMalloc和JeMalloc](src/Linux/ptmalloc_tcmalloc_jemalloc.md)
+	- [traceroute](src/Linux/traceroute.md)
 9.  [Go](src/Go/README.md "golang")
 	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
