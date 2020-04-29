@@ -23,9 +23,8 @@
     - 解压、安装
     
     		# tar -zxvf v2.18.0.tar.gz
-            # whereis git
-            git: /usr/bin/git /usr/share/man/man1/git.1.gz
             # cd git-2.18.0/
+            # make configure
             # ./configure --prefix=/usr/local --with-iconv=/usr/local/libiconv
             # make && make install
 - 验证版本号
