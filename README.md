@@ -21,6 +21,7 @@
 	- [make 与 cmake](src/c_cpp/make_cmake.md)
 	- [关于VC预定义常量_WIN32，WIN32，_WIN64](src/c_cpp/WIN32_WIN32_WIN64.md)
 2. [OpenGL](src/OpenGL/README.md)
+	- [OpenGL 基本知识点](src/OpenGL/basic.md)
 	- [GLSL基础语法介绍](src/OpenGL/GLSL.md)
 2. [TiDB](src/TiDB/README.md)
 	- [install 安装](src/TiDB/install.md)
