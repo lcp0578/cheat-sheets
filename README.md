@@ -419,6 +419,7 @@
 	- [backup.sh](src/Shell/backup.sh.md) 备份项目shell脚本
 26. [Nginx](src/nginx.md)
 	- [nginx basic](src/Nginx/nginx_basic.md) nginx基础
+	- [Nginx启动、重启、停止命令](src/Nginx/command.md)
 	- [version](src/Nginx/version.md) 版本号约定
     - [nginx conf](src/Nginx/nginx.conf.md) nginx.conf注释版
     - [vhost conf](src/Nginx/vhost.md) vhost配置示例

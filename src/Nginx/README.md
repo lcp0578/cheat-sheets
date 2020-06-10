@@ -1,5 +1,6 @@
 ## Nginx
 - [nginx basic](nginx_basic.md) nginx基础
+- [Nginx启动、重启、停止命令](command.md)
 - [version](version.md) 版本号约定
 - [nginx conf](nginx.conf.md) nginx.conf注释版
 - [vhost conf](vhost.md) vhost配置示例
