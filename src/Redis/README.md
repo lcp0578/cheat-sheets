@@ -10,3 +10,4 @@
 - [Redis主从 master slave ](master-slave.md)
 - [Redis哨兵 sentinel ](sentinel.md)
 - [Redis集群 cluster](cluster.md)
+- [Redis 6 redis-cluster-proxy](redis-cluster-proxy.md)
