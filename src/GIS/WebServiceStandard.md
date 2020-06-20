@@ -1,0 +1,11 @@
+## Web服务的相关规范
+- KML( Keyhole Markup Language;钥匙孔标记语言）
+	- KML是谷歌公司和OGC 的一个基于XML的描述地理要素及其可视化的文件格式。KML最初由Keyhole公司创建，是其EarthViewer 3D所采用的文件格式。Keyhole公司于2004年被谷歌公司收购，其EarthViewer 3D被改名为 Google Earth。谷歌公司向OGC 申请把KML作为一个标准。经过OGC 成员的论证、修改和批准，KML于2008年正式成为 OGC 的一个官方标准。
+	- 一个KML文件可以描述一些地理要素，如点、线、多边形、图像和3D模型等，并可以定义它们的显示符号、相机位置（即观察者所在的地点和高度、视线的方向、俯视或仰视的角度）。KMZ文件是压缩过的KML文件，这样一方面可以减小文件的大小，另一方面可以包含其他类型的文件如KML中符号和链接所需要的图片。下面是一个简单的KML的例子。它首先定义了一个带有特定图标的样式，然后定义了一个地名注记，并用这个图标来显示。
+	- KML经常被用于公共信息发布。例如，美国地质调查局用KML发布接近实时的地震信息，美国国家海洋与大气管理局利用KML发布天气预报，包括恶劣天气警报、雷达影像和传感器观测数据等。
+- GeoRSS
+	- RSS是简易资讯聚合（Really Simple Syndication)的简称，也被称为丰富站点摘要（Rich Site Summary)或 RDF 站点摘要（Resource Description Framework Site Summary)。
+	- GeoRSS是一个在RSS和其他XML中添加位置信息的标准(OGC，2006c)。GeoRSS 有三种格式：W3C Geo、OGC GeoRSS-Simple 和GeoRSS-GMLO
+		- W3C Geo：只能描述点状要素，采用WGS 84经纬度坐标。这一标准虽然还被使用着，但它已经是一种过时的标准，不推荐使用。
+		- OGC GeoRSS-Simple：能够描述基本的几何形状（包括点、线、矩形和多边形)及其属性（包括要素类型、要素名称、关系标签、高程以及半径）。名副其实，GeoRSS-Simple的设计简洁明了，其坐标参考系通常是WGS 84经 纬度。
+		- OGC GeoRSS-GML：比GeoRSS-Simple支持更多的地理要素。如果不标明坐标参考系，其坐标缺省是WGS84经纬度，但此规范允许定义和采用其他的坐标体系。

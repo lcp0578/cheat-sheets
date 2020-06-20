@@ -1,0 +1,39 @@
+## Web服务的标准
+- Web 地图服务（WMS—Web Map Service)
+	- WMS是OGC制定的一种在互联网上制作地图的Web服务规范，WMS生产的地图一般以图像格式呈现，如PNG、GIF或JPEG。任何一个声称符合WMS规范的Web服务都必须支持下面两个必要的请求：
+		- GetCapabitities：能向客户端返回该Web服务的描述信息。返回结果的格式是XML，它描述该服务的名称、简介、关键词、覆盖范围、包含那些数据层、每层是什么坐标体系、具有哪些属性以及是否能被查询。这个元数据还包括该服务所能产生的地图图片文件格式、能支持的操作每个操作的URL等。
+		- GetMap：能根据客户端的GetMap请求参数来制作一个地图。GetMap请求中需要的参数包括显示哪些图层、地图的长宽像素数和空间坐标体系等。有的WMS还支持风格化图层定义（styled layer descriptor,SLD)，允许用户在URL请求中动态地指定各个数据层的显示符号。返回结果一般是PNG、GIF和JPEG等栅格格式的图片。
+	- WMS规范还制定了几个可选请求，例如
+		- GetFeaturelnfb：查询地图上某一位置的信息,其典型的应用情况是用户在地图上点击一个点，服务器返回位于该点的地理要素的坐标信息和属性信息。
+		- GetLegendGraphic：能根据客户端指定的图层，制作和返回该图层的图例，返回格式一般是PNG、GIF和JPEG等图片。
+
+	- WMS规范的应用较广，被许多机构采用。例如，美国地质调查局（USGS)就提供了一系列WMS服务，包括国家大地图WMS服务、国家地图集运输WMS服务、国家水文数据集WMS服务以及美国实时火灾（主要是指山林野火）WMS服务。美国国家航空航天局（NASA)对地观测系统（NEO, http://neo.sci.gsfc.nasa.gov/Search.html) WMS ( http://neowms.sci.gsfc.nasa.gov/wms/wms )等方式，动态提供多时间序列的、主要关于全球气候和环境变化的影像，包括海面温度、陆地表面温度、植被指数、降水量、一氧化碳浓度、地表覆被类型以及地表接受的太阳辐射量等。
+- Web 地图瓦块服务（WMTS—Web Map Tile Service)
+	- WMTS是OGC制定的一种发布瓦块地图的Web服务规范。WMTS不同于WMS，两种相互补充。WMS主要属于动态地图服务，即地图是服务器在每次接到客户请求时立刻生成的，特别适用于数据在不断被更新的地图服务。WMTS的地图是服务器预先制作好的瓦块，这种方法可以提高Web服务的性能和伸缩性，特别适合于数据相对静态、不再更新或更新频率很低的数据。
+	- WMTS规范定义了两个必要操作和一个可选操作。
+		- GetCapabilities：获取服务的元数据。
+		- GetTile：获取瓦块。
+		- GetFeaturelnfo：可选，获取点选的要素信息。
+- Web 要素服务（WFS—Web Feature Service)
+	- WFS是OGC 制定的一种在互联网上对矢量地理要素及数据进行操作，包括检索、插入、更新和删除等Web服务规范（OGC ,2005)。WFS定义了以下主要操作。
+		- GetCapabilities：获取服务的兀数据。
+		- DescribeFeatureType：获取WFS支持的要素类型的结构。
+		- GetFeature：获取与一个查询条件相匹配的地理要素及其属性。
+		- LockFeature：请求服务器在一项事务期间锁定一个或多个地理要素。
+		- Transaction：请求服务器创建、更新或删除地理要素。
+	- 以上操作有必选的，也有可选的。根据所支持的操作，WFS主要可以分为以下两类。
+		- 基本型 WFS(Basic WFS)：只支持 GetCapabilities、DescribeFeatureType 和GetFeature操作， 只能进行要素的查询和读取，所以又称为只读型WFS。
+		- 事务型WTFS(TransactionWFS或WFS-T)：除了基本WFS所支持的操作外，还支持transaction操作。 它不仅能支持地理要素的读取，还支持地理要素的在线编辑和处理，也被称为读写型WFS。
+	- 在WFS请求和响应中，地理要素的信息传输主要是采用GML格式。2006年，OGC通过了GML简单要素专用标准（GML Simple Features Profile)，以加快WFS请求和响应的速度，简化WFS的实施难度。WFS不仅可以用于制图和查询，而且可以用于地理数据的切割、投影转换和在线下载。例如，美国国家气象局气象研究实验室提供一个国家数字天气预报数据库（NDFD) WFS服务。这个服务允许公众、政府机构和企事业单位获取气温、露点、风、降水概率和降水量等数据。
+- Web 覆盖服务（WCS-Web Coverage Service)
+	- WCS是OGC 制定的一种发布栅格地理数据的Web服务规范，它所返回的栅格数据是原始数据（raw data)，如数字高程中地面的高程值和卫星影像中的光谱值等WCS与WMS不同，因为WMS所返回的是经过视觉化处理的、已经失去原始值的图片。WCS与WFS的不同还在于WFS是针对矢量数据的，而WCS是针对栅格数据的。WCS规范规定了以下操作（OGC，2006b)：
+		- GetCapabilities：返回该服务的元数据。
+		- DescribeCoverage：返回该服务中栅格数据层的详细描述信息， 如时间信息、覆盖范围、坐标体系和所支持的输出格式等。
+		- GetCoverage：服务器根据允许客户端所指定的数据层、时空范围、坐标体系、输出格式、内插方式以及对数据进行切割转换等操作， 返回GeoTIFF、HDF-EOS或NIT等格式的数据。
+	- 美国国家冰雪数据中心（NSIDC)提供极地冰冻圈的WCS服务，用户可以获取有关结冰区域的数据，包括每月海洋结冰和集中区、积雪覆盖范围及雪水等深线等信息，以支持有关极地冰冠融化和气候变化的研究（Maurer，2007)。
+- Web 处理服务（WPS—Web Processing Service)
+	- WPS是OGC为在互联网上进行地理分析而提供的一种Web服务规范 (OGC,2007c)。它制定了地理分析服务的输人和输出（即请求和响应）格式，还制定了客户端如何请求地理分析的执行。WPS所需要的地理数据可以通过互联网传输过去，也可以是服务器上已有的数据。WPS定义的主要操作有GetCapabilities、DescribeProcess和 Execute。
+- 其他Web服务标准
+	- Web目录服务（CSW—Catalog Service for Web)：目录服务是一项共享地理空间信息的重要技术。 CSW支持搜索和发布地理空间元数据，它可以让使用者查询元数据，来发现他们所需要的地理数据和服务，也可以让提供者发布和更新元数据。 CSW有两种类型：只读型CSW和事务型CSW。 只读型 CSW支持 GetCapabilities、DescribeRecord、GetRecords、GetRecordByld以及GetDomain等操作， 仅支持元数据的查询和阅读。 事务型CSW支持元数据的读和写，允许用户通过transaction 和 harvest 操作，来发布、编辑和删除元数据（OGC, 2007b )。 ArcGIS Geoportal Server 等产品就提供了CSW接口。
+	- 开放位置服务（OpenLS—Open Location Service)：这是OGC 为基于位置的服务（LBS;见第5章）所提供的一系列的Web服务规范， 包括黄页搜索、追踪手机用户的位置和导航服务等（OGC ,2004)。
+	- 传感器网络整合框架(SWE—Sensor Web Enablement)：SWE框架包括一系列Web服务标准:传感器观测服务（SOS )、 传感器规划服务（SPS)以及传感器报警服务（SAS)。这些标准能够使用户发现和获取传感器网络的传感器数据。

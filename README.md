@@ -1,6 +1,8 @@
 # :elephant: cheat sheets :memo:
 
 1. [GIS](src/GIS/README.md)
+	- [Web服务的标准](src/GIS/WebService.md)
+	- [Web服务的相关规范](src/GIS/WebServiceStandard.md)
     - [OSGeo](src/GIS/OSGeo.md)
     - [OSGeo4W](src/GIS/OSGeo4W.md)
     - [QGIS](src/GIS/QGIS.md)
