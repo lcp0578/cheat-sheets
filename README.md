@@ -20,6 +20,8 @@
     - [osgconv 格式转换](src/GIS/osgconv.md)
 	- [三维文件格式](src/GIS/extension.md)
 2. [C/C++](src/c_cpp/README.md)
+	- [C++ virtual 虚函数与纯虚函数](src/c_cpp/virtual.md)
+	- [C++ explicit](src/c_cpp/explicit.md) 
 	- [Vcpkg 包管理工具](src/c_cpp/vcpkg.md)
 	- [boost库](src/c_cpp/boost.md)
 	- [make 与 cmake](src/c_cpp/make_cmake.md)

@@ -1,4 +1,6 @@
 ## C/C++
+- [C++ virtual 虚函数与纯虚函数](virtual.md)
+- [C++ explicit](explicit.md)
 - [Vcpkg 包管理工具](vcpkg.md)
 - [boost库](boost.md)
 - [make 与 cmake](make_cmake.md)
