@@ -1,4 +1,5 @@
 ## C/C++
+- [构造函数后面加:冒号的作用](constructor.md)
 - [const 关键字](const.md)
 - [C++ virtual 虚函数与纯虚函数](virtual.md)
 - [C++ explicit](explicit.md)
