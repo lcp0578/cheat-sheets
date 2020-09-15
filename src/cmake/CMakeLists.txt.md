@@ -42,3 +42,13 @@
         #add_executable(demo demo.cpp) # 生成可执行文件
         #add_library(common STATIC util.cpp) # 生成静态库
         #add_library(common SHARED util.cpp) # 生成动态库或共享库
+- 常用语句
+	- `add_definitions()` # 相当于visual studio项目属性中C/C++-预处理器-预处理器定义
+	- `include_directories()` # 相当于visual studio项目属性中C/C++-常规-附加包含目录
+	- `link_directories()` # 相当于visual studio项目属性中链接器-常规-附加库目录
+	- `link_libraries()` # 相当于visual studio项目属性中链接器-输入-附加依赖项
+	- `set(A B)` # 定义变量A内容为B
+	- `${A}` # ${A}使用变量A,如上面${PROJECT_NAME}
+	- `file(GLOB SRC_FILE *.c)` # 定义SRC_FILE为当前目录下后缀为c的文件列表
+	- `aux_source_directory(./ SRC_FILES)` # 定义SRC_FILES为当前目录下的所有源文件列表，./ 表示当前目录， ../表示上级目录
+	- `message(STATUS ${A})` #输出消息 内容为变量A的值
