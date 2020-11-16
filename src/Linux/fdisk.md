@@ -56,7 +56,7 @@
 		df -TH /home/data/
 - 修改一下系统配置加入下列行到/etc/fstab，让系统启动后自动挂载，否则有可能会掉
 
-		/dev/vdb1  /home/data xfs  defaults  0  0
+		/dev/vdb  /home/data xfs  defaults  0  0
 - PS：文件系统的区别
 	- 文件系统EXT3，EXT4和XFS的区别： 
 		- EXT3 

@@ -45,3 +45,6 @@
 - [内存优化总结:ptmalloc、TCMalloc和JeMalloc](ptmalloc_tcmalloc_jemalloc.md)
 - [traceroute](traceroute.md)
 - [supervisor](supervisor.md)
+- [parted 分区工具](parted.md)
+- [dd fio 磁盘测试](dd.md)
+- [iostat iotop 监视磁盘操作活动](iostat.md)
