@@ -3,6 +3,7 @@
 - [点(.)操作符和箭头(->)操作符](dot_arrow.md)
 - [const 关键字](const.md)
 - [C++ virtual 虚函数与纯虚函数](virtual.md)
+- [C++友元函数和友元类](friend.md)
 - [C++ explicit](explicit.md)
 - [Vcpkg 包管理工具](vcpkg.md)
 - [boost库](boost.md)
