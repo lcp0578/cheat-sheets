@@ -29,3 +29,10 @@
 - 启动
 
 		/usr/local/haproxy/sbin/haproxy -f /usr/local/haproxy/haproxy.cfg 
+- 配置开机启动
+
+		mkdir -p /etc/haproxy
+		ln -s/usr/local/haproxy/haproxy.cfg /etc/haproxy/
+		cp /usr/local/src/haproxy-2.1.0/examples/haproxy.init /etc/rc.d/init.d/haproxy
+        chmod +x /etc/rc.d/init.d/haproxy
+        ln -s/usr/local/haproxy/sbin/haproxy /usr/sbin/
