@@ -1,4 +1,9 @@
 ## php-fpm
+- 设置慢查询日志
+
+		slowlog=/var/log/php7.0/fpm/slow.log
+		request_slowlog_timeout=1s
+
 - 启动、重启、终止操作
 	- 使用信号控制，master进程可以理解以下信号
 		- INT, TERM 立刻终止
