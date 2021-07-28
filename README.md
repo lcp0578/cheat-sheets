@@ -267,6 +267,8 @@
 	- [cobar - a proxy for sharding databases and tables](src/MySQL/cobar.md)
 	- [canal - 阿里巴巴 MySQL binlog 增量订阅&消费组件](src/MySQL/canal.md)
 	- [MySQL 8.0 自带的4个系统数据库](src/MySQL/MySQL8database.md)
+4. [Kingbase V8](src/kingbase/README.md)
+	- [安装与启动](src/kingbase/install.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
