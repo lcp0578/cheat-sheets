@@ -269,6 +269,7 @@
 	- [MySQL 8.0 自带的4个系统数据库](src/MySQL/MySQL8database.md)
 4. [Kingbase V8](src/kingbase/README.md)
 	- [安装与启动](src/kingbase/install.md)
+	- [KingbaseV8R3运维文档](src/kingbase/KingbaseV8R3运维文档.pdf)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
