@@ -391,6 +391,8 @@
     - [Redis哨兵 sentinel ](src/Redis/sentinel.md)
     - [Redis集群 cluster](src/Redis/cluster.md)
     - [Redis 6 redis-cluster-proxy](src/Redis/redis-cluster-proxy.md)
+11. [Ruby](src/Ruby/README.md)
+	- [RubyGems](gem.md)
 11. [git相关](src/git/README.md "git")
 	- [git branch](src/git/branch.md) git分支相关
 	- [git tag](src/git/tag.md) git标签相关
