@@ -145,7 +145,7 @@
 - [symfony deploy](Deployment/deploy.md) symfony项目部署文档
 #### [Webpack Encore](WebpackEncore/README.md) Webpack Encore相关
 - [Webpack Encore](WebpackEncore/README.md) Webpack Encore介绍
-- [Webpack Encore Example](example.md) Webpack Encore使用示例
+- [Webpack Encore Example](WebpackEncore/example.md) Webpack Encore使用示例
 #### [Symfony4](Symfony4/README.md) sf4相关
 - [flex](Symfony4/flex.md)
 - [maker-bundle](Symfony4/maker-bundle.md)
