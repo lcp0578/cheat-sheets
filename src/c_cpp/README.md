@@ -14,3 +14,4 @@
 - [GDB](GDB.md)
 - [Valgrind](Valgrind.md)
 - [Systemtap](Systemtap.md)
+- [c++ 四种强制类型转换](cast.md)
