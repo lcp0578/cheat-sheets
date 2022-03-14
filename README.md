@@ -22,6 +22,7 @@
 2. [C/C++](src/c_cpp/README.md)
 	- [关键字(保留字)](src/c_cpp/keyword/README.md)
 		- [volatile](src/c_cpp/keyword/volatile.md)
+		- [constexpr与inline](src/c_cpp/keyword/constexpr_inline.md)
 	- [构造函数后面加:冒号的作用](src/c_cpp/constructor.md)
 	- [点(.)操作符和箭头(->)操作符](src/c_cpp/dot_arrow.md)
 	- [const 关键字](src/c_cpp/const.md)
