@@ -511,6 +511,7 @@
 	- [debugger调试程序](src/VisualStudio/debugger.md)
 	- [常用快捷键](src/VisualStudio/shortcut.md)
 	- [PDB文件](src/VisualStudio/PDB.md)
+	- [安装扩展](src/VisualStudio/extensions.md)
 	- [InstallShield](src/VisualStudio/InstallShield.md)
 43. [java](src/java/README.md)
 	- [eclipse](src/java/eclipse.md)eclipse相关
