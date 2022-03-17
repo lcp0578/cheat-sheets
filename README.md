@@ -44,6 +44,7 @@
 	- [关于 QWidget 相关小知识](src/Qt/QWidget.md)
 	- [Qt 的多语言支持的翻译机制](src/Qt/QTranslator.md)
 	- [Qt 插件机制以及插件中几个重要的宏](src/Qt/QtPlugin.md)
+	- [Qt自定义信号槽](src/Qt/SOLT.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
 4. [CMake](src/CMake/README.md)
