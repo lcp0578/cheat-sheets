@@ -3,6 +3,7 @@
 	- [volatile](keyword/volatile.md)
 	- [constexpr与inline](keyword/constexpr_inline.md)
 	- [typedef与struct结合使用](keyword/typedef_struct.md)
+	- [c++11 类默认函数的控制："=default" 和 "=delete"函数](keyword/default_delete.md)
 - [构造函数后面加:冒号的作用](constructor.md)
 - [点(.)操作符和箭头(->)操作符](dot_arrow.md)
 - [const 关键字](const.md)
