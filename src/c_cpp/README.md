@@ -22,3 +22,4 @@
 - [c++ 四种强制类型转换](cast.md)
 - [C++创建对象时区分圆括号`( )`和大括号`{ }`](parentheses_curly_brackets.md)
 - [C++初始化规则](initialize.md)
+- [普通(Trivial)、标准布局(standard-layout)、POD 和文本(literal)类型](types.md)

@@ -1,4 +1,6 @@
 ### C++保留字（关键字）
+> https://docs.microsoft.com/zh-cn/cpp/cpp/keywords-cpp?view=msvc-170
+
 1. `asm`
 	- `asm` (指令字符串)：允许在 C++ 程序中嵌入汇编代码。
 2. `alignas` *C++11新增*
