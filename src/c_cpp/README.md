@@ -24,3 +24,4 @@
 - [C++初始化规则](initialize.md)
 - [普通(Trivial)、标准布局(standard-layout)、POD 和文本(literal)类型](types.md)
 - [智能指针](smart_pointers.md)
+- [RTTI(运行时类型识别)](RTTI.md)
