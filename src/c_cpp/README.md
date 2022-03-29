@@ -7,6 +7,7 @@
 	- [operator关键字（重载操作符）](keyword/operator.md)
 	- [override和final关键字](override_final.md)
 - [构造函数后面加:冒号的作用](constructor.md)
+- [构造函数说明](constructor_types.md)
 - [点(.)操作符和箭头(->)操作符](dot_arrow.md)
 - [const 关键字](const.md)
 - [C++ virtual 虚函数与纯虚函数](virtual.md)

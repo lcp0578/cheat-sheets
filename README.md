@@ -28,6 +28,7 @@
 		- [operator关键字（重载操作符）](src/c_cpp/keyword/operator.md)
 		- [override和final关键字](src/c_cpp/override_final.md)
 	- [构造函数后面加:冒号的作用](src/c_cpp/constructor.md)
+	- [构造函数说明](src/c_cpp/constructor_types.md)
 	- [点(.)操作符和箭头(->)操作符](src/c_cpp/dot_arrow.md)
 	- [const 关键字](src/c_cpp/const.md)
 	- [C++ virtual 虚函数与纯虚函数](src/c_cpp/virtual.md)
