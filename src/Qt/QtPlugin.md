@@ -1,4 +1,7 @@
 ## Qt 插件机制以及插件中几个重要的宏
+> https://doc.qt.io/qt-5/qtplugin.html  
+> https://doc.qt.io/qt-5/plugins-howto.html
+
 - 简述
 	- Qt 插件类必须继承自 QObject 类和插件接口类。
 	- 然后，可以通过 QPluginLoader 类调用插件类。
