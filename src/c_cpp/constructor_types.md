@@ -1,4 +1,6 @@
 ## 构造函数说明
+> https://docs.microsoft.com/en-us/cpp/cpp/constructors-cpp?view=msvc-170
+
 - 在声明类的实例时，编译器会根据重载决策的规则选择要调用的构造函数
 	- 构造函数可以声明为 `inline` 、 `explicit` 、 `friend` 或 `constexpr` 。
 	- 构造函数可以初始化已声明为 `const volatile` 或 `const` volatile 的对象。 构造函数完成后，对象变为 `const` 。
