@@ -3,3 +3,4 @@
 - [cryptopp - free C++ class library of cryptographic schemes](https://github.com/weidai11/cryptopp)
 - [rttr - C++ Reflection Library](https://github.com/rttrorg/rttr)
 - [yaml-cpp - A YAML parser and emitter in C++](https://github.com/jbeder/yaml-cpp)
+- [The C++ parallel algorithms library.](https://github.com/NVIDIA/thrust)
