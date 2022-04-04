@@ -1,4 +1,10 @@
 ## C++ 学习相关仓库
-- [Awesome Modern C++. A collection of resources on modern C++.](https://github.com/rigtorp/awesome-modern-cpp)
+- [awesome-cpp - A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things.](https://github.com/fffaraz/awesome-cpp)
+- [awesome-modern-cpp - A collection of resources on modern C++.](https://github.com/rigtorp/awesome-modern-cpp)
 - [How to Make a Computer Operating System in C++](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System)
 - [MyTinySTL - Achieve a tiny STL in C++11](https://github.com/Alinshans/MyTinySTL)
+- [algorithms - Algorithms & Data structures in C++.](https://github.com/xtaci/algorithms)
+- [single_file_libs - List of single-file C/C++ libraries.](https://github.com/nothings/single_file_libs)
+- [Cpp-Primer - C++ Primer 5 answers](https://github.com/Mooophy/Cpp-Primer)
+- [CPlusPlusThings - Stories About C Plus Plus](https://github.com/Light-City/CPlusPlusThings)
+- [grpc - The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)](https://github.com/grpc/grpc)
