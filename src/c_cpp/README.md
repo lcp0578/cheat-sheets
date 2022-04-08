@@ -7,6 +7,7 @@
 	- [operator关键字（重载操作符）](keyword/operator.md)
 	- [override和final关键字](keyword/override_final.md)
 	- [decltype](keyword/decltype.md)
+	- [explicit](keyword/explicit.md)
 - [构造函数后面加:冒号的作用](constructor.md)
 - [构造函数说明](constructor_types.md)
 - [点(.)操作符和箭头(->)操作符](dot_arrow.md)
