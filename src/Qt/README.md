@@ -4,3 +4,4 @@
 - [Qt 插件机制以及插件中几个重要的宏](QtPlugin.md)
 - [Qt自定义信号槽](SOLT.md)
 - [windeployqt](windeployqt.md)
+- [Qt 资源系统（Qt Resource System）](QtResourceSystem.md）)
