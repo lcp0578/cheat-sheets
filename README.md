@@ -63,6 +63,7 @@
 	- [Qt 资源系统（Qt Resource System）](src/Qt/QtResourceSystem.md）)
 	- [Qt中的connect用法总结](src/Qt/connect.md)
 	- [Qt 动画实现相关](src/Qt/Animation.md)
+4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
 4. [CMake](src/CMake/README.md)
