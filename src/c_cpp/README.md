@@ -27,6 +27,7 @@
 - [C++创建对象时区分圆括号`( )`和大括号`{ }`](parentheses_curly_brackets.md)
 - [C++初始化规则](initialize.md)
 - [普通(Trivial)、标准布局(standard-layout)、POD 和文本(literal)类型](types.md)
+- [字面值类型、字面值常量](literal.md)
 - [智能指针](smart_pointers.md)
 - [RTTI(运行时类型识别)](RTTI.md)
 - [Mixin类](Mixin.md)
