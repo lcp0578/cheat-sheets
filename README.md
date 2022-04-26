@@ -65,6 +65,7 @@
 	- [Qt中的connect用法总结](src/Qt/connect.md)
 	- [Qt 动画实现相关](src/Qt/Animation.md)
 	- [QML](src/Qt/qml.md)
+	- [渐变原理(QGradient类及其子类)](src/Qt/QGradient.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)

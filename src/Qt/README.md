@@ -8,3 +8,4 @@
 - [Qt中的connect用法总结](connect.md)
 - [Qt 动画实现相关](Animation.md)
 - [QML](qml.md)
+- [渐变原理(QGradient类及其子类)](QGradient.md)
