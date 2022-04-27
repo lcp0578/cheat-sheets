@@ -66,6 +66,7 @@
 	- [Qt 动画实现相关](src/Qt/Animation.md)
 	- [QML](src/Qt/qml.md)
 	- [渐变原理(QGradient类及其子类)](src/Qt/QGradient.md)
+	- [QSizePolicy 控件尺寸调整策略](src/Qt/QSizePolicy.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
