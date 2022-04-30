@@ -68,6 +68,7 @@
 	- [渐变原理(QGradient类及其子类)](src/Qt/QGradient.md)
 	- [Qt Qss 渐变颜色设置](src/Qt/Gradient.md)
 	- [QSizePolicy 控件尺寸调整策略](src/Qt/QSizePolicy.md)
+	- [Qt绘制系统](src/Qt/paint.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)

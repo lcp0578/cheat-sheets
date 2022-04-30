@@ -11,3 +11,4 @@
 - [渐变原理(QGradient类及其子类)](QGradient.md)
 - [Qt Qss 渐变颜色设置](Gradient.md)
 - [QSizePolicy 控件尺寸调整策略](QSizePolicy.md)
+- [Qt绘制系统](paint.md)
