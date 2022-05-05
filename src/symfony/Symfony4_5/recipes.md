@@ -1,6 +1,8 @@
 ## symfony recipes
-
-
+#### 简介
+- https://github.com/symfony/recipes
+- Symfony recipes allow the automation of Composer packages configuration via the Symfony Flex Composer plugin.
+- This repository contains "official" recipes for Composer packages endorsed by the Symfony Core Team. 
 #### `composer recipes` 命令
  
 	 #composer recipes

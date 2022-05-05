@@ -1,4 +1,8 @@
 ## Symfony 4 & 5 相关
+- [flex:Composer plugin for Symfony](flex.md)
+- [recipes symfony核心团队认证的“菜谱”](recipes.md)
+- [recipes-contrib 非“官方”菜谱](recipes-contrib.md)
+- [maker-bundle](maker-bundle.md)
 - 目录结构变化
 
-![the_default_directory_structure.jpg](../../../images/the_default_directory_structure.jpg)
+![sf_comparison.png](../../../images/sf_comparison.png)

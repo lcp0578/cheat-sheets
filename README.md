@@ -248,10 +248,10 @@
 		- [Webpack Encore](src/symfony/WebpackEncore/README.md) Webpack Encore介绍
 		- [Webpack Encore Example](src/symfony/WebpackEncore/example.md) Webpack Encore使用示例
 	- [Symfony 4 & 5](src/symfony/Symfony4_5/README.md) symfony 4与5 相关
-		- [flex](src/symfony/Symfony4_5/flex.md)
+		- [flex:Composer plugin for Symfony](src/symfony/Symfony4_5/flex.md)
+		- [recipes symfony核心团队认证的“菜谱”](src/symfony/Symfony4_5/recipes.md)
+		- [recipes-contrib 非“官方”菜谱](src/symfony/Symfony4_5/recipes-contrib.md)
 		- [maker-bundle](src/symfony/Symfony4_5/maker-bundle.md)
-		- [recipes-contrib](src/symfony/Symfony4_5/recipes-contrib.md)
-		- [recipes](src/symfony/Symfony4_5/recipes.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
 		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 	- [Varnish](src/symfony/Varnish/README.md) symfony使用Varnish加速网站
