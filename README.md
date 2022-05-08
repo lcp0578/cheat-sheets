@@ -678,3 +678,6 @@
 	- [github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)  Make any web page a desktop application
 	- [Go 语言设计与实现](https://draveness.me/golang/)
 	- [github.com/fleaflet/flutter_map](https://github.com/fleaflet/flutter_map) A Flutter map widget inspired by Leaflet
+92. [电子书](src/books/README.md)
+	- [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
+	- [最新 1500 多本计算机电子书免费下载](https://github.com/itdevbooks/pdf)
