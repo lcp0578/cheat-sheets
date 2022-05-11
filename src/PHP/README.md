@@ -18,3 +18,4 @@
 - [fgets](fgets.md) fget读取的宽字节字符集问题
 - [php-fpm](php-fpm.md)
 - [declare(strict_type=1) 严格类型检查模式](strict_types.md)
+- [phploc](phploc.md) A tool for quickly measuring the size of a PHP project.
