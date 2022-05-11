@@ -104,6 +104,7 @@
 	- [mymon: MySQL Monitor Script](src/open-falcon/mymom.md)
 7. [symfony](src/symfony/README.md "symfony") 
 	- [Symfony Guide 入门指南](src/symfony/Guide/README.md)
+	- [github.com/andreia/symfony-cheat-sheets](https://github.com/andreia/symfony-cheat-sheets)
 	- [Basic](src/symfony/Basic/README.md) 基础和常用
 		- [Basic](src/symfony/Basic/Basic.md) 基础知识点
 		- [Symfony Twig Extensions](src/symfony/Basic/SymfonyTwigExtensions.md) symfony对Twig的扩展
@@ -253,6 +254,12 @@
 		- [recipes symfony核心团队认证的“菜谱”](src/symfony/Symfony4_5/recipes.md)
 		- [recipes-contrib 非“官方”菜谱](src/symfony/Symfony4_5/recipes-contrib.md)
 		- [maker-bundle](src/symfony/Symfony4_5/maker-bundle.md)
+		- [flash-messages](src/symfony/Symfony4_5/flash-messagers.md)
+		- [frontend](src/symfony/Symfony4_5/frontend.md)
+		- [messenger](src/symfony/Symfony4_5/messenger.md)
+		- [passwords](src/symfony/Symfony4_5/passwords.md)
+		- [testing](src/symfony/Symfony4_5/testing.md)
+		- [translation](src/symfony/Symfony4_5/translation.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
 		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 	- [Varnish](src/symfony/Varnish/README.md) symfony使用Varnish加速网站
