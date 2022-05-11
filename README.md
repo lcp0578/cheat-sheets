@@ -258,6 +258,8 @@
 	- [Deployment](src/symfony/Deployment/README.md)
         - [proxies](src/symfony/Deployment/proxies.md) 设置代理
         - [symfony deploy](src/symfony/Deployment/deploy.md) symfony项目部署文档
+    - [symfony-cli](src/symfony/cli/README.md)
+		- [github.com/symfony-cli/symfony-cli](https://github.com/symfony-cli/symfony-cli) go实现的Symfony  CLI tool
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
