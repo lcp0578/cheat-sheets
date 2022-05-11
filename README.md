@@ -610,6 +610,8 @@
 	- [基本概念](src/ZooKeeper/basic.md)
 	- [典型应用场景](src/ZooKeeper/scene.md)
 60. [Flink](src/Flink/README.md)
+61. [rust](src/rust/README.md)
+	- [github.com/sunface/rust-course](https://github.com/sunface/rust-course) rust教程
 61. [Erlang](src/Erlang/README.md)
 62. [Scala](src/Scala/README.md)
 63. [Kotlin](src/Kotlin/README.md)
