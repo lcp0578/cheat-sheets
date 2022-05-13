@@ -54,6 +54,7 @@
 	- [C++常用头文件](src/c_cpp/head.md)
 	- [C++相关类库](src/c_cpp/lib.md)
 	- [C++学习相关仓库](src/c_cpp/learn.md)
+	- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 3. [Doxygen](src/Doxygen/README.md)
 3. [Qt](src/Qt/README.md)
 	- [Qt All Classes](src/Qt/Classes.md)

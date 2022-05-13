@@ -34,3 +34,4 @@
 - [C++常用头文件](head.md)
 - [C++相关类库](lib.md)
 - [C++学习相关仓库](learn.md)
+- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
