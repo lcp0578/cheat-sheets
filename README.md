@@ -442,6 +442,7 @@
 11. [git相关](src/git/README.md "git")
 	- [git branch](src/git/branch.md) git分支相关
 	- [git tag](src/git/tag.md) git标签相关
+	- [git config 配置](src/git/config.md)
 	- [rm commit log](src/git/rm-commit-log.md)
 	- [git ssh](src/git/git_ssh.md) git ssh配置
 	- [fork sync](src/git/fork_sync.md) fork仓库与原仓同步

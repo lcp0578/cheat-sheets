@@ -86,8 +86,9 @@
 #### HTTP
 - [github.com/asmcos/requests](https://github.com/asmcos/requests)类似python requests的HTTP类库
 - [github.com/gojektech/heimdall](https://github.com/gojektech/heimdall) 增强版HTTP Client
-- [github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)HTTP request router 
-- [github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)Fast HTTP package for Go
+- [github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) HTTP request router 
+- [github.com/valyala/fasthttp](https://github.com/valyala/fasthttp) Fast HTTP package for Go
+- [github.com/go-resty/resty](https://github.com/go-resty/resty) Simple HTTP and REST client library for Go
 
 #### template
 - [github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)高性能html/template替代方案

@@ -2,6 +2,7 @@
 - [git branch](branch.md)分支相关
 - [git tag](tag.md)标签相关
 - [rm commit log](rm-commit-log.md)
+- [git config 配置](config.md)
 - [git ssh](git_ssh.md) git ssh配置
 - [fork sync](fork_sync.md) fork仓库与原仓同步
 - [Github](github.md) Github clone慢配置
