@@ -668,6 +668,12 @@
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 	- [Anaconda之conda的使用](src/Python/Anaconda.md)
 	- [Tornado 框架](src/Python/Tornado/README.md)
+	- [Library](src/Python/Library/README.md)
+		- [NumPy 支持大量的维度数组与矩阵运算,对数组运算提供大量的数学函数库](src/Python/Library/NumPy.md)
+		- [Pandas 强大的分析结构化数据的工具集](src/Python/Library/Pandas.md)
+		- [SciPy 一个开源的 Python 算法库和数学工具包](src/Python/Library/SciPy.md)
+		- [SymPy 符号数学的 Python 库](src/Python/Library/SymPy.md)
+		- [Matplotlib 是Python语言及其数值计算库NumPy的绘图库](src/Python/Library/Matplotlib.md)
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
 	- [CentOS 安装 OpenResty](src/OpenResty/CentOS.md)
