@@ -49,3 +49,4 @@
 - [dd fio 磁盘测试](dd.md)
 - [iostat iotop 监视磁盘操作活动](iostat.md)
 - [nmap - Network Mapper，是Linux下的网络扫描和嗅探工具包](nmap.md)
+- [dpkg 安装.deb文件](deb.md)

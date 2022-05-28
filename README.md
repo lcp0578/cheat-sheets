@@ -379,6 +379,7 @@
 	- [dd fio 磁盘测试](src/Linux/dd.md)
 	- [iostat iotop 监视磁盘操作活动](src/Linux/iostat.md)
 	- [nmap - Network Mapper，是Linux下的网络扫描和嗅探工具包](src/Linux/nmap.md)
+	- [dpkg 安装.deb文件](src/Linux/deb.md)
 9.  [Go](src/Go/README.md "golang")
 	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
