@@ -70,6 +70,7 @@
 - [github.com/hellofresh/janus](https://github.com/hellofresh/janus)
 - [github.com/eolinker/GoKu-API-Gateway](https://github.com/eolinker/GoKu-API-Gateway)
 - [github.com/fagongzi/gateway](https://github.com/fagongzi/gateway)
+- [github.com/go-kratos/gateway](https://github.com/go-kratos/gateway)
 
 #### json相关
 - [github.com/json-iterator/go](https://github.com/json-iterator/go)“encoding/json”改进版
