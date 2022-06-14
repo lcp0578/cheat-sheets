@@ -1,4 +1,6 @@
 ## 其他类库
+- [github.com/goplus/gop](https://github.com/goplus/gop) The Go+ programming language is designed for engineering, STEM education, and data science.
+
 #### 基础类库
 - [github.com/go-delve/delve](https://github.com/go-delve/delve) a debugger
 - [github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)优秀的go资源
@@ -24,6 +26,7 @@
 - [github.com/disintegration/imaging](https://github.com/disintegration/imaging)图片处理相关
 - [github.com/asaskevich/govalidator](https://github.com/asaskevich/govalidator)
 - [github.com/silenceper/wechat](https://github.com/silenceper/wechat) 微信SDK
+- [github.com/zinclabs/zinc](https://github.com/zinclabs/zinc) ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
 
 #### 队列
 - [github.com/nsqio/nsq](https://github.com/nsqio/nsq) 分布式消息平台
@@ -59,6 +62,7 @@
 - [github.com/micro/go-micro](https://github.com/micro/go-micro)
 - [github.com/labstack/echo](https://github.com/labstack/echo)
 - [github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
+- [github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero) A cloud-native Go microservices framework with cli tool for productivity.
 
 #### RPC
 - [github.com/smallnest/rpcx](https://github.com/smallnest/rpcx) 新浪RPC
@@ -105,3 +109,12 @@
 
 #### crawler
 - [github.com/crawlab-team/crawlab](https://github.com/crawlab-team/crawlab)
+- [github.com/antchfx/xpath](https://github.com/antchfx/xpath) XPath package for Golang, supports HTML, XML, JSON document query.
+
+#### books
+- [github.com/dariubs/GoBooks](https://github.com/dariubs/GoBooks) List of Go books
+- [github.com/golang-minibear2333/golang](https://github.com/golang-minibear2333/golang) 扫清go语言一切障碍，go语言实战、go语言从入门到精通
+- [github.com/teivah/100-go-mistakes](https://github.com/teivah/100-go-mistakes) Source code of 100 Go Mistakes and How to Avoid Them
+
+#### NLP(Natural Language Processing)
+- [github.com/nlpodyssey/spago](https://github.com/nlpodyssey/spago) Self-contained Machine Learning and Natural Language Processing library in Go
