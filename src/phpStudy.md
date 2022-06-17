@@ -2,6 +2,7 @@
 - 新增php版本
 	- 下载php源码  
 	win版php下载地址：http://windows.php.net/download/
+	已归档PHP版本地址：https://windows.php.net/downloads/releases/archives/
 	- 放置php源码  
 	phpStudy/php/php-7.2.0 或者 php-7.2.0-nts
 	- 重启phpStudy,点击切换版本，进行切换

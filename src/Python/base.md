@@ -1,4 +1,11 @@
 ## Python基础
+- 查看版本
+
+		python --version
+		Python 3.10.5
+		
+		python -V
+		Python 3.10.5
 - 文档注释（Docstring）
 	- 作为文档的Docstring一般出现在模块头部、函数和类的头部，这样在python中可以通过对象的__doc__对象获取文档. 编辑器和IDE也可以根据Docstring给出自动提示.
 	- 文档注释以 `"""` 开头和结尾, 首行不换行, 如有多行, 末行必需换行

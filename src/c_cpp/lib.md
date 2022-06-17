@@ -19,3 +19,4 @@
 - [orbit - C/C++ Performance Profiler](https://github.com/google/orbit)
 - [spdlog - Fast C++ logging library.](https://github.com/gabime/spdlog)
 - [json - JSON for Modern C++](https://github.com/nlohmann/json)
+- [handy - 简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework](https://github.com/yedf2/handy)
