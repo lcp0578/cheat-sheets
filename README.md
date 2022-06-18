@@ -567,6 +567,7 @@
 39. [windows](src/windows/README.md)
 	- [taskkill](src/windows/taskkill.md) 杀进程
 	- [WSL( Windows Subsystem for Linux)](src/windows/wsl.md)
+	- [使用SFC修复损坏的Windows 10/11系统文件](src/windows/sfc.md)
 40. [assembly](src/assembly/README.md)汇编语言
 41. [CEF](src/cef/README.md)
 42. [VisualStudio](src/VisualStudio/README.md)
