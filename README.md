@@ -689,6 +689,8 @@
 		- [SciPy 一个开源的 Python 算法库和数学工具包](src/Python/Library/SciPy.md)
 		- [SymPy 符号数学的 Python 库](src/Python/Library/SymPy.md)
 		- [Matplotlib 是Python语言及其数值计算库NumPy的绘图库](src/Python/Library/Matplotlib.md)
+	- [Machine Learning](MachineLearning/README.md)
+		- [github.com/meituan/YOLOv6](https://github.com/meituan/YOLOv6) YOLOv6: a single-stage object detection framework dedicated to industrial applications.
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
 	- [CentOS 安装 OpenResty](src/OpenResty/CentOS.md)

@@ -124,3 +124,6 @@
 
 #### 压测
 - [github.com/rakyll/hey](https://github.com/rakyll/hey) HTTP load generator, ApacheBench (ab) replacement
+
+#### 权限
+- [github.com/casdoor/casdoor](https://github.com/casdoor/casdoor) A UI-first centralized authentication / Single-Sign-On (SSO) platform based on OAuth 2.0 / OIDC.

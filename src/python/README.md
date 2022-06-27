@@ -21,3 +21,5 @@
 	- [SciPy 一个开源的 Python 算法库和数学工具包](Library/SciPy.md)
 	- [SymPy 符号数学的 Python 库](Library/SymPy.md)
 	- [Matplotlib 是Python语言及其数值计算库NumPy的绘图库](Library/Matplotlib.md)
+- [Machine Learning](MachineLearning/README.md)
+	- [github.com/meituan/YOLOv6](https://github.com/meituan/YOLOv6) YOLOv6: a single-stage object detection framework dedicated to industrial applications.

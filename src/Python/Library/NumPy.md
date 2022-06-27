@@ -1,4 +1,5 @@
 ## NumPy 
+- [github.com/rougier/numpy-100](https://github.com/rougier/numpy-100)
 - NumPy(Numerical Python) 是 Python 语言的一个扩展程序库，支持大量的维度数组与矩阵运算，此外也针对数组运算提供大量的数学函数库。
 - NumPy 是一个运行速度非常快的数学库，主要用于数组计算，包含：
 	- 一个强大的N维数组对象 `ndarray`
