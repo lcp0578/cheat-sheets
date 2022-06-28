@@ -46,6 +46,7 @@
 #### 监控相关
 - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)系统监控报警框架
 - [github.com/grafana/grafana](https://github.com/grafana/grafana)(时序)数据可视化平台
+- [github.com/kevwan/tproxy](https://github.com/kevwan/tproxy) A cli tool to proxy and analyze TCP connections.
 
 #### 测试相关
 - [github.com/smartystreets/goconvey](https://github.com/smartystreets/goconvey) 浏览器go test
