@@ -70,7 +70,7 @@
 	- [Qt 插件机制以及插件中几个重要的宏](src/Qt/QtPlugin.md)
 	- [Qt自定义信号槽](src/Qt/SOLT.md)
 	- [windeployqt](src/Qt/windeployqt.md)
-	- [Qt 资源系统（Qt Resource System）](src/Qt/QtResourceSystem.md）)
+	- [Qt 资源系统（Qt Resource System）](src/Qt/QtResourceSystem.md)
 	- [Qt中的connect用法总结](src/Qt/connect.md)
 	- [Qt 动画实现相关](src/Qt/Animation.md)
 	- [QML](src/Qt/qml.md)
