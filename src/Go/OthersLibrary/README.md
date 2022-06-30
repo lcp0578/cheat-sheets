@@ -42,6 +42,7 @@
 #### 数据库相关
 - [github.com/go-xorm/xorm](https://github.com/go-xorm/xorm) xorm库
 - [github.com/jinzhu/gorm](https://github.com/jinzhu/gorm) gorm库
+- [github.com/kyleconroy/sqlc](https://github.com/kyleconroy/sqlc) Generate type-safe code from SQL
 
 #### 监控相关
 - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)系统监控报警框架
