@@ -6,6 +6,7 @@
 - [Qt自定义信号槽](SOLT.md)
 - [windeployqt](windeployqt.md)
 - [Qt 资源系统（Qt Resource System）](QtResourceSystem.md)
+- [Qss: Qt Style Sheets](qss.md)
 - [Qt中的connect用法总结](connect.md)
 - [Qt 动画实现相关](Animation.md)
 - [QML](qml.md)
