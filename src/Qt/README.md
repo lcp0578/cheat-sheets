@@ -19,3 +19,4 @@
 - [QString](QString.md)
 - [QStringList](QStringList.md)
 - [QCustomPlot](QCustomPlot.md)
+- [madplotlib](madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
