@@ -84,6 +84,7 @@
 	- [QJsonDocument、QJsonArray、QJsonObject、QJsonValue](src/Qt/QJson.md)
 	- [QString](src/Qt/QString.md)
 	- [QStringList](src/Qt/QStringList.md)
+	- [QVariant类及QVariant与自定义数据类型转换的方法](src/Qt/QVariant.md)
 	- [QCustomPlot](src/Qt/QCustomPlot.md)
 	- [madplotlib](src/Qt/madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
 4. [数字孪生](src/DigitalTwin/README.md)
