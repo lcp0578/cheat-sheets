@@ -408,6 +408,7 @@
 	- [string number](src/Go/StringToNumber.md) 数字与字符串之间的转换
 	- [number base conversion](src/Go/NumberBaseConversion.md)进制转换
 	- [interface 理解](src/Go/interface.md)
+	- [Go类型断言](src/Go/Assertion.md)
 	- [同步原语与锁](src/Go/sync-primitives.md)
 	- ["泛型编程"](src/Go/generic-programming.md)
 	- [vgo](src/Go/vgo.md) 版本控制
@@ -432,6 +433,7 @@
 		- [athens](src/Go/PackageManagement/athens.md)
 	- [Fatal Error](src/Go/FatalError/README.md) 常见的fatal error
 		- [fatal error: concurrent map read and map write](src/Go/FatalError/ConcurrentMap.md)并发读写map错误
+		- [fatal error: sync: unlock of unlocked mutex](src/Go/FatalError/mutex.md)
 	- [Go工具和调试详解](src/Go/go_tools.md)
 	- [访问DWARF调试信息](src/Go/dwarf.md)
 	- [gdb调试](src/Go/gdb.md)

@@ -8,6 +8,7 @@
 - [string number](StringToNumber.md) 数字与字符串之间的转换
 - [vgo](vgo.md) 版本控制
 - [interface 理解](interface.md)
+- [Go类型断言](Assertion.md)
 - [同步原语与锁](sync-primitives.md)
 - ["泛型编程"](generic-programming.md)
 - [Byte Order](ByteOrder.md) 字节序
@@ -32,6 +33,7 @@
 	- [athens](PackageManagement/athens.md)
 - Fatal Error 常见的fatal error
 	- [fatal error: concurrent map read and map write](FatalError/ConcurrentMap.md)并发读写map错误
+	- [fatal error: sync: unlock of unlocked mutex](FatalError/mutex.md)
 - [Go工具和调试详解](go_tools.md)
 - [访问DWARF调试信息](dwarf.md)
 - [gdb调试](gdb.md)
