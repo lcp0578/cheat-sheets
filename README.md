@@ -83,6 +83,7 @@
 	- [Qt paintEvent事件](src/Qt/paintEvent.md)
 	- [QJsonDocument、QJsonArray、QJsonObject、QJsonValue](src/Qt/QJson.md)
 	- [QString](src/Qt/QString.md)
+	- [QByteArray <--> QString](src/Qt/QByteArray.md)
 	- [QStringList](src/Qt/QStringList.md)
 	- [QVariant类及QVariant与自定义数据类型转换的方法](src/Qt/QVariant.md)
 	- [QCustomPlot](src/Qt/QCustomPlot.md)

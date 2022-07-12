@@ -17,6 +17,7 @@
 - [Qt paintEvent事件](paintEvent.md)
 - [QJsonDocument、QJsonArray、QJsonObject、QJsonValue](QJson.md)
 - [QString](QString.md)
+- [QByteArray <--> QString](QByteArray.md)
 - [QStringList](QStringList.md)
 - [QVariant类及QVariant与自定义数据类型转换的方法](QVariant.md)
 - [QCustomPlot](QCustomPlot.md)
