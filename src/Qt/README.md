@@ -25,5 +25,7 @@
 - [Qt 容器](container.md)
 - [QSignalMapper](QSignalMapper.md)
 - [Qt内存管理](MemoryManagement.md)
+- [QProcess启动外部程序](QProcess.md)
+- [Qt的操作堆栈](OperationStack.md)
 - [QCustomPlot](QCustomPlot.md)
 - [madplotlib](madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
