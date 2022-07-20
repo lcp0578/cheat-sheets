@@ -20,5 +20,7 @@
 - [QByteArray <--> QString](QByteArray.md)
 - [QStringList](QStringList.md)
 - [QVariant类及QVariant与自定义数据类型转换的方法](QVariant.md)
+- [创建窗口分割线之QSplitter](QSplitter.md)
+- [Qt 容器](container.md)
 - [QCustomPlot](QCustomPlot.md)
 - [madplotlib](madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
