@@ -69,6 +69,7 @@
 	- [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)
 3. [Qt](src/Qt/README.md)
 	- [Qt All Classes](src/Qt/Classes.md)
+	- [Qt 常用函数](src/Qt/basic.md)
 	- [关于 QWidget 相关小知识](src/Qt/QWidget.md)
 	- [Qt 的多语言支持的翻译机制](src/Qt/QTranslator.md)
 	- [Qt 插件机制以及插件中几个重要的宏](src/Qt/QtPlugin.md)
@@ -91,6 +92,10 @@
 	- [QVariant类及QVariant与自定义数据类型转换的方法](src/Qt/QVariant.md)
 	- [创建窗口分割线之QSplitter](src/Qt/QSplitter.md)
 	- [Qt 容器](src/Qt/container.md)
+	- [QSignalMapper](src/Qt/QSignalMapper.md)
+	- [Qt内存管理](src/Qt/MemoryManagement.md)
+	- [QProcess启动外部程序](src/Qt/QProcess.md)
+	- [Qt的操作堆栈](src/Qt/OperationStack.md)
 	- [QCustomPlot](src/Qt/QCustomPlot.md)
 	- [madplotlib](src/Qt/madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
 4. [数字孪生](src/DigitalTwin/README.md)

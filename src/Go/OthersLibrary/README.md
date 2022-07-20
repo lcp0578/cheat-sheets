@@ -38,6 +38,7 @@
 
 #### console command
 - [github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) git command
+- [github.com/spf13/cobra](https://github.com/spf13/cobra) A Commander for modern Go CLI interactions
 
 #### 数据库相关
 - [github.com/go-xorm/xorm](https://github.com/go-xorm/xorm) xorm库
@@ -60,7 +61,7 @@
 - [github.com/gocolly/colly](https://github.com/gocolly/colly)爬虫框架
 - [github.com/revel/revel](https://github.com/revel/revel)
 - [github.com/kataras/iris](https://github.com/kataras/iris)
-- [github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+- [github.com/gohugoio/hugo](https://github.com/gohugoio/hugo) The world’s fastest framework for building websites.
 - [github.com/micro/go-micro](https://github.com/micro/go-micro)
 - [github.com/labstack/echo](https://github.com/labstack/echo)
 - [github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
@@ -135,3 +136,9 @@
 
 #### 桌面应用
 - [github.com/wailsapp/wails](https://github.com/wailsapp/wails) Build desktop applications using Go & Web Technologies.
+
+#### 文件系统
+- [github.com/spf13/afero](https://github.com/spf13/afero) A FileSystem Abstraction System for Go 
+
+#### 配置文件
+- [github.com/spf13/viper](https://github.com/spf13/viper) Go configuration with fangs
