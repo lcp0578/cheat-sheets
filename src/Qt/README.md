@@ -1,5 +1,6 @@
 ## Qt
 - [Qt All Classes](Classes.md)
+- [Qt 常用函数](basic.md)
 - [关于 QWidget 相关小知识](QWidget.md)
 - [Qt 的多语言支持的翻译机制](QTranslator.md)
 - [Qt 插件机制以及插件中几个重要的宏](QtPlugin.md)
@@ -22,5 +23,7 @@
 - [QVariant类及QVariant与自定义数据类型转换的方法](QVariant.md)
 - [创建窗口分割线之QSplitter](QSplitter.md)
 - [Qt 容器](container.md)
+- [QSignalMapper](QSignalMapper.md)
+- [Qt内存管理](MemoryManagement.md)
 - [QCustomPlot](QCustomPlot.md)
 - [madplotlib](madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
