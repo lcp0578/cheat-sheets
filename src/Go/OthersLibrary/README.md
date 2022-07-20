@@ -129,3 +129,9 @@
 
 #### 权限
 - [github.com/casdoor/casdoor](https://github.com/casdoor/casdoor) A UI-first centralized authentication / Single-Sign-On (SSO) platform based on OAuth 2.0 / OIDC.
+
+#### 汇编
+- [github.com/loov/lensm](https://github.com/loov/lensm) Go assembly and source viewer
+
+#### 桌面应用
+- [github.com/wailsapp/wails](https://github.com/wailsapp/wails) Build desktop applications using Go & Web Technologies.

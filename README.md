@@ -89,6 +89,8 @@
 	- [QByteArray <--> QString](src/Qt/QByteArray.md)
 	- [QStringList](src/Qt/QStringList.md)
 	- [QVariant类及QVariant与自定义数据类型转换的方法](src/Qt/QVariant.md)
+	- [创建窗口分割线之QSplitter](src/Qt/QSplitter.md)
+	- [Qt 容器](src/Qt/container.md)
 	- [QCustomPlot](src/Qt/QCustomPlot.md)
 	- [madplotlib](src/Qt/madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
 4. [数字孪生](src/DigitalTwin/README.md)
