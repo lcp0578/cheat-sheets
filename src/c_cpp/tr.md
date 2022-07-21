@@ -1,0 +1,24 @@
+## C++ TR1、TR2与boost的关系
+- C++ Technical Report 1 (TR1)是ISO/IEC TR 19768, C++ Library Extensions（函式库扩充）的一般名称。
+- TR1是一份文件，内容提出了对C++标准函式库的追加项目。这些追加项目包括了正则表达式、智能指针、哈希表、随机数生成器等。TR1自己并非标准，他是一份草稿文件。然而他所提出的项目很有可能成为下次的官方标准。这份文件的目标在于「为扩充的C++标准函式库建立更为广泛的现成实作品」。
+- C++ tr1是针对C++标准库的第一次扩展。即将到来的下一个版本的C++标准c++0x会包括它，以及一些语言本身的扩充。tr1包括大家期待已久的smart pointer，正则表达式以及其他一些支持范型编程的东东。草案阶段，新增的类和模板的名字空间是std::tr1。
+- C++11，先前被称作C++0x，即ISO/IEC 14882:2011，是目前的C++编程语言的正式标准。它取代第二版标准ISO/IEC 14882:2003(第一版ISO/IEC 14882:1998公开于1998年，第二版于2003年更新，分别通称C++98以及C++03，两者差异很小)。新的标准包含核心语言的新机能，而且扩展C++标准程序库，并入了大部分的C++ Technical Report 1程序库(数学的特殊函数除外)。最新的消息被公开在 ISO C++ 委员会网站(英文)。　　
+- C++新标准TR1以及正在制定的TR2都用到了很多来之boost中的库，对应关系如下：
+	- TR1:
+		- smart ptr
+		- function
+		- bind
+		- hash set && hash table
+		- regex
+		- tuple
+		- array
+		- random
+ 
+　　- TR2的候选有：
+		- Boost.Asio
+		- Boost.Signals
+		- Boost.Filesystem
+		- Boost.Any
+		- boost::lexcal_cast<>
+		- Boost.String Algo
+		- Boost.System
