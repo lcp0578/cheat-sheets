@@ -1,4 +1,58 @@
 ##Qt 动画实现相关
+#### 动画框架类
+- 这些类提供了用于创建简单的和复杂的动画的框架
+	<table>
+		<tr>
+			<th>类</th>
+			<th>描述</th>
+		</tr>
+		<tr>
+			<td>
+	QAbstractAnimation</td>
+			<td>	所有动画类的基类</td>
+		</tr>
+		<tr>
+			<td>
+	QAnimationGroup	</td>
+			<td>动画容器类的抽象基类</td>
+		</tr>
+		<tr>
+			<td>
+	QEasingCurve</td>
+			<td>	动画控制的缓和曲线类</td>
+		</tr>
+		<tr>
+			<td>
+	QParallelAnimationGroup</td>
+			<td>	并行动画容器</td>
+		</tr>
+		<tr>
+			<td>
+	QPauseAnimation	</td>
+			<td>QSequentialAnimationGroup暂停</td>
+		</tr>
+		<tr>
+			<td>
+	QPropertyAnimation	</td>
+			<td>Qt的动画属性</td>
+		</tr>
+		<tr>
+			<td>
+	QSequentialAnimationGroup</td>
+			<td>	串行动画容器</td>
+		</tr>
+		<tr>
+			<td>
+	QTimeLine	</td>
+			<td>控制动画的时间轴类</td>
+		</tr>
+		<tr>
+			<td>
+	QVariantAnimation	</td>
+			<td>动画类的抽象基类</td>
+		</tr>
+	</table>
+
 #### 1.QAbstractAnimation(所有动画的抽象基类)
 - 该抽象类为`QPropertyAnimation`提供了动画**播放、暂停、停止、持续时间、循环周期**等抽象函数.
 - 其中常用的成员函数如下所示:
