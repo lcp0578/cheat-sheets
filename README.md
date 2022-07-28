@@ -98,6 +98,7 @@
 	- [Qt 容器](src/Qt/container.md)
 	- [QSignalMapper](src/Qt/QSignalMapper.md)
 	- [Qt内存管理](src/Qt/MemoryManagement.md)
+	- [Qt的几种线程](src/Qt/QTread.md)
 	- [QProcess启动外部程序](src/Qt/QProcess.md)
 	- [Qt的操作堆栈](src/Qt/OperationStack.md)
 	- [QCustomPlot](src/Qt/QCustomPlot.md)
