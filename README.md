@@ -60,6 +60,7 @@
 	- [webview](src/c_cpp/webview.md)
 	- [编程知识快速复习](src/c_cpp/review.md)
 	- [Built-in types](src/c_cpp/built-in_types.md)
+	- [C++中左值和右值](src/c_cpp/lvalue_rlavue.md)
 3. [OSG](src/OSG/README.md)
 	- [基本数学组件](src/OSG/math.md)
 	- [内存管理机制](src/OSG/ref_ptr.md)
