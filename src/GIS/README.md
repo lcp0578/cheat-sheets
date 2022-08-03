@@ -18,3 +18,4 @@
 - [GeoTIFF](GeoTIFF.md)
 - [osgconv 格式转换](osgconv.md)
 - [三维文件格式](extension.md)
+- [glTF格式详解](glTF.md)
