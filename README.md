@@ -21,6 +21,7 @@
     - [osgconv 格式转换](src/GIS/osgconv.md)
 	- [三维文件格式](src/GIS/extension.md)
 	- [glTF格式详解](src/GIS/glTF.md)
+	- [obj、gltf、glb、fbx、b3dm模型项目汇总](src/GIS/model.md)
 2. [C/C++](src/c_cpp/README.md)
 	- [关键字(保留字)](src/c_cpp/keyword/README.md)
 		- [volatile](src/c_cpp/keyword/volatile.md)

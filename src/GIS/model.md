@@ -1,0 +1,64 @@
+## obj、gltf、glb、fbx、b3dm模型项目汇总
+- Fast-Quadric-Mesh-Simplification-master 
+	- https://github.com/einstein20050430/Fast-Quadric-Mesh-Simplification
+	- 功能：有损压缩OBJ文件的C++源码，使用二次曲面减少网格三角形
+- draco
+	- https://github.com/google/draco
+	- 功能：Draco是用于压缩和解压缩3D几何网格和点云的库。旨在改善3D图形的存储和传输。
+- FBX2glTF
+	- https://github.com/facebookincubator/FBX2glTF
+	- 功能：用于将FBX文件格式上的3D模型资源转换为glTF文件格式的命令行工具。
+- COLLADA2GLTF
+	- https://github.com/KhronosGroup/COLLADA2GLTF
+	- 功能：一个将COLLADA（.dae）文件转换为glTF的命令行工具。
+- gltf-pipeline
+	- https://github.com/CesiumGS/gltf-pipeline
+	- 功能：JavaScript 用于优化glTF资产的内容管道工具。
+- glTF2-loader
+	- https://github.com/Lugdunum3D/glTF2-loader
+	- 功能：glTF2-loader是一个c++ 14的glTF(仅2.0版本)解析库。
+- 网格smith
+	- https://github.com/Smithsonian/dpo-meshsmith
+	- 功能：网格转换工具，包括带有Draco网格压缩的glTF / GLB支持
+- Glbs2B3dms
+	- https://github.com/wrsjhhe/Glbs2B3dms
+	- 功能：将目录中的所有.glb文件转换为.b3dm
+- 3dtiles
+	- https://github.com/peiyd/3dtiles
+	- 功能：3dtiles工具转换
+- b3dm工具
+	- https://github.com/bertt/b3dm.tooling
+	- 功能：用于处理3D Tiles b3dm文件的全局工具。支持以下操作：获取有关b3dm的信息（信息）；从b3dm解压缩到glb（解压缩）；从glb文件（打包）创建b3dm。
+- dotnet glTF工具
+	- https://github.com/stoneflyop1/NetGltf
+	- 功能：c# 将obj转换为glTF / glb文件。
+- glTF工具
+	- https://github.com/CesiumGS/obj2gltf
+	- 功能：JavaScript 将OBJ资产转换为glTF/glb文件
+- 开放资产导入库（辅助）
+	- https://github.com/assimp/assimp
+	- 功能：官方开放资产进口商库。将40多种3D文件格式加载到一个统一且干净的数据结构中。例如：读取obj、fbx、dae文件类型获取数据结构。
+- glTF-工具包
+	- https://github.com/microsoft/glTF-Toolkit
+	- 功能：一组用于修改和优化glTF资产的工具
+- assimp数据库
+	- https://github.com/assimp/assimp-mdb
+	- 功能：免费模型的Asset-Importer-Lib
+- 网格优化器
+	- https://github.com/zeux/meshoptimizer
+	- 功能：网格优化库，可以网格更小，替换地呈现（输入:.obj/.gltf/.glb 输出:.gltf/.glb）
+- 网格简化
+	- https://github.com/lihy96/MeshSimplify
+	- 功能：边缘崩塌的细化
+- 快速二次网格简化
+	- https://github.com/einstein20050430/Fast-Quadric-Mesh-Simplification
+	- 功能：使用二次曲面减少网格三角形
+- 网格抽取器
+	- https://github.com/Whinarn/MeshDecimator
+	- 功能：用于 .NET 和 Unity 的网格抽取库。
+- 对象转换
+	- https://github.com/arcplus/ObjConvert
+	- 功能：将 obj 文件转换为其他文件格式，如 gltf、3dtiles
+- 接缝感知抽取器
+	- https://github.com/songrun/SeamAwareDecimater
+	- 功能：保留 UV 边界的网格简化

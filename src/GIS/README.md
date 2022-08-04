@@ -19,3 +19,4 @@
 - [osgconv 格式转换](osgconv.md)
 - [三维文件格式](extension.md)
 - [glTF格式详解](glTF.md)
+- [obj、gltf、glb、fbx、b3dm模型项目汇总](model.md)
