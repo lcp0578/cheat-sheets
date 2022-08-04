@@ -1,0 +1,11 @@
+## CesiumJS基础
+- OBJ2GLTF
+　　- js工具，用于将obj格式的三维数据转换为gltf格式。提供命令行和js库调用两种使用方式。
+- glTF Pipeline
+	- js工具，用于优化 gltf 格式的模型数据，如glb与gltf格式的互转，gltf不同版本的转换，mesh压缩，缓存、纹理的独立保存等。
+- glTF Utilities
+	- gltf Utilities是一个JS工具，提供通过远程url加载各类gltf模型资源（包括图片、文本等）的方法，支持同域和跨域两种情况。
+- COLLADA2GLTF
+	- collada格式模型转换为gltf格式模型的工具。下载页
+- 3D Tiles Tools
+	- 3DTiles相关的综合工具。包括tileset的压缩、解压缩，多个tileset的合并，将tileset数据的版本更新（以符合最新版要求），glb三维模型转换为 b3dm、i3dm和反向转换，使用gltf-pipeline优化b3dm、i3dm，存储tileset到sqlite数据库和反向提取等等。
