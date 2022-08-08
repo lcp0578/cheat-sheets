@@ -40,3 +40,5 @@
 - [编程知识快速复习](review.md)
 - [Built-in types](built-in_types.md)
 - [C++中左值和右值](lvalue_rlavue.md)
+- [C++常见编译错误](errors/README.md)
+	- [C++编译error LNK2019: unresolved external](errors/LNK2019.md)
