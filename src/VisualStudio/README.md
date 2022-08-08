@@ -4,3 +4,4 @@
 - [PDB文件](PDB.md)
 - [安装扩展](extensions.md)
 - [InstallShield](InstallShield.md)
+- [VS环境变量](env.md)
