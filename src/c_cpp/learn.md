@@ -47,3 +47,6 @@
 
 #### machine learning
 - [github.com/flashlight/flashlight](https://github.com/flashlight/flashlight) A C++ standalone library for machine learning
+
+#### 数据库
+- [github.com/apple/foundationdb](https://github.com/apple/foundationdb) FoundationDB - the open source, distributed, transactional key-value store
