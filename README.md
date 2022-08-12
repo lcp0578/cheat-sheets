@@ -73,6 +73,7 @@
 3. [OSG](src/OSG/README.md)
 	- [基本数学组件](src/OSG/math.md)
 	- [内存管理机制](src/OSG/ref_ptr.md)
+	- [使用osgQt嵌入Qt应用程序](src/OSG/sogQt.md)
 3. [Doxygen](src/Doxygen/README.md)
 4. [Paddle](src/Paddle/README.md)
 	- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
