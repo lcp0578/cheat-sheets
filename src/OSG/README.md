@@ -6,3 +6,4 @@
 - [使用osgQt嵌入Qt应用程序](osgQt.md)
 - [OSG场景理解与基础类概述](class.md)
 - [OSG复现OpenGL入门示例](OpenGL.md)
+- [OSG模型文件存储与读取](osgDB.md)

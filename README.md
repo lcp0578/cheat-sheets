@@ -78,6 +78,7 @@
 	- [使用osgQt嵌入Qt应用程序](src/OSG/osgQt.md)
 	- [OSG场景理解与基础类概述](src/OSG/class.md)
 	- [OSG复现OpenGL入门示例](src/OSG/OpenGL.md)
+	- [OSG模型文件存储与读取](src/OSG/osgDB.md)
 3. [Doxygen](src/Doxygen/README.md)
 4. [Paddle](src/Paddle/README.md)
 	- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
