@@ -71,6 +71,7 @@
 	- [C++常见编译错误](src/c_cpp/errors/README.md)
 		- [C++编译error LNK2019: unresolved external](src/c_cpp/errors/LNK2019.md)
 3. [OSG](src/OSG/README.md)
+	- [OSG坐标系理解](src/OSG/coordinate.md)
 	- [基本数学组件](src/OSG/math.md)
 	- [OSG内存管理](src/OSG/memory.md)
 	- [ref_ptr内存管理机制](src/OSG/ref_ptr.md)
