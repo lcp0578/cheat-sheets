@@ -142,3 +142,7 @@
 
 #### 配置文件
 - [github.com/spf13/viper](https://github.com/spf13/viper) Go configuration with fangs
+
+#### GIS
+- [github.com/tidwall/tile38](https://github.com/tidwall/tile38) Real-time Geospatial and Geofencing
+- [github.com/lukeroth/gdal](https://github.com/lukeroth/gdal) Go wrapper for GDAL, the Geospatial Data Abstraction Library
