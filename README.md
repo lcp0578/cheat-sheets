@@ -80,6 +80,7 @@
 	- [OSG复现OpenGL入门示例](src/OSG/OpenGL.md)
 	- [OSG模型文件存储与读取](src/OSG/osgDB.md)
 	- [OSG模型的基本操作之添加/删除、显示/隐藏、开关节点开/关](src/OSG/ModelManipulation.md)
+	- [OSG模型的变换之平移、旋转和缩放](src/OSG/transform.md)
 3. [Doxygen](src/Doxygen/README.md)
 4. [Paddle](src/Paddle/README.md)
 	- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)

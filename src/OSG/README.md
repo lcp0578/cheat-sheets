@@ -8,3 +8,4 @@
 - [OSG复现OpenGL入门示例](OpenGL.md)
 - [OSG模型文件存储与读取](osgDB.md)
 - [OSG模型的基本操作之添加/删除、显示/隐藏、开关节点开/关](ModelManipulation.md)
+- [OSG模型的变换之平移、旋转和缩放](transform.md)
