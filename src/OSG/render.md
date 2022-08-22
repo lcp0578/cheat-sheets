@@ -21,3 +21,24 @@
 			osg::ptr<osg::CullFace> pCullFace = new osg::CullFace(osg::CullFace::BACK);
 			pStateSet->setAttribute(pCullFace.get());
 - 设置渲染模式
+	- 用于可以使用`osg::StateSet::setMode`设置允许或禁止某种模式，例如，打开雾效果模式的许可。
+
+			// 获取StateSet指针
+			osg::ptr<osg::StateSet> pStateSet = _pGeometry->getOrCreateStateSet();
+			// 允许这个StateSet的雾效果
+			pStateSet(GL_FOG, osg::StateAttribute::ON);
+- 同时设置渲染属性和模式
+	- OSG还提供了一个同时设置属性和渲染模式的单一接口，第一个参数为属性，第二个参数默认为打开功能。
+
+			// 获取StateSet指针
+			osg::ptr<osg::StateSet> pStateSet = _pGeometry->getOrCreateStateSet();
+			// 设置属性和渲染模式
+			Osg::ptr<Osg::BlendFunc> pBlendFunc = new osg::BlendFunc;
+			pStateSet->setAttributeAndModes(pBlendFunc);
+
+#### OSG二维纹理映射
+- 纹理映射主要包括：一维纹理、二维纹理、三维纹理、凹凸纹理、多重纹理、Mipmap纹理、压缩纹理和立方纹理等。
+- OSG全面支持OpenGL的纹理映射机制，为了在程序中实现基本的纹理映射功能，用户的代码需要遵循以下步骤：
+	- 指定用户几何体的纹理坐标
+	- 创建纹理属性对象并保存纹理图形数据
+	- 为StateSet设置合适的纹理属性和模式
