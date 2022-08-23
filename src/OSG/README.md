@@ -10,3 +10,4 @@
 - [OSG模型的基本操作之添加/删除、显示/隐藏、开关节点开/关](ModelManipulation.md)
 - [OSG模型的变换之平移、旋转和缩放](transform.md)
 - [OSG渲染状态与2D纹理映射](render.md)
+- [OSG基本几何图形、内置几何类型](geometry.md)
