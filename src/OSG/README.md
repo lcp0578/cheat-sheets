@@ -11,3 +11,4 @@
 - [OSG模型的变换之平移、旋转和缩放](transform.md)
 - [OSG渲染状态与2D纹理映射](render.md)
 - [OSG基本几何图形、内置几何类型](geometry.md)
+- [OSG三维纹理映射(体渲染)](VolumeRendering.md)
