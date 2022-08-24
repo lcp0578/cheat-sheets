@@ -53,3 +53,6 @@
 
 #### GIS
 - [github.com/OSGeo/gdal](https://github.com/OSGeo/gdal) GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats.
+
+#### OpenGL
+- [github.com/cginternals/glbinding](https://github.com/cginternals/glbinding) A C++ binding for the OpenGL API, generated using the gl.xml specification.
