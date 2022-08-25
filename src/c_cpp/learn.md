@@ -27,6 +27,7 @@
 - [github.com/yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) A C++ header-only HTTP/HTTPS server and client library
 - [github.com/facebook/proxygen](https://github.com/facebook/proxygen) A collection of C++ HTTP libraries including an easy to use HTTP server.
 - [github.com/chenshuo/muduo](https://github.com/chenshuo/muduo) Event-driven network library for multi-threaded Linux server in C++11
+- [github.com/filecxx/FileCentipede](https://github.com/filecxx/FileCentipede) Cross-platform internet download/upload manager for HTTP(S), FTP(S), SSH, magnet-link, BitTorrent, ed2k, and online videos. WebDAV client, FTP client, SSH client.
 
 #### 缓存
 - [github.com/dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) A modern replacement for Redis and Memcached
@@ -50,6 +51,8 @@
 
 #### 数据库
 - [github.com/apple/foundationdb](https://github.com/apple/foundationdb) FoundationDB - the open source, distributed, transactional key-value store
+- [github.com/duckdb/duckdb](https://github.com/duckdb/duckdb) DuckDB is an in-process SQL OLAP Database Management System
+- [github.com/google/leveldb](https://github.com/google/leveldb) LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 
 #### GIS
 - [github.com/OSGeo/gdal](https://github.com/OSGeo/gdal) GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats.
