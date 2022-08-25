@@ -66,6 +66,7 @@
 - [github.com/labstack/echo](https://github.com/labstack/echo)
 - [github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
 - [github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero) A cloud-native Go microservices framework with cli tool for productivity.
+- [github.com/gofiber/fiber](https://github.com/gofiber/fiber) Express inspired web framework written in Go
 
 #### RPC
 - [github.com/smallnest/rpcx](https://github.com/smallnest/rpcx) 新浪RPC
@@ -146,3 +147,9 @@
 #### GIS
 - [github.com/tidwall/tile38](https://github.com/tidwall/tile38) Real-time Geospatial and Geofencing
 - [github.com/lukeroth/gdal](https://github.com/lukeroth/gdal) Go wrapper for GDAL, the Geospatial Data Abstraction Library
+
+#### API
+- [github.com/swaggo/swag](https://github.com/swaggo/swag) Automatically generate RESTful API documentation with Swagger 2.0 for Go.
+
+#### 搜索
+- [github.com/zinclabs/zinc](https://github.com/zinclabs/zinc) ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
