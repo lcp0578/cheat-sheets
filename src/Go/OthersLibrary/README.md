@@ -39,6 +39,7 @@
 #### console command
 - [github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) git command
 - [github.com/spf13/cobra](https://github.com/spf13/cobra) A Commander for modern Go CLI interactions
+- [github.com/chzyer/readline](https://github.com/chzyer/readline) Readline is a pure go(golang) implementation for GNU-Readline kind library
 
 #### 数据库相关
 - [github.com/go-xorm/xorm](https://github.com/go-xorm/xorm) xorm库
@@ -67,6 +68,7 @@
 - [github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
 - [github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero) A cloud-native Go microservices framework with cli tool for productivity.
 - [github.com/gofiber/fiber](https://github.com/gofiber/fiber) Express inspired web framework written in Go
+- [github.com/cloudwego/kitex](https://github.com/cloudwego/kitex) A high-performance and strong-extensibility Go RPC framework that helps developers build microservices.
 
 #### RPC
 - [github.com/smallnest/rpcx](https://github.com/smallnest/rpcx) 新浪RPC
@@ -98,18 +100,21 @@
 - [github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) HTTP request router 
 - [github.com/valyala/fasthttp](https://github.com/valyala/fasthttp) Fast HTTP package for Go
 - [github.com/go-resty/resty](https://github.com/go-resty/resty) Simple HTTP and REST client library for Go
+- [github.com/cloudwego/hertz](https://github.com/cloudwego/hertz) A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices.
 
 #### template
 - [github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)高性能html/template替代方案
 - [github.com/unrolled/render](https://github.com/unrolled/render)  easily rendering JSON, XML, text, binary data, and HTML templates.
 - [github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)go.rice is a Go package that makes working with resources such as html,js,css,images and templates easy. 
 - [github.com/shiyanhui/hero](https://github.com/shiyanhui/hero) A handy, fast and powerful go template engine.
+- [github.com/flosch/pongo2](https://github.com/flosch/pongo2) Django-syntax like template-engine for Go
 
 #### git
 - [github.com/src-d/go-git](https://github.com/src-d/go-git) A highly extensible Git implementation in pure Go.
 - [github.com/src-d/gitbase](https://github.com/src-d/gitbase) SQL interface to Git repositories, written in Go.
 #### database
 - [github.com/volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler)
+- [github.com/authzed/spicedb](https://github.com/authzed/spicedb) Open source permissions database inspired by Google Zanzibar
 
 #### crawler
 - [github.com/crawlab-team/crawlab](https://github.com/crawlab-team/crawlab)
@@ -153,3 +158,4 @@
 
 #### 搜索
 - [github.com/zinclabs/zinc](https://github.com/zinclabs/zinc) ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+- [github.com/elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch) The official Go client for Elasticsearch
