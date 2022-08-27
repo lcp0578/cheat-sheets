@@ -526,6 +526,13 @@
 	- [ActiveX Object](src/javascript/activex_object.md)判断对象是否存在的方法
 	- [requirejs](src/javascript/requirejs.md) requrejs引入js、css、fonts等
 	- [art template](src/javascript/art-template.md) art-template模板引擎
+13. [node.js](src/nodejs/README.md)
+	- [node.js基础](src/nodejs/nodejs.md)
+	- [npm基础](src/nodejs/npm.md)
+	- [node.js和npm升级](src/nodejs/upgrade.md)
+	- [gulp基础](src/nodejs/gulp.md)
+	- [grunt基础](src/nodejs/grunt.md)
+	- [pnmp基础](src/nodejs/pnmp.md)
 13. [framework7](src/framework7.md "framework7")
 14. [markdown](src/markdown/README.md "markdown")
     - [基础语法：上下角标和表格](src/markdown/table.md)
