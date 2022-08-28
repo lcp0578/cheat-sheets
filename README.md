@@ -528,6 +528,7 @@
 	- [art template](src/javascript/art-template.md) art-template模板引擎
 12.  [TypeScript](src/TypeScript/README.md)
 	- [TypeScript简介](src/TypeScript/basic.md)
+	- [JavaScript、TypeScript、ES6三者之间的联系和区别](src/TypeScript/es6.md)
 13. [node.js](src/nodejs/README.md)
 	- [node.js基础](src/nodejs/nodejs.md)
 	- [npm基础](src/nodejs/npm.md)
