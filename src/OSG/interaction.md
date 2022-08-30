@@ -5,7 +5,7 @@
 #### 交互概述
 - 操作三维场景主要是操作三维场景数据，场景数据主要由viewer负责进行渲染，要得到数据可以使用`viewer->getSceneData()`就可以了。
 - Viewer主要功能是控制场景，是场景的核心类。
-- Viewer中有addEventHandler就是专门添加时间处理器相应交互动作的（鼠标和键盘），可以自己写事件处理器，对事件进行处理。
+- Viewer中有`addEventHandler`就是专门添加事件处理器相应交互动作的（鼠标和键盘），可以自己写事件处理器，对事件进行处理。
 
 ![osgGA](../../images/osgGA.png)
 
@@ -15,8 +15,8 @@
 #### 交互实现方式与步骤
 - 本次介绍的方式是非回调方式，继承GUI事件类并重写虚函数即可。
 - 交互的实现方式是继承GUI事件类，然后重写其虚函数，步骤如下：
-	- 步骤一：继承osgGA::GUIEventHandler
-	- 步骤二：重写虚函数handler，在里面重写事件
+	- 步骤一：继承`osgGA::GUIEventHandler`
+	- 步骤二：重写虚函数`handler`，在里面重写事件
 
 #### 交互动作
 - 在之前的地球上添加事件：
@@ -41,7 +41,7 @@
 		{
 		    // 该结点是为了开关
 		    osg::ref_ptr<osg::Switch> pSwitch = new osg::Switch;
-		    // 该结点时为了变换
+		    // 该结点是为了变换
 		    osg::ref_ptr<osg::MatrixTransform> pTrans = new osg::MatrixTransform;
 		#if 1
 		    {
@@ -85,13 +85,10 @@
 			 
 			public:
 			    /** Handle event. Override the handle(..) method in your event handlers to respond to events. */
-			//    virtual bool handle(osgGA::Event* event, 
-			//                     osg::Object* pObject, osg::NodeVisitor* pNodeVisitor);
+			    // virtual bool handle(osgGA::Event* event, osg::Object* pObject, osg::NodeVisitor* pNodeVisitor);
 			 
 			    /** Handle events, return true if handled, false otherwise. */
-			//    virtual bool handle(const osgGA::GUIEventAdapter& guiEventAdapter,
-			//                     osgGA::GUIActionAdapter& guiActionAdapter, 
-			//                     osg::Object* pObject, osg::NodeVisitor* pNodeVisitor);
+			   // virtual bool handle(const osgGA::GUIEventAdapter& guiEventAdapter, osgGA::GUIActionAdapter& guiActionAdapter, osg::Object* pObject, osg::NodeVisitor* pNodeVisitor);
 			 
 			    /** Deprecated, Handle events, return true if handled, false otherwise. */
 			virtual bool handle(const osgGA::GUIEventAdapter& guiEventAdapter,
@@ -104,13 +101,11 @@
 			#endif // MYUSEREVENTHANDLER_H
 	- MyUserEventHandler.cpp
 
-			bool MyUserEventHandler::handle(const osgGA::GUIEventAdapter 
-			                                &guiEventAdapter, osgGA::GUIActionAdapter &guiActionAdapter)
+			bool MyUserEventHandler::handle(const osgGA::GUIEventAdapter &guiEventAdapter, osgGA::GUIActionAdapter &guiActionAdapter)
 			{
 			    bool flag = false;
 			    // 获取viwerer
-			    osg::ref_ptr<osgViewer::Viewer> pViewer
-			            = dynamic_cast<osgViewer::Viewer*>(&guiActionAdapter);
+			    osg::ref_ptr<osgViewer::Viewer> pViewer = dynamic_cast<osgViewer::Viewer*>(&guiActionAdapter);
 			    if(!pViewer)
 			    {
 			        return false;
@@ -212,7 +207,7 @@
 			        break;
 			    }
 			    // 返回false会继续向下个事件处理类传递
-			//    return flag;
+			    // return flag;
 			    // 返回true则消息被截取，不会向下个事件处理类传递
 			    return true;
 			}
