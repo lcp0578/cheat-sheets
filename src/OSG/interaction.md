@@ -90,9 +90,8 @@
 			    /** Handle events, return true if handled, false otherwise. */
 			   // virtual bool handle(const osgGA::GUIEventAdapter& guiEventAdapter, osgGA::GUIActionAdapter& guiActionAdapter, osg::Object* pObject, osg::NodeVisitor* pNodeVisitor);
 			 
-			    /** Deprecated, Handle events, return true if handled, false otherwise. */
-			virtual bool handle(const osgGA::GUIEventAdapter& guiEventAdapter,
-			 osgGA::GUIActionAdapter& guiActionAdapter);
+			   /** Deprecated, Handle events, return true if handled, false otherwise. */
+			   virtual bool handle(const osgGA::GUIEventAdapter& guiEventAdapter, osgGA::GUIActionAdapter& guiActionAdapter);
 			 
 			private:
 			    float _scale = 1.0f;  // 保存当前相对于原始比例的缩放系数
