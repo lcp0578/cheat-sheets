@@ -13,3 +13,4 @@
 - [OSG基本几何图形、内置几何类型](geometry.md)
 - [OSG三维纹理映射(体渲染)](VolumeRendering.md)
 - [OSG交互](interaction.md)
+- [osg中漫游器-osgGA](osgGA.md)
