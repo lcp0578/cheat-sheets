@@ -85,6 +85,7 @@
 	- [OSG渲染状态与2D纹理映射](src/OSG/render.md)
 	- [OSG基本几何图形、内置几何类型](src/OSG/geometry.md)
 	- [OSG三维纹理映射(体渲染)](src/OSG/VolumeRendering.md)
+	- [OSG交互](src/OSG/interaction.md)
 3. [Doxygen](src/Doxygen/README.md)
 4. [Paddle](src/Paddle/README.md)
 	- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
