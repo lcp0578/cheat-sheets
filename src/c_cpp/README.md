@@ -42,4 +42,7 @@
 - [C++中左值和右值](lvalue_rlavue.md)
 - [C++常见错误](errors/README.md)
 	- [C++编译error LNK2019: unresolved external](errors/LNK2019.md)
+	- [Linker tools error LNK1120](errors/LNK1120.md)
 	- [0xC0000005: Access violation reading location](errors/0xC0000005.md)
+	- [Compiler Error C2065](errors/C2065.md)
+	- [编译器错误 C2000 - C3999、C7000 - C7999](errors/c2000c3999.md)
