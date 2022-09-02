@@ -31,3 +31,4 @@
 - [QCustomPlot](QCustomPlot.md)
 - [madplotlib](madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
 - [ctkPluginFramework](ctkPluginFramework.md)
+- [Qt6的一些变化](qt6.md)

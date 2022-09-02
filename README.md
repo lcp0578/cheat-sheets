@@ -132,6 +132,7 @@
 	- [QCustomPlot](src/Qt/QCustomPlot.md)
 	- [madplotlib](src/Qt/madplotlib.md)A C++ wrapper of Qt Charts that looks, tastes and smells like matplotlib but isn't.
 	- [ctkPluginFramework](src/Qt/ctkPluginFramework.md)
+	- [Qt6的一些变化](src/Qt/qt6.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
