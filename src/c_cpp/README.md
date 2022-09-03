@@ -46,3 +46,4 @@
 	- [0xC0000005: Access violation reading location](errors/0xC0000005.md)
 	- [Compiler Error C2065](errors/C2065.md)
 	- [编译器错误 C2000 - C3999、C7000 - C7999](errors/c2000c3999.md)
+- [windows中静态库lib和动态dll的区别及使用方法](lib_dll.md)
