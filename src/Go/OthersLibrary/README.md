@@ -144,7 +144,8 @@
 - [github.com/wailsapp/wails](https://github.com/wailsapp/wails) Build desktop applications using Go & Web Technologies.
 
 #### 文件系统
-- [github.com/spf13/afero](https://github.com/spf13/afero) A FileSystem Abstraction System for Go 
+- [github.com/spf13/afero](https://github.com/spf13/afero) A FileSystem Abstraction System for Go
+- [github.com/syncthing/syncthing](https://github.com/syncthing/syncthing) Open Source Continuous File Synchronization
 
 #### 配置文件
 - [github.com/spf13/viper](https://github.com/spf13/viper) Go configuration with fangs
@@ -159,3 +160,6 @@
 #### 搜索
 - [github.com/zinclabs/zinc](https://github.com/zinclabs/zinc) ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
 - [github.com/elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch) The official Go client for Elasticsearch
+
+#### 备份
+- [github.com/restic/restic](https://github.com/restic/restic) Fast, secure, efficient backup program
