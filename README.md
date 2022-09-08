@@ -92,6 +92,7 @@
 	- [OSG三维纹理映射(体渲染)](src/OSG/VolumeRendering.md)
 	- [OSG交互](src/OSG/interaction.md)
 	- [osg中漫游器-osgGA](src/OSG/osgGA.md)
+	- [OSG光照](src/OSG/Light.md)
 3. [Doxygen](src/Doxygen/README.md)
 4. [Paddle](src/Paddle/README.md)
 	- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
