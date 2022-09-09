@@ -62,6 +62,7 @@
 
 #### OpenGL
 - [github.com/cginternals/glbinding](https://github.com/cginternals/glbinding) A C++ binding for the OpenGL API, generated using the gl.xml specification.
+- [github.com/guillaumeblanc/ozz-animation](https://github.com/guillaumeblanc/ozz-animation) Open source c++ skeletal animation library and toolset
 
 #### 加密/解密
 - [github.com/microsoft/SEAL](https://github.com/microsoft/SEAL) Microsoft SEAL is an easy-to-use and powerful homomorphic encryption library.
