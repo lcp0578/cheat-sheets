@@ -17,6 +17,7 @@
 
 #### 算法
 - [github.com/xtaci/algorithms](https://github.com/xtaci/algorithms) Algorithms & Data structures in C++.
+- [github.com/BehaviorTree/BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP) Behavior Trees Library in C++. Batteries included.
 
 #### 框架
 - [github.com/grpc/grpc](https://github.com/grpc/grpc) The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)
@@ -32,6 +33,7 @@
 #### 缓存
 - [github.com/dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) A modern replacement for Redis and Memcached
 - [github.com/apache/trafficserver](https://github.com/apache/trafficserver) Apache Traffic Server™ is a fast, scalable and extensible HTTP/1.1 and HTTP/2 compliant caching proxy server.
+- [github.com/Tencent/MMKV](https://github.com/Tencent/MMKV) An efficient, small mobile key-value storage framework developed by WeChat. Works on Android, iOS, macOS, Windows, and POSIX.
 
 #### 正则表达式
 - [github.com/google/re2](https://github.com/google/re2) RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library
@@ -56,6 +58,10 @@
 
 #### GIS
 - [github.com/OSGeo/gdal](https://github.com/OSGeo/gdal) GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats.
+- [github.com/qgis/QGIS](https://github.com/qgis/QGIS) QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)
 
 #### OpenGL
 - [github.com/cginternals/glbinding](https://github.com/cginternals/glbinding) A C++ binding for the OpenGL API, generated using the gl.xml specification.
+
+#### 加密/解密
+- [github.com/microsoft/SEAL](https://github.com/microsoft/SEAL) Microsoft SEAL is an easy-to-use and powerful homomorphic encryption library.
