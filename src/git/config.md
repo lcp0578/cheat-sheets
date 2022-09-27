@@ -19,3 +19,10 @@
 	- 删除一个配置项
 		- 命令参数 –unset
 		- 格式：`git config [--local|--global|--system] --unset section.key`
+- 关闭ssl验证
+	- 永久关闭
+
+			git config --global http.sslVerify false
+	- 单次不验证
+
+			git -c http.sslVerify=false clone https://localhost/xxx/xxx.git
