@@ -608,7 +608,9 @@
 	- [开启sshd服务](src/Ubuntu/sshd.md)
 	- [防火墙](src/Ubuntu/firewall.md)
 29. [svg](src/svg.md)
-30. [wechat](src/wechat/README.md)
+30. [Meet 会议系统](src/Meet/README.md)
+	- [github.com/jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
+	- [github.com/fmeringdal/nettu-meet](https://github.com/fmeringdal/nettu-meet) Open source video conferencing system for tutors.
 31. [FFmpeg](src/FFmpeg/README.md)
 	- [FFmpeg install](src/FFmpeg/install.md)  编译安装FFmpeg
 	- [PHP-FFmpeg](src/FFmpeg/PHP-FFmpeg.md) PHP-FFmpeg类库
