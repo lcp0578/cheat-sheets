@@ -37,6 +37,7 @@
 
 #### 图片处理
 - [github.com/lvandeve/lodepng](https://github.com/lvandeve/lodepng) PNG encoder and decoder in C and C++.
+- [github.com/bkaradzic/bimg](https://github.com/bkaradzic/bimg) Image library.
 
 #### 数学
 - [github.com/libigl/libigl](https://github.com/libigl/libigl) A simple C++ geometry processing library
