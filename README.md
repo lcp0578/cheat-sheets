@@ -713,6 +713,10 @@
 60. [Flink](src/Flink/README.md)
 61. [rust](src/rust/README.md)
 	- [github.com/sunface/rust-course](https://github.com/sunface/rust-course) rust教程
+	- [github.com/rust-lang/rustlings](https://github.com/rust-lang/rustlings) Small exercises to get you used to reading and writing Rust code!
+	- [lib 有用类库](lib.md)
+		- [github.com/tauri-apps/tauri](https://github.com/tauri-apps/tauri) Build smaller, faster, and more secure desktop applications with a web frontend.
+		- [github.com/starship/starship](https://github.com/starship/starship) The minimal, blazing-fast, and infinitely customizable prompt for any shell! 
 61. [Erlang](src/Erlang/README.md)
 62. [Scala](src/Scala/README.md)
 63. [Kotlin](src/Kotlin/README.md)
