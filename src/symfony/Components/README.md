@@ -12,3 +12,4 @@
 - [Debug](Debug.md) 方便调试的组件
 - [VarDumper](VarDumper) 调试时打印信息的组件
 - [Cache](Cache.md) 缓存组件，遵循PSR-6、PSR-16规范
+- [Runtime](Runtime.md) The Runtime Component decouples the bootstrapping logic from any global state to make sure the application can run with runtimes like PHP-PM, ReactPHP, Swoole, etc. without any changes.

@@ -121,6 +121,7 @@
 - [Debug](Components/Debug.md) 方便调试的组件
 - [VarDumper](Components/VarDumper) 调试时打印信息的组件
 - [Cache](Components/Cache.md) 缓存组件，遵循PSR-6、PSR-16规范
+- [Runtime](Components/Runtime.md) The Runtime Component decouples the bootstrapping logic from any global state to make sure the application can run with runtimes like PHP-PM, ReactPHP, Swoole, etc. without any changes.
 #### [Bundles Note](Bundles-Note/README.md) 第三方bundle使用笔记 
 - [DoctrineFixturesBundle](Bundles-Note/DoctrineFixturesBundle.md)	初始化数据Bundle笔记
 - [KnpPaginatorBundle 分页bundle使用遇到的问题](Bundles-Note/knp-paginator-bundle.md)
