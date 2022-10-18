@@ -22,7 +22,7 @@
 	- [三维文件格式](src/GIS/extension.md)
 	- [glTF格式详解](src/GIS/glTF.md)
 	- [obj、gltf、glb、fbx、b3dm模型项目汇总](src/GIS/model.md)
-	- [相关名词缩写](src/GIS/abbreviation.md)
+	- [相关名词缩写(DSM、DEM、DOM、DTM、DLG)](src/GIS/abbreviation.md)
 2. [CesiumJS](src/CesiumJS/README.md)
 	- [CesiumJS基础](src/CesiumJS/basic.md)
 	- [3d-tiles](src/CesiumJS/3dtiles.md)
