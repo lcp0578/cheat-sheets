@@ -43,20 +43,35 @@
 
             Calling ioctl() to re-read partition table.
             正在同步磁盘。
-- 使用fdisk -l命令查看，已经有分区了
+- 使用fdisk -l命令查看，已经有分区了（多了如下内容）
+
+		Device     Boot Start       End   Sectors  Size Id Type
+		/dev/vdb1        2048 838860799 838858752  400G 83 Linux
 - 建好分区后要格式化分区，建立文件系统
 
 		# mkfs.xfs -f /dev/vdb1
+
+			meta-data=/dev/vdb1              isize=512    agcount=4, agsize=26214336 blks
+			         =                       sectsz=512   attr=2, projid32bit=1
+			         =                       crc=1        finobt=1, sparse=1, rmapbt=0
+			         =                       reflink=1
+			data     =                       bsize=4096   blocks=104857344, imaxpct=25
+			         =                       sunit=0      swidth=0 blks
+			naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+			log      =internal log           bsize=4096   blocks=51199, version=2
+			         =                       sectsz=512   sunit=0 blks, lazy-count=1
+			realtime =none                   extsz=4096   blocks=0, rtextents=0
+
 - 选择一个挂载点挂上就可以了，我挂载在/home/data/ 下了
 
 		# mkdir /home/data
-		# mount /dev/vdb1 /home/data/
+		# mount /dev/vdb1 /home/data
 - 查看一下挂载是否成功了
 
 		df -TH /home/data/
 - 修改一下系统配置加入下列行到/etc/fstab，让系统启动后自动挂载，否则有可能会掉
 
-		/dev/vdb  /home/data xfs  defaults  0  0
+		/dev/vdb1  /home/data xfs  defaults  0  0
 - PS：文件系统的区别
 	- 文件系统EXT3，EXT4和XFS的区别： 
 		- EXT3 
