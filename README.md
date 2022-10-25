@@ -639,6 +639,8 @@
 	- [taskkill](src/windows/taskkill.md) 杀进程
 	- [WSL( Windows Subsystem for Linux)](src/windows/wsl.md)
 	- [使用SFC修复损坏的Windows 10/11系统文件](src/windows/sfc.md)
+	- [windows 命令行快速删除文件](src/windows/del.md)
+	- [windows下使用RoboCopy命令进行文件夹增量备份](src/windows/robocopy.md)
 40. [assembly](src/assembly/README.md)汇编语言
 41. [CEF](src/cef/README.md)
 42. [VisualStudio](src/VisualStudio/README.md)
