@@ -58,6 +58,9 @@
 #### Kafka
 - [github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
 
+#### 系统
+- [github.com/SerenityOS/serenity](https://github.com/SerenityOS/serenity) The Serenity Operating System
+
 
 
 

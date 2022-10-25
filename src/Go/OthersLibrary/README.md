@@ -27,6 +27,7 @@
 - [github.com/asaskevich/govalidator](https://github.com/asaskevich/govalidator)
 - [github.com/silenceper/wechat](https://github.com/silenceper/wechat) 微信SDK
 - [github.com/zinclabs/zinc](https://github.com/zinclabs/zinc) ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+- [github.com/Jeffail/tunny](https://github.com/Jeffail/tunny) A goroutine pool for Go
 
 #### 队列
 - [github.com/nsqio/nsq](https://github.com/nsqio/nsq) 分布式消息平台
@@ -101,6 +102,7 @@
 - [github.com/valyala/fasthttp](https://github.com/valyala/fasthttp) Fast HTTP package for Go
 - [github.com/go-resty/resty](https://github.com/go-resty/resty) Simple HTTP and REST client library for Go
 - [github.com/cloudwego/hertz](https://github.com/cloudwego/hertz) A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices.
+- [github.com/Dreamacro/clash](https://github.com/Dreamacro/clash) A rule-based tunnel in Go.
 
 #### template
 - [github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)高性能html/template替代方案
@@ -166,3 +168,6 @@
 
 #### PHP
 - [github.com/dunglas/frankenphp](https://github.com/dunglas/frankenphp) The modern PHP app server
+
+#### 后台框架
+- [github.com/pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) Open Source realtime backend in 1 file
