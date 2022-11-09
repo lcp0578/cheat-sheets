@@ -76,6 +76,7 @@
 		- [Compiler Error C2065](src/c_cpp/errors/C2065.md)
 		- [编译器错误 C2000 - C3999、C7000 - C7999](src/c_cpp/errors/c2000c3999.md)
 	- [windows中静态库lib和动态dll的区别及使用方法](src/c_cpp/lib_dll.md)
+	- [namespace 工作空间](src/c_cpp/namespace.md)
 3. [OSG](src/OSG/README.md)
 	- [OSG坐标系理解](src/OSG/coordinate.md)
 	- [基本数学组件](src/OSG/math.md)
