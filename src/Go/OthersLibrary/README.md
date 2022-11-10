@@ -94,6 +94,7 @@
 - [github.com/eranyanay/1m-go-websockets](https://github.com/eranyanay/1m-go-websockets)处理百万级ws连接
 - [github.com/gobwas/ws](https://github.com/gobwas/ws)websocket类
 - [github.com/streadway/amqp](https://github.com/streadway/amqp)Go Client for AMQP 0.9.1 
+- [github.com/binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) Send push notifications to your phone or desktop using PUT/POST
 
 #### HTTP
 - [github.com/asmcos/requests](https://github.com/asmcos/requests)类似python requests的HTTP类库
