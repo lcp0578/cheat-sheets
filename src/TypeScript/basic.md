@@ -7,3 +7,6 @@
 	- 类型注解 Type annotations
 	- 编译时类型检查 Compile time type checking 
 	- Arrow 函数 (类似 C# 的 Lambda 表达式)
+- [github.com/xcatliu/typescript-tutorial](https://github.com/xcatliu/typescript-tutorial) TypeScript 入门教程
+- [github.com/basarat/typescript-book](https://github.com/basarat/typescript-book) The definitive guide to TypeScript and possibly the best TypeScript book.
+- [github.com/zhongsp/TypeScript](https://github.com/zhongsp/TypeScript) TypeScript 使用手册（中文版）翻译
