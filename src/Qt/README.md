@@ -33,3 +33,4 @@
 - [ctkPluginFramework](ctkPluginFramework.md)
 - [Qt6的一些变化](qt6.md)
 - [Qt通过QWebEngineView与JS交互](qwebchannel-js.md)
+- [Qt binding for Go](go.md)

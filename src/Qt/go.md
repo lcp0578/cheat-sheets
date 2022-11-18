@@ -1,0 +1,2 @@
+## Qt binding for Go
+- [github.com/therecipe/qt](https://github.com/therecipe/qt) Qt binding for Go (Golang) with support for Windows / macOS / Linux / FreeBSD / Android / iOS / Sailfish OS / Raspberry Pi / AsteroidOS / Ubuntu Touch / JavaScript / WebAssembly

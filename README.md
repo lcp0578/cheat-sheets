@@ -139,6 +139,7 @@
 	- [ctkPluginFramework](src/Qt/ctkPluginFramework.md)
 	- [Qt6的一些变化](src/Qt/qt6.md)
 	- [Qt通过QWebEngineView与JS交互](src/Qt/qwebchannel-js.md)
+	- [Qt binding for Go](src/Qt/go.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
