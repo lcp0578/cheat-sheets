@@ -34,3 +34,7 @@
 - [Qt6的一些变化](qt6.md)
 - [Qt通过QWebEngineView与JS交互](qwebchannel-js.md)
 - [Qt binding for Go](go.md)
+- [Powerful yet simple to use screenshot software](flameshot.md)
+- [QWidgetDemo Qt编写的一些开源的demo](QWidgetDemo.md)
+- [Qt开发经验](qtkaifajingyan.md)
+- [Qt示例](QtExamples.md)
