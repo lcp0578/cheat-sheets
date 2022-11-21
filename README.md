@@ -641,6 +641,7 @@
 36. [vuejs](src/vuejs/README.md)
 	- [vue.js基础](src/vuejs/basic.md)
 	- [vite 前端工具链](src/vuejs/vite.md)
+	- [esbuild 极速 JavaScript 打包器](src/vuejs/esbuild.md)
 	- [SFC 单文件组件](src/vuejs/SFC.md)
 	- [UMD、CMD、AMD、CommonJs等规范](src/vuejs/Definition.md)
 37. [HAProxy](src/HAProxy/README.md)

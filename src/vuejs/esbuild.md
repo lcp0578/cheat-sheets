@@ -1,0 +1,11 @@
+## esbuild 极速 JavaScript 打包器
+- esbuild 构建工具的核心目标是开创构建工具性能的新时代， 同时创建一个易于使用的现代构建工具。
+- 主要特性：
+	- 极快的速度，无需缓存
+	- 支持 ES6 和 CommonJS 模块
+	- 支持对 ES6 模块进行 tree shaking
+	- API 可同时用于 JavaScript 和 Go
+	- 兼容 TypeScript 和 JSX 语法
+	- 支持 Source maps
+	- 支持 Minification
+	- 支持 plugins
