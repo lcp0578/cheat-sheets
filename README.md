@@ -644,6 +644,8 @@
 	- [esbuild 极速 JavaScript 打包器](src/vuejs/esbuild.md)
 	- [SFC 单文件组件](src/vuejs/SFC.md)
 	- [UMD、CMD、AMD、CommonJs等规范](src/vuejs/Definition.md)
+	- [vue-router 路由](src/vuejs/router.md)
+	- [vitejs/plugin-legacy 支持低版本浏览器](src/vuejs/legacy.md)
 37. [HAProxy](src/HAProxy/README.md)
 	- [源码编译安装](src/HAProxy/install.md)
     - [常用配置示例](src/HAProxy/config.md)
