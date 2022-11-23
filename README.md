@@ -144,6 +144,7 @@
 	- [QWidgetDemo Qt编写的一些开源的demo](src/Qt/QWidgetDemo.md)
 	- [Qt开发经验](src/Qt/qtkaifajingyan.md)
 	- [Qt示例](src/Qt/QtExamples.md)
+	- [QtWebEngine](src/Qt/QtWebEngine.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
