@@ -39,3 +39,4 @@
 - [Qt开发经验](qtkaifajingyan.md)
 - [Qt示例](QtExamples.md)
 - [QtWebEngine](QtWebEngine.md)
+- [Qt中设置透明度](Opacity.md)
