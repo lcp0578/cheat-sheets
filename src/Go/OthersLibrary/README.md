@@ -151,6 +151,7 @@
 #### 文件系统
 - [github.com/spf13/afero](https://github.com/spf13/afero) A FileSystem Abstraction System for Go
 - [github.com/syncthing/syncthing](https://github.com/syncthing/syncthing) Open Source Continuous File Synchronization
+- [github.com/minio/minio](https://github.com/minio/minio) Multi-Cloud Object Storage
 
 #### 配置文件
 - [github.com/spf13/viper](https://github.com/spf13/viper) Go configuration with fangs
