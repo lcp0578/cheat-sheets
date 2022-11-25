@@ -40,3 +40,4 @@
 - [Qt示例](QtExamples.md)
 - [QtWebEngine使用](QtWebEngine.md)
 - [Qt中设置透明度](Opacity.md)
+- [QHBoxLayout水平布局用法](QHBoxLayout.md)
