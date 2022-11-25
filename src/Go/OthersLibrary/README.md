@@ -157,7 +157,9 @@
 
 #### GIS
 - [github.com/tidwall/tile38](https://github.com/tidwall/tile38) Real-time Geospatial and Geofencing
+- [github.com/shadowspore/t38c](https://github.com/shadowspore/t38c) Tile38 Client package
 - [github.com/lukeroth/gdal](https://github.com/lukeroth/gdal) Go wrapper for GDAL, the Geospatial Data Abstraction Library
+- [github.com/spatial-go/geoos](https://github.com/spatial-go/geoos) A library provides spatial data and geometric algorithms
 
 #### API
 - [github.com/swaggo/swag](https://github.com/swaggo/swag) Automatically generate RESTful API documentation with Swagger 2.0 for Go.
