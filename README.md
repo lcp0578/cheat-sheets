@@ -147,6 +147,7 @@
 	- [QtWebEngine](src/Qt/QtWebEngine.md)
 	- [Qt中设置透明度](src/Qt/Opacity.md)
 	- [QHBoxLayout水平布局用法](src/Qt/QHBoxLayout.md)
+	- [setWindowFlags函数](src/Qt/setWindowFlags.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
