@@ -41,5 +41,6 @@
 - [QtWebEngine使用](QtWebEngine.md)
 - [Qt中设置透明度](Opacity.md)
 - [QHBoxLayout水平布局用法](QHBoxLayout.md)
-- [setWindowFlags函数](setWindowFlags.md)
+- [setWindowFlags设置窗口属性](setWindowFlags.md)
 - [Qt窗口模型介绍](WindowType.md)
+- [多页面切换布局QStackedLayout](QStackedLayout.md)
