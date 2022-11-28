@@ -42,3 +42,4 @@
 - [Qt中设置透明度](Opacity.md)
 - [QHBoxLayout水平布局用法](QHBoxLayout.md)
 - [setWindowFlags函数](setWindowFlags.md)
+- [Qt窗口模型介绍](WindowType.md)
