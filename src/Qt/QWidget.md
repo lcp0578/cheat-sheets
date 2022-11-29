@@ -27,6 +27,7 @@
 		this.setWindowOpacity(0.5);
 
 - 隐藏 qt 程序的任务栏条
+
 		mainwindow.setWindowFlags( Qt::Tool | Qt::StaysOnTopHint ); //保持在最前面可选
  
 
@@ -98,4 +99,4 @@
 
 - 鼠标移入事件
 
-		virtual void    enterEvent ( QEvent * event )
+		virtual void enterEvent ( QEvent * event )
