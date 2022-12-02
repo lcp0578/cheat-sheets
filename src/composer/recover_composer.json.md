@@ -4,5 +4,4 @@
 		composer init
 - 查看已安装的packages
 
-		// under the vendor
 		composer show --installed
