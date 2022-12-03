@@ -180,3 +180,6 @@
 
 #### Qt
 - [github.com/therecipe/qt](https://github.com/therecipe/qt) Qt binding for Go (Golang) with support for Windows / macOS / Linux / FreeBSD / Android / iOS / Sailfish OS / Raspberry Pi / AsteroidOS / Ubuntu Touch / JavaScript / WebAssembly
+
+#### String
+- [github.com/huandu/xstrings](https://github.com/huandu/xstrings) Implements string functions widely used in other languages but absent in Go.
