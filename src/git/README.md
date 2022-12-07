@@ -5,7 +5,7 @@
 - [git config 配置](config.md)
 - [git ssh](git_ssh.md) git ssh配置
 - [fork sync](fork_sync.md) fork仓库与原仓同步
-- [Github](github.md) Github clone慢配置
+- [Github访问或clone慢配置](github.md) Github 
 - [Github Help 使用技巧](github_help.md)
 - [Git update](update.md) git升级
 - [rm git index](rm.md) 移除文件或目录的git索引

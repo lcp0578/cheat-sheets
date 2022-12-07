@@ -1,6 +1,10 @@
-## Github
-- github clone 慢的问题，配置hosts文件
+## Github 访问或者clone慢
+- 查询最新的IP
+	- www.ipaddress.com
+- 配置hosts文件
 
-		151.101.184.249 global-ssl.fastly.net
-		192.30.253.112 github.com
-		// 查询最新的IP，ipaddress.com
+		140.82.114.3 github.com
+		151.101.1.194 github.global.ssl.fastly.net
+		185.199.108.133 avatars.githubusercontent.com
+		185.199.108.154 github.githubassets.com
+		
