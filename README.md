@@ -562,6 +562,7 @@
 	- [npm基础](src/nodejs/npm.md)
 	- [node.js和npm升级](src/nodejs/upgrade.md)
 	- [npm script详解](src/nodejs/npm_script.md)
+	- [npm查看已安装的包（全局、和本地）](src/nodejs/npm_ls.md)
 	- [gulp基础](src/nodejs/gulp.md)
 	- [grunt基础](src/nodejs/grunt.md)
 	- [pnmp基础](src/nodejs/pnmp.md)
