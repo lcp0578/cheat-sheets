@@ -53,7 +53,8 @@
 - [github.com/grafana/grafana](https://github.com/grafana/grafana)(时序)数据可视化平台
 - [github.com/kevwan/tproxy](https://github.com/kevwan/tproxy) A cli tool to proxy and analyze TCP connections.
 - [github.com/lastbackend/lastbackend](https://github.com/lastbackend/lastbackend) System for containerized apps management. From build to scaling.
-
+- [github.com/cilium/ebpf](https://github.com/cilium/ebpf)  
+ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel.
 #### 测试相关
 - [github.com/smartystreets/goconvey](https://github.com/smartystreets/goconvey) 浏览器go test
 
