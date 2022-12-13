@@ -151,6 +151,7 @@
 	- [Qt窗口模型介绍](src/Qt/WindowType.md)
 	- [多页面切换布局QStackedLayout](src/Qt/QStackedLayout.md)
 	- [QSerialPort 串口的读写](src/Qt/QSerialPort.md)
+	- [QWebEngineProfile使用](src/Qt/QWebEngineProfile.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
