@@ -18,5 +18,17 @@
         	vim /etc/resolv.conf
         	nameserver 192.168.48.2
     - 重启网络服务
-    
-    		service network restart
+    	- CentOS6
+    	
+    			service network restart
+
+		- CentOS7
+		
+				systemctl restart network
+
+		- CentOS8
+
+				nmcli c reload
+			或
+
+				nmcli c reload [网卡名]
