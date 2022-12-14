@@ -121,6 +121,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 #### database
 - [github.com/volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler)
 - [github.com/authzed/spicedb](https://github.com/authzed/spicedb) Open source permissions database inspired by Google Zanzibar
+- [github.com/MichaelMure/git-bug](https://github.com/MichaelMure/git-bug) Distributed, offline-first bug tracker embedded in git, with bridges
 
 #### crawler
 - [github.com/crawlab-team/crawlab](https://github.com/crawlab-team/crawlab)
@@ -162,6 +163,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 - [github.com/shadowspore/t38c](https://github.com/shadowspore/t38c) Tile38 Client package
 - [github.com/lukeroth/gdal](https://github.com/lukeroth/gdal) Go wrapper for GDAL, the Geospatial Data Abstraction Library
 - [github.com/spatial-go/geoos](https://github.com/spatial-go/geoos) A library provides spatial data and geometric algorithms
+- [github.com/golang/geo](https://github.com/golang/geo) S2 geometry library in Go
 
 #### API
 - [github.com/swaggo/swag](https://github.com/swaggo/swag) Automatically generate RESTful API documentation with Swagger 2.0 for Go.
