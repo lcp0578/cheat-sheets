@@ -46,4 +46,5 @@
 - [多页面切换布局QStackedLayout](QStackedLayout.md)
 - [QSerialPort 串口的读写](QSerialPort.md)
 - [QWebEngineProfile使用](QWebEngineProfile.md)
+- [QWebEngineView类实现Web浏览器](QWebEngineView.md)
 - [Lambda表达式](Lambda.md)
