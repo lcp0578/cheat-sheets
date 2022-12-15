@@ -455,7 +455,7 @@
 	- [audit Linux的审计功能](src/Linux/audit.md)
 	- [内存查看与手动释放 free & drop_caches](src/Linux/drop_caches.md)
 	- [fsck:file system check 磁盘检查](src/Linux/fsck.md)
-	- [通过 ulimit 改善系统性能](src/Linux/ulimt.md)
+	- [通过 ulimit 改善系统性能](src/Linux/ulimit.md)
 	- [内存优化总结:ptmalloc、TCMalloc和JeMalloc](src/Linux/ptmalloc_tcmalloc_jemalloc.md)
 	- [traceroute](src/Linux/traceroute.md)
 	- [supervisor](src/Linux/supervisor.md)
