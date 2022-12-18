@@ -42,3 +42,4 @@
 - [canal - 阿里巴巴 MySQL binlog 增量订阅&消费组件](canal.md)
 - [MySQL 8.0 自带的4个系统数据库](MySQL8database.md)
 - [MySQL数据块、表占用空间大小计算](size.md)
+- [truncate 释放表空间](truncate.md)

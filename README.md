@@ -400,6 +400,7 @@
 	- [canal - 阿里巴巴 MySQL binlog 增量订阅&消费组件](src/MySQL/canal.md)
 	- [MySQL 8.0 自带的4个系统数据库](src/MySQL/MySQL8database.md)
 	- [MySQL数据块、表占用空间大小计算](src/MySQL/size.md)
+	- [truncate 释放表空间](src/MySQL/truncate.md)
 4. [Kingbase V8](src/kingbase/README.md)
 	- [安装与启动](src/kingbase/install.md)
 	- [KingbaseV8R3运维文档](src/kingbase/KingbaseV8R3运维文档.pdf)
