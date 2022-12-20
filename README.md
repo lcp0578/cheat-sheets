@@ -159,6 +159,7 @@
 	- [QWebEngineProfile使用](src/Qt/QWebEngineProfile.md)
 	- [QWebEngineView类实现Web浏览器](src/Qt/QWebEngineView.md)
 	- [Lambda表达式](src/Qt/Lambda.md)
+	- [ui->setupUi(this) 分析](src/Qt/setupUi.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
