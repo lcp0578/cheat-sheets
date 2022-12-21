@@ -49,3 +49,6 @@
 - [QWebEngineView类实现Web浏览器](QWebEngineView.md)
 - [Lambda表达式](Lambda.md)
 - [ui->setupUi(this) 分析](setupUi.md)
+- [QDateTime与QTime获取系统当前时间](QTime.md)
+- [qDebug常用特性](qDebug.md)
+- [QWebEngineView 调试](QWebEngineViewDebugging.md)
