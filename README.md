@@ -693,6 +693,7 @@
 	- [安装扩展](src/VisualStudio/extensions.md)
 	- [InstallShield](src/VisualStudio/InstallShield.md)
 	- [VS环境变量](src/VisualStudio/env.md)
+	- [error C1060:compiler is out of heap space](src/VisualStudio/C1060.md)
 43. [java](src/java/README.md)
 	- [eclipse](src/java/eclipse.md)eclipse相关
 	- [jar](src/java/jar.md) jar运行、反编译
