@@ -85,6 +85,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 - [github.com/eolinker/GoKu-API-Gateway](https://github.com/eolinker/GoKu-API-Gateway)
 - [github.com/fagongzi/gateway](https://github.com/fagongzi/gateway)
 - [github.com/go-kratos/gateway](https://github.com/go-kratos/gateway)
+- [github.com/alibaba/higress](https://github.com/alibaba/higress) Next-generation Cloud Native Gateway
 
 #### json相关
 - [github.com/json-iterator/go](https://github.com/json-iterator/go)“encoding/json”改进版
