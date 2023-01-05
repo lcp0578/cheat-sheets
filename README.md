@@ -167,6 +167,7 @@
 	- [processEvents使用](src/Qt/processEvents.md)
 	- [Qt互斥锁QMutex、QMutexLocker的使用](src/Qt/QMutex.md)
 	- [enum Qt::ApplicationAttribute 枚举](src/Qt/ApplicationAttribute.md)
+	- [Qt窗口操作函数](src/Qt/window.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
