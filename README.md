@@ -853,6 +853,7 @@
 	- [最新 1500 多本计算机电子书免费下载](https://github.com/itdevbooks/pdf)
 	- [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
 	- [github.com/charlax/professional-programming](https://github.com/charlax/professional-programming) A collection of full-stack resources for programmers.
+	- [github.com/missing-semester/missing-semester](https://github.com/missing-semester/missing-semester) The Missing Semester of Your CS Education
 108. [协议与标准](src/protocol/README.md)
 	- [OPC协议](src/protocol/OPC.md)
 113. [Chromium](src/chromium//README.md)
