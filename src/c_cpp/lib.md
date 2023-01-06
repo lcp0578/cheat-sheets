@@ -61,6 +61,9 @@
 #### 系统
 - [github.com/SerenityOS/serenity](https://github.com/SerenityOS/serenity) The Serenity Operating System
 
+#### 游戏
+- [github.com/scarsty/kys-cpp](https://github.com/scarsty/kys-cpp) 《金庸群侠传》c++复刻版
+
 
 
 
