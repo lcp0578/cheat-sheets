@@ -168,6 +168,7 @@
 	- [Qt互斥锁QMutex、QMutexLocker的使用](src/Qt/QMutex.md)
 	- [enum Qt::ApplicationAttribute 枚举](src/Qt/ApplicationAttribute.md)
 	- [Qt窗口操作函数](src/Qt/window.md)
+	- [QException异常](src/Qt/QException.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
@@ -763,9 +764,11 @@
 61. [rust](src/rust/README.md)
 	- [github.com/sunface/rust-course](https://github.com/sunface/rust-course) rust教程
 	- [github.com/rust-lang/rustlings](https://github.com/rust-lang/rustlings) Small exercises to get you used to reading and writing Rust code!
+	- [github.com/google/comprehensive-rust](https://github.com/google/comprehensive-rust) This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust to everyone.
 	- [lib 有用类库](lib.md)
 		- [github.com/tauri-apps/tauri](https://github.com/tauri-apps/tauri) Build smaller, faster, and more secure desktop applications with a web frontend.
-		- [github.com/starship/starship](https://github.com/starship/starship) The minimal, blazing-fast, and infinitely customizable prompt for any shell! 
+		- [github.com/starship/starship](https://github.com/starship/starship) The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+		- [github.com/rust-lang/mdBook](https://github.com/rust-lang/mdBook) Create book from markdown files. Like Gitbook but implemented in Rust 
 61. [Erlang](src/Erlang/README.md)
 62. [Scala](src/Scala/README.md)
 63. [Kotlin](src/Kotlin/README.md)
