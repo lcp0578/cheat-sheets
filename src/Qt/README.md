@@ -3,6 +3,7 @@
 - [Qt 常用函数](basic.md)
 - [关于 QWidget 相关小知识](QWidget.md)
 - [QWidget属性表](QWidgetAttr.md)
+- [QWidget update刷新](QWidgetUpdate.md)
 - [Qt 的多语言支持的翻译机制](QTranslator.md)
 - [Qt 插件机制以及插件中几个重要的宏](QtPlugin.md)
 - [Qt自定义信号槽](SOLT.md)

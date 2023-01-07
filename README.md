@@ -114,6 +114,7 @@
 	- [Qt 常用函数](src/Qt/basic.md)
 	- [关于 QWidget 相关小知识](src/Qt/QWidget.md)
 	- [QWidget属性表](src/Qt/QWidgetAttr.md)
+	- [QWidget update刷新](src/Qt/QWidgetUpdate.md)
 	- [Qt 的多语言支持的翻译机制](src/Qt/QTranslator.md)
 	- [Qt 插件机制以及插件中几个重要的宏](src/Qt/QtPlugin.md)
 	- [Qt自定义信号槽](src/Qt/SOLT.md)
