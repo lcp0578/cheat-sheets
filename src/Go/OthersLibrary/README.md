@@ -77,6 +77,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 #### RPC
 - [github.com/smallnest/rpcx](https://github.com/smallnest/rpcx) 新浪RPC
 - [github.com/grpc/grpc-go](https://github.com/grpc/grpc-go) grpc的go版
+- [github.com/cloudwego/netpoll](https://github.com/cloudwego/netpoll) A high-performance non-blocking I/O networking framework, which focused on RPC scenarios, developed by ByteDance.
 
 #### gateway
 - [github.com/uber/zanzibar](https://github.com/uber/zanzibar)
