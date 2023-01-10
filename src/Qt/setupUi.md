@@ -70,7 +70,7 @@
 		    QMenuBar *menubar;
 		    QStatusBar *statusbar;
 		
-		    void setupUi(QMainWindow *MyWindow) //定义了setupUi
+		    void setupUi(QMainWindow *MyWindow) //定义了setupUi，对界面进行初始化，它按照我们在Qt设计器里设计的样子把窗体画出来，把我们在Qt设计器里面定义的信号和槽建立起来。
 		    {
 		        if (MyWindow->objectName().isEmpty())
 		            MyWindow->setObjectName(QStringLiteral("MyWindow"));
