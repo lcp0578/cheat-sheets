@@ -229,3 +229,178 @@
 				<td>:window</td><td>	widget是窗口(即顶层小部件)</td>
 			</tr>
 		</table>
+- 含子控制/子控件，用双冒号(`::`)
+
+		/**************************************CheckBox*********************************************/
+		QCheckBox::indicator:unchecked{
+		image: url(:/resource/chebox_off.png)
+		}
+		 
+		QCheckBox::indicator:checked{
+		image: url(:/resourcechebox_on.png)
+		}
+		/**************************************CheckBox*********************************************/
+		 
+		 
+		/**************************************QTabBar*********************************************/
+		QTabBar::tab {
+		    color: #666666; 
+		    height:40px; 
+		    width:100px;
+		} 
+		QTabBar::tab:selected {
+		    color: #333333; 
+		    font-weight:bold
+		}
+		 QTabBar::tab:hover {
+		    color: #666666;
+		}
+		/**************************************QTabBar*********************************************/
+		 
+		 
+		/**************************************滑动条*********************************************/
+		QSlider {
+		    background: rgb(170, 170, 170);
+		    padding: 2px;
+		    height: 40px;
+		}
+		QSlider::groove:horizontal {
+		    subcontrol-origin: content;
+		    background: rgb(76, 76, 76);
+		    
+		    /* the groove expands to the size of the slider by default. 
+		    by giving it a height, it has a fixed size */
+		    height: 20px;
+		}
+		QSlider::handle:horizontal {
+		    background-color: rgb(50, 50, 50);
+		    width: 40px;
+		    border-radius: 20px;
+		    
+		    /* handle is placed by default on the contents rect of the groove. 
+		    Expand outside the groove */
+		    margin: -10px 0;
+		}
+		QSlider::sub-page:horizontal {
+		    background: #999;
+		    margin: 5px;
+		    border-radius: 5px;
+		}
+		QSlider::add-page:horizontal {
+		    background: #666;
+		    margin: 5px;
+		    border-radius: 5px;
+		}
+		/**************************************滑动条*********************************************/
+		 
+		 
+		/**************************************下拉框*********************************************/
+		QComboBox{
+		border:0px; 
+		background-color:transparent;
+		color:#333333; 
+		}
+		QComboBox::down-arrow{
+		image:none;
+		}
+		QComboBox::drop-down{
+		width:0px; 
+		border:0px;
+		}
+		QComboBox QAbstractItemView {
+		color:#333333;
+		border: 1px solid #DDDDDD;
+		background-color:white;
+		selection-color:white;
+		selection-background-color: rgb(0, 102, 96);
+		}
+		/**************************************下拉框*********************************************/
+		 
+		 
+		/**************************************滚动条*********************************************/
+		QScrollBar:horizontal {
+		    height: 16px;
+		    border-width: 0px 10px 0px 10px;
+		    border-image: url(:/img/horizontal-track.png) 0 10 0 10 repeat stretch;
+		    margin-left: 6px;
+		    margin-right: 16px;
+		    padding-right: 4px;
+		}
+		QScrollBar::handle:horizontal {
+		    min-width: 40px;
+		    border-width: 0 17px 0 17px;
+		    border-image: url(:/img/horizontal-handle.png) 0 17 0 17 repeat repeat;
+		}
+		QScrollBar::sub-line:horizontal {
+		    width: 20px;
+		    height: 17px;
+		    subcontrol-position: left;
+		    subcontrol-origin: margin;
+		    background-image: url(:/img/horizontal-sub-line.png)
+		}
+		QScrollBar::add-line:horizontal {
+		    width: 20px;
+		    height: 17px;
+		    subcontrol-position: right;
+		    subcontrol-origin: border;
+		    background-image: url(:/img/horizontal-add-line.png)
+		}
+		QScrollBar:vertical {
+		    width: 16px;
+		    border-width: 10px 0px 10px 0px;
+		    border-image: url(:/img/vertical-track.png) 10 0 10 0 repeat repeat;
+		    margin-top: 6px;
+		    margin-bottom: 16px;
+		    padding-bottom: 6px;
+		}
+		QScrollBar::handle:vertical {
+		    min-height: 40px;
+		    border-width: 17px 0px 17px 0px;
+		    border-image: url(:/img/vertical-handle.png) 17 0 17 0 repeat repeat;
+		}
+		QScrollBar::sub-line:vertical {
+		    width: 17px;
+		    height: 22px;
+		    subcontrol-position: top left;
+		    subcontrol-origin: margin;
+		    background-image: url(:/img/vertical-sub-line.png)
+		}
+		QScrollBar::add-line:vertical {
+		    width: 17px;
+		    height: 22px;
+		    subcontrol-position: bottom;
+		    subcontrol-origin: border;
+		    background-image: url(:/img/vertical-add-line.png)
+		}
+		/**************************************滚动条*********************************************/
+		 
+		/**************************************滑块*********************************************/
+		QSlider {
+		    height: 20px;
+		}
+		 
+		QSlider::groove:horizontal {
+		    subcontrol-origin: content;
+		    background: transparent;
+		    height: 20px;
+		}
+		 
+		QSlider::handle:horizontal {
+		    background-color: rgb(50, 50, 50);
+		    width: 20px;
+		    border-radius: 10px;
+		}
+		 
+		QSlider::sub-page:horizontal {
+		    background: #0078FF;
+		    margin: 7px;
+		    border-radius: 3px;
+		}
+		 
+		QSlider::add-page:horizontal {
+		    background: #999999;
+		    margin: 7px;
+		    border-radius: 3px;
+		}
+		/**************************************滑块*********************************************/
+ 
