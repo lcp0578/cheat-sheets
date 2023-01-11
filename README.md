@@ -123,6 +123,7 @@
 	- [Qss: Qt Style Sheets](src/Qt/qss.md)
 	- [Qt Qss 渐变颜色设置](src/Qt/Gradient.md)
 	- [实现Qss控件动态样式](src/Qt/qss_dynamic.md)
+	- [qss样式的作用范围及其替换、覆盖](src/Qt/qss_scope.md)
 	- [Qt中的connect用法总结](src/Qt/connect.md)
 	- [Qt 动画实现相关](src/Qt/Animation.md)
 	- [QML](src/Qt/qml.md)
