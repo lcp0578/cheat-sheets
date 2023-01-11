@@ -85,6 +85,10 @@
 - 如果控件所有伪类都不满足，就可以通过代码里面手动修改setProperty赋值控件一种新的"伪类"。
 - 然后通过`polish`或者`setStyle`刷新下控件样式，使其生效。
 
+		pbtn_view->style()->unpolish(pbtn_view); //抹去旧的样式
+		pbtn_view->style()->polish(pbtn_view); //涂上新的样式
+
+
 #### 类名选择器
 
 - 上面两种用法的原理其实都是相同的，通过控件触发某个伪类状态，添加了某些样式属性。

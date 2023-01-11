@@ -173,6 +173,7 @@
 	- [Qt窗口操作函数](src/Qt/window.md)
 	- [QException异常](src/Qt/QException.md)
 	- [Qt中的坐标系统-geometry](src/Qt/geometry.md)
+	- [QFont设置字体大小/颜色](src/Qt/QFont.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
