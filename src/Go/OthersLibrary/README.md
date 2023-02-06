@@ -73,6 +73,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 - [github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero) A cloud-native Go microservices framework with cli tool for productivity.
 - [github.com/gofiber/fiber](https://github.com/gofiber/fiber) Express inspired web framework written in Go
 - [github.com/cloudwego/kitex](https://github.com/cloudwego/kitex) A high-performance and strong-extensibility Go RPC framework that helps developers build microservices.
+- [github.com/google/wire](https://github.com/google/wire) Compile-time Dependency Injection for Go 
 
 #### RPC
 - [github.com/smallnest/rpcx](https://github.com/smallnest/rpcx) 新浪RPC
@@ -188,3 +189,6 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 
 #### String
 - [github.com/huandu/xstrings](https://github.com/huandu/xstrings) Implements string functions widely used in other languages but absent in Go.
+
+#### 数据处理
+- [github.com/wader/fq](https://github.com/wader/fq) jq for binary formats - tool, language and decoders for working with binary and text formats
