@@ -180,6 +180,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 
 #### PHP
 - [github.com/dunglas/frankenphp](https://github.com/dunglas/frankenphp) The modern PHP app server
+- [github.com/syyongx/php2go](https://github.com/syyongx/php2go) Use Golang to implement PHP's common built-in functions.
 
 #### 后台框架
 - [github.com/pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) Open Source realtime backend in 1 file
