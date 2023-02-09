@@ -193,3 +193,6 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 
 #### 数据处理
 - [github.com/wader/fq](https://github.com/wader/fq) jq for binary formats - tool, language and decoders for working with binary and text formats
+
+#### chat
+- [github.com/tinode/chat](https://github.com/tinode/chat) Instant messaging platform. Backend in Go. Clients: Swift iOS, Java Android, JS webapp, scriptable command line; chatbots
