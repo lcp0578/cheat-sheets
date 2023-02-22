@@ -871,4 +871,5 @@
 	- [github.com/missing-semester/missing-semester](https://github.com/missing-semester/missing-semester) The Missing Semester of Your CS Education
 108. [协议与标准](src/protocol/README.md)
 	- [OPC协议](src/protocol/OPC.md)
-113. [Chromium](src/chromium//README.md)
+113. [Chromium](src/chromium/README.md)
+114. [Krpano 全景展示](src/krpano/README.md)
