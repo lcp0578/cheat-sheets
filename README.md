@@ -718,6 +718,8 @@
 44. [Android](src/Android/README.md)
 	- [key](src/Android/key.md) 指纹生成
 	- [构建工具Gradle](src/Android/Gradle.md)
+	- [Android Studio](src/Android/androidStudio.md)
+	- [Android主线程、子线程通信（Thread+handler）](src/Android/Thread.md)
 44. [xunsearch](src/xunsearch/README.md)
 45. [mac](src/mac/README.md) mac相关
 	- [升级系统版本、禁用SIP、设置屏幕比例、修改显存](src/mac/upgrade.md)
