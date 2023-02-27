@@ -4,3 +4,4 @@
 - [github.com/linebender/druid](https://github.com/linebender/druid) A data-first Rust-native UI design toolkit.
 - [github.com/fanvanzh/3dtiles](https://github.com/fanvanzh/3dtiles) The fastest tools for 3dtiles convert in the world!
 - [github.com/rust-lang/mdBook](https://github.com/rust-lang/mdBook) Create book from markdown files. Like Gitbook but implemented in Rust
+- [github.com/nushell/nushell](https://github.com/nushell/nushell) A new type of shell

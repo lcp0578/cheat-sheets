@@ -47,6 +47,7 @@
 - [github.com/jinzhu/gorm](https://github.com/jinzhu/gorm) gorm库
 - [github.com/kyleconroy/sqlc](https://github.com/kyleconroy/sqlc) Generate type-safe code from SQL
 - [github.com/rqlite/rqlite](https://github.com/rqlite/rqlite) The lightweight, distributed relational database built on SQLite
+- [github.com/lindb/lindb](https://github.com/lindb/lindb) LinDB is a scalable, high performance, high availability distributed time series database.
 
 #### 监控相关
 - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)系统监控报警框架
@@ -74,6 +75,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 - [github.com/gofiber/fiber](https://github.com/gofiber/fiber) Express inspired web framework written in Go
 - [github.com/cloudwego/kitex](https://github.com/cloudwego/kitex) A high-performance and strong-extensibility Go RPC framework that helps developers build microservices.
 - [github.com/google/wire](https://github.com/google/wire) Compile-time Dependency Injection for Go 
+- [github.com/flamego/flamego](https://github.com/flamego/flamego) A fantastic modular Go web framework with a slim core but limitless extensibility
 
 #### RPC
 - [github.com/smallnest/rpcx](https://github.com/smallnest/rpcx) 新浪RPC
