@@ -154,6 +154,7 @@
 	- [Qt开发经验](src/Qt/qtkaifajingyan.md)
 	- [Qt示例](src/Qt/QtExamples.md)
 	- [Qt中设置透明度](src/Qt/Opacity.md)
+	- [Qt布局管理详解（5种布局控件）](src/Qt/QLayout.md)
 	- [QHBoxLayout水平布局用法](src/Qt/QHBoxLayout.md)
 	- [setWindowFlags设置窗口属性](src/Qt/setWindowFlags.md)
 	- [Qt窗口模型介绍](src/Qt/WindowType.md)
