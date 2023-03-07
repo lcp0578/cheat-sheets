@@ -626,6 +626,7 @@
 	- [php-fpm](src/PHP/php-fpm.md)
 	- [declare(src/PHP/strict_type=1) 严格类型检查模式](src/PHP/strict_types.md)
 	- [phploc](src/PHP/phploc.md) A tool for quickly measuring the size of a PHP project.
+	- [Laminas](src/PHP/laminas.md) Laminas Project, the enterprise-ready PHP Framework and components
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md) 部署项目shell脚本
