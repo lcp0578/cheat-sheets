@@ -51,3 +51,4 @@
 - [nmap - Network Mapper，是Linux下的网络扫描和嗅探工具包](nmap.md)
 - [dpkg 安装.deb文件](deb.md)
 - [KSM内存合并](KSM.md)
+- [lsblk 列出所有可用块设备的信息](lsblk.md)

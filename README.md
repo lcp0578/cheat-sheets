@@ -488,6 +488,7 @@
 	- [nmap - Network Mapper，是Linux下的网络扫描和嗅探工具包](src/Linux/nmap.md)
 	- [dpkg 安装.deb文件](src/Linux/deb.md)
 	- [KSM内存合并](src/Linux/KSM.md)
+	- [lsblk 列出所有可用块设备的信息](src/Linux/lsblk.md)
 9.  [Go](src/Go/README.md "golang")
 	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
