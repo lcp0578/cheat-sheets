@@ -52,3 +52,6 @@
 - [dpkg 安装.deb文件](deb.md)
 - [KSM内存合并](KSM.md)
 - [lsblk 列出所有可用块设备的信息](lsblk.md)
+- [Ubuntu相关](Ubuntu/README.md)
+	- [设置root密码](Ubuntu/root.md)
+	- [Ubuntu Server 22.04 配置固定IP](Ubuntu/network.md)

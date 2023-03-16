@@ -6,7 +6,7 @@
 
 		# vim /etc/my.conf
 		[mysqld]
-		server-id=220
+		server-id=220 # 一般设置IP最后一组值
 		log-bin=mysql-bin
         # 设置无效，意义不大。需要复制的数据库名，如果复制多个数据库，重复设置这个选项即可
 		binlog-do-db=mybbs
@@ -66,23 +66,24 @@
 
 		reset master; # 清空所有 binlog 文件
 - 正确关闭slave步骤
-	- 执行STOP SLAVE语句
-	- 使用SHOW STATUS检查slave_open_temp_tables变量的值
-        如果值为0，使用mysqladmin shutdown命令关闭从服务器
-        如果值不为0，用START SLAVE重启从服务器线程
-        slave_open_temp_tables值显示，当前slave创建了多少临时表，注意由client显示创建的
+	- 执行`STOP SLAVE`语句
+	- 使用`SHOW STATUS`检查`slave_open_temp_tables`变量的值
+        - 如果值为0，使用`mysqladmin shutdown`命令关闭从服务器
+        - 如果值不为0，用`START SLAVE`重启从服务器线程
+        - `slave_open_temp_tables`值显示，当前slave创建了多少临时表，注意由client显示创建的
         即便是这样，在使用临时表的场景下，如果服务器宕机，将遇到不可预知的问题。
         所以比较保险的做法是，创建实体表，虽然会由于分配的文件刷新到磁盘。
-        mysql> show status like '%slave%';
-        +------------------------+-------+
-        | Variable_name | Value |
-        +------------------------+-------+
-        | Com_show_slave_hosts | 0 |
-        | Com_show_slave_status | 0 |
-        | Com_slave_start | 0 |
-        | Com_slave_stop | 0 |
-        | Slave_open_temp_tables | 0 |
-        +-----------------------
+
+		        mysql> show status like '%slave%';
+		        +------------------------+-------+
+		        | Variable_name | Value |
+		        +------------------------+-------+
+		        | Com_show_slave_hosts | 0 |
+		        | Com_show_slave_status | 0 |
+		        | Com_slave_start | 0 |
+		        | Com_slave_stop | 0 |
+		        | Slave_open_temp_tables | 0 |
+		        +-----------------------
 
 - mysql 删除 主从信息
 
