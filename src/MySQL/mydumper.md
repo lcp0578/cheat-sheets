@@ -1,2 +1,2 @@
 ## mydumper
-> https://github.com/maxbube/mydumper
+> https://github.com/mydumper/mydumper
