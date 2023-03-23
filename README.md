@@ -23,6 +23,7 @@
 	- [glTF格式详解](src/GIS/glTF.md)
 	- [obj、gltf、glb、fbx、b3dm模型项目汇总](src/GIS/model.md)
 	- [相关名词缩写(DSM、DEM、DOM、DTM、DLG)](src/GIS/abbreviation.md)
+	- [SHP(shapefile)文件详细格式介绍](src/GIS/shapefile.md)
 2. [CesiumJS](src/CesiumJS/README.md)
 	- [CesiumJS基础](src/CesiumJS/basic.md)
 	- [3d-tiles](src/CesiumJS/3dtiles.md)

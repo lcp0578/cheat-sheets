@@ -21,3 +21,4 @@
 - [glTF格式详解](glTF.md)
 - [obj、gltf、glb、fbx、b3dm模型项目汇总](model.md)
 - [相关名词缩写(DSM、DEM、DOM、DTM、DLG)](abbreviation.md)
+- [SHP(shapefile)文件详细格式介绍](shapefile.md)
