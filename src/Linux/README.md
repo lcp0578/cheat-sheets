@@ -55,3 +55,4 @@
 - [Ubuntu相关](Ubuntu/README.md)
 	- [设置root密码](Ubuntu/root.md)
 	- [Ubuntu Server 22.04 配置固定IP](Ubuntu/network.md)
+- [Rocky Linux](RockyLinux.md)
