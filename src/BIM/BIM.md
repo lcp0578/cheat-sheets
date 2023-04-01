@@ -30,3 +30,4 @@
 		<td>6D</td>
 		<td>加入环保概念，即建筑设计、施工、后运维全生命周期的管理</td>
 	</tr>
+- https://www.zhihu.com/question/297912577
