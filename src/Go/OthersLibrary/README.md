@@ -16,7 +16,7 @@
 - [github.com/hybridgroup/gobot](https://github.com/hybridgroup/gobot) 机器人、无人机和物联网框架
 - [github.com/gomods/athens](https://github.com/gomods/athens) A Go module datastore and proxy
 - [github.com/hybridgroup/gocv](https://github.com/hybridgroup/gocv)使用OpenCV3+视觉库
-- [github.com/aykevl/tinygo](https://github.com/aykevl/tinygo)
+- [github.com/tinygo-org/tinygo](https://github.com/tinygo-org/tinygo) Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.
 - [github.com/m3db/m3](https://github.com/m3db/m3)
 - [github.com/Jeffail/benthos](https://github.com/Jeffail/benthos)
 - [github.com/MichaelMure/git-bug](https://github.com/MichaelMure/git-bug)
