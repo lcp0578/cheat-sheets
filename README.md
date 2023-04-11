@@ -197,6 +197,8 @@
 	- [install 安装](src/TiDB/install.md)
 3. [machine learning 机器学习](src/MachineLearning/README.md)
 	- [Machine Learning VS Deep Learning](src/MachineLearning/DeepLearning.md)
+	- [LLMs 大型语言模型](src/MachineLearning/LLMs.md)
+	- [github.com/microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all
 	- [PyTorch](src/MachineLearning/PyTorch.md)
 	- [MXNet](src/MachineLearning/MXNet.md)
 	- [TensorFlow](src/MachineLearning/TensorFlow.md)
