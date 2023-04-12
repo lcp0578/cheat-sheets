@@ -845,8 +845,10 @@
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 	- [Anaconda之conda的使用](src/Python/Anaconda.md)
 	- [Python ABC（抽象基类）](src/Python/ABC.md)
+	- [github.com/vinta/awesome-python](https://github.com/vinta/awesome-python) A curated list of awesome Python frameworks, libraries, software and resources
 	- [github.com/walter201230/Python](https://github.com/walter201230/Python) 最良心的 Python 教程
 	- [codon](src/Python/codon.md) A high-performance, zero-overhead, extensible Python compiler using LLVM
+	- [github.com/chroma-core/chroma](https://github.com/chroma-core/chroma) the open source embedding database
 	- [Tornado 框架](src/Python/Tornado/README.md)
 		- [github.com/bukun/TorCMS](https://github.com/bukun/TorCMS) Flexible, extensible web CMS framework built on Tornado.
 	- [Library](src/Python/Library/README.md)
