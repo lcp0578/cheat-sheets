@@ -1,5 +1,13 @@
 # :elephant: cheat sheets :memo:
 
+1. [Glossary 名词解释](src/Glossary//README.md)
+	- [Manning 曼宁公式与曼宁系数](src/Glossary/Manning.md)
+	- [Muskingum 马斯京根方法](src/Glossary/Muskingum.md)
+	- [Muskingum-Cunge 马斯京根-康吉方法](src/Glossary/MuskingumCunge.md)
+	- [超渗产流 VS 蓄满产流](src/Glossary/RunoffGeneration.md)
+	- [Siant-venant 圣维南方程组](src/Glossary/SiantVenant.md)
+	- [DHI MIKE 软件](src/Glossary/MIKE.md)
+	- [Finite Volume Method 有限体积法](src/Glossary/FiniteVolumeMethod.md)
 1. [GIS](src/GIS/README.md)
 	- [Web服务的标准](src/GIS/WebService.md)
 	- [Web服务的相关规范](src/GIS/WebServiceStandard.md)
