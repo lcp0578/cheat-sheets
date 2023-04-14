@@ -1,0 +1,2 @@
+## py3dtilers IFC等格式转3DTiles
+- [github.com/VCityTeam/py3dtilers](https://github.com/VCityTeam/py3dtilers) Tilers accepting various input formats (OBJ, 3DCity databases, GeoJson, IFC) and producing 3DTiles tilesets.

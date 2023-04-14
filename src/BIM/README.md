@@ -5,3 +5,6 @@
 - [BIM 浏览平台](platform.md)
 - [BIM viewer](viewer.md)
 - [web-ifc-viewer](ifcjs.md)
+- [ifcplusplus](ifcplusplus.md)
+- [py3dtilers IFC等格式转3DTiles](py3dtilers.md)
+- [IfcOpenShell - Open source IFC library and geometry engine](IfcOpenShell.md)
