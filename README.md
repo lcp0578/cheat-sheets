@@ -893,6 +893,7 @@
 	- [confluence 站内wiki](src/atlassian/confluence.md)
 88. [水利](src/water/README.md)
 	- [巴歇尔槽计算公式](src/water/ParshallFlume.md)
+	- [工程水文学知识点](src/water/EngineeringHydrology.md)
 89. [CAS:Central Authentication Service](src/CAS/README.md)
 90. [reg正则表达式](src/reg/README.md)
 91. 其他
