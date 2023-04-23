@@ -1,1 +1,14 @@
-## Fortran 
+## Fortran 基础
+- 官网： https://fortran-lang.org/zh_CN/index
+- Github： https://github.com/fortran-lang
+- Fortran77和90/95编程入门： https://micro.ustc.edu.cn/Fortran/ZJDing/
+- 编译器：
+	- GNU Fortran (GFortran)： https://gcc.gnu.org/fortran/
+	- https://fortran-lang.org/zh_CN/compilers/
+- Fortran历史
+	- 1954到1957年间,世界上第一种高级程序设计语言Fortran诞生于IBM公司。Fortran这个名字的原意是IBM Mathematical FORmula TRANslation,其设计目的在于为科研人员提供一种符合数学思维习惯的高级语言,以满足科学计算的需要。1960年代,在美苏太空竞赛的大背景下,在国防、教育和科研领域对高性能计算工具的迫切需求下,Fortran语言蓬勃发展,成为了当时统治计算机世界的高级语言之王。
+	- 1962年,为了统一不同公司、不同硬件平台上的Fortran语言,人们开始了Fortran语言标准化的尝试,这也是程序设计语言发展史上的第一次标准化历程。1972年,Fortran 66标准（标准编号来自标准草案的制定时间）正式发布。但因为标准文档过于简单,约束力不强,Fortran 66标准发布后,Fortran语言的统一问题并没有得到彻底解决。
+	- 1978年,Fortran语言标准的第一个修订版本正式发布,这就是我们熟悉的Fortran77了。Fortran77细致描述了Fortran语言的各种特征,让Fortran成了一种真正规范、高效和强大的结构化程序设计语言。此后,无数性能优异的Fortran77编译器和开发工具的问世更是让Fortran77成为了几乎所有理工科学生的必修课。
+	- 尽管Fortran77的影响力一直延续到了今天,但Fortran语言不断变革的历程却从未停止过。为了改变Fortran77那种老旧的、从打孔卡片遗传来的语言风格,为了给Fortran注入更多的现代特征,人们于1991年发布了崭新的Fortran90标准。除了自由的代码风格外,Fortran90还为Fortran语言引入了模块、接口、自定义（派生）数据类型和运算符、可动态分配和参与复杂运算的数组、泛型过程、指针、递归等重要的语法特征。这不但使结构化的Fortran语言更趋完善,也使其具备了少量的面向对象特性。
+	- 1997年发布的Fortran95标准在Fortran90的基础上,吸收了HPF语言（High Performance Fortran,Fortran语言在并行环境下的一个变种）的优点,提高了Fortran语言在并行任务中的表达和计算能力,并进一步完善了派生类型、指针、数组等要素的相关语法。
+	- 以Fortran 66为基准,我们可以把后续的Fortran77/90/95以及本文介绍的Fortran2003均视为对Fortran语言标准的修订。在历次修订中,Fortran77和Fortran95是修订幅度相对较小的版本,而Fortran90和Fortran2003则是锐意变革的“大修”版本。如果说Fortran90是在“形式”上让Fortran脱胎换骨的话,那么,Fortran2003就近乎彻底地解决了Fortran语言现代化的问题：完整的面向对象机制、灵活的语法特征、统一的接口标准……

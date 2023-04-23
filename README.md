@@ -1,8 +1,8 @@
 # :elephant: cheat sheets :memo:
 
 1. [Fortran](src/Fortran/README.md)
-- [Fortran 基础](src/Fortran/basic.md)
-- [GFortranStandards 标准版本](src/Fortran/GFortranStandards.md)
+	- [Fortran 基础](src/Fortran/basic.md)
+	- [GFortranStandards 标准版本](src/Fortran/GFortranStandards.md)
 2. [Glossary 名词解释](src/Glossary/README.md)
 	- [Manning 曼宁公式与曼宁系数](src/Glossary/Manning.md)
 	- [Muskingum 马斯京根方法](src/Glossary/Muskingum.md)

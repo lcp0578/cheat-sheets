@@ -1,3 +1,6 @@
 ## TELEMAC-MASCARET
-- TELEMAC-MASCARET is an integrated suite of solvers for use in the field of free-surface flow. Having been used in the context of many studies throughout the world, it has become one of the major standards in its field.
 - http://www.opentelemac.org/
+- TELEMAC-MASCARET is an integrated suite of solvers for use in the field of free-surface flow. Having been used in the context of many studies throughout the world, it has become one of the major standards in its field.
+- The TELEMAC-MASCARET system is written in Fortran (standard Fortran 2003). The mathematics, the physics, the advanced parallelisation are all in Fortran. Therefore, if you wish to recompile the system from its source code to tune the compiler optimisation to your processor or if you need to input your own Fortran code to model the specifics of your application (boundary, initial conditions, special output variable, etc.) a Fortran compiler is required (compatible with standard Fortran 2003).
+- In addition, surrounding the scientific code are a series of scripts to compile, prepare the input and output files, run the modules of the TELEMAC-MASCARET system and do some post-processing. Those scripts are based on the Python language.
+- 源代码地址：https://gitlab.pam-retd.fr/otm/telemac-mascaret
