@@ -4,3 +4,20 @@
 - The TELEMAC-MASCARET system is written in Fortran (standard Fortran 2003). The mathematics, the physics, the advanced parallelisation are all in Fortran. Therefore, if you wish to recompile the system from its source code to tune the compiler optimisation to your processor or if you need to input your own Fortran code to model the specifics of your application (boundary, initial conditions, special output variable, etc.) a Fortran compiler is required (compatible with standard Fortran 2003).
 - In addition, surrounding the scientific code are a series of scripts to compile, prepare the input and output files, run the modules of the TELEMAC-MASCARET system and do some post-processing. Those scripts are based on the Python language.
 - 源代码地址：https://gitlab.pam-retd.fr/otm/telemac-mascaret
+- TELEMAC-MASCARET由英国、法国、德国的七个权威科研机构共同开发和维护，已被全世界许多研究所采用，成为该领域的主要标准之一。
+- TELEMAC-MASCARET适用于进行1D/2D/3D水动力学、深海及近海区域波浪传播、波浪震动特性、泥沙迁移及海床形态变化、水质污染等多种环境流体现象的仿真模拟和耦合计算，同时拥有万核级别的大规模并行计算能力。
+- 通过集成到开源的前后处理工具平台SALOME_HYDRO，可以通过图形化界面方便地完成地形文件的导入、几何和网格的建立、边界条件等计算输入的文件的生成、以及仿真结果可视化分析等一整套环境流体仿真分析的流程。
+- TELEMAC-MASCARET的源代码完全开放和共享，满足用户定制和二次开发的需求，拥有丰富的用户技术以及广泛的工业应用及验证。
+- 软件优势
+	- 清晰和结构化的原始数据管理系统
+		- 更加清晰和结构化的原始数据管理系统，支持多种常用数据格式类型的原始数据导入和调用，包括卫星图片、地图、地形地貌和LIDAR数据等。
+	- 简便而强大的研究区域绘制工具
+		- 将复杂的地理地貌以轻松便捷的方式转为数值几何模型：包括海岸线/河岸线的绘制，河流/岛屿的模型化，人工设施（堤坝、桥梁等）的设置等。
+	- 通过可视化的方式建立自定义网格
+		- 得益于SALOME_HYDRO的网格生成模块，通过可视化的方式建立自定义网络，从而适应不同尺度、不同类型的研究课题的需求；利用图形化界面以更加直观的方式定义物理/数值模型和计算设置。
+	- 多种格式的可视化结果输出
+		- 提供转换计算结果格式的Python工具，支持VTK、MED、SLF等格式的相互转化，并可直接导入SALOME_HYDRO的可视化分析模块进行后处理和可视化分析
+	- 支持耦合内置的辅助性分析模块
+		- 可以方便的与其他辅助分析模块进行数据交换和耦合，达成各类拓展性的分析：如数据同化、参数敏感性和不确定性分析等。
+	- 导出Python脚本管理工作流程
+		- 可以将建模过程中的一系列通过SALOME_HYDRO实现的操作输出为Python脚本，方便地进行计算管理以及重复性的计算分析操作。
