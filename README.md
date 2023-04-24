@@ -732,6 +732,7 @@
 	- [使用SFC修复损坏的Windows 10/11系统文件](src/windows/sfc.md)
 	- [windows 命令行快速删除文件](src/windows/del.md)
 	- [windows下使用RoboCopy命令进行文件夹增量备份](src/windows/robocopy.md)
+	- [Cygwin 和 MinGW 区别与联系](src/windows/CygwinMinGW.md)
 40. [assembly](src/assembly/README.md)汇编语言
 41. [CEF](src/cef/README.md)
 42. [VisualStudio](src/VisualStudio/README.md)
