@@ -864,6 +864,7 @@
 	- [github.com/walter201230/Python](https://github.com/walter201230/Python) 最良心的 Python 教程
 	- [codon](src/Python/codon.md) A high-performance, zero-overhead, extensible Python compiler using LLVM
 	- [github.com/chroma-core/chroma](https://github.com/chroma-core/chroma) the open source embedding database
+	- [Using rayshader in Python](src/Python/rayshader.md)
 	- [Tornado 框架](src/Python/Tornado/README.md)
 		- [github.com/bukun/TorCMS](https://github.com/bukun/TorCMS) Flexible, extensible web CMS framework built on Tornado.
 	- [Library](src/Python/Library/README.md)
@@ -922,3 +923,5 @@
     - [github.com/chenjianhao66/go-GB28181](https://github.com/chenjianhao66/go-GB28181) 基于GB28181-2016标准实现的网络视频平台，用 Go 语言实现，实现了 SIP 协议和信令服务器。
     - [github.com/vanjoge/RTVS](https://github.com/vanjoge/RTVS) 低延迟、跨平台、无插件、高性能的完整商业级1078/28181视频平台。执行标准：JT/T 1077-2016 道路运输车辆卫星定位系统 视频平台技术要求，JT/T 1078-2016 道路运输车辆卫星定位系统 视频通讯协议，JT/T 1078-2014 道路运输车辆卫星定位系统视频通迅协议标准报批稿(仅视频)，T/GDRTA 002—2020 粤标(20位SIM卡号)，GB/T 28181-2016 公共安全视频监控联网系统信息传输、交换、控制技术要求
 119. [Krpano 全景展示](src/krpano/README.md)
+120. [R](src/R/README.md)
+	- [rayshader - R Package for 2D and 3D mapping and data visualization](src/R/rayshader.md)
