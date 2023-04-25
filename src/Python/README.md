@@ -14,6 +14,8 @@
 - [upgrade python](upgrade.md) CentOS 6 升级Python 2.6到3.6
 - [Anaconda之conda的使用](Anaconda.md)
 - [Python ABC（抽象基类）](ABC.md)
+- [pip pip3 替换国内镜像源](pip.md)
+- [打包分发工具setuptools](setuptools.md)
 - [github.com/vinta/awesome-python](https://github.com/vinta/awesome-python) A curated list of awesome Python frameworks, libraries, software and resources
 - [github.com/walter201230/Python](https://github.com/walter201230/Python) 最良心的 Python 教程
 - [codon](codon.md) A high-performance, zero-overhead, extensible Python compiler using LLVM.
