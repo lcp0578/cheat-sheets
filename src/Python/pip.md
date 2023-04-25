@@ -17,3 +17,4 @@
 
 
 		pip install kiwisolver==1.2.0 --use-deprecated=legacy-resolver
+- 更新升级pip，管理员方式进入CMD窗口下，执行`python -m pip install -U pip setuptools`，将pip升级到最新版本。
