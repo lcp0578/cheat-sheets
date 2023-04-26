@@ -860,7 +860,7 @@
 	- [upgrade python](src/Python/upgrade.md) CentOS 6 升级Python 2.6到3.6
 	- [Anaconda之conda的使用](src/Python/Anaconda.md)
 	- [Python ABC（抽象基类）](src/Python/ABC.md)
-	- [pip pip3 替换国内镜像源](src/Python/pip.md)
+	- [pip pip3 替换国内镜像源与常用命令](src/Python/pip.md)
 	- [打包分发工具setuptools](src/Python/setuptools.md)
 	- [github.com/vinta/awesome-python](https://github.com/vinta/awesome-python) A curated list of awesome Python frameworks, libraries, software and resources
 	- [github.com/walter201230/Python](https://github.com/walter201230/Python) 最良心的 Python 教程
