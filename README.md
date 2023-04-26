@@ -861,6 +861,7 @@
 	- [Anaconda之conda的使用](src/Python/Anaconda.md)
 	- [Python ABC（抽象基类）](src/Python/ABC.md)
 	- [pip pip3 替换国内镜像源与常用命令](src/Python/pip.md)
+	- [wheel（.whl）包](src/Python/wheel.md)
 	- [打包分发工具setuptools](src/Python/setuptools.md)
 	- [github.com/vinta/awesome-python](https://github.com/vinta/awesome-python) A curated list of awesome Python frameworks, libraries, software and resources
 	- [github.com/walter201230/Python](https://github.com/walter201230/Python) 最良心的 Python 教程
