@@ -518,6 +518,7 @@
 		- [设置root密码](src/Linux/Ubuntu/root.md)
 		- [Ubuntu Server 22.04 配置固定IP](src/Linux/Ubuntu/network.md)
 	- [Rocky Linux](src/Linux/RockyLinux.md)
+	- [分区表GPT和MBR](src/Linux/GPT_MBR.md)
 9.  [Go](src/Go/README.md "golang")
 	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)

@@ -56,3 +56,4 @@
 	- [设置root密码](Ubuntu/root.md)
 	- [Ubuntu Server 22.04 配置固定IP](Ubuntu/network.md)
 - [Rocky Linux](RockyLinux.md)
+- [分区表GPT和MBR](GPT_MBR.md)
