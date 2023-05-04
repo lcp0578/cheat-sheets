@@ -486,6 +486,10 @@
 	- [Aliyun服务器配置IPV6](src/Linux/ipv6_aliyun.md)
 	- [chinese support](src/Linux/chinese_support.md) 中文支持
 	- [fdisk](src/Linux/fdisk.md) Linux下磁盘挂载
+	- [resize2fs](src/Linux/resize2fs.md)
+	- [parted 分区工具](src/Linux/parted.md)
+	- [dd fio 磁盘测试](src/Linux/dd.md)
+	- [iostat iotop 监视磁盘操作活动](src/Linux/iostat.md)
 	- [date](src/Linux/date.md) 修改服务器时间
 	- [lsof](src/Linux/lsof.md) mac下查看端口。lsof（list open files）是一个查看当前系统文件的工具。
 	- [SELinux](src/Linux/SELinux.md) SELinux状态与关闭
@@ -507,9 +511,6 @@
 	- [内存优化总结:ptmalloc、TCMalloc和JeMalloc](src/Linux/ptmalloc_tcmalloc_jemalloc.md)
 	- [traceroute](src/Linux/traceroute.md)
 	- [supervisor](src/Linux/supervisor.md)
-	- [parted 分区工具](src/Linux/parted.md)
-	- [dd fio 磁盘测试](src/Linux/dd.md)
-	- [iostat iotop 监视磁盘操作活动](src/Linux/iostat.md)
 	- [nmap - Network Mapper，是Linux下的网络扫描和嗅探工具包](src/Linux/nmap.md)
 	- [dpkg 安装.deb文件](src/Linux/deb.md)
 	- [KSM内存合并](src/Linux/KSM.md)
