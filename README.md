@@ -11,6 +11,7 @@
 	- [Siant-venant 圣维南方程组](src/Glossary/SiantVenant.md)
 	- [DHI MIKE 软件](src/Glossary/MIKE.md)
 	- [Finite Volume Method 有限体积法](src/Glossary/FiniteVolumeMethod.md)
+	- [bathymetry 测深](src/Glossary/bathymetry.md)
 1. [GIS](src/GIS/README.md)
 	- [Web服务的标准](src/GIS/WebService.md)
 	- [Web服务的相关规范](src/GIS/WebServiceStandard.md)
