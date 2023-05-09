@@ -736,6 +736,7 @@
 	- [windows 命令行快速删除文件](src/windows/del.md)
 	- [windows下使用RoboCopy命令进行文件夹增量备份](src/windows/robocopy.md)
 	- [Cygwin 和 MinGW 区别与联系](src/windows/CygwinMinGW.md)
+	- [bat 批处理脚本](src/windows/bat.md)
 40. [assembly](src/assembly/README.md)汇编语言
 41. [CEF](src/cef/README.md)
 42. [VisualStudio](src/VisualStudio/README.md)
@@ -932,3 +933,5 @@
 119. [Krpano 全景展示](src/krpano/README.md)
 120. [R](src/R/README.md)
 	- [rayshader - R Package for 2D and 3D mapping and data visualization](src/R/rayshader.md)
+123. [CAE(Computer Aided Engineering)工程设计中的计算机辅助工程](src/CAE/README.md)
+	- [FastCAE 一套开源国产CAE软件集成开发平台](src/CAE/FastCAE.md)
