@@ -914,12 +914,6 @@
 	- [github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)  Make any web page a desktop application
 	- [Go 语言设计与实现](https://draveness.me/golang/)
 	- [github.com/fleaflet/flutter_map](https://github.com/fleaflet/flutter_map) A Flutter map widget inspired by Leaflet
-92. [电子书](src/books/README.md)
-	- [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
-	- [最新 1500 多本计算机电子书免费下载](https://github.com/itdevbooks/pdf)
-	- [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
-	- [github.com/charlax/professional-programming](https://github.com/charlax/professional-programming) A collection of full-stack resources for programmers.
-	- [github.com/missing-semester/missing-semester](https://github.com/missing-semester/missing-semester) The Missing Semester of Your CS Education
 108. [协议与标准](src/protocol/README.md) 
 	- [OPC协议](src/protocol/OPC.md)
 113. [Chromium](src/chromium/README.md)
@@ -936,3 +930,9 @@
 123. [CAE(Computer Aided Engineering)工程设计中的计算机辅助工程](src/CAE/README.md)
 	- [FastCAE 一套开源国产CAE软件集成开发平台](src/CAE/FastCAE.md)
 124. [LaTeX](src/LaTeX/README.md)
+125. [电子书](src/books/README.md)
+	- [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
+	- [最新 1500 多本计算机电子书免费下载](https://github.com/itdevbooks/pdf)
+	- [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+	- [github.com/charlax/professional-programming](https://github.com/charlax/professional-programming) A collection of full-stack resources for programmers.
+	- [github.com/missing-semester/missing-semester](https://github.com/missing-semester/missing-semester) The Missing Semester of Your CS Education
