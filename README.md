@@ -910,8 +910,8 @@
 	- [TELEMAC-MASCARET](src/water/TELEMAC-MASCARET.md)
 89. [CAS:Central Authentication Service](src/CAS/README.md)
 90. [reg正则表达式](src/reg/README.md)
-120. [R](src/R/README.md)
-	- [rayshader - R Package for 2D and 3D mapping and data visualization](src/R/rayshader.md)
+120. [R语言](src/R/README.md) 
+	- [rayshader](src/R/rayshader.md) R Package for 2D and 3D mapping and data visualization
 123. [CAE(Computer Aided Engineering)工程设计中的计算机辅助工程](src/CAE/README.md)
 	- [FastCAE 一套开源国产CAE软件集成开发平台](src/CAE/FastCAE.md)
 91. 其他
