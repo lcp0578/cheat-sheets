@@ -24,6 +24,7 @@
 - [Tornado 框架](Tornado/README.md)
 - [Using rayshader in Python](rayshader.md)
 - [f2py – Fortran to Python interface generator](f2py.md)
+- [Jupyter](Jupyter.md)
 - [Library](Library/README.md)
 	- [NumPy 支持大量的维度数组与矩阵运算,对数组运算提供大量的数学函数库](Library/NumPy.md)
 	- [Pandas 强大的分析结构化数据的工具集](Library/Pandas.md)

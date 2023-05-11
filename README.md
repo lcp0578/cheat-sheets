@@ -873,6 +873,7 @@
 	- [github.com/chroma-core/chroma](https://github.com/chroma-core/chroma) the open source embedding database
 	- [Using rayshader in Python](src/Python/rayshader.md)
 	- [f2py – Fortran to Python interface generator](src/Python/f2py.md)
+	- [Jupyter](src/Python/Jupyter.md)
 	- [Tornado 框架](src/Python/Tornado/README.md)
 		- [github.com/bukun/TorCMS](https://github.com/bukun/TorCMS) Flexible, extensible web CMS framework built on Tornado.
 	- [Library](src/Python/Library/README.md)
