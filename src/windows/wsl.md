@@ -17,6 +17,9 @@
 - 通过 PowerShell 或 CMD 运行特定的 Linux 发行版
 
 		wsl --distribution <Distribution Name> --user <User Name>
+	- 进入默认 WSL 分发版的根目录：
+
+			wsl -u root
 - 关闭
 
 		wsl --shutdown
@@ -29,3 +32,8 @@
 - 装载磁盘或设备
 
 		wsl --mount <DiskPath>
+- Windows访问Linux目录
+	- 在wsl2中linux的文件系统整个是个镜像文件，启动系统后，这个文件系统映射到了 `\\wsl$\Ubuntu-20.04\` （系统名称和版本）下面。
+- Linux访问Windows文件
+	- Windows的磁盘被挂载到了`/mnt`下，可以直接访问
+
