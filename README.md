@@ -928,6 +928,8 @@
         - [github.com/vanjoge/RTVS](https://github.com/vanjoge/RTVS) 低延迟、跨平台、无插件、高性能的完整商业级1078/28181视频平台。执行标准：JT/T 1077-2016 道路运输车辆卫星定位系统 视频平台技术要求，JT/T 1078-2016 道路运输车辆卫星定位系统 视频通讯协议，JT/T 1078-2014 道路运输车辆卫星定位系统视频通迅协议标准报批稿(仅视频)，T/GDRTA 002—2020 粤标(20位SIM卡号)，GB/T 28181-2016 公共安全视频监控联网系统信息传输、交换、控制技术要求  
 120. [Krpano 全景展示](src/krpano/README.md)  
 121. [LaTeX](src/LaTeX/README.md)  
+	 - [TeX Live](src/LaTeX/TeXLive.md)
+	 - [TeXStudio](src/LaTeX/TeXStudio.md)
 122. [电子书](src/books/README.md)  
         - [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)  
         - [最新 1500 多本计算机电子书免费下载](https://github.com/itdevbooks/pdf)  
