@@ -1,0 +1,2 @@
+## Windows Precision Trackpad Driver
+- [github.com/imbushuo/mac-precision-touchpad](https://github.com/imbushuo/mac-precision-touchpad) Windows Precision Touchpad Driver Implementation for Apple MacBook / Magic Trackpad
