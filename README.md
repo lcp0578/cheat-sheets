@@ -942,4 +942,5 @@
 	 - [OPC协议](src/protocol/OPC.md)
 124. [Chromium](src/chromium/README.md)  
 125. [Julia](src/Julia/README.md)
+	 - [初识Julia](src/Julia/first.md)
 126. [WebRTC](src/WebRTC/README.md)
