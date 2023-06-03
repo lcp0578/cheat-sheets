@@ -23,3 +23,7 @@
 - [相关名词缩写(DSM、DEM、DOM、DTM、DLG)](abbreviation.md)
 - [SHP(shapefile)文件详细格式介绍](shapefile.md)
 - [SLD Editor](SLDEditor.md)
+- [mapbox相关](mapbox.md)
+- [OpenMapTiles](OpenMapTiles.md)
+- [开源GIS方案](amazingGIS.md)
+- [OpenMapTiles 一套OSM数据使用的完整解决方案](OpenMapTiles.md)
