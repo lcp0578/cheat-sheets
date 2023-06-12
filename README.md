@@ -26,6 +26,7 @@
     - [GRASS GIS](src/GIS/GRASS_GIS.md)
     - [OpenLayers](src/GIS/OpenLayers.md)
     - [PostGIS](src/GIS/PostGIS.md)
+    - [SpatiaLite](src/GIS/SpatiaLite.md)
     - [GDAL](src/GIS/GDAL.md)
     - [GeoTools](src/GIS/GeoTools.md)
     - [GEOS](src/GIS/GEOS.md)

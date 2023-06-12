@@ -12,6 +12,7 @@
 - [GRASS GIS](GRASS_GIS.md)
 - [OpenLayers](OpenLayers.md)
 - [PostGIS](PostGIS.md)
+- [SpatiaLite](SpatiaLite.md)
 - [GDAL](GDAL.md)
 - [GeoTools](GeoTools.md)
 - [GEOS](GEOS.md)
