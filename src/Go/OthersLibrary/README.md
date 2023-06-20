@@ -176,6 +176,8 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 #### 搜索
 - [github.com/zinclabs/zinc](https://github.com/zinclabs/zinc) ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
 - [github.com/elastic/go-elasticsearch](https://github.com/elastic/go-elasticsearch) The official Go client for Elasticsearch
+- [github.com/blevesearch/bleve](https://github.com/blevesearch/bleve) A modern text indexing library for go
+- [github.com/sea-team/gofound](https://github.com/sea-team/gofound) GoFound GoLang Full text search go语言全文检索引擎，毫秒级查询。 使用http接口调用，集成Admin管理界面，任何系统都可以使用。
 
 #### 备份
 - [github.com/restic/restic](https://github.com/restic/restic) Fast, secure, efficient backup program
