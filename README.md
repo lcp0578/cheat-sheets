@@ -235,6 +235,7 @@
     - [go-mysql-elasticsearch MySQL数据同步到ES](src/ElasticSearch/go-mysql-elasticsearch.md)
     - [elasticsearch-php Official PHP low-level client](src/ElasticSearch/elasticsearch-php.md)
     - [FOSElasticaBundle  integration with Elasticsearch and Elastica with Symfony](src/ElasticSearch/FOSElasticaBundle.md)
+4. [Manticore Search](src/ManticoreSearch/README.md)
 3. [Kafka](src/Kafka/README.md)
 4. [Spark](src/Spark/README.md)
 	- [Spark初识](src/Spark/basic.md)
