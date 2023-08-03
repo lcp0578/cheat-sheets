@@ -40,6 +40,7 @@
 	- [SHP(shapefile)文件详细格式介绍](src/GIS/shapefile.md)
 	- [SLD Editor](src/GIS/SLDEditor.md)
 	- [mapbox相关](src/GIS/mapbox.md)
+	- [Maputnik](src/GIS/Maputnik.md)
 	- [OpenMapTiles](src/GIS/OpenMapTiles.md)
 	- [开源GIS方案](src/GIS/amazingGIS.md)
 	- [OpenMapTiles 一套OSM数据使用的完整解决方案](src/GIS/OpenMapTiles.md)
