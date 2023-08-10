@@ -101,6 +101,7 @@
 - [Command call Command](Command/CommandCallCommand.md) command之间调用
 - [command in controller](Command/command_in_controller.md) 在控制器调用command
 - [Custom Command](Command/CustomCommand.md) 自定义command
+- [Custom Command in Symfony5.4](Command/CustomCommand54.md) 在Symfony5.4中自定义command
 - [command lifecycle](Command/command_lifecycle.md)Command生命周期函数
 - [Console Command Style](Command/Style.md) 命令样式
 #### [ReusableBundle](ReusableBundle/best_practices.md) 创建可重复使用bundle相关
