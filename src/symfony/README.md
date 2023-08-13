@@ -161,6 +161,9 @@
 - [passwords](Symfony4_5/passwords.md)
 - [testing](Symfony4_5/testing.md)
 - [translation](Symfony4_5/translation.md)
+- [模板支持hinclude.js](Symfony4_5/hinclude.js.md)
+- [Stimulus & Symfony UX](Symfony4_5/StimulusSymfonyUX.md)
+- [Symfony UX Turbo](Symfony4_5/turbo.md)
 #### [Symfony 1.x](Symfony1/README.md)
 - [symfony1.4](Symfony1/symfony1.4) symfony1.4笔记
 #### [symfony-cli](cli/README.md)

@@ -9,6 +9,9 @@
 - [passwords](passwords.md)
 - [testing](testing.md)
 - [translation](translation.md)
+- [模板支持hinclude.js](hinclude.js.md)
+- [Stimulus & Symfony UX](StimulusSymfonyUX.md)
+- [Symfony UX Turbo](turbo.md)
 - 目录结构变化
 
 ![sf_comparison.png](../../../images/sf_comparison.png)
