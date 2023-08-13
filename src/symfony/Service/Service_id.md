@@ -7,6 +7,8 @@
 
 		doctrine
 		// Doctrine\Bundle\DoctrineBundle\Registry
+		# symfony > 3.4
+		//Doctrine\Persistence\ManagerRegistry
 - em
 
 
