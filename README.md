@@ -410,6 +410,7 @@
 		- [模板支持hinclude.js](src/symfony/Symfony4_5/hinclude.js.md)
 		- [Stimulus & Symfony UX](src/symfony/Symfony4_5/StimulusSymfonyUX.md)
 		- [Symfony UX Turbo](src/symfony/Symfony4_5/turbo.md)
+		- [ContainerBagInterface](src/symfony/Symfony4_5/ContainerBagInterface.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
 		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 	- [Varnish](src/symfony/Varnish/README.md) symfony使用Varnish加速网站
