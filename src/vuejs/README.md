@@ -7,3 +7,4 @@
 - [vue-router 路由](router.md)
 - [vitejs/plugin-legacy 支持低版本浏览器](legacy.md)
 - [vue引入css三种方式](css.md)
+- [vue.js项目刷新404与API代理转发的nginx配置](nginx.md)
