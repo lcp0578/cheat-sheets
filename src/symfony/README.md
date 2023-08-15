@@ -165,6 +165,7 @@
 - [Stimulus & Symfony UX](Symfony4_5/StimulusSymfonyUX.md)
 - [Symfony UX Turbo](Symfony4_5/turbo.md)
 - [ContainerBagInterface](Symfony4_5/ContainerBagInterface.md)
+- [Rate Limiter](Symfony4_5/RateLimiter.md)
 #### [Symfony 1.x](Symfony1/README.md)
 - [symfony1.4](Symfony1/symfony1.4) symfony1.4笔记
 #### [symfony-cli](cli/README.md)

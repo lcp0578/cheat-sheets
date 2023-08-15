@@ -13,6 +13,7 @@
 - [Stimulus & Symfony UX](StimulusSymfonyUX.md)
 - [Symfony UX Turbo](turbo.md)
 - [ContainerBagInterface](ContainerBagInterface.md)
+- [Rate Limiter](RateLimiter.md)
 - 目录结构变化
 
 ![sf_comparison.png](../../../images/sf_comparison.png)
