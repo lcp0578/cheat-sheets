@@ -14,6 +14,7 @@
 - [Symfony UX Turbo](turbo.md)
 - [ContainerBagInterface](ContainerBagInterface.md)
 - [Rate Limiter](RateLimiter.md)
+- [Security 安全部分](Security.md)
 - 目录结构变化
 
 ![sf_comparison.png](../../../images/sf_comparison.png)
