@@ -76,7 +76,20 @@
 		        'ids' => \Doctrine\DBAL\Connection::PARAM_INT_ARRAY
 		    )
 		);
+6. >fetchColumn(0) VS fetchFirstColumn
 
+		 $times = $this->getConnection()->executeQuery('SELECT COUNT(id) FROM login_log_' . $yearMonth .' WHERE user_id = :userId AND login_type = :loginType AND status = 2 AND create_at > :time', [
+		                'userId' => $userId,
+		                'loginType' => $loginType,
+		                'time' => date('Y-m-d')
+		            ])->fetchColumn(0);
+		$result = $this->getConnection()->executeQuery('SELECT COUNT(id) FROM login_log_' . $yearMonth .' WHERE user_id = :userId AND login_type = :loginType AND status = 2 AND create_at > :time', [
+                'userId' => $userId,
+                'loginType' => $loginType,
+                'time' => date('Y-m-d')
+            ])->fetchFirstColumn();
+            if(!empty($result))
+            	$times =$result[0];
 6. 参数处理  
 IN 传参数：
 
