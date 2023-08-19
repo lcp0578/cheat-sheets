@@ -47,6 +47,9 @@
 
 		security.token_storage
 		// Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage
+		# symfony > 3.4
+		// Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageI
+nter
 - 验证器validator
 
 		validator
