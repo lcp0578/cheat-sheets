@@ -76,7 +76,7 @@
 		        'ids' => \Doctrine\DBAL\Connection::PARAM_INT_ARRAY
 		    )
 		);
-6. >fetchColumn(0) VS fetchFirstColumn
+6. fetchColumn(0) VS fetchFirstColumn
 
 		 $times = $this->getConnection()->executeQuery('SELECT COUNT(id) FROM login_log_' . $yearMonth .' WHERE user_id = :userId AND login_type = :loginType AND status = 2 AND create_at > :time', [
 		                'userId' => $userId,
