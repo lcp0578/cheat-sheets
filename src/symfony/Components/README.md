@@ -13,3 +13,5 @@
 - [VarDumper](VarDumper) 调试时打印信息的组件
 - [Cache](Cache.md) 缓存组件，遵循PSR-6、PSR-16规范
 - [Runtime](Runtime.md) The Runtime Component decouples the bootstrapping logic from any global state to make sure the application can run with runtimes like PHP-PM, ReactPHP, Swoole, etc. without any changes.
+- [PropertyAccess](PropertyAccess.md) The PropertyAccess component provides functions to read and write from/to an object or array using a simple string notation.
+- [PropertyInfo](PropertyInfo.md) The PropertyInfo component allows you to get information about class properties by using different sources of metadata.
