@@ -1,4 +1,11 @@
 ## Console
+- 同步数据库
+	- 第一步，生成migrations
+
+			php bin/console make:migration
+	- 第二步，update database schema
+
+			php bin/console doctrine:migrations:migrate
 - 安装资源文件
 
 		php bin/console assets:install
