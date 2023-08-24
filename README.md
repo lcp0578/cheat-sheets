@@ -337,6 +337,7 @@
 		- [SetLoginToken](src/symfony/Security/SetLoginToken.md) 手动用户登录，设置token
 		- [Ajax Authentication Listener](src/symfony/Security/AjaxAuthenticationListener.md) Ajax验证监听
 		- [security advanced user interface 高级用户接口](src/symfony/Security/security-advanced-user-interface.md)
+		- [ApiKeyAuthenticator示例](src/symfony/Security/ApiKeyAuthenticator.md)
 	- [EventListener](src/symfony/EventListener/README.md) 事件监听相关
 		- [EventListener](src/symfony/EventListener/README.md) 事件监听
 		- [Login Event Listener](src/symfony/EventListener/LoginListener.md) 登录事件监听
