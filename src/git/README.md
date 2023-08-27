@@ -7,6 +7,7 @@
 - [fork sync](fork_sync.md) fork仓库与原仓同步
 - [Github访问或clone慢配置](github.md) Github 
 - [Github Help 使用技巧](github_help.md)
+- [Github token凭据配置](github_token.md)
 - [Git update](update.md) git升级
 - [rm git index](rm.md) 移除文件或目录的git索引
 - [git recover](git_recover.md) git还原某个提交ID

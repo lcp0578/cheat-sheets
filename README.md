@@ -621,6 +621,7 @@
 	- [fork sync](src/git/fork_sync.md) fork仓库与原仓同步
 	- [Github访问或clone慢配置](src/git/github.md)
 	- [Github Help 使用技巧](src/git/github_help.md)
+	- [Github token凭据配置](src/git/github_token.md)
 	- [git update](src/git/update.md) git升级
 	- [rm git index](src/git/rm.md) 移除文件或目录的git索引
 	- [git recover](src/git/git_recover.md) git还原某个提交ID
