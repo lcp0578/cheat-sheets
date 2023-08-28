@@ -621,6 +621,7 @@
 	- [fork sync](src/git/fork_sync.md) fork仓库与原仓同步
 	- [Github访问或clone慢配置](src/git/github.md)
 	- [Github Help 使用技巧](src/git/github_help.md)
+	- [Github token凭据配置](src/git/github_token.md)
 	- [git update](src/git/update.md) git升级
 	- [rm git index](src/git/rm.md) 移除文件或目录的git索引
 	- [git recover](src/git/git_recover.md) git还原某个提交ID
@@ -827,10 +828,11 @@
 		- [cobra](src/Security/cobra.md)
 56. 源代码安全审计
 	- [cobra](cobra.md)
-57. 用户认证与授权
-	- 单点登录SSO
-	- CAS
-	- OAuth2
+57. [用户认证与授权](src/auth/README.md)
+	- [单点登录SSO](src/auth/SSO.md)
+	- [CAS](src/auth/CAS.md)
+	- [OAuth2](src/auth/OAuth2.md)
+	- [2FA（双因子认证）](src/auth/2FA.md)
 58. 消息队列
 	- [nsq](src/MQ/nsq.md)
 	- [RabbitMQ](src/MQ/RabbitMQ.md)
