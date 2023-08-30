@@ -377,6 +377,7 @@
 		- [PropertyAccess](src/symfony/Components/PropertyAccess.md) The PropertyAccess component provides functions to read and write from/to an object or array using a simple string notation.
 		- [PropertyInfo](src/symfony/Components/PropertyInfo.md) The PropertyInfo component allows you to get information about class properties by using different sources of metadata.
 		- [BrowserKit & DomCrawler & CssSelector](src/symfony/Components/BrowserKitDomCrawlerCssSelector.md) 页面抓取分析三剑客
+		- [notifier - Sends notifications](src/symfony/Components/notifier.md)
 	- [Bundles Note](src/symfony/Bundles-Note/README.md) 第三方bundle使用笔记 
 		- [DoctrineFixturesBundle](src/symfony/Bundles-Note/DoctrineFixturesBundle.md)	初始化数据Bundle笔记
 		- [KnpPaginatorBundle 分页bundle使用遇到的问题](src/symfony/Bundles-Note/knp-paginator-bundle.md)
