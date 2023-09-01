@@ -476,6 +476,9 @@
 4. [Kingbase V8](src/kingbase/README.md)
 	- [安装与启动](src/kingbase/install.md)
 	- [KingbaseV8R3运维文档](src/kingbase/KingbaseV8R3运维文档.pdf)
+	- [Windows下使用](src/kingbase/windows.md)
+	- [license 授权文件](src/kingbase/license.md)
+	- [命令行客户端ksql](src/kingbase/ksql.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
