@@ -404,8 +404,10 @@
 		- [Webpack Encore Example](src/symfony/WebpackEncore/example.md) Webpack Encore使用示例
 	- [Symfony 4 & 5](src/symfony/Symfony4_5/README.md) symfony 4与5 相关
 		- [flex:Composer plugin for Symfony](src/symfony/Symfony4_5/flex.md)
+		- [composer req api](src/symfony/Symfony4_5/req_api.md)
 		- [recipes symfony核心团队认证的“菜谱”](src/symfony/Symfony4_5/recipes.md)
 		- [recipes-contrib 非“官方”菜谱](src/symfony/Symfony4_5/recipes-contrib.md)
+		- [Packs 集合包](src/symfony/Symfony4_5/Packs.md)
 		- [maker-bundle](src/symfony/Symfony4_5/maker-bundle.md)
 		- [flash-messages](src/symfony/Symfony4_5/flash-messagers.md)
 		- [frontend](src/symfony/Symfony4_5/frontend.md)
@@ -419,6 +421,7 @@
 		- [ContainerBagInterface](src/symfony/Symfony4_5/ContainerBagInterface.md)
 		- [Rate Limiter](src/symfony/Symfony4_5/RateLimiter.md)
 		- [Security 安全部分](src/symfony/Symfony4_5/Security.md)
+		- [HTTP Cache HTTP缓存加速](src/symfony/Symfony4_5/http_cache.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
 		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 	- [Varnish](src/symfony/Varnish/README.md) symfony使用Varnish加速网站
