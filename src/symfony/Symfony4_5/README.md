@@ -18,6 +18,7 @@
 - [Rate Limiter](RateLimiter.md)
 - [Security 安全部分](Security.md)
 - [HTTP Cache HTTP缓存加速](http_cache.md)
+- [API Platform](APIPlatform.md)
 - 目录结构变化
 
 ![sf_comparison.png](../../../images/sf_comparison.png)

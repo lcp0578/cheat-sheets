@@ -422,6 +422,7 @@
 		- [Rate Limiter](src/symfony/Symfony4_5/RateLimiter.md)
 		- [Security 安全部分](src/symfony/Symfony4_5/Security.md)
 		- [HTTP Cache HTTP缓存加速](src/symfony/Symfony4_5/http_cache.md)
+		- [API Platform](src/symfony/Symfony4_5/APIPlatform.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
 		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 	- [Varnish](src/symfony/Varnish/README.md) symfony使用Varnish加速网站
