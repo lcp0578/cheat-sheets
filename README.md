@@ -430,6 +430,7 @@
         - [symfony deploy](src/symfony/Deployment/deploy.md) symfony项目部署文档
     - [symfony-cli](src/symfony/cli/README.md)
 		- [github.com/symfony-cli/symfony-cli](https://github.com/symfony-cli/symfony-cli) go实现的Symfony  CLI tool
+	#### [blackfire](src/symfony/blackfire/README.md)
 2.  [chrome extensions](src/chrome_extensions.md "chrome extensions")
 3.  [MySQL](src/MySQL/README.md "mysql") 
 	- [MySQL join](src/MySQL/join.md)
