@@ -28,3 +28,4 @@
 	- [PHP 8 新特性之 Attributes（注解）](php8/Attributes.md)
 	- [PHP 8 新特性之 nullsafe_operator](php8/nullsafe_operator.md)
 	- [PHP 8.1 Fibers（纤程）](php8/Fibers.md)
+	- [PHP 8.1 Enum 枚举](php8/Enum.md)
