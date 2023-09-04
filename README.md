@@ -439,7 +439,7 @@
 	- [MySQL explain](src/MySQL/explain.md)
 	- [MySQL table design](src/MySQL/table_design.md)
 	- [MySQL table index](src/MySQL/table_index.md)
-	- [my confguire](src/MySQL/my_confguire.md) 常用的配置项
+	- [my configure](src/MySQL/my_configure.md) 常用的配置项
 	- [MySQL Optimize](src/MySQL/optimize.md)
 	- [MySQL where](src/MySQL/where.md)
 	- [mysqldump](src/MySQL/mysqldump.md)

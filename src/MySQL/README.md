@@ -4,7 +4,7 @@
 - [MySQL explain](explain.md)
 - [MySQL table design](table_design.md)
 - [MySQL table index](table_index.md)
-- [my confguire](my_confguire.md) 常用配置项
+- [my configure](my_configure.md) 常用配置项
 - [MySQL Optimize](optimize.md)
 - [MySQL where](where.md)
 - [mysqldump 备份](mysqldump.md)
