@@ -4,3 +4,4 @@
 - https://www.w3cschool.cn/article/41824727.html
 - https://kinsta.com/blog/php-8/
 - https://www.ionos.com/digitalguide/websites/web-development/php-8/
+- https://www.zend.com/blog/exploring-php-8
