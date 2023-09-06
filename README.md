@@ -700,6 +700,7 @@
 		- [PHP 8 新特性之 Named Parameter](src/PHP/php8/NamedParameter.md)
 		- [PHP 8 新特性之 Attributes（注解）](src/PHP/php8/Attributes.md)
 		- [PHP 8 新特性之 nullsafe_operator](src/PHP/php8/nullsafe_operator.md)
+		- [PHP 8 新特性之 static return type](src/PHP/php8/static_return_type.md)
 		- [PHP 8.1 Fibers（纤程）](src/PHP/php8/Fibers.md)
 		- [PHP 8.1 Enum 枚举](src/PHP/php8/Enum.md)
 24. [PHP code](src/php_code.md)
