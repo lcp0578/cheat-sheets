@@ -104,7 +104,68 @@
 		 [ERROR] Only attribute mapping is supported by make:entity, but the <info>App\Entity\TestEntity</info> class uses a
 		         different format. If you would like this command to generate the properties & getter/setter methods, add your mapping
 		         configuration, and then re-run this command with the <info>--regenerate</info> flag.
+	- 修改`config/packages/doctrine.yaml`
+
+			doctrine:
+			....
+			    orm:
+			        auto_generate_proxy_classes: true
+			        default_entity_manager: default
+			        entity_managers:
+			            default:
+			                connection: default
+			                naming_strategy: doctrine.orm.naming_strategy.underscore
+			                auto_mapping: true
+			                mappings:
+			                    App:
+			                        is_bundle: false
+			                        dir: '%kernel.project_dir%/src/Entity'
+			                        prefix: 'App\Entity'
+			                        alias: App
+			                        type: attribute #重要
+			                    App\WebBundle:
+			                        is_bundle: false
+			                        type: attribute  #重要
+			                        dir: '%kernel.project_dir%/src/WebBundle/Entity'
+			                        prefix: 'App\WebBundle\Entity'
+			                        alias: WebBundle
 - 旧的`annotation`类Entity迁移为`attribute`
 	- https://yarnaudov.com/symfony-fix-only-attribute-mapping-supported.html
+	- https://getrector.com/about
+	- https://github.com/rectorphp/rector-doctrine
+	- https://github.com/rectorphp/rector-symfony
+	- 引用依赖`composer require --dev rector/rector`
+	- 在项目根目录创建`rector.php`
 
+			<?php
+			
+			declare(strict_types=1);
+			
+			use Rector\Config\RectorConfig;
+			use Rector\Doctrine\Set\DoctrineSetList;
+			
+			return function (RectorConfig $rectorConfig): void {
+			    $rectorConfig->paths([
+			        __DIR__ . '/src/AclBundle/Entity',
+			        __DIR__ . '/src/AppBundle/Entity',
+			        __DIR__ . '/src/AuditBundle/Entity',
+			        __DIR__ . '/src/BaseBundle/Entity',
+			        __DIR__ . '/src/ConfigBundle/Entity',
+			        __DIR__ . '/src/DatabaseBundle/Entity',
+			        __DIR__ . '/src/InfoBundle/Entity',
+			        __DIR__ . '/src/MemberBundle/Entity',
+			        __DIR__ . '/src/MenuBundle/Entity',
+			        __DIR__ . '/src/MessageBundle/Entity',
+			        __DIR__ . '/src/MessengerBundle/Entity',
+			        __DIR__ . '/src/ShareDataBundle/Entity',
+			        __DIR__ . '/src/SockjsBundle/Entity',
+			        __DIR__ . '/src/SystemBundle/Entity',
+			        __DIR__ . '/src/WebBundle/Entity',
+			    ]);
+			    $rectorConfig->sets([
+			//        DoctrineSetList::ANNOTATIONS_TO_ATTRIBUTES,
+			        DoctrineSetList::DOCTRINE_CODE_QUALITY,
+			    ]);
+			};
+	- 执行`vendor/bin/rector`
 
