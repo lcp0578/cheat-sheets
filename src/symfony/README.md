@@ -103,7 +103,7 @@
 - [command in controller](Command/command_in_controller.md) 在控制器调用command
 - [Custom Command](Command/CustomCommand.md) 自定义command
 - [Custom Command in Symfony5.4](Command/CustomCommand54.md) 在Symfony5.4中自定义command
-- [command lifecycle](Command/command_lifecycle.md)Command生命周期函数
+- [Command Lifecycle](Command/command_lifecycle.md)
 - [Console Command Style](Command/Style.md) 命令样式
 #### [ReusableBundle](ReusableBundle/best_practices.md) 创建可重复使用bundle相关
 - [best practices](ReusableBundle/best_practices.md) 可复用bundle的最佳实战
