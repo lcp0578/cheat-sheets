@@ -637,6 +637,7 @@
 	- [Gogs](src/git/gogs.md) Gogs代码平台
 	- [Gitea](src/git/gitea.md) Gitea(Gogs的一个克隆)
 	- [git_stats](src/git/git_stats.md) git提交统计
+	- [git reset 撤销本地commit](src/git/reset.md)
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
