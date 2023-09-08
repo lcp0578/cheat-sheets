@@ -21,6 +21,7 @@
 - [phploc](phploc.md) A tool for quickly measuring the size of a PHP project.
 - [Laminas](laminas.md) Laminas Project, the enterprise-ready PHP Framework and components
 - [Xdebug - Debugger and Profiler Tool for PHP](Xdebug.md)
+- [php 7 新特性](php7.md)
 - [PHP 8 相关](php8/README.md)
 	- [PHP 8 新特性概览](php8/Features.md)
 	- [PHP 8 新特性之 match表达式](php8/match.md)
