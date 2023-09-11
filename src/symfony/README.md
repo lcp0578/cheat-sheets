@@ -8,6 +8,7 @@
 - [FileControllerHelper](Basic/FileControllerHelper.md) 文件处理的helper
 - [Json Response](Basic/JsonResponse.md) Json响应及参数设置
 - [Streamed Response](Basic/StreamedResponse.md) 流响应
+- [Finding and Instantiating the Controller](Basic/FindingAndInstantiatingTheController.md)
 #### [Twig](Twig/README.md) Twig相关
 - [Twig](Twig/Twig.md) Twig基础
 - [Twig Extension](Twig/TwigExtension.md) Twig扩展示例
