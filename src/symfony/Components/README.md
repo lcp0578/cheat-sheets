@@ -17,3 +17,4 @@
 - [PropertyInfo](PropertyInfo.md) The PropertyInfo component allows you to get information about class properties by using different sources of metadata.
 - [BrowserKit & DomCrawler & CssSelector](BrowserKitDomCrawlerCssSelector.md) 页面抓取分析三剑客
 - [notifier - Sends notifications](notifier.md)
+- [HttpKernel](HttpKernel.md) HTTP核心组件
