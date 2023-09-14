@@ -125,7 +125,26 @@
 		| Options      | compiler_class: Symfony\Component\Routing\RouteCompiler |
 		+--------------+---------------------------------------------------------+
 
+- 调试某个路由
 
+		php bin\console debug:router acl_user_index  
+		+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+		| Property     | Value                                                                                                                                                |
+		+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+		| Route Name   | acl_user_index                                                                                                                                       |
+		| Path         | /portal/acl/user/index                                                                                                                               |
+		| Path Regex   | {^/portal/acl/user/index$}sDu                                                                                                                        |
+		| Host         | ANY                                                                                                                                                  |
+		| Host Regex   |                                                                                                                                                      |
+		| Scheme       | ANY                                                                                                                                                  |
+		| Method       | ANY                                                                                                                                                  |
+		| Requirements | NO CUSTOM                                                                                                                                            |
+		| Class        | Symfony\Component\Routing\Route                                                                                                                      |
+		| Defaults     | _controller: App\AclBundle\Controller\UserController::indexAction()                                                                                  |
+		| Options      | compiler_class: Symfony\Component\Routing\RouteCompiler                                                                                              |
+		|              | menu: array ('name' => '用户列表','icon' => '','status' => 1,'is_show' => 1,'is_authorize' => 1,'level' => 3,'parent_route' => 'acl_user_homepage',) |
+		|              | utf8: true                                                                                                                                           |
+		+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 - 根据配置创建数据库
 
