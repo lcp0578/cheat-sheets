@@ -7,4 +7,4 @@
 - 启动人大金仓
 	- 进任务管理器，服务，启动`kingbase8_instance`服务
 	- 命令行启动
-		- sys_ctl.exe -D 'D:\Program Files\Kingbase\ES\V8\data' start
+		- `sys_ctl.exe -D "D:\Program Files\Kingbase\ES\V8\data" start`
