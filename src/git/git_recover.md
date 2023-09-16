@@ -8,7 +8,7 @@
     		git reset --hard commit_id
     - 强制提交
     
-    		git push origin master -f
+    		git push origin branch_name -f
 - checkout
 	
     	git checkout commit_id
