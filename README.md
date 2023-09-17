@@ -486,6 +486,8 @@
 	- [Windows下使用](src/kingbase/windows.md)
 	- [license 授权文件](src/kingbase/license.md)
 	- [命令行客户端ksql](src/kingbase/ksql.md)
+	- [`sys_dump` 与 `sys_restore`](src/kingbase/sys_dump_sys_restore.md)
+	- [GROUP BY 报错](src/kingbase/group_by.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关

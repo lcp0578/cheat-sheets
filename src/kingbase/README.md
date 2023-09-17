@@ -5,3 +5,4 @@
 - [license 授权文件](license.md)
 - [命令行客户端ksql](ksql.md)
 - [`sys_dump` 与 `sys_restore`](sys_dump_sys_restore.md)
+- [GROUP BY 报错](group_by.md)
