@@ -71,3 +71,6 @@
 		documentation.
 		
 		Report bugs to <kingbase-bugs@kingbase.com.cn>.
+- 恢复`.sql`文件
+
+		ksql -h 127.0.0.1 -p 54322 -U SYSTEM -W  -d infra_facility -f .\infra_facility_all_bck_DB_2023-09-16_12_56_40.sql
