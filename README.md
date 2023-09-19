@@ -687,6 +687,7 @@
 	- [Memcached](src/PHP/memcached.md) PHP Memcached扩展安装
 	- [oci8](src/PHP/oci8.md)PHP Oracle连接扩展
 	- [Socket](src/PHP/Socket.md)
+	- [对数组进行排序](src/PHP/array_sorting.md)
 	- [control structures alternative syntax](src/PHP/alternative-syntax.md) 流程控制的替代语法
 	- [SOAP](src/PHP/soap.md) 调用SOAP服务
 	- [preg_match VS preg_match_all](src/PHP/preg_match.md) 正则匹配对比
