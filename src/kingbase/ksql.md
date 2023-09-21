@@ -74,3 +74,6 @@
 - 恢复`.sql`文件
 
 		ksql -h 127.0.0.1 -p 54322 -U SYSTEM -W  -d infra_facility -f .\infra_facility_all_bck_DB_2023-09-16_12_56_40.sql
+- 连接某个库
+
+		ksql.exe -h 127.0.0.1 -p 54326 -U system db_name
