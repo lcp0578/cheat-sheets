@@ -1,0 +1,38 @@
+## Environment Variable Processors
+- Custom Environment Variable Processors
+- https://symfony.com/doc/5.4/configuration/env_var_processors.html
+- Built-In Environment Variable Processors
+	- `env(string:FOO)`
+		- Casts FOO to a string:
+	- `env(bool:FOO)`
+		- Casts FOO to a bool (true values are 'true', 'on', 'yes' and all numbers except 0 and 0.0; everything else is false):
+	- `env(not:FOO)`
+		- Casts FOO to a bool (just as env(bool:...) does) except it returns the inverted value (falsy values are returned as true, truthy values are returned as false):
+	- `env(int:FOO)`
+		- Casts FOO to an int.
+	- `env(float:FOO)`
+		- Casts FOO to a float.
+	- `env(const:FOO)`
+		- Finds the const value named in FOO:
+	- `env(base64:FOO)`
+		- Decodes the content of FOO, which is a base64 encoded string.
+	- `env(json:FOO)`
+		- Decodes the content of FOO, which is a JSON encoded string. It returns either an array or null:
+	- `env(resolve:FOO)`
+		- If the content of FOO includes container parameters (with the syntax %parameter_name%), it replaces the parameters by their values:
+	- `env(csv:FOO)`
+		- Decodes the content of FOO, which is a CSV-encoded string:
+	- `env(file:FOO)`
+		- Returns the contents of a file whose path is the value of the FOO env var:
+	- `env(require:FOO)`
+		- require() the PHP file whose path is the value of the FOO env var and return the value returned from it.
+	- `env(trim:FOO)`
+		- Trims the content of FOO env var, removing whitespaces from the beginning and end of the string. This is especially useful in combination with the file processor, as it'll remove newlines at the end of a file.
+	- `env(key:FOO:BAR)`
+		- Retrieves the value associated with the key FOO from the array whose contents are stored in the BAR env var:
+	- `env(default:fallback_param:BAR)`
+		- Retrieves the value of the parameter fallback_param when the BAR env var is not available:
+	- `env(url:FOO)`
+		- Parses an absolute URL and returns its components as an associative array.
+	- `env(query_string:FOO)`
+		-Parses the query string part of the given URL and returns its components as an associative array.
