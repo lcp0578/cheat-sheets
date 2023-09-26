@@ -1,0 +1,22 @@
+## UID
+- https://symfony.com/doc/5.4/components/uid.html
+- The UID component provides utilities to work with unique identifiers (UIDs) such as UUIDs and ULIDs.
+- ULID ：Universally Unique Lexicographically Sortable Identifier（通用唯一词典分类标识符）
+- UUID ：Universally Unique Identifier（通用唯一标识符）
+- UUID说明
+	- UUID 目前有 5 个版本：
+		- 版本1：在许多环境中是不切实际的，因为它需要访问唯一的，稳定的MAC地址，容易被攻击；
+		- 版本2：将版本 1 的时间戳前四位换为 POSIX 的 UID 或 GID，问题同上；
+		- 版本3：基于 MD5 哈希算法生成，生成随机分布的ID需要唯一的种子，这可能导致许多数据结构碎片化；
+		- 版本4：基于随机数或伪随机数生成，除了随机性外没有提供其他信息；
+		- 版本5：通过 SHA-1 哈希算法生成，生成随机分布的ID需要唯一的种子，这可能导致许多数据结构碎片化；
+	- 这里面常用的就是 UUID4 了，但是，即使是随机的，但是也是存在冲突的风险。
+- ULID 是既基于时间戳又基于随机数，时间戳精确到毫秒，毫秒内有1.21e + 24个随机数，不存在冲突的风险，而且转换成字符串比 UUID 更加友好。
+	- 与UUID的128位兼容性
+	- 每毫秒1.21e + 24个唯一ULID
+	- 按字典顺序(也就是字母顺序)排序！
+	- 规范地编码为26个字符串，而不是UUID的36个字符
+	- 使用Crockford的base32获得更好的效率和可读性（每个字符5位）
+	- 不区分大小写
+	- 没有特殊字符（URL安全）
+	- 单调排序顺序（正确检测并处理相同的毫秒）

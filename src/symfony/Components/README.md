@@ -18,3 +18,4 @@
 - [BrowserKit & DomCrawler & CssSelector](BrowserKitDomCrawlerCssSelector.md) 页面抓取分析三剑客
 - [notifier - Sends notifications](notifier.md)
 - [HttpKernel](HttpKernel.md) HTTP核心组件
+- [UID](uid.md) 唯一标识符
