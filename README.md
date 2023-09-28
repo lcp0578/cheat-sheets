@@ -381,6 +381,7 @@
 		- [notifier - Sends notifications](src/symfony/Components/notifier.md)
 		- [HttpKernel](src/symfony/Components/HttpKernel.md) HTTP核心组件
 		- [UID](src/symfony/Components/uid.md) 唯一标识符
+		- [Lock](src/symfony/Components/Lock.md) 锁组件
 	- [Bundles Note](src/symfony/Bundles-Note/README.md) 第三方bundle使用笔记 
 		- [DoctrineFixturesBundle](src/symfony/Bundles-Note/DoctrineFixturesBundle.md)	初始化数据Bundle笔记
 		- [KnpPaginatorBundle 分页bundle使用遇到的问题](src/symfony/Bundles-Note/knp-paginator-bundle.md)
