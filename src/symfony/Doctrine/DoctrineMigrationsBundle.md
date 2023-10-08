@@ -31,3 +31,84 @@
 		 doctrine:migrations:version                [version] Manually add and delete migration versions from the version table.
 		 doctrine:migrations:sync-metadata-storage  [sync-metadata-storage] Ensures that the metadata storage is at the latest version.
 		 doctrine:migrations:list                   [list-migrations] Display a list of all available migrations and their status.
+- 查看当前状态
+
+		php bin\console doctrine:migrations:status
+		+----------------------+----------------------+------------------------------------------------------------------------+
+		| Configuration                                                                                                        |
+		+----------------------+----------------------+------------------------------------------------------------------------+
+		| Storage              | Type                 | Doctrine\Migrations\Metadata\Storage\TableMetadataStorageConfiguration |
+		|                      | Table Name           | doctrine_migration_versions                                            |
+		|                      | Column Name          | version                                                                |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Database             | Driver               | Symfony\Bridge\Doctrine\Middleware\Debug\Driver                        |
+		|                      | Name                 | sf54_kdb                                                               |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Versions             | Previous             | 0                                                                      |
+		|                      | Current              | 0                                                                      |
+		|                      | Next                 | Already at latest version                                              |
+		|                      | Latest               | 0                                                                      |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Migrations           | Executed             | 0                                                                      |
+		|                      | Executed Unavailable | 0                                                                      |
+		|                      | Available            | 0                                                                      |
+		|                      | New                  | 0                                                                      |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Migration Namespaces | DoctrineMigrations   | D:\phpstudy_pro\WWW\jihulab.com\core\sf54/migrations                   |
+		+----------------------+----------------------+------------------------------------------------------------------------+
+
+- 创建迁移
+
+		php bin\console doctrine:migrations:diff  
+		
+		 Generated new migration class to "D:\phpstudy_pro\WWW\jihulab.com\core\sf54/migrations/Version20231008073018.php"
+		 
+		 To run just this migration for testing purposes, you can use migrations:execute --up 'DoctrineMigrations\\Version20231008073018'
+		 
+		 To revert the migration you can use migrations:execute --down 'DoctrineMigrations\\Version20231008073018'
+- 执行迁移
+
+		php bin\console doctrine:migrations:migrate
+		
+		 WARNING! You are about to execute a migration in database "sf54_kdb" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no) [yes]:
+		 > yes
+		
+		[notice] Migrating up to DoctrineMigrations\Version20231008074553
+		[notice] finished in 68.7ms, used 26M memory, 1 migrations executed, 252 sql queries
+		
+		 [OK] Successfully migrated to version : DoctrineMigrations\Version20231008074553
+- 再次查看状态
+
+		php bin\console doctrine:migrations:status 
+		+----------------------+----------------------+------------------------------------------------------------------------+
+		| Configuration                                                                                                        |
+		+----------------------+----------------------+------------------------------------------------------------------------+
+		| Storage              | Type                 | Doctrine\Migrations\Metadata\Storage\TableMetadataStorageConfiguration |
+		|                      | Table Name           | doctrine_migration_versions                                            |
+		|                      | Column Name          | version                                                                |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Database             | Driver               | Symfony\Bridge\Doctrine\Middleware\Debug\Driver                        |
+		|                      | Name                 | sf54_kdb                                                               |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Versions             | Previous             | 0                                                                      |
+		|                      | Current              | DoctrineMigrations\Version20231008074553                               |
+		|                      | Next                 | Already at latest version                                              |
+		|                      | Latest               | DoctrineMigrations\Version20231008074553                               |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Migrations           | Executed             | 1                                                                      |
+		|                      | Executed Unavailable | 0                                                                      |
+		|                      | Available            | 1                                                                      |
+		|                      | New                  | 0                                                                      |
+		|----------------------------------------------------------------------------------------------------------------------|
+		| Migration Namespaces | DoctrineMigrations   | D:\phpstudy_pro\WWW\jihulab.com\core\sf54/migrations                   |
+		+----------------------+----------------------+------------------------------------------------------------------------+
+- 配置表过滤`config/packages/doctrine.yaml`
+
+		doctrine:
+		    dbal:
+		        default_connection: default
+		        connections:
+		            # 默认数据库
+		            default:
+		                url: '%env(resolve:DATABASE_KINGBASE_URL)%'
+		                schema_filter: ~^(?!sysmac)~ # 过滤sysmac开头的表，不进行迁移
