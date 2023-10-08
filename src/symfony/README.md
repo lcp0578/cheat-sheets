@@ -49,7 +49,7 @@
 - [Doctrine Sharding](Doctrine/sharding.md)
 - [Entity State 四个状态](Doctrine/EntityState.md)
 - [The EntityManager is closed](Doctrine/closed.md)
-- [DoctrineMigrationsBundle](Doctrine/DoctrineMigrationsBundle/README.md) 数据迁移工具
+- [DoctrineMigrationsBundle](Doctrine/DoctrineMigrationsBundle.md) 数据迁移工具
 #### [config 框架配置相关](config/README.md)
 - [log日志配置](config/log.md)
 #### [Router](Router/README.md) 路由相关

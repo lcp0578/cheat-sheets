@@ -1,6 +1,10 @@
 ## DoctrineMigrationsBundle
+- 为什么要用DoctrineMigrationsBundle
+	- Database migrations are a way to safely update your database schema both locally and on production. 
+	- Instead of running the `doctrine:schema:update` command or applying the database changes manually with SQL statements, migrations allow to replicate the changes in your database schema in a safe manner.
 - 官方文档
 	- https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html
+	- https://www.doctrine-project.org/projects/doctrine-migrations/en/3.6/index.html
 - 安装
 
 		composer require doctrine/doctrine-migrations-bundle "^3.0"
