@@ -794,6 +794,7 @@
 	- [Cygwin 和 MinGW 区别与联系](src/windows/CygwinMinGW.md)
 	- [bat 批处理脚本](src/windows/bat.md)
 	- [Windows Precision Trackpad Driver](src/windows/Trackpad.md)
+	- [winver查看系统版本号](src/windows/winver.md)
 40. [assembly](src/assembly/README.md)汇编语言
 41. [CEF](src/cef/README.md)
 42. [VisualStudio](src/VisualStudio/README.md)

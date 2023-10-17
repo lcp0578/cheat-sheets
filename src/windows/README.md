@@ -7,3 +7,4 @@
 - [Cygwin 和 MinGW 区别与联系](CygwinMinGW.md)
 - [bat 批处理脚本](bat.md)
 - [Windows Precision Trackpad Driver](Trackpad.md)
+- [winver查看系统版本号](winver.md)
