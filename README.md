@@ -111,6 +111,7 @@
 	- [namespace 工作空间](src/c_cpp/namespace.md)
 	- [COM的错误与异常处理](src/c_cpp/COM.md)
 	- [MSVC编译器介绍](src/c_cpp/MSVC.md)
+	- [dumpbin、Dependencies查看dll的附加依赖项](src/c_cpp/dll_depends.md)
 3. [OSG](src/OSG/README.md)
 	- [OSG坐标系理解](src/OSG/coordinate.md)
 	- [基本数学组件](src/OSG/math.md)
