@@ -23,4 +23,22 @@
 - 链接页面的加载
 	- QWebEngineView 的文档介绍的很详细，以上的功能实现起来都很简单。
 
+- 加载异常处理
+
+		connect(pWebEngineView, &QWebEngineView::loadFinished,
+			[pWebEngineView](bool status) {
+				CLoadIndicator::removeUseCount();
+				if (!status) {
+					QString htmlPath = QCoreApplication::applicationDirPath() + "/WebEngine/pages/error_prompt.html";
+					qDebug() << "htmlPath:" << htmlPath;
+					pWebEngineView->load(QUrl("file:///" + htmlPath));
+				}
+				
+			});
+		connect(pWebEngineView, &QWebEngineView::renderProcessTerminated,
+			[pWebEngineView](QWebEnginePage::RenderProcessTerminationStatus terminationStatus, int exitCode) {
+				qDebug() << "terminationStatus:" << terminationStatus << ",exitCode:" << exitCode;
+				QString htmlPath = QCoreApplication::applicationDirPath() + "/WebEngine/pages/error_prompt.html";
+				pWebEngineView->load(QUrl("file:///" + htmlPath));
+			});
 >  https://blog.csdn.net/hitzsf/article/details/109278967
