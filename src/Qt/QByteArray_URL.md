@@ -1,0 +1,2 @@
+## QByteArray URL编解码
+- QByteArray中的toPercentEncoding和fromPercentEncoding支持对URL的编解码工作。
