@@ -1,0 +1,14 @@
+## VLC-Qt开发
+- VLC-Qt官网
+	- https://vlc-qt.tano.si/
+	- https://github.com/vlc-qt/vlc-qt
+- VLC-Qt的编译与使用 windows10+VS2019+qt5.15
+	- https://blog.csdn.net/weixin_41001497/article/details/118198724
+- vlc sdk
+	- http://download.videolan.org/vlc/
+- C++调用libVLC播放视频
+	- https://blog.csdn.net/dgnankai/article/details/120563219
+- VLC-Qt测试
+	- https://blog.csdn.net/u012532263/article/details/102737874?spm=1001.2014.3001.5502
+- Qt实现一个视频播放器（vlc）
+	- https://blog.csdn.net/qq_33053671/article/details/106225735
