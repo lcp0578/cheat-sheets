@@ -232,6 +232,7 @@
 	- [CMakeLists.txt配置文件](src/CMake/CMakeLists.txt.md)
 	- [CMake语法规则](src/CMake/rule.md)
 	- [CMake中添加Qt模块](src/CMake/Qt.md)
+	- [Ninja、make、CMake的区别与优劣](src/CMake/Ninja.md)
 2. [OpenGL](src/OpenGL/README.md)
 	- [OpenGL 基本知识点](src/OpenGL/basic.md)
 	- [GLSL基础语法介绍](src/OpenGL/GLSL.md)
