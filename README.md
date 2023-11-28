@@ -222,6 +222,7 @@
 	- [QFont设置字体大小/颜色](src/Qt/QFont.md)
 	- [QByteArray URL编解码](src/Qt/QByteArray_URL.md)
 	- [VLC_Qt开发](src/Qt/VLC_Qt.md)
+	- [ffmpeg 集成](src/Qt/ffmpeg.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
