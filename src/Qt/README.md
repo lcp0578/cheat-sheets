@@ -68,3 +68,4 @@
 - [QByteArray URL编解码](QByteArray_URL.md)
 - [VLC_Qt开发](VLC_Qt.md)
 - [ffmpeg 集成](ffmpeg.md)
+- [Qt加载静态链接库（.Lib，.a，.os）,以及关于LIBS +=的用法](LIBS.md)
