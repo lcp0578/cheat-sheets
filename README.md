@@ -225,6 +225,7 @@
 	- [ffmpeg 集成](src/Qt/ffmpeg.md)
 	- [Qt加载静态链接库（.Lib，.a，.os）,以及关于LIBS +=的用法](src/Qt/LIBS.md)
 	- [QWidget: Must construct a QApplication before a QWidget](src/Qt/QApplication_QWidget.md)
+	- [QLabel 改变字间距](src/Qt/QLabel.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
