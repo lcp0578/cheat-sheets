@@ -59,3 +59,4 @@
 - [Rocky Linux](RockyLinux.md)
 - [分区表GPT和MBR](GPT_MBR.md)
 - [ VNC XRDP 远程桌面](VNC_XRDP.md)
+- [xfs文件系统修复](xfs.md)
