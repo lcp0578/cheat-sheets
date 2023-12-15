@@ -72,3 +72,4 @@
 - [QWidget: Must construct a QApplication before a QWidget](QApplication_QWidget.md)
 - [QLabel 改变字间距](QLabel.md)
 - [Qt Multimedia](QtMultimedia.md)
+- [在QMainWindows中动态增加控件](QMainWindows.md)

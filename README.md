@@ -227,6 +227,7 @@
 	- [QWidget: Must construct a QApplication before a QWidget](src/Qt/QApplication_QWidget.md)
 	- [QLabel 改变字间距](src/Qt/QLabel.md)
 	- [Qt Multimedia](src/Qt/QtMultimedia.md)
+	- [在QMainWindows中动态增加控件](src/Qt/QMainWindows.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
