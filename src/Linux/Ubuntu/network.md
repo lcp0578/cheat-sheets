@@ -47,4 +47,5 @@
 - 应用网卡信息
 
 		# netplan apply
-
+- 十进制子网掩码换算器
+	- https://www.sojson.com/convert/subnetmask.html
