@@ -36,7 +36,8 @@
 		      renderer: networkd
 		      eno3:
 		        addresses:
-		        - 172.16.10.253/24 #IP和掩码
+		          - 172.16.10.253/24 #IP和掩码
+		        # addresses: [172.16.10.248/24]
 		        nameservers:
 		          addresses: [202.99.192.68, 202.99.192.66] #DNS
 		        routes:
