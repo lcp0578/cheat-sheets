@@ -36,4 +36,4 @@
 		tcpdump host 192.168.1.100 -w result.cap
 - 抓取目的地址包含是192.168.1.100的包，并将结果保存到 result.cap 文件中。
 
-		tcpdump dest host 192.168.1.100 -w result.cap
+		tcpdump dst host 192.168.1.100 -w result.cap
