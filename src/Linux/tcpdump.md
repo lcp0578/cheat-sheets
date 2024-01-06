@@ -37,3 +37,7 @@
 - 抓取目的地址包含是192.168.1.100的包，并将结果保存到 result.cap 文件中。
 
 		tcpdump dst host 192.168.1.100 -w result.cap
+- 抓本机服务之间的包（查看 LOOPBACK 的网卡， 监听有回环地址的网卡）
+
+		 tcpdump  -i lo host 127.0.0.1 and port 9996
+
