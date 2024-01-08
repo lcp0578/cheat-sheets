@@ -586,6 +586,7 @@
 	- [./configure、make、make install 命令](src/Linux/configure.md)
 	- [CentOS7升级OpenSSL](src/Linux/openssl.md)
 	- [Centos7.6之OpenSSH 7.4升级版本至9.4](src/Linux/openssh.md)
+	- [speedtest 测网速](src/Linux/speedtest.md)
 9.  [Go](src/Go/README.md "golang")
 	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)

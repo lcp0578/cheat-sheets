@@ -63,3 +63,4 @@
 - [./configure、make、make install 命令](configure.md)
 - [CentOS7升级OpenSSL](openssl.md)
 - [Centos7.6之OpenSSH 7.4升级版本至9.4](openssh.md)
+- [speedtest 测网速](speedtest.md)

@@ -1,0 +1,19 @@
+## speedtest 测网速
+- 安装
+
+		wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+- 赋予权限
+
+		chmod +x speedtest.py
+- 测试
+
+		# ./speedtest.py 
+		Retrieving speedtest.net configuration...
+		Testing from Hangzhou Alibaba Advertising Co.,Ltd. (47.92.131.207)...
+		Retrieving speedtest.net server list...
+		Selecting best server based on ping...
+		Hosted by China Telecom JiangSu 5G (Suzhou) [1031.60 km]: 50.893 ms
+		Testing download speed................................................................................
+		Download: 56.91 Mbit/s
+		Testing upload speed................................................................................................
+		Upload: 12.29 Mbit/s
