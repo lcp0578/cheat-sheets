@@ -538,7 +538,7 @@
 	- [iptables](src/Linux/iptables.md)
 	- [tar](src/Linux/tar.md)
 	- [df & du](src/Linux/df_du.md)
-	- [scp](src/Linux/scp.md)
+	- [scp 与 pscp](src/Linux/scp.md)
 	- [history](src/Linux/history.md)
 	- [sed](src/Linux/sed.md)
 	- [rz & sz](src/Linux/rzsz.md)

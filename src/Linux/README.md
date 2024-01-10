@@ -14,7 +14,7 @@
 - [iptables](iptables.md)
 - [tar](tar.md)
 - [df & du](df_du.md)
-- [scp](scp.md)
+- [scp 与 pscp](scp.md)
 - [history](history.md)
 - [sed](sed.md)
 - [rz & sz](rzsz.md)
