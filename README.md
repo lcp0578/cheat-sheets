@@ -578,6 +578,9 @@
 	- [Ubuntu相关](src/Linux/Ubuntu/README.md)
 		- [设置root密码](src/Linux/Ubuntu/root.md)
 		- [Ubuntu Server 22.04 配置固定IP](src/Linux/Ubuntu/network.md)
+		- [开启sshd服务](src/Linux/Ubuntu/sshd.md)
+		- [防火墙](src/Linux/Ubuntu/firewall.md)
+		- [unzip解压报错使用jar解压.zip包](src/Linux/Ubuntu/jar.md)
 	- [Rocky Linux](src/Linux/RockyLinux.md)
 	- [分区表GPT和MBR](src/Linux/GPT_MBR.md)
 	- [ VNC XRDP 远程桌面](src/Linux/VNC_XRDP.md)
@@ -771,9 +774,6 @@
 	- [mac](src/Apache/mac.md) mac下使用
 27. [Code::Blocks](CodeBlocks.md)
 	- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
-28. [Ubuntu](src/Ubuntu/README.md)
-	- [开启sshd服务](src/Ubuntu/sshd.md)
-	- [防火墙](src/Ubuntu/firewall.md)
 29. [svg](src/svg.md)
 30. [Meet 会议系统](src/Meet/README.md)
 	- [github.com/jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
