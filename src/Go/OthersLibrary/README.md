@@ -119,6 +119,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 - [github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)go.rice is a Go package that makes working with resources such as html,js,css,images and templates easy. 
 - [github.com/shiyanhui/hero](https://github.com/shiyanhui/hero) A handy, fast and powerful go template engine.
 - [github.com/flosch/pongo2](https://github.com/flosch/pongo2) Django-syntax like template-engine for Go
+- [github.com/a-h/templ](https://github.com/a-h/templ) A language for writing HTML user interfaces in Go.
 
 #### git
 - [github.com/src-d/go-git](https://github.com/src-d/go-git) A highly extensible Git implementation in pure Go.
@@ -159,6 +160,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 - [github.com/spf13/afero](https://github.com/spf13/afero) A FileSystem Abstraction System for Go
 - [github.com/syncthing/syncthing](https://github.com/syncthing/syncthing) Open Source Continuous File Synchronization
 - [github.com/minio/minio](https://github.com/minio/minio) Multi-Cloud Object Storage
+- [github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) Web File Browser
 
 #### 配置文件
 - [github.com/spf13/viper](https://github.com/spf13/viper) Go configuration with fangs
@@ -206,3 +208,6 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 
 #### cache
 - [github.com/VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache) Fast thread-safe inmemory cache for big number of entries in Go. Minimizes GC overhead
+
+#### 大模型
+- [github.com/jmorganca/ollama](https://github.com/jmorganca/ollama) Get up and running with Llama 2, Mistral, and other large language models locally.
