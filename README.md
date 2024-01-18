@@ -341,6 +341,7 @@
 	- [Service](src/symfony/Service/README.md) 服务相关
 		- [Service](src/symfony/Service/Service.md)
 		- [service id](src/symfony/Service/Service_id.md) 服务ID
+		- [service class框架级别服务注入类名(symfony 6.4)](src/symfony/Service/Service_Class.md)
 		- [autowiring](src/symfony/Service/autowiring.md) 服务的自动装配
 		- [alias private service](src/symfony/Service/alias_private_service.md)
 		- [Custom Service Tags](src/symfony/Service/CustomServiceTags.md)
