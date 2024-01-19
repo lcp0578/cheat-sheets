@@ -22,3 +22,18 @@
 		use Symfony\Component\Security\Csrf\TokenStorage\TokenStorageInterface;
 		
 		TokenStorageInterface $tokenStorage
+- 分页器
+
+		use Knp\Component\Pager\PaginatorInterface;
+
+		PaginatorInterface $paginator
+- 密码生成器
+
+		use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
+				
+		$password = $passwordHasher->hashPassword($user, $password);
+- 获取路由信息
+
+		use Symfony\Component\Routing\RouterInterface;
+		
+		$router->getRouteCollection();
