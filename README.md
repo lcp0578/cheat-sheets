@@ -361,6 +361,9 @@
 		- [Ajax Authentication Listener](src/symfony/Security/AjaxAuthenticationListener.md) Ajax验证监听
 		- [security advanced user interface 高级用户接口](src/symfony/Security/security-advanced-user-interface.md)
 		- [ApiKeyAuthenticator示例](src/symfony/Security/ApiKeyAuthenticator.md)
+	- [Events and Event Listeners](src/symfony/EventDispatcher/README.md) 事件与事件分发
+		- [Listeners or Subscribers](src/symfony/EventDispatcher/ListenersSubscribers.md)
+		- [CustomSubscriber](src/symfony/EventDispatcher/CustomSubscriber.md)
 	- [EventListener](src/symfony/EventListener/README.md) 事件监听相关
 		- [EventListener](src/symfony/EventListener/README.md) 事件监听
 		- [Login Event Listener](src/symfony/EventListener/LoginListener.md) 登录事件监听

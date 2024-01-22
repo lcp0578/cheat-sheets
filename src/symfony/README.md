@@ -90,6 +90,9 @@
 - [Ajax Authentication Listener](Security/AjaxAuthenticationListener.md) Ajax验证监听
 - [security advanced user interface 高级用户接口](Security/security-advanced-user-interface.md)
 - [ApiKeyAuthenticator示例](Security/ApiKeyAuthenticator.md)
+#### [Events and Event Listeners](EventDispatcher/README.md) 事件与事件分发
+- [Listeners or Subscribers](EventDispatcher/ListenersSubscribers.md)
+- [CustomSubscriber](EventDispatcher/CustomSubscriber.md)
 #### [EventListener](EventListener/README.md) 事件监听相关
 - [EventListener](EventListener/README.md) 事件监听
 - [Login Event Listener](EventListener/LoginListener.md) 登录事件监听
