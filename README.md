@@ -682,6 +682,7 @@
 	- [git_stats](src/git/git_stats.md) git提交统计
 	- [git reset 撤销本地commit](src/git/reset.md)
 	- [git push 上传大文件卡住](src/git/push.md)
+	- [git clone 报错](src/git/git_clone.md)
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)
