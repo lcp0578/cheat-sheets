@@ -453,6 +453,8 @@
 		- [HTTP Cache HTTP缓存加速](src/symfony/Symfony4_5/http_cache.md)
 		- [API Platform](src/symfony/Symfony4_5/APIPlatform.md)
 		- [Environment Variable Processors](src/symfony/Symfony4_5/EnvironmentVariableProcessors.md)
+	- [Symfony 6 相关](src/symfony/Symfony6/README.md)
+		- [AssetMapper: Simple, Modern CSS & JS Management](src/symfony/Symfony6/AssetMapper.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
 		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 	- [Varnish](src/symfony/Varnish/README.md) symfony使用Varnish加速网站
