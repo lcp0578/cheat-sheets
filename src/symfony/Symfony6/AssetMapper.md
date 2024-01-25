@@ -1,3 +1,6 @@
 ## AssetMapper: Simple, Modern CSS & JS Management
 - The AssetMapper component lets you write modern JavaScript and CSS without the complexity of using a bundler. Browsers already support many modern JavaScript features like the import statement and ES6 classes. And the HTTP/2 protocol means that combining your assets to reduce HTTP connections is no longer urgent. This component is a light layer that helps serve your files directly to the browser.
+- The component has two main features:
+	- Mapping & Versioning Assets: All files inside of assets/ are made available publicly and versioned. You can reference assets/styles/app.css in a template with {{ asset('styles/app.css') }}. The final URL will include a version hash, like /assets/styles/app-3c16d9220694c0e56d8648f25e6035e9.css.
+	- Importmaps: A native browser feature that makes it easier to use the JavaScript import statement (e.g. import { Modal } from 'bootstrap') without a build system. It's supported in all browsers (thanks to a shim) and is part of the HTML standard.
 - https://symfony.com/doc/6.4/frontend/asset_mapper.html
