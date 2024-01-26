@@ -35,5 +35,12 @@
 	Run:
 	 * composer recipes vendor/package to see details about a recipe.
 	 * composer recipes:update vendor/package to update that recipe.
-- `composer recipes vendor/package` to see details about a recipe.
-- `composer recipes:update vendor/package` to update that recipe.
+- to see details about a recipe
+
+		 composer recipes vendor/package
+- to update that recipe
+
+		composer recipes:update vendor/package 
+- Update the recipe by re-installing the latest version with:
+
+		composer recipes:install symfony/flex --force -v
