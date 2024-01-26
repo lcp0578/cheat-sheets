@@ -50,6 +50,7 @@
 - [Entity State 四个状态](Doctrine/EntityState.md)
 - [The EntityManager is closed](Doctrine/closed.md)
 - [DoctrineMigrationsBundle](Doctrine/DoctrineMigrationsBundle.md) 数据迁移工具
+- [setPrimaryTable根据参数动态设置表名](Doctrine/TableName.md)
 #### [config 框架配置相关](config/README.md)
 - [log日志配置](config/log.md)
 #### [Router](Router/README.md) 路由相关

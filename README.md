@@ -321,6 +321,7 @@
 		- [Entity State 四个状态](src/symfony/Doctrine/EntityState.md)
 		- [The EntityManager is closed](src/symfony/Doctrine/closed.md)
 		- [DoctrineMigrationsBundle](src/symfony/Doctrine/DoctrineMigrationsBundle.md) 数据迁移工具
+		- [setPrimaryTable根据参数动态设置表名](src/symfony/Doctrine/TableName.md)
 	- [config 框架配置相关](src/symfony/config/README.md)
 		- [log日志配置](src/symfony/config/log.md)
 	- [Router](src/symfony/Router/README.md) 路由相关
