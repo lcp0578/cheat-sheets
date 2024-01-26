@@ -59,7 +59,7 @@
 
 - 创建迁移
 
-		php bin\console doctrine:migrations:diff  
+		php bin\console doctrine:migrations:diff  或者 php bin\console make:migration
 		
 		 Generated new migration class to "D:\phpstudy_pro\WWW\jihulab.com\core\sf54/migrations/Version20231008073018.php"
 		 
