@@ -800,6 +800,7 @@
 	- [SSCOM串口调试软件](src/Modbus/SSCOM.md)
 34. [CSS3](src/CSS3/README.md)
 	- [rem](src/CSS3/rem.md)
+	- [Tailwind CSS](src/CSS3/tailwindcss.md)
 35. [HTML5](src/html5/README.md)
 	- [canvas](src/html5/canvas.md)
 	- [navigator.mediaDevices 访问媒体设备](src/html5/mediaDevices.md)
