@@ -470,6 +470,19 @@
 		  #7      Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse()           -1000
 		  #8      Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse()      -1024
 		 ------- -------------------------------------------------------------------------------------------- ----------
+- recipes相关
+
+		# choose an outdated recipe to update
+		$ composer recipes:update
+	
+		# update a specific recipe
+		$ composer recipes:update symfony/framework-bundle
+	
+		# see a list of all installed recipes and which have updates available
+		$ composer recipes
+	
+		# see detailed information about a specific recipes
+		$ composer recipes symfony/framework-bundle
 
 
 
