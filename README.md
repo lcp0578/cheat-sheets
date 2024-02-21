@@ -230,7 +230,7 @@
 	- [在QMainWindows中动态增加控件](src/Qt/QMainWindows.md)
 	- [QRhi:Qt Rendering Hardware Interface](src/Qt/QRhi.md)
 4. [数字孪生](src/DigitalTwin/README.md)
-5. [全国计算机技术与软件专业技术资格（水平）考试--](src/ruankao/README.md)
+5. [全国计算机技术与软件专业技术资格（水平）考试--软考](src/ruankao/README.md)
 	- [系统分析师](src/ruankao/系统分析师/README.md)
 		- [考试大纲](src/ruankao/系统分析师/syllabus.md)
 		- [极客时间课程大纲](src/ruankao/系统分析师/geektime.md)
