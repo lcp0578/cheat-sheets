@@ -211,3 +211,6 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 
 #### 大模型
 - [github.com/jmorganca/ollama](https://github.com/jmorganca/ollama) Get up and running with Llama 2, Mistral, and other large language models locally.
+
+#### 加密解密
+- [github.com/emmansun/gmsm](https://github.com/emmansun/gmsm) ShangMi (SM) cipher suites for go.
