@@ -237,6 +237,7 @@
 		- [核心考点](src/ruankao/系统分析师/core.md)
 		- [国密算法与国密SSL证书](src/ruankao/系统分析师/SM.md)
 		- [数据库的范式](src/ruankao/系统分析师/NF.md)
+		- [UML相关](src/ruankao/UML.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
 4. [CMake](src/CMake/README.md)
