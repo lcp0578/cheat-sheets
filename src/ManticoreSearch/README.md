@@ -2,4 +2,4 @@
 - https://manticoresearch.com/
 - https://github.com/manticoresoftware/manticoresearch/
 - https://github.com/manticoresoftware/manticoresearch-php
-- https://github.com/manticoresoftware/go-sdk
+- https://github.com/manticoresoftware/manticoresearch-go
