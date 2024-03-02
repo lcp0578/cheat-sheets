@@ -42,3 +42,6 @@
 		}
 		
 	}
+
+- The Windows API provides either ANSI strings (A) or Unicode strings (W). Interally, the Windows API has both available. However, Delphi is defaulted to either one or the other, depending on the version of Delphi. Many other Windows languages do this too. The language uses either ANSI or Unicode strings as a default.
+- In Delphi versions prior to 2009, the ANSI API calls were used, suffixed with an A. That was when Delphi primarily used ANSI strings. As of Delphi 2009 and above, Unicode has been enforced. That also made the default API calls to Unicode, suffixed with a W. Unicode has always been supported in Delphi, but as of 2009 it's been enforced as the default, favored over ANSI. In those older versions, functions such as LoadLibrary mapped to the ANSI version LoadLibraryA.

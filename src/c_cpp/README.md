@@ -53,3 +53,4 @@
 - [dumpbin、Dependencies查看dll的附加依赖项](dll_depends.md)
 - [使用Visual Studio的扩展MVSIP将程序打包成可执行文件（.exe）](MVSIP.md)
 - [LoadLibrary加载dll示例](LoadLibrary.dll)
+- [VS中dumpbin.exe工具的使用](dumpbin.md)
