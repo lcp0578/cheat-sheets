@@ -36,6 +36,7 @@
 #### 日志
 - [github.com/uber-go/zap](https://github.com/uber-go/zap) Uber日志库
 - [github.com/sirupsen/logrus](https://github.com/sirupsen/logrus) 日志库
+- [github.com/amir20/dozzle](https://github.com/amir20/dozzle) Realtime log viewer for docker containers.
 
 #### console command
 - [github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) git command
