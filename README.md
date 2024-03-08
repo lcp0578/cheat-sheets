@@ -713,6 +713,7 @@
 	- [git reset 撤销本地commit](src/git/reset.md)
 	- [git push 上传大文件卡住](src/git/push.md)
 	- [git clone 报错](src/git/git_clone.md)
+	- [.gitignore配置相关](src/git/gitignore.md)
 12. [javascript](src/javascript/README.md "javascript")
 	- [json convert](src/javascript/json.md)
 	- [flexible](src/javascript/flexible.md)

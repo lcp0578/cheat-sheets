@@ -16,6 +16,7 @@
 - [git reset 撤销本地commit](reset.md)
 - [git push 上传大文件卡住](push.md)
 - [git clone 报错](git_clone.md)
+- [.gitignore配置相关](gitignore.md)
 - 删除远端仓库的文件
 
 		git rm --cached "/path/filename" //不物理删除，仅将该文件从缓存中删除，再commit push即可
