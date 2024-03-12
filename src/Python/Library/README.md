@@ -4,3 +4,4 @@
 - [SciPy 一个开源的 Python 算法库和数学工具包](SciPy.md)
 - [SymPy 符号数学的 Python 库](SymPy.md)
 - [Matplotlib 是Python语言及其数值计算库NumPy的绘图库](Matplotlib.md)
+- [glances - Glances an Eye on your system. ](glances.md)
