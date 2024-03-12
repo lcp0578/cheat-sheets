@@ -1,4 +1,6 @@
-## 防火墙设置
+## 防火墙ufw与docker
+- UFW 是 Ubuntu 上很流行的一个 iptables 前端，可以非常方便的管理防火墙的规则。但是当安装了 Docker，UFW 无法管理 Docker 发布出来的端口了。
+- 解决问题：https://github.com/chaifeng/ufw-docker
 - 查看防火墙状态
 
 		ufw status

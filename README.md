@@ -614,7 +614,7 @@
 		- [设置root密码](src/Linux/Ubuntu/root.md)
 		- [Ubuntu Server 22.04 配置固定IP](src/Linux/Ubuntu/network.md)
 		- [开启sshd服务](src/Linux/Ubuntu/sshd.md)
-		- [防火墙](src/Linux/Ubuntu/firewall.md)
+		- [防火墙ufw与docker](src/Linux/Ubuntu/firewall.md)
 		- [unzip解压报错使用jar解压.zip包](src/Linux/Ubuntu/jar.md)
 		- [apt-get 卸载docker与相关命令](src/Linux/Ubuntu/apt.md)
 		- [dpkg命令](src/Linux/Ubuntu/dpkg.md)
