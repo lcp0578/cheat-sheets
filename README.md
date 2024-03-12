@@ -964,6 +964,7 @@ With In‑Memory Speed
 63. [Kotlin](src/Kotlin/README.md)
 64. [Dart](src/Dart/README.md)
 65. [Flutter](src/flutter/README.md)
+66. [Zig](src/Zig/README.md)
 66. [Go & PHP](src/GoPHP/README.md)
 	- goridge
 	- roadrunner
