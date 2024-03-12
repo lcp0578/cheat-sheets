@@ -4,3 +4,4 @@
 - [开启sshd服务](sshd.md)
 - [防火墙](firewall.md)
 - [unzip解压报错使用jar解压.zip包](jar.md)
+- [apt-get 卸载docker与相关命令](apt.md)

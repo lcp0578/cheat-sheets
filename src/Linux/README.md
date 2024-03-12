@@ -58,6 +58,7 @@
 	- [开启sshd服务](Ubuntu/sshd.md)
 	- [防火墙](Ubuntu/firewall.md)
 	- [unzip解压报错使用jar解压.zip包](Ubuntu/jar.md)
+	- [apt-get 卸载docker与相关命令](Ubuntu/apt.md)
 - [Rocky Linux](RockyLinux.md)
 - [分区表GPT和MBR](GPT_MBR.md)
 - [ VNC XRDP 远程桌面](VNC_XRDP.md)
