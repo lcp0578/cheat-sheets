@@ -618,6 +618,7 @@
 		- [unzip解压报错使用jar解压.zip包](src/Linux/Ubuntu/jar.md)
 		- [apt-get 卸载docker与相关命令](src/Linux/Ubuntu/apt.md)
 		- [dpkg命令](src/Linux/Ubuntu/dpkg.md)
+		- [U盘安装Ubuntu Server](src/Linux/Ubuntu/install.md)
 	- [Rocky Linux](src/Linux/RockyLinux.md)
 	- [分区表GPT和MBR](src/Linux/GPT_MBR.md)
 	- [ VNC XRDP 远程桌面](src/Linux/VNC_XRDP.md)
