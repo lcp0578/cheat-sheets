@@ -1,4 +1,42 @@
 ## iptables
+#### Ubuntu
+- 用以下指令将iptables已经设置的防火墙规则和所有表格的方针(policy)清空
+
+		sudo iptables -P INPUT ACCEPT && sudo iptables -P FORWARD ACCEPT && sudo iptables -P OUTPUT ACCEPT && sudo iptables -F && sudo iptables -t nat -F && sudo iptables -t mangle -F
+- 查看目前的iptables防火墙过滤规则(filter表)
+
+		sudo iptables -L
+- 将指令做成一个Bash文件来运行。也要留意一下指令的运行顺序，避免远程主机从此连不上
+
+		#!/bin/bash
+		sudo iptables -A INPUT -i lo -j ACCEPT                                           #允许所有来自本机的封包
+		sudo iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT            #允许已经创建连接或是有与其它连接相关连的封包。
+		sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT   #允许TCP连接端口22的创建连接封包。
+		sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT   #允许TCP连接端口80的创建连接封包。
+		sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 443 -j ACCEPT  #允许TCP连接端口443的创建连接封包。
+		sudo iptables -A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT                   #允许ICMP封包(允许「ping」指令)。
+		sudo iptables -P INPUT DROP                                                      #过滤所有不在规则中的连入封包。
+		sudo iptables -P FORWARD DROP                                                    #过滤所有不在规则中的转递封包。
+- 保存规则
+
+		sudo iptables-save > /etc/iptables/rules.v4
+- 恢复规则
+
+		sudo iptables-restore < /etc/iptables/rules.v4
+- iptables-persistent
+	- 安装
+
+			sudo apt install iptables-persistent
+	- iptables-persistent套件在安装时，就会跳出是否要保存目前iptables和ipv6tables的画面
+		- 选择Yes的话，就可以把iptables或ip6tables的设置，分别通过iptables-save和ip6tables-save指令，保存到/etc/iptables/rules.v4和/etc/iptables/rules.v6文件中。如此一来，Ubuntu Server在开机时，就会自动使用iptables-restore和ip6tables-restore指令来套用/etc/iptables/rules.v4和/etc/iptables/rules.v6中保存的设置。
+	- 修改后直接激活规则
+
+			sudo iptables-restore < /etc/iptables/rules.v4 && sudo ip6tables-restore < /etc/iptables/rules.v6
+		或
+
+			sudo dpkg-reconfigure iptables-persistent
+
+#### CentOS
 - 防火墙的配置文件
 
 		/etc/sysconfig/iptables
