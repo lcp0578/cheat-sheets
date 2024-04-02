@@ -781,6 +781,7 @@
 	- [Xdebug - Debugger and Profiler Tool for PHP](src/PHP/Xdebug.md)
 	- [PHP Coding Standards Fixer (PHP CS Fixer) ](src/PHP/PHPCSFixer.md)
 	- [php 7 新特性](src/PHP/php7.md)
+	- [phar归档](src/PHP/phar.md)
 	- [PHP 8 相关](src/PHP/php8/README.md)
 		- [PHP 8 新特性概览](src/PHP/php8/Features.md)
 		- [PHP 8 新特性之 match表达式](src/PHP/php8/match.md)

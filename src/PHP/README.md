@@ -24,6 +24,7 @@
 - [Laminas](laminas.md) Laminas Project, the enterprise-ready PHP Framework and components
 - [Xdebug - Debugger and Profiler Tool for PHP](Xdebug.md)
 - [PHP Coding Standards Fixer (PHP CS Fixer) ](PHPCSFixer.md)
+- [phar归档](phar.md)
 - [php 7 新特性](php7.md)
 - [PHP 8 相关](php8/README.md)
 	- [PHP 8 新特性概览](php8/Features.md)
