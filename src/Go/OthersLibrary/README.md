@@ -1,5 +1,6 @@
 ## 其他类库
 - [github.com/goplus/gop](https://github.com/goplus/gop) The Go+ programming language is designed for engineering, STEM education, and data science.
+- [github.com/plandex-ai/plandex](https://github.com/plandex-ai/plandex) An AI coding engine for complex tasks
 
 #### 基础类库
 - [github.com/go-delve/delve](https://github.com/go-delve/delve) a debugger
