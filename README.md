@@ -548,6 +548,7 @@
 	- [`sys_dump` 与 `sys_restore`](src/kingbase/sys_dump_sys_restore.md)
 	- [GROUP BY 报错](src/kingbase/group_by.md)
 	- [在Ubuntu命令行安装KingbaseES](src/kingbase/Ubuntu.md)
+	- [在Linux下pdo_kdb扩展安装](src/kingbase/kdb.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关
