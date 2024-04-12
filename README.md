@@ -1040,6 +1040,7 @@ With In‑Memory Speed
 	- [APISIX](src/OpenResty/apisix.md)  APISIX is a Cloud-Native Microservices API Gateway
 70. [PostgreSQL](src/PostgreSQL/README.md)
 	- [PostgreSQL for mac](src/PostgreSQL/mac.md) mac下安装及使用
+	- [PostgreSQL 将表中的字段由varchar类型改为int类型](src/PostgreSQL/alert.md)
 71. [ICU4C VS ICU4J](src/ICU/README.md)
 72. [VS Code](src/VSCode/README.md)
 	- [go 环境配置](src/VSCode/go.md)
