@@ -8,3 +8,4 @@
 - [GROUP BY 报错](group_by.md)
 - [在Ubuntu命令行安装KingbaseES](Ubuntu.md)
 - [在Linux下pdo_kdb扩展安装](kdb.md)
+- [SQL保留字和关键字](keyword.md)
