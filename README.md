@@ -795,6 +795,7 @@
 		- [PHP 8 新特性之 static return type](src/PHP/php8/static_return_type.md)
 		- [PHP 8.1 Fibers（纤程）](src/PHP/php8/Fibers.md)
 		- [PHP 8.1 Enum 枚举](src/PHP/php8/Enum.md)
+		- [PHP 8 多版本编译安装](src/PHP/php8/install.md)
 24. [PHP code](src/php_code.md)
 25. [Shell](src/Shell/README.md)
 	- [deploy.sh](src/Shell/deploy.sh.md) 部署项目shell脚本

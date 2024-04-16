@@ -35,3 +35,4 @@
 	- [PHP 8 新特性之 static return type](php8/static_return_type.md)
 	- [PHP 8.1 Fibers（纤程）](php8/Fibers.md)
 	- [PHP 8.1 Enum 枚举](php8/Enum.md)
+	- [PHP 8 多版本编译安装](php8/install.md)
