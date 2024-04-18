@@ -37,3 +37,15 @@
 		use Symfony\Component\Routing\RouterInterface;
 		
 		$router->getRouteCollection();
+- Twig模板
+
+		use Twig\Environment;
+
+		public function homepage(Environment $twig): Response
+		{
+		
+		    $html = $twig->render('vinyl/homepage.html.twig', [
+		        'title' => 'PB & Jams',
+		        'tracks' => $tracks,
+		    ]);
+		}
