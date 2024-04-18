@@ -47,6 +47,15 @@
 		use Symfony\Component\Routing\RouterInterface;
 		
 		$router->getRouteCollection();
+- 生成路由
+
+		use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
+
+		public function index(UrlGeneratorInterface $urlGenerator)
+		{
+		    // generate a URL with no route arguments
+		    $signUpPage = $this->urlGenerator->generate('sign_up');
+		}
 - Twig模板
 
 		use Twig\Environment;

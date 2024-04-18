@@ -188,6 +188,8 @@
 - [Environment Variable Processors](Symfony4_5/EnvironmentVariableProcessors.md)
 #### [Symfony 6 相关](Symfony6/README.md)
 - [AssetMapper: Simple, Modern CSS & JS Management](Symfony6/AssetMapper.md)
+- [Create a custom Route Loader](Symfony6/CustomRouteLoader.md)
+- [The Bundle System](Symfony6/BundleSystem.md)
 #### [Symfony 1.x](Symfony1/README.md)
 - [symfony1.4](Symfony1/symfony1.4) symfony1.4笔记
 #### [symfony-cli](cli/README.md)
