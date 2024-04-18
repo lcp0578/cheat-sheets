@@ -4,7 +4,17 @@
 
 		use Doctrine\Persistence\ManagerRegistry;
 
-		ManagerRegistry $doctrine
+		public function index(ManagerRegistry $doctrine): Response
+	    {
+	        // Both methods return the default entity manager
+	        $entityManager = $doctrine->getManager();
+	        $entityManager = $doctrine->getManager('default');
+	
+	        // This method returns instead the "customer" entity manager
+	        $customerEntityManager = $doctrine->getManager('customer');
+	
+	        // ...
+	    }
 - 注入em
 
 		use Doctrine\ORM\EntityManagerInterface;
@@ -15,7 +25,7 @@
 		use Symfony\Component\HttpFoundation\RequestStack;
 		
 		RequestStack $requestStack
-		$this->session = $requestStack->getSession();
+		$this->session = $requestStack->getSession(); #不能写在构造函数中
 
 - 注入当前登录用户
 
@@ -52,3 +62,5 @@
 - 日志服务Logger
 
 		use Psr\Log\LoggerInterface;
+
+		$logger->critical('save info!', $data);

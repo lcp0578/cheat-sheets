@@ -53,5 +53,23 @@
 	- `/documents/document.html` -> `[configuration C]`
 	- `/images/1.gif` -> `[configuration D]`
 	- `/documents/1.jpg` -> `[configuration E]`
-
-注意，以上的匹配和在配置文件中定义的顺序无关。
+	- 注意，以上的匹配和在配置文件中定义的顺序无关。
+- alias与root的区别
+	- alias与root指定的url意义不同
+		- root和alias都可以定义在location模块中，都是用来指定请求资源的真实路径，比如：
+	
+				location /abc/ {
+				    root /data/www;
+				}
+		- 请求http://IP:port/abc/123.png时，那么在服务器里面对应的真正的资源是：/data/www/abc/123.png
+		- 注意：root真实路径是root指定的值加上location指定的值。
+		- 而 alias 正如其名，alias指定的路径是location的别名，不管location的值怎么写，资源的真实路径都是 alias 指定的路径，比如：
+	
+				location /abc/ {
+				    alias /data/www;
+				}
+		- 请求http://IP:port/abc/123.png时，那么在服务器里面对应的真正的资源是：/data/www/123.png
+		- 注意：alias真实路径是alias指定的值，不包含location指定的值了。
+	- 在一个location中，alias可以存在多个，但是root只能有一个
+	- alias只能存在与location中，但是root可以用在server、http和location中
+	- alias后面必须要“/”结束，否则会找不到文件，而root的“/”可有可无
