@@ -61,6 +61,7 @@
 	- [apt-get 卸载docker与相关命令](Ubuntu/apt.md)
 	- [dpkg命令](Ubuntu/dpkg.md)
 	- [U盘安装Ubuntu Server](Ubuntu/install.md)
+	- [服务器磁盘扩容](Ubuntu/grow.md)
 - [Rocky Linux](RockyLinux.md)
 - [分区表GPT和MBR](GPT_MBR.md)
 - [ VNC XRDP 远程桌面](VNC_XRDP.md)
