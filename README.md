@@ -637,6 +637,8 @@
 	- [升级完OpenSSH后，xshell断开nginx进程被杀死](src/Linux/openssh_nginx.md)
 	- [speedtest 测网速](src/Linux/speedtest.md)
 	- [tmpwatch/tmpreaper 删除旧文件](src/Linux/tmpwatch.md)
+	- [linux LVM 调整逻辑卷空间大小](src/Linux/LVM.md)
+	- [查看 Linux 重启历史记录](src/Linux/reboot.md)
 9.  [Go](src/Go/README.md "golang")
 	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)
