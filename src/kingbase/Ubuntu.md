@@ -16,7 +16,7 @@
 		drwxr-xr-x 19 root root 4096 Apr  2 15:41 ../
 		dr-xr-xr-x  2 root root 2048 Sep  2  2023 setup/
 		-r-xr-xr-x  1 root root 3933 Sep  2  2023 setup.sh*
-		# cp setup* /home/kingbase #复制到kingbase的home目录
+		# cp -r setup* /home/kingbase #复制到kingbase的home目录
 		# chown -R kingbase:kingbase /home/kingbase
 - 需要设置语言包
 	- 1.安装基本的软件包（第2步安装 zh_CN 中文字符集时要用到）
@@ -29,6 +29,9 @@
 			cd /usr/share/locales 
 
 			sudo ./install-language-pack zh_CN  //开始安装zh_CN中文字符集
+- 准备授权文件
+
+		/home/KingbaseES/license.dat
 - 执行安装
 	
 		# su - kingbase
