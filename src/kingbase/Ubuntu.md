@@ -40,3 +40,21 @@
 - 验证是否能连接数据库
 
 		./ksql -p 54326 -U system test
+- 设置大小写敏感性
+	- 大小写敏感性是实例级参数，只有在初始化数据库时才能进行设置，一旦设置后，无法进行修改。
+	- 查看大小写敏感性
+
+			show case_sensitive ;
+		- off ： 表示大小写不敏感
+		- on ： 表示大小写敏感
+- 重新初始化数据库
+	- 会清空数据
+	- 需要删除data文件
+	- `initdb`在安装目录下的：Server/bin中
+
+			initdb -U SYSTEM -W "xxxxxx" --case-insensitive -D /home/KingbaseES_R3/data -E UTF-8
+		- `-U`：指定管理员用户名，一般使用 SYSTEM 即可；
+		- `-W`：指定管理员密码，根据需要自行设置；
+		- `--case-insensitive`：表示大小写不敏感，需要大小写敏感的话去掉该参数即可；
+		- `-D`：指定data目录，指定为原来的data目录路径即可；
+		- `-E`：指定编码。
