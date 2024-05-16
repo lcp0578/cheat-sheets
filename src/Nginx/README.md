@@ -15,3 +15,4 @@
 - [location表达式类型与优先级](location.md)
 - [Tengine](tengine.md)
 - [add_header 指令与XSS](add_header.md)
+- [CORS跨域请求--简单请求与复杂请求与跨域预请求OPTIONS处理](CORS.md)
