@@ -28,3 +28,7 @@
 			- 发放票据： SSO 服务器会产生一个随机的 Service Ticket 。
 			- 验证票据： SSO 服务器验证票据 Service Ticket 的合法性，验证通过后，允许客户端访问服务。
 			- 传输用户信息： SSO 服务器验证票据通过后，传输用户认证结果信息给客户端。
+
+#### 相关类库
+- [github.com/apereo/phpCAS](https://github.com/apereo/phpCAS) Apereo PHP CAS Client
+- [github.com/ecphp/cas-bundle](https://github.com/ecphp/cas-bundle) CAS Bundle, a standard Symfony bundle for authentication using CAS protocol.
