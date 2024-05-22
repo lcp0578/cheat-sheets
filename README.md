@@ -830,6 +830,7 @@
     - [Tengine](src/Nginx/tengine.md)
     - [add_header 指令与XSS](src/Nginx/add_header.md)
     - [CORS跨域请求--简单请求与复杂请求与跨域预请求OPTIONS处理](src/Nginx/CORS.md)
+    - [nginx与php-fpm通信与php-fpm重启](src/Nginx/php-fpm.md)
 27. [Apache](src/Apache/README.md) 
 	- [.htaccess](src/Apache/htaccess.md) 开启.htaccess配置
 	- [mac](src/Apache/mac.md) mac下使用
