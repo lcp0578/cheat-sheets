@@ -5,7 +5,7 @@
 - （可选）如需监测网络使用率，可安装网络监控模块netatop。
 	- 执行如下命令，安装netatop所需的模块。
 
-				sudo apt install zlib1g-dev
+			sudo apt install zlib1g-dev
 	- 执行如下命令，下载netatop安装包。
 
 			sudo wget https://www.atoptool.nl/download/netatop-3.1.tar.gz --no-check-certificate
@@ -65,7 +65,8 @@
 				
 				b：指定时间点，格式为YYYYMMDDhhmm。
 	- 系统资源监控字段含义  
-	![atop](../../../images/atop.png)
+	
+		![atop](../../../images/atop.png)
 		- 主要参数说明如下
 			- ATOP行: 主机名、信息采样日期和时间点。
 			- PRC行: 进程整体运行情况。
