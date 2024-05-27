@@ -5,3 +5,5 @@
 	- [核心考点](系统分析师/core.md)
 	- [国密算法与国密SSL证书](系统分析师/SM.md)
 	- [数据库的范式](系统分析师/NF.md)
+- [系统架构设计师](系统架构设计师/README.md)
+	- [KubeSphere](系统架构设计师/KubeSphere.md)

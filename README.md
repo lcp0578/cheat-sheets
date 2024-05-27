@@ -258,6 +258,8 @@
 			- [十四、项目管理](src/ruankao/系统分析师/topic/management.md)
 			- [十五、需求工程](src/ruankao/系统分析师/topic/requirements.md)
 			- [十六、知识产权与标准化](src/ruankao/系统分析师/topic/ipr.md)
+	- [系统架构设计师](src/ruankao/系统架构设计师/README.md)
+		- [KubeSphere](src/ruankao/系统架构设计师/KubeSphere.md)
 4. [GTK](src/GTK/README.md)
 	- [GTK简介](src/GTK/GTK.md)
 4. [CMake](src/CMake/README.md)
