@@ -918,11 +918,11 @@
 	- [Android主线程、子线程通信（Thread+handler）](src/Android/Thread.md)
 44. [xunsearch](src/xunsearch/README.md)
 45. [Knowledge Graph](src/KnowledgeGraph/README.md)
-- [github.com/taku910/crfpp](https://github.com/taku910/crfpp) CRF++: Yet Another CRF toolkit
-- [github.com/macanv/BERT-BiLSTM-CRF-NER](https://github.com/macanv/BERT-BiLSTM-CRF-NER) Tensorflow solution of NER task Using BiLSTM-CRF model with Google BERT Fine-tuning And private Server services
-- [github.com/Determined22/zh-NER-TF](https://github.com/Determined22/zh-NER-TF) A very simple BiLSTM-CRF model for Chinese Named Entity Recognition 中文命名实体识别 (TensorFlow)
-- [github.com/crownpku/Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese) Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 中文实体识别与关系提取
-- [github.com/lucasb-eyer/pydensecrf](https://github.com/lucasb-eyer/pydensecrf) Python wrapper to Philipp Krähenbühl's dense (fully connected) CRFs with gaussian edge potentials.
+	- [github.com/taku910/crfpp](https://github.com/taku910/crfpp) CRF++: Yet Another CRF toolkit
+	- [github.com/macanv/BERT-BiLSTM-CRF-NER](https://github.com/macanv/BERT-BiLSTM-CRF-NER) Tensorflow solution of NER task Using BiLSTM-CRF model with Google BERT Fine-tuning And private Server services
+	- [github.com/Determined22/zh-NER-TF](https://github.com/Determined22/zh-NER-TF) A very simple BiLSTM-CRF model for Chinese Named Entity Recognition 中文命名实体识别 (TensorFlow)
+	- [github.com/crownpku/Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese) Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 中文实体识别与关系提取
+	- [github.com/lucasb-eyer/pydensecrf](https://github.com/lucasb-eyer/pydensecrf) Python wrapper to Philipp Krähenbühl's dense (fully connected) CRFs with gaussian edge potentials.
 45. [mac](src/mac/README.md) mac相关
 	- [升级系统版本、禁用SIP、设置屏幕比例、修改显存](src/mac/upgrade.md)
 	- [keyboard](src/mac/keyboard.md)系统快捷键
