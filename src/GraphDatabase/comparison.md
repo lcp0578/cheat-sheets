@@ -153,7 +153,7 @@
         <td>Java、Python、C#、Go、Ruby、Rust等</td>
         <td>Java、.NET、JavaScript、Python、Go等</td>
         <td>Java、Go、Python、.NET等 </td>
-        <td>Python、Java等
+        <td>Python、Java、Go、C++等
         </td>
     </tr>
 </table>
