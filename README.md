@@ -234,6 +234,7 @@
 	- [QRhi:Qt Rendering Hardware Interface](src/Qt/QRhi.md)
 4. [数字孪生](src/DigitalTwin/README.md)
 5. [Graph Database 图数据库相关](src/GraphDatabase/README.md)
+	- [主流图数据库对比总结](src/GraphDatabase/comparison.md)
 	- [NebulaGraph](src/GraphDatabase/NebulaGraph.md)
 	- [Dgraph](src/GraphDatabase/Dgraph.md)
 	- [JanusGraph](src/GraphDatabase/JanusGraph.md)

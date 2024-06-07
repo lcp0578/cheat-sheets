@@ -41,8 +41,8 @@
         <td>架构 </td>
         <td>分布式 </td>
         <td>单机</td>
-        <td> 分布式</td>
-        <td> 分布式
+        <td>分布式</td>
+        <td>分布式
         </td>
     </tr>
     <tr>
@@ -55,18 +55,18 @@
     </tr>
     <tr>
         <td>高可用性 </td>
-        <td> 支 持</td>
-        <td> 不支持 </td>
+        <td>支持</td>
+        <td>不支持 </td>
         <td>支持 </td>
         <td>支持
         </td>
     </tr>
     <tr>
         <td>高可靠性 </td>
-        <td>支 持</td>
-        <td> 不支持 </td>
         <td>支持</td>
-        <td> 支持
+        <td>不支持 </td>
+        <td>支持</td>
+        <td>支持
         </td>
     </tr>
     <tr>
@@ -82,22 +82,22 @@
         <td>支 持 </td>
         <td>不支持 </td>
         <td>支持</td>
-        <td> 不支持
+        <td>不支持
         </td>
     </tr>
     <tr>
         <td>事务 </td>
         <td>ACID或BASE </td>
         <td>完全的ACID </td>
-        <td>0mid修改版 </td>
+        <td>Omid修改版 </td>
         <td>不支持
         </td>
     </tr>
     <tr>
         <td>分区策略</td>
-        <td> 随机分区，支持显式指定分区策略 </td>
+        <td>随机分区，支持显式指定分区策略 </td>
         <td>不支持分区</td>
-        <td> 自动分区 </td>
+        <td>自动分区 </td>
         <td>静态分区
         </td>
     </tr>
@@ -150,9 +150,9 @@
     </tr>
     <tr>
         <td>客户端语言</td>
-        <td> Java、Python、C#、Go、Ruby等 </td>
-        <td>Java、Python、Go等</td>
-        <td> Java、Go、Python、等 </td>
+        <td>Java、Python、C#、Go、Ruby、Rust等</td>
+        <td>Java、.NET、JavaScript、Python、Go等</td>
+        <td>Java、Go、Python、.NET等 </td>
         <td>Python、Java等
         </td>
     </tr>
