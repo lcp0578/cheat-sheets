@@ -924,6 +924,15 @@
 	- [github.com/Determined22/zh-NER-TF](https://github.com/Determined22/zh-NER-TF) A very simple BiLSTM-CRF model for Chinese Named Entity Recognition 中文命名实体识别 (TensorFlow)
 	- [github.com/crownpku/Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese) Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 中文实体识别与关系提取
 	- [github.com/lucasb-eyer/pydensecrf](https://github.com/lucasb-eyer/pydensecrf) Python wrapper to Philipp Krähenbühl's dense (fully connected) CRFs with gaussian edge potentials.
+	- [github.com/baidu/lac](https://github.com/baidu/lac) 百度NLP：分词，词性标注，命名实体识别，词重要性
+	- [github.com/fxsjy/jieba](https://github.com/fxsjy/jieba) 结巴中文分词
+	- [github.com/google-research/bert](https://github.com/google-research/bert)  TensorFlow code and pre-trained models for BERT
+	- [github.com/snorkel-team/snorkel](https://github.com/snorkel-team/snorkel) A system for quickly generating training data with weak supervision 弱监督学习框架
+	- [github.com/networkx/networkx](https://github.com/networkx/networkx) NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+	- [github.com/jgrapht/jgrapht](https://github.com/jgrapht/jgrapht) JGraphT is a free Java class library that provides mathematical graph-theory objects and algorithms.
+	- [github.com/snap-stanford/snap](https://github.com/snap-stanford/snap) Stanford Network Analysis Platform (SNAP) is a general purpose network analysis and graph mining library.
+	- [github.com/igraph/igraph](https://github.com/igraph/igraph) igraph is a C library for complex network analysis and graph theory, with emphasis on efficiency, portability and ease of use.
+	- [github.com/igraph/python-igraph](https://github.com/igraph/python-igraph) Python interface for the igraph library
 45. [mac](src/mac/README.md) mac相关
 	- [升级系统版本、禁用SIP、设置屏幕比例、修改显存](src/mac/upgrade.md)
 	- [keyboard](src/mac/keyboard.md)系统快捷键

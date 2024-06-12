@@ -7,4 +7,9 @@
 - [github.com/baidu/lac](https://github.com/baidu/lac) 百度NLP：分词，词性标注，命名实体识别，词重要性
 - [github.com/fxsjy/jieba](https://github.com/fxsjy/jieba) 结巴中文分词
 - [github.com/google-research/bert](https://github.com/google-research/bert)  TensorFlow code and pre-trained models for BERT
-- [/github.com/snorkel-team/snorkel](https://github.com/snorkel-team/snorkel) A system for quickly generating training data with weak supervision 弱监督学习框架
+- [github.com/snorkel-team/snorkel](https://github.com/snorkel-team/snorkel) A system for quickly generating training data with weak supervision 弱监督学习框架
+- [github.com/networkx/networkx](https://github.com/networkx/networkx) NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+- [github.com/jgrapht/jgrapht](https://github.com/jgrapht/jgrapht) JGraphT is a free Java class library that provides mathematical graph-theory objects and algorithms.
+- [github.com/snap-stanford/snap](https://github.com/snap-stanford/snap) Stanford Network Analysis Platform (SNAP) is a general purpose network analysis and graph mining library.
+- [github.com/igraph/igraph](https://github.com/igraph/igraph) igraph is a C library for complex network analysis and graph theory, with emphasis on efficiency, portability and ease of use.
+- [github.com/igraph/python-igraph](https://github.com/igraph/python-igraph) Python interface for the igraph library
