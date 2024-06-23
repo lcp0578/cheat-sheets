@@ -562,6 +562,7 @@
 	- [在Linux下pdo_kdb扩展安装](src/kingbase/kdb.md)
 	- [SQL保留字和关键字](src/kingbase/keyword.md)
 	- [Kingbase锁表后解锁操作](src/kingbase/lock.md)
+	- [相关命令](src/kingbase/command.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关

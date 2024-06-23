@@ -10,3 +10,4 @@
 - [在Linux下pdo_kdb扩展安装](kdb.md)
 - [SQL保留字和关键字](keyword.md)
 - [Kingbase锁表后解锁操作](lock.md)
+- [相关命令](command.md)
