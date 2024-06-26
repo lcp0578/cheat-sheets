@@ -600,7 +600,8 @@
 	- [fdisk](src/Linux/fdisk.md) Linux下磁盘挂载
 	- [resize2fs](src/Linux/resize2fs.md)
 	- [parted 分区工具](src/Linux/parted.md)
-	- [dd fio 磁盘测试](src/Linux/dd.md)
+	- [dd 磁盘测试](src/Linux/dd.md)
+	- [fio -- Linux测试磁盘IO性能（随机读写）](src/Linux/fio.md)
 	- [iostat iotop 监视磁盘操作活动](src/Linux/iostat.md)
 	- [date](src/Linux/date.md) 修改服务器时间
 	- [lsof](src/Linux/lsof.md) mac下查看端口。lsof（list open files）是一个查看当前系统文件的工具。
