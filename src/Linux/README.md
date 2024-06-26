@@ -77,3 +77,4 @@
 - [tmpwatch/tmpreaper 删除旧文件](tmpwatch.md)
 - [linux LVM 调整逻辑卷空间大小](LVM.md)
 - [查看 Linux 重启历史记录](reboot.md)
+- [Linux 系统救援发行版：SystemRescue](SystemRescue.md)
