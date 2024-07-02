@@ -3,6 +3,15 @@
  
 		pip._vendor.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out.
 	这时候就需要替换镜像源为国内的镜像源了。
+- 配置pip源
+	- 阿里云源
+	
+			pip config set global.index-url https://mirrors.aliyun.com/pypi/simple 
+			pip config set install.trusted-host mirrors.aliyun.com
+	- 清华源
+
+			pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/
+			pip config set install.trusted-host pypi.tuna.tsinghua.edu.cn
 - 国内的pip源
 	- 阿里云：https://mirrors.aliyun.com/pypi/simple/ 
 	- 清华：https://pypi.tuna.tsinghua.edu.cn/simple 
