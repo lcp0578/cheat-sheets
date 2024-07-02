@@ -1074,6 +1074,7 @@ With In‑Memory Speed
 	- [Machine Learning](src/Python/MachineLearning/README.md)
 		- [github.com/meituan/YOLOv6](https://github.com/meituan/YOLOv6) YOLOv6: a single-stage object detection framework dedicated to industrial applications.
 		- [glances - Glances an Eye on your system. ](src/Python/Library/glances.md)
+	- [pyqt5 安装](src/Python/pyqt5.md)
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
 	- [CentOS 安装 OpenResty](src/OpenResty/CentOS.md)
