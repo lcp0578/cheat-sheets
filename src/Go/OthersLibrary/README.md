@@ -38,6 +38,7 @@
 - [github.com/uber-go/zap](https://github.com/uber-go/zap) Uber日志库
 - [github.com/sirupsen/logrus](https://github.com/sirupsen/logrus) 日志库
 - [github.com/amir20/dozzle](https://github.com/amir20/dozzle) Realtime log viewer for docker containers.
+- [github.com/elastic/beats](https://github.com/elastic/beats) Beats - Lightweight shippers for Elasticsearch & Logstash
 
 #### console command
 - [github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) git command
@@ -59,6 +60,7 @@
 - [github.com/cilium/ebpf](https://github.com/cilium/ebpf)  
 ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach them to various hooks in the Linux kernel.
 - [github.com/apernet/OpenGFW](https://github.com/apernet/OpenGFW) OpenGFW is a flexible, easy-to-use, open source implementation of GFW (Great Firewall of China) on Linux
+
 #### 测试相关
 - [github.com/smartystreets/goconvey](https://github.com/smartystreets/goconvey) 浏览器go test
 
@@ -127,6 +129,7 @@ ebpf-go is a pure-Go library to read, modify and load eBPF programs and attach t
 #### git
 - [github.com/src-d/go-git](https://github.com/src-d/go-git) A highly extensible Git implementation in pure Go.
 - [github.com/src-d/gitbase](https://github.com/src-d/gitbase) SQL interface to Git repositories, written in Go.
+
 #### database
 - [github.com/volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler)
 - [github.com/authzed/spicedb](https://github.com/authzed/spicedb) Open source permissions database inspired by Google Zanzibar
