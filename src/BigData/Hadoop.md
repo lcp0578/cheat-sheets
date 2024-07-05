@@ -1,0 +1,26 @@
+## Hadoop 分布式系统基础架构
+- Hadoop 是什么
+	- Hadoop 是一个由 Apache 基金会所开发的分布式系统基础架构。
+	- 主要解决，海量数据的存储和海量数据的分析计算问题。
+	- 广义上来说，Hadoop 通常是指一个更广泛的概念 —— Hadoop 生态圈。
+- Hadoop 的优势
+	- 高可靠性： Hadoop 底层维护多个数据副本，所以即使 Hadoop 某个计算元素或存储出现故障，也不会导致数据的丢失。
+	- 高扩展性： 在集群间分配任务数据，可方便的扩展数以千计的节点。
+	- 高效性： 在 MapReduce 的思想下，Hadoop 是并行工作的，以加快任务处理速度。
+	- 高容错性： 能够自动将失败的任务重新分配。
+- Hadoop发行版介绍
+	- 目前Hadoop发行版非常多，有Intel发行版，华为发行版、Cloudera发行版（CDH）、Hortonworks版本等，所有这些发行版均是基于Apache Hadoop衍生出来的，之所以有这么多的版本，是由于Apache Hadoop的开源协议决定的：任何人可以对其进行修改，并作为开源或商业产品发布/销售。
+	- 目前而言，不收费的Hadoop版本主要有三个，都是国外厂商，分别是：
+		- Apache（最原始的版本，所有发行版均基于这个版本进行改进）
+		- Cloudera版本（Cloudera’s Distribution Including Apache Hadoop，简称CDH）
+		- Hortonworks版本(Hortonworks Data Platform，简称“HDP”）
+- 对于国内用户而言，绝大多数选择CDH版本，Cloudera的CDH和Apache的Hadoop的区别如下：
+	- (1) CDH对Hadoop版本的划分非常清晰，截止目前为止，CDH共有5个版本，其中，前三个已经不再更新，最近的两个，分别是CDH4和CDH5，CDH4基于Hadoop2.0，CDH5基于hadoop2.2/2.3/2.5/2.6.相比而言，Apache版本则混乱得多；同时，CDH发行版比Apache hadoop在兼容性，安全性，稳定性上有很大增强。  
+	- (2)CDH3是CDH第三个版本，基于Apache hadoop0.20.2改进而来，并融入了最新的patch，CDH4版本是基于Apache hadoop2.0.0改进的,CDH总是并应用了最新Bug修复或者Feature的Patch，并比Apache hadoop同功能版本提早发布，更新速度比Apache官方快。
+	- (3)CDH支持Kerberos安全认证，apache hadoop则使用简陋的用户名匹配认证.
+	- (4)CDH文档完善清晰，很多采用Apache版本的用户都会阅读CDH提供的文档，包括安装文档、升级文档等。 
+	- (5)CDH支持yum/apt包，RPM包，tar包，Cloudera Manager三种方式安装,Apache hadoop只支持Tar包安装。
+
+- CDH发行版本介绍
+	- CDH首先是100%开源，基于Apache协议。基于Apache Hadoop和相关projiect开发。可以做批量处理，交互式sql查询和及时查询，基于角色的权限控制。在企业中使用最广的Hadoop分发版本。
+	- Cloudera完善了CDH的版本，并提供了对hadoop的发布、配置和管理，监控，诊断工具，在官网提供了多种集成发行版。

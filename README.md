@@ -963,7 +963,11 @@
 High‑Performance Applications
 With In‑Memory Speed
 	- [graph-database 图数据库](src/DB/graph-database/README.md)
-49. [hadoop](src/hadoop/README.md) hadoop分布式计算平台
+49. [BigData](src/BigData/README.md)大数据相关
+	- [Hadoop](src/BigData/Hadoop.md) 分布式系统基础架构
+	- [Apache Flume](src/BigData/Flume.md) 日志采集、聚合和传输的系统
+	- [Apache Sqoop[retired]](src/BigData/Sqoop.md) 在Hadoop和关系型数据库之间进行数据传输的工具
+	- [离线数据同步工具/平台](src/BigData/DataX.md)
 50. [TCP/IP 协议相关](src/TCPIP/README.md)
 	- [MQTT](src/TCPIP/MQTT/README.md) 消息队列遥测传输协议
 	- [TCP异常关闭总结](src/TCPIP/error.md)
