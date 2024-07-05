@@ -8,3 +8,4 @@
 - [bat 批处理脚本](bat.md)
 - [Windows Precision Trackpad Driver](Trackpad.md)
 - [winver查看系统版本号](winver.md)
+- [PowerToys 实用工具（分屏、颜色选择器、始终置顶、鼠标实用工具等）](PowerToys.md)
