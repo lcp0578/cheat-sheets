@@ -964,6 +964,7 @@
 	- [Ignite](src/DB/Ignite/README.md) Apache Ignite是一个分布式数据库，支持以内存级的速度进行高性能计算。 Distributed Database For High‑Performance Applications With In‑Memory Speed
 	- [graph-database 图数据库](src/DB/graph-database/README.md)
 	- [Druid 数据库连接池](src/DB/Druid.md)
+	- [otter 分布式数据库同步系统](src/DB/otter.md)
 49. [BigData](src/BigData/README.md)大数据相关
 	- [Hadoop](src/BigData/Hadoop.md) 分布式系统基础架构
 	- [Apache Flume](src/BigData/Flume.md) 日志采集、聚合和传输的系统
