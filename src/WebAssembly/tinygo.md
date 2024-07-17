@@ -1,0 +1,4 @@
+## TinyGo (embedded systems and WebAssembly)
+- TinyGo is a new compiler for an existing programming language, the Go programming language. TinyGo focuses on compiling code written in Go, but for smaller kinds of systems:
+	- The Go compiler and tools (from golang.org) are the reference implementation of the Go programming language. They are primarily intended for server side programming but also used for command line tools and other purposes.
+	- The TinyGo project implements the exact same programming language. However, TinyGo uses a different compiler and tools to make it suited for embedded systems and WebAssembly. It does this primarily by creating much smaller binaries and targeting a much wider variety of systems.
