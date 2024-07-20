@@ -789,6 +789,7 @@
 14. [markdown](src/markdown/README.md "markdown")
     - [基础语法：上下角标和表格](src/markdown/table.md)
     - [嵌入数学公式](src/markdown/formula.md)
+    - [MarkdownPad 2 配置支持数学公式](src/markdown/MarkdownPad2.md)
 15. [yii2](src/yii2.md)
 16. [select2](src/select2.md)
 17. [discuz](src/discuz.md)
