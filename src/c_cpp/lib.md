@@ -54,6 +54,7 @@
 
 #### 序列化
 - [github.com/USCiLab/cereal](https://github.com/USCiLab/cereal) A C++11 library for serialization
+- [github.com/alibaba/yalantinglibs](https://github.com/alibaba/yalantinglibs) yaLanTingLibs 是一个现代C++基础工具库的集合, 现在它包括 struct_pack, struct_json, struct_xml, struct_yaml, struct_pb, easylog, coro_rpc, coro_io, coro_http, metric 和 async_simple
 
 #### Kafka
 - [github.com/edenhill/librdkafka](https://github.com/edenhill/librdkafka) The Apache Kafka C/C++ library
