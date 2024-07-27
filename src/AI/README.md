@@ -4,3 +4,5 @@
 - [github.com/ollama/ollama](https://github.com/ollama/ollama) Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models.
 - [github.com/nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) GPT4All: Chat with Local LLMs on Any Device
 - [github.com/lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) An open-source, modern-design ChatGPT/LLMs UI/Framework.
+- [github.com/GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) GUI for ChatGPT API and many LLMs.
+- [github.com/langgenius/dify](https://github.com/langgenius/dify) Dify is an open-source LLM app development platform.
