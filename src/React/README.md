@@ -5,3 +5,4 @@
 - [Gatsby 基于 React 的框架](Gatsby.md)
 - [ice.js 基于 React 的渐进式应用框架](ice.js.md)
 - [Expo - 基于React Native的一款上层框架](Expo.md)
+- [react-spinners A collection of loading spinner components for react](react-spinners.md)
