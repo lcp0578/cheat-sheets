@@ -5,3 +5,6 @@
 - [Beautiful Soup -- a Python library for pulling data out of HTML and XML files](BeautifulSoup.md)
 - [Scrapy, a fast high-level web crawling & scraping framework for Python.](Scrapy.md)
 - [pypdf & pdfminer.six](pdf.md)
+- [SentencePiece -- Unsupervised text tokenizer for Neural Network-based text generation](SentencePiece.md)
+- [Stanza: A Python NLP Library for Many Human Languages](Stanza.md)
+- [spaCy: Industrial-strength NLP](spaCy.md)
