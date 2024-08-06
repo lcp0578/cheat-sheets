@@ -6,3 +6,7 @@
 - [github.com/lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) An open-source, modern-design ChatGPT/LLMs UI/Framework.
 - [github.com/GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) GUI for ChatGPT API and many LLMs.
 - [github.com/langgenius/dify](https://github.com/langgenius/dify) Dify is an open-source LLM app development platform.
+- [github.com/datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
+- [github.com/datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) 开源大模型食用指南
+- [github.com/datawhalechina/llm-universe](https://github.com/datawhalechina/llm-universe) 动手学大模型应用开发
+- [github.com/datawhalechina/hugging-llm](https://github.com/datawhalechina/hugging-llm) HuggingLLM, Hugging Future.
