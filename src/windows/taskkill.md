@@ -6,3 +6,4 @@
 - 按进程ID
 
 		taskkill /pid {pid}
+		taskkill /pid   1988 /F # 强制结束
