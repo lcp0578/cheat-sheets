@@ -1,4 +1,5 @@
-## Linux下磁盘挂载
+## Linux下磁盘挂载与删除磁盘分区
+#### 磁盘挂载
 - 查看是否已经分配
 
 		# fdisk -l
@@ -49,7 +50,8 @@
 		/dev/vdb1        2048 838860799 838858752  400G 83 Linux
 - 建好分区后要格式化分区，建立文件系统
 
-		# mkfs.xfs -f /dev/vdb1
+		# mkfs.xfs -f /dev/vdb1  # xfs文件系统
+		# mkfs -t ext4 /dev/vdb1 # ext4文件系统
 
 			meta-data=/dev/vdb1              isize=512    agcount=4, agsize=26214336 blks
 			         =                       sectsz=512   attr=2, projid32bit=1
@@ -71,7 +73,7 @@
 		df -TH /home/data/
 - 修改一下系统配置加入下列行到/etc/fstab，让系统启动后自动挂载，否则有可能会掉
 
-		/dev/vdb1  /home/data xfs  defaults  0  0
+		/dev/vdb1  /home/data xfs  defaults  0  0 #注意是xfs还是ext4
 - PS：文件系统的区别
 	- 文件系统EXT3，EXT4和XFS的区别： 
 		- EXT3 
@@ -90,3 +92,15 @@
         （2）采用优化算法，日志记录对整体文件操作影响非常小 
         （3） 是一个全64-bit的文件系统，它可以支持上百万T字节的存储空间 
         （4）能以接近裸设备I/O的性能存储数据
+#### 删除分区
+- 查看磁盘分区信息，并确定要删除的分区编号
+	- `fdisk -l` 或者 `lsblk`
+- 删除分区
+	- `fdisk /dev/sda`
+	- 输入`d`
+	- 输入分区编号`{n}`
+	- 输入`w`保存并退出工具
+- 更新分区表
+	- `partprobe`
+- 如果使用的是GPT分区表，则使用`gdisk`命令来删除分区，步骤类似。
+- 注意：在删除分区之前请务必备份重要的数据，因为删除操作是无法撤销的。
