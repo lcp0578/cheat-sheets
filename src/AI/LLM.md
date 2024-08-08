@@ -1,0 +1,27 @@
+## LLM大模型相关
+- [github.com/1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) 基于 LLM 大语言模型的知识库问答系统。
+- [github.com/DLLXW/baby-llama2-chinese](https://github.com/DLLXW/baby-llama2-chinese) 用于从头预训练+SFT一个小参数量的中文LLaMa2的仓库
+- [github.com/ollama/ollama](https://github.com/ollama/ollama) Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models.
+- [github.com/nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) GPT4All: Chat with Local LLMs on Any Device
+- [github.com/lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) An open-source, modern-design ChatGPT/LLMs UI/Framework.
+- [github.com/GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) GUI for ChatGPT API and many LLMs.
+- [github.com/langgenius/dify](https://github.com/langgenius/dify) Dify is an open-source LLM app development platform.
+- [github.com/datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook) 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版
+- [github.com/datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) 开源大模型食用指南
+- [github.com/datawhalechina/llm-universe](https://github.com/datawhalechina/llm-universe) 动手学大模型应用开发
+- [github.com/datawhalechina/hugging-llm](https://github.com/datawhalechina/hugging-llm) HuggingLLM, Hugging Future.
+- [github.com/HqWu-HITCS/Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM) 整理开源的中文大语言模型
+- [github.com/wenda-LLM/wenda](https://github.com/wenda-LLM/wenda) 闻达：一个LLM调用平台
+- [github.com/THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型
+- [github.com/openai/evals](https://github.com/openai/evals) Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.
+- [github.com/labring/FastGPT](https://github.com/labring/FastGPT) FastGPT 是一个基于 LLM 大语言模型的知识库问答系统
+- [github.com/mudler/LocalAI](https://github.com/mudler/LocalAI) LocalAI is the free, Open Source OpenAI alternative.
+- [github.com/OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) Create Customized Software using Natural Language Idea (through LLM-powered Multi-Agent Collaboration)
+- [github.com/2noise/ChatTTS](https://github.com/2noise/ChatTTS) A generative speech model for daily dialogue.
+- [github.com/zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT3.5/GPT-4o/GPT4.0/ Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Claude/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。
+- [github.com/chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain
+- [github.com/mlabonne/llm-course](https://github.com/mlabonne/llm-course) Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
+- [github.com/lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / Bedrock / Azure / Mistral / Perplexity ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application.
+- [github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT) The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
+- [github.com/nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) GPT4All: Chat with Local LLMs on Any Device
+- [github.com/ollama/ollama](https://github.com/ollama/ollama) Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models.
