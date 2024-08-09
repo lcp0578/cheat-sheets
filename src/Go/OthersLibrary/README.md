@@ -51,6 +51,7 @@
 - [github.com/kyleconroy/sqlc](https://github.com/kyleconroy/sqlc) Generate type-safe code from SQL
 - [github.com/rqlite/rqlite](https://github.com/rqlite/rqlite) The lightweight, distributed relational database built on SQLite
 - [github.com/lindb/lindb](https://github.com/lindb/lindb) LinDB is a scalable, high performance, high availability distributed time series database.
+- [github.com/DiceDB/dice](https://github.com/DiceDB/dice) A drop-in replacement of Redis with SQL-based realtime reactivity.
 
 #### 监控相关
 - [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus)系统监控报警框架

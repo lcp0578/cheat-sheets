@@ -25,3 +25,6 @@
 - [github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT) The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
 - [github.com/nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) GPT4All: Chat with Local LLMs on Any Device
 - [github.com/ollama/ollama](https://github.com/ollama/ollama) Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models.
+- [github.com/hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) real time face swap and one-click video deepfake with only a single image (uncensored)
+- [github.com/pytorch/torchchat](https://github.com/pytorch/torchchat) Run PyTorch LLMs locally on servers, desktop and mobile
+- [github.com/stanford-oval/storm](https://github.com/stanford-oval/storm) An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.
