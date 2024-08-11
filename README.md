@@ -503,6 +503,7 @@
 		- [AssetMapper: Simple, Modern CSS & JS Management](src/symfony/Symfony6/AssetMapper.md)
 		- [Create a custom Route Loader](src/symfony/Symfony6/CustomRouteLoader.md)
 		- [The Bundle System](src/symfony/Symfony6/BundleSystem.md)
+		- [StimulusBundle](src/symfony/Symfony6/StimulusBundle.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
 		- [symfony1.4](src/symfony/Symfony1/symfony1.4) symfony1.4笔记
 	- [Varnish](src/symfony/Varnish/README.md) symfony使用Varnish加速网站
