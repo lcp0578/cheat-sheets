@@ -78,3 +78,4 @@
 - [Linux LVM 逻辑卷管理](LVM.md)
 - [查看 Linux 重启历史记录](reboot.md)
 - [Linux 系统救援发行版：SystemRescue](SystemRescue.md)
+- [使用firewall-cmd开放和关闭对外端口](firewall-cmd.md)
