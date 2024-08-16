@@ -11,9 +11,11 @@
 
     	composer config repo.packagist composer https://packagist.laravel-china.org/
 	
-	站点地址：[https://packagist.laravel-china.org/](https://packagist.laravel-china.org/)
-    腾讯云镜像: [https://mirrors.cloud.tencent.com/composer/](https://mirrors.cloud.tencent.com/composer/)
-    阿里云镜像: [https://mirrors.aliyun.com/composer/](https://mirrors.aliyun.com/composer/index.html)
+	- 站点地址：
+		- 日本镜像[https://packagist.jp/](https://packagist.jp/)
+    	- 腾讯云镜像: [https://mirrors.cloud.tencent.com/composer/](https://mirrors.cloud.tencent.com/composer/)
+    	- 阿里云镜像: [https://mirrors.aliyun.com/composer/](https://mirrors.aliyun.com/composer/index.html)
+
 
 - 查看全局配置项
 
