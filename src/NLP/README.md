@@ -8,3 +8,4 @@
 - [SentencePiece -- Unsupervised text tokenizer for Neural Network-based text generation](SentencePiece.md)
 - [Stanza: A Python NLP Library for Many Human Languages](Stanza.md)
 - [spaCy: Industrial-strength NLP](spaCy.md)
+- [MinerU:A one-stop, open-source, high-quality data extraction tool, supports PDF/webpage/e-book extraction.一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取。](MinerU.md)

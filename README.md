@@ -1123,6 +1123,7 @@
 	- [SentencePiece -- Unsupervised text tokenizer for Neural Network-based text generation](src/NLP/SentencePiece.md)
 	- [Stanza: A Python NLP Library for Many Human Languages](src/NLP/Stanza.md)
 	- [spaCy: Industrial-strength NLP](src/NLP/spaCy.md)
+	- [MinerU:A one-stop, open-source, high-quality data extraction tool, supports PDF/webpage/e-book extraction.一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取。](src/NLP/MinerU.md)
 69. [OpenResty](src/OpenResty/README.md)
 	- [OpenResty基础](src/OpenResty/basic.md)
 	- [CentOS 安装 OpenResty](src/OpenResty/CentOS.md)
