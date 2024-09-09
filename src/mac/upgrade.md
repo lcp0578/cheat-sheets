@@ -21,6 +21,7 @@
 		- 配置文件：`DisplayVendorID-xxxx/DisplayProductID-xxxx`,示例：LG ultrawide，为`DisplayVendorID-1e6d/DisplayProductID-59f1`
 		- 使用生成对应分辨率的配置文件
 			- https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/
+			- https://wacky.one/blog/macos-hi-dpi/
 			- DisplayProductID-59f1,分辨率：2560*1080
 			
             		<?xml version="1.0" encoding="UTF-8"?>
