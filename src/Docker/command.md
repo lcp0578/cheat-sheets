@@ -7,6 +7,7 @@
 	- `docker images` //查看本地已下载的镜像
 	- `docker ps` //查看正在运行的容器
 	- `docker ps -a` //查看所有的容器（包括run、stop、exited状态的）
+	- `docker ps -a --no-trunc | grep container_name` 查看容器的启动命令。使用 `--no-trunc` 选项可以显示完整的容器启动命令，而不是被截断的版本。
 	- `docker logs [container_id]` //根据容器id查看相关日志
 	- `docker container ls` //查看正在运行的容器
 	- `docker run -p local_port:container_port --name container_name [-e config_item] -d image_name` //-p 本地主机端口号:容器服务端口号 --name 容器名字 [-e 配置信息修改] -d 镜像名字
