@@ -36,3 +36,4 @@
 	- [github.com/meituan/YOLOv6](https://github.com/meituan/YOLOv6) YOLOv6: a single-stage object detection framework dedicated to industrial applications.
 	- [glances - Glances an Eye on your system. ](Library/glances.md)
 - [pyqt5 安装](pyqt5.md)
+- [pybind11 -- Seamless operability between C++11 and Python](pybind11.md)
