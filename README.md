@@ -286,6 +286,8 @@
 	- [GLSL基础语法介绍](src/OpenGL/GLSL.md)
 2. [TiDB](src/TiDB/README.md)
 	- [install 安装](src/TiDB/install.md)
+3. [Tools 工具集](src/Tools/README.md)
+	- [Conda](src/ToolsConda.md)
 3. [machine learning 机器学习](src/MachineLearning/README.md)
 	- [Machine Learning VS Deep Learning](src/MachineLearning/DeepLearning.md)
 	- [LLMs 大型语言模型](src/MachineLearning/LLMs.md)
