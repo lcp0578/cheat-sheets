@@ -754,7 +754,7 @@
 	- [Gitea](src/git/gitea.md) Gitea(Gogs的一个克隆)
 	- [git_stats](src/git/git_stats.md) git提交统计
 	- [git reset 撤销本地commit](src/git/reset.md)
-	- [git push 上传大文件卡住](src/git/push.md)
+	- [git push 上传大文件卡住或无法push到远程仓库](src/git/push.md)
 	- [git clone 报错](src/git/git_clone.md)
 	- [.gitignore配置相关](src/git/gitignore.md)
 12. [javascript](src/javascript/README.md "javascript")

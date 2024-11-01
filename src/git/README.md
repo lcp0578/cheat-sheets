@@ -14,7 +14,7 @@
 - [git moji](https://gitmoji.carloscuesta.me/)
 - [git_stats](git_stats.md) git提交统计
 - [git reset 撤销本地commit](reset.md)
-- [git push 上传大文件卡住](push.md)
+- [git push 上传大文件卡住或无法push到远程仓库](push.md)
 - [git clone 报错](git_clone.md)
 - [.gitignore配置相关](gitignore.md)
 - 删除远端仓库的文件
