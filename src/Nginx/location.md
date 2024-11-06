@@ -18,6 +18,7 @@
 
 - location优先级示例
 配置项如下:
+
         location = / {
         	# 仅仅匹配请求 /
         	[ configuration A ]
@@ -61,15 +62,15 @@
 				location /abc/ {
 				    root /data/www;
 				}
-		- 请求http://IP:port/abc/123.png时，那么在服务器里面对应的真正的资源是：/data/www/abc/123.png
-		- 注意：root真实路径是root指定的值加上location指定的值。
-		- 而 alias 正如其名，alias指定的路径是location的别名，不管location的值怎么写，资源的真实路径都是 alias 指定的路径，比如：
+		- 请求 `http://IP:port/abc/123.png` 时，那么在服务器里面对应的真正的资源是：`/data/www/abc/123.png`
+		- 注意：`root`真实路径是`root`指定的值加上`location`指定的值。
+		- 而 `alias` 正如其名，`alias`指定的路径是`location`的别名，不管`location`的值怎么写，资源的真实路径都是 `alias` 指定的路径，比如：
 	
 				location /abc/ {
 				    alias /data/www;
 				}
-		- 请求http://IP:port/abc/123.png时，那么在服务器里面对应的真正的资源是：/data/www/123.png
-		- 注意：alias真实路径是alias指定的值，不包含location指定的值了。
-	- 在一个location中，alias可以存在多个，但是root只能有一个
-	- alias只能存在与location中，但是root可以用在server、http和location中
-	- alias后面必须要“/”结束，否则会找不到文件，而root的“/”可有可无
+		- 请求`http://IP:port/abc/123.png`时，那么在服务器里面对应的真正的资源是：`/data/www/123.png`
+		- 注意：`alias`真实路径是`alias`指定的值，不包含`location`指定的值了。
+	- 在一个`location`中，`alias`可以存在多个，但是`root`只能有一个
+	- `alias`只能存在与`location`中，但是`root`可以用在`server`、`http`和`location`中
+	- `alias`后面必须要`/`结束，否则会找不到文件，而`root`的`/`可有可无
