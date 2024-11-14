@@ -9,7 +9,7 @@
 - push报错`! [remote rejected] master -> master (pre-receive hook declined)`
 	- 查看大文件是哪个
 
-			git rev-list --objects -all | grep 提交ID
+			git rev-list --objects --all | grep 提交ID
 	- 从commit的提交历史中删除指定文件的命令为
 	
 			git filter-branch --tree-filter 'rm -f 文件名' HEAD
