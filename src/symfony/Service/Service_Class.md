@@ -15,6 +15,20 @@
 	
 	        // ...
 	    }
+
+		public function index(ManagerRegistry $doctrine): Response
+    	{
+	        // Retrieves a repository managed by the "default" entity manager
+	        $products = $doctrine->getRepository(Product::class)->findAll();
+	
+	        // Explicit way to deal with the "default" entity manager
+	        $products = $doctrine->getRepository(Product::class, 'default')->findAll();
+	
+	        // Retrieves a repository managed by the "customer" entity manager
+	        $customers = $doctrine->getRepository(Customer::class, 'customer')->findAll();
+	
+	        // ...
+    	}
 - 注入em
 
 		use Doctrine\ORM\EntityManagerInterface;
