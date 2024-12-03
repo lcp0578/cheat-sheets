@@ -3,9 +3,12 @@
 - 获取目标云盘信息
 
 		sudo fdisk -lu
-- 扩容分区（只能扩容最后一个分区）
+- 扩容分区（只能扩容最后一个分区，需要看/dev/vda{N},N目前是几，示例为3）
 
 		sudo growpart /dev/vda 3 
+	- 若命令不存在，则安装growpart
+
+			yum install cloud-utils-growpart
 - 扩容文件系统
 	- 查看文件系统的类型
 
