@@ -1,5 +1,5 @@
 ## git lfs
-- Github的坑：流量、存储空间
+- Github的坑：流量、存储空间，需要联系Github技术支持清除lfs的文件
 - 查看跟踪的文件
 
 		 git lfs ls-files --all --long
