@@ -79,3 +79,52 @@
                     proxy_pass http://127.0.0.1:8084;
             }
         }
+-  proxy_pass的注意案例
+	-案例描述：
+		- 假设 nginx服务器的域名为：www.xxx.com
+		- 后端服务器为：192.168.1.10
+		- 当请求http://www.xxx.com/aming/a.html的时候，以上示例分别访问的结果是
+	-  不以("/")结尾
+		- 访问：http://www.xxx.com/aming/a.html
+
+				location /aming/
+				{
+				    proxy_pass http://192.168.1.10;
+				    ...
+				}
+		- 被代理的完整地址为： http://192.168.1.10/aming/a.html
+		- 总结：如果没有/，则会把匹配的路径部分（location后面/aming/）也给代理走
+
+	- 以("/")结尾
+		- 访问：http://www.xxx.com/aming/a.html
+
+				location /aming/
+				{
+				    proxy_pass http://192.168.1.10/;
+				    ...
+				}
+		- 被代理的完整地址为： http://192.168.1.10/a.html
+		- 总结：当在后面的url加上了/，相当于是绝对根路径，则nginx不会把location中匹配的路径部分代理走。
+
+	- 以("xxx/")结尾
+		- 访问：http://www.xxx.com/aming/a.html
+
+				location /aming/
+				{
+				    proxy_pass http://192.168.1.10/linux/;
+				    ...
+				}
+		- 被代理的完整地址为： http://192.168.1.10/linux/a.html
+		- 总结：当在后面的url加上了/，相当于是绝对根路径，则nginx不会把location中匹配的路径部分代理走。
+
+	- 以("xxx")结尾
+		- 访问：http://www.xxx.com/aming/a.html
+
+				location /aming/
+				{
+				    proxy_pass http://192.168.1.10/linux;
+				    ...
+				}
+		- 被代理的完整地址为： http://192.168.1.10/linuxa.html
+
+                        
