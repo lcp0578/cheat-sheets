@@ -1,0 +1,2 @@
+## RoadRunner: high-performance PHP application server
+- RoadRunner is an open-source (MIT licensed) high-performance PHP application server, process manager written in Go and powered with plugins . It supports running as a service with the ability to extend its functionality on a per-project basis with plugins.
