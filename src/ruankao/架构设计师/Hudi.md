@@ -1,0 +1,3 @@
+##  Hudi - Apache Hudi is a transactional data lake platform that brings database and data warehouse capabilities to the data lake.
+- Apache Hudi is a transactional data lake platform that brings database and data warehouse capabilities to the data lake. Hudi reimagines slow old-school batch data processing with a powerful new incremental processing framework for low latency minute-level analytics.
+- https://hudi.apache.org/
