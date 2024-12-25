@@ -64,6 +64,7 @@
 	- [3d-tiles](src/CesiumJS/3dtiles.md)
 3. [three.js](src/threejs/README.md)
 	- [three.js简介](src/threejs/basic.md)
+	- [github.com/sxguojf/three-tile](https://github.com/sxguojf/three-tile) 3D tile map using threejs. 基于threejs的三维瓦片地图库
 4. [Babylon.js](src/Baybylon/README.md)
 	- [Babylon.js简介](src/Baybylon/basic.md)
 2. [C/C++](src/c_cpp/README.md)
