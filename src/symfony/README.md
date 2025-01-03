@@ -191,6 +191,7 @@
 - [Create a custom Route Loader](Symfony6/CustomRouteLoader.md)
 - [The Bundle System](Symfony6/BundleSystem.md)
 - [StimulusBundle](Symfony6/StimulusBundle.md)
+- [UID Component](Symfony6/UID.md)
 #### [Symfony 7 相关](Symfony7/README.md)
 - [new CAS 2.0 access token handler](Symfony7/CAS.md)
 #### [Symfony 1.x](Symfony1/README.md)

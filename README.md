@@ -507,6 +507,7 @@
 		- [Create a custom Route Loader](src/symfony/Symfony6/CustomRouteLoader.md)
 		- [The Bundle System](src/symfony/Symfony6/BundleSystem.md)
 		- [StimulusBundle](src/symfony/Symfony6/StimulusBundle.md)
+		- [UID Component](src/symfony/Symfony6/UID.md)
 	- [Symfony 7 相关](src/symfony/Symfony7/README.md)
 		- [new CAS 2.0 access token handler](src/symfony/Symfony7/CAS.md)
 	- [Symfony 1.x](src/symfony/Symfony1/README.md)
