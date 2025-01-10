@@ -12,3 +12,7 @@
 - [React Native UI component libraries](ReactNativeUI.md)
 - [React Native Package](ReactNativePackage.md)
 - [react-geo](react-geo.md)
+- [NextUI -- Beautiful, fast and modern React UI library](NextUI.md)
+- [Next.js is a React framework for building full-stack web applications.](Next.js.md)
+- [Remix - is a web framework that lets you build better websites with web standards, modern web app UX, and fast performance.](Remix.md)
+- [Vite - The Build Tool for the Web](Vite.md)
