@@ -137,6 +137,7 @@
 - [HttpKernel](Components/HttpKernel.md) HTTP核心组件
 - [UID](Components/uid.md) 唯一标识符
 - [Lock](Components/Lock.md) 锁组件
+- [Messenger & Scheduler](Components/MessengerScheduler.md)
 #### [Bundles Note](Bundles-Note/README.md) 第三方bundle使用笔记 
 - [DoctrineFixturesBundle](Bundles-Note/DoctrineFixturesBundle.md)	初始化数据Bundle笔记
 - [KnpPaginatorBundle 分页bundle使用遇到的问题](Bundles-Note/knp-paginator-bundle.md)

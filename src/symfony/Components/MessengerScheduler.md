@@ -1,0 +1,11 @@
+## Messenger & Scheduler
+- Messenger
+	- The Messenger component helps applications send and receive messages to/from other applications or via message queues.
+	- https://symfony.com/doc/current/components/messenger.html
+	- https://symfony.com/doc/current/messenger.html
+- Scheduler
+	- The scheduler component manages task scheduling within your PHP application, like running a task each night at 3 AM, every two weeks except for holidays or any other custom schedule you might need.
+	- This component is useful to schedule tasks like maintenance (database cleanup, cache clearing, etc.), background processing (queue handling, data synchronization, etc.), periodic data updates, scheduled notifications (emails, alerts), and more.
+- Messenger
+	- The Messenger component helps applications send and receive messages to/from other applications or via message queues.
+	- https://symfony.com/doc/current/scheduler.html
