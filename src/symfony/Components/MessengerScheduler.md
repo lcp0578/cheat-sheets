@@ -9,3 +9,5 @@
 - Messenger
 	- The Messenger component helps applications send and receive messages to/from other applications or via message queues.
 	- https://symfony.com/doc/current/scheduler.html
+	- https://symfonycasts.com/screencast/symfony7-upgrade/scheduler
+	- https://medium.com/@fico7489/symfony-scheduler-how-it-really-works-ef5d95409c09
