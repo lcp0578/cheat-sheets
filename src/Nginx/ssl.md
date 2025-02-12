@@ -1,5 +1,11 @@
-## ssl
+## HTTPS配置SSL证书与生成自签名证书
 
+- SSL
+	- SSL即安全套接层（Secure Sockets Layer），它是一种为网络通信提供安全及数据完整性的安全协议。
+	- SSL协议位于 TCP/IP 协议与各种应用层协议之间，为数据通讯提供安全支持。
+	- SSL通过在客户端和服务器端之间建立一条加密通道，确保数据在传输过程中不被窃取、篡改或伪造。
+- HTTPS
+	- HTTPS是一种基于HTTP协议并结合了SSL/TLS协议的安全通信方式。HTTPS不仅仅涉及到SSL协议，还包括了对HTTP协议的一些扩展和改进，以适应安全通信的需求。
 - 开启ssl的额外配置
 
 		server {
@@ -47,3 +53,38 @@
 	        }
 	
 	    }
+- 生成自签名证书（使用 OpenSSL）
+	- 创建配置文件（解决 IP 证书警告问题）
+		- 新建文件 `ssl.conf`，内容如下（替换 `IP_ADDRESS` 为你的实际 IP，如 `192.168.1.1`）：
+
+				[req]
+				default_bits = 2048
+				prompt = no
+				default_md = sha256
+				distinguished_name = dn
+				x509_extensions = v3_req
+				
+				[dn]
+				CN = IP Address Certificate
+				[v3_req]
+				subjectAltName = @alt_names
+				
+				[alt_names]
+				IP.1 = IP_ADDRESS
+	-  生成私钥和证书
+
+			openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes -config ssl.conf
+		- 这会生成：
+			- `key.pem`（私钥）
+			- `cert.pem`（证书）
+	- 配置nginx示例
+
+			server {
+			    listen 443 ssl;
+			    server_name YOUR_IP;  # 如 192.168.1.1
+			
+			    ssl_certificate /path/to/cert.pem;
+			    ssl_certificate_key /path/to/key.pem;
+			
+			    # 其他配置...
+			}

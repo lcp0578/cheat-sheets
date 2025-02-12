@@ -877,7 +877,7 @@
     - [nginx conf](src/Nginx/nginx.conf.md) nginx.conf注释版
     - [vhost conf](src/Nginx/vhost.md) vhost配置示例
     - [proxy_pass](src/Nginx/proxy_pass.md) 代理转发
-    - [ssl](src/Nginx/ssl.md) SSL配置示例
+    - [ssl](src/Nginx/ssl.md) HTTPS配置SSL证书与生成自签名证书
     - [syntax](src/Nginx/syntax.md) 配置语法
     - [nginx errors](src/Nginx/nginx_errors.md) 常见错误及修复办法
     - [install](src/Nginx/install.md) nginx源码编译安装
