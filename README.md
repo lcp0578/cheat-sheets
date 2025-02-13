@@ -5,6 +5,7 @@
 1. [math 数学相关](src/math/README.md)
 	- [希腊字母](src/math/Greekalphabet.md)
 	- [关系代数的基本运算](src/math/basic-operations-of-relation-algebra.md)
+1. [SM 国密算法](src/SM/README.md)
 1. [Fortran](src/Fortran/README.md)
 	- [Fortran 基础](src/Fortran/basic.md)
 	- [GFortranStandards 标准版本](src/Fortran/GFortranStandards.md)
