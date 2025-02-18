@@ -7,3 +7,4 @@
 	- [数据库的范式](系统分析师/NF.md)
 - [系统架构设计师](系统架构设计师/README.md)
 	- [KubeSphere](系统架构设计师/KubeSphere.md)
+	- [核心知识点](系统架构设计师/core/README.md)
