@@ -45,6 +45,15 @@
 		            via: 172.16.10.254 # gateway
 		  version: 2
 
+- 如果重启后配置丢失，请注意配置文件开头的注释
+
+		# This file is generated from information provided by the datasource.  Changes
+		# to it will not persist across an instance reboot.  To disable cloud-init's
+		# network configuration capabilities, write a file
+		# /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:
+		# network: {config: disabled}
+
+
 - 应用网卡信息
 
 		# netplan apply
