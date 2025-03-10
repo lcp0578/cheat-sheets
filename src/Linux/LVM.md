@@ -61,28 +61,29 @@
 				
 				/dev/vg01/lv01  /app                         xfs    defaults        0 0
 - 6、 查看
-<table>
-	<tr>
-		<th>查看</th>
-		<th>简单查看</th>
-		<th>详细查看</th>
-	</tr>
-	<tr>
-		<td>逻辑卷</td>
-		<td>lvs</td>
-		<td>lvdisplay</td>
-	</tr>
-	<tr>
-		<td>卷组</td>
-		<td>vgs	</td>
-		<td>vgdisplay</td>
-	</tr>
-	<tr>
-		<td>物理卷</td>
-		<td>pvs</td>
-		<td>pvdisplay</td>
-	</tr>
-</table>
+	<table>
+		<tr>
+			<th>查看</th>
+			<th>简单查看</th>
+			<th>详细查看</th>
+		</tr>
+		<tr>
+			<td>逻辑卷</td>
+			<td>lvs</td>
+			<td>lvdisplay</td>
+		</tr>
+		<tr>
+			<td>卷组</td>
+			<td>vgs	</td>
+			<td>vgdisplay</td>
+		</tr>
+		<tr>
+			<td>物理卷</td>
+			<td>pvs</td>
+			<td>pvdisplay</td>
+		</tr>
+	</table>
+
 #### 二、 扩展逻辑卷
 - 1、准备物理磁盘(略)
 - 2、 创建物理卷
