@@ -2,6 +2,7 @@
 
 1. [AI相关](src/AI/README.md) 
 	- [LLM大模型相关](src/AI/LLM.md)
+	- [私有化部署DeepSeek](src/AI/DeepSeek.md)
 1. [math 数学相关](src/math/README.md)
 	- [希腊字母](src/math/Greekalphabet.md)
 	- [关系代数的基本运算](src/math/basic-operations-of-relation-algebra.md)
@@ -788,6 +789,7 @@
 	- [MobX -- Simple, scalable state management.](src/javascript/MobX.md)
 	- [Redux -- A JS library for predictable global state management](src/javascript/Redux.md)
 	- [qiankun 微前端解决方案](src/javascript/qiankun.md)
+	- [pm2 守护进程管理工具](src/javascript/pm2.md)
 12. [TypeScript](src/TypeScript/README.md)  
 	- [TypeScript简介](src/TypeScript/basic.md)  
 	- [JavaScript、TypeScript、ES6三者之间的联系和区别](src/TypeScript/es6.md)
