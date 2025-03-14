@@ -3,6 +3,7 @@
 1. [AI相关](src/AI/README.md) 
 	- [LLM大模型相关](src/AI/LLM.md)
 	- [私有化部署DeepSeek](src/AI/DeepSeek.md)
+	- [RAG (Retrieval-Augmented Generation)检索增强生成](src/AI/RAG.md)
 1. [math 数学相关](src/math/README.md)
 	- [希腊字母](src/math/Greekalphabet.md)
 	- [关系代数的基本运算](src/math/basic-operations-of-relation-algebra.md)
