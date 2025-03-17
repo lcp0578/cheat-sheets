@@ -6,6 +6,7 @@
 	- [RAG (Retrieval-Augmented Generation)检索增强生成](src/AI/RAG.md)
 	- [LlamaIndex (GPT Index) is a data framework for your LLM application.](src/AI/LlamaIndex.md)
 	- [LightRAG: Simple and Fast Retrieval-Augmented Generation](src/AI/LightRAG.md)
+	- [Ollama手动安装](src/AI/Ollama.md)
 1. [math 数学相关](src/math/README.md)
 	- [希腊字母](src/math/Greekalphabet.md)
 	- [关系代数的基本运算](src/math/basic-operations-of-relation-algebra.md)
