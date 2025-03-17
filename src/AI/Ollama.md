@@ -4,10 +4,10 @@
 - 解压安装包
 
 
-		tar -zxf ollama-linux-amd64.tgz -C /usr/local
+		# tar -zxf ollama-linux-amd64.tgz -C /usr/local
 - 添加环境变量
 
-		vim /root/.bashrc
+		# vim /root/.bashrc
 		export OLLAMA_HOST=http://127.0.0.1:11434
 - 创建开机自启配置
 
@@ -28,16 +28,16 @@
 		WantedBy=default.target
 - 创建ollama用户
 
-		useradd -m ollama
+		# useradd -m ollama
 - 设置开机启动
 
-		systemctl enable ollama
+		# systemctl enable ollama
 - 配置启动环境变量
 
-		systemctl set-environment OLLAMA_HOST=http://127.0.0.1:11434
+		# systemctl set-environment OLLAMA_HOST=http://127.0.0.1:11434
 - 启动服务
 
-		systemctl start ollama
+		# systemctl start ollama
 - 查看服务状态
 
 		# systemctl status ollama
@@ -63,7 +63,7 @@
 		
 - 如果异常则查看日志
 
-		journalctl -u service-name.service | tail -n 10
+		# journalctl -u service-name.service | tail -n 10
 
 - 查看版本
 
