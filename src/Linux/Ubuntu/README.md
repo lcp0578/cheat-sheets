@@ -9,3 +9,4 @@
 - [U盘安装Ubuntu Server](install.md)
 - [服务器磁盘扩容](grow.md)
 - [atop监控工具](atop.md)
+- [GPU显卡相关操作](GPU.md)

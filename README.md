@@ -661,6 +661,7 @@
 		- [U盘安装Ubuntu Server](src/Linux/Ubuntu/install.md)
 		- [服务器磁盘扩容](src/Linux/Ubuntu/grow.md)
 		- [atop监控工具](src/Linux/Ubuntu/atop.md)
+		- [GPU显卡相关操作](src/Linux/Ubuntu/GPU.md)
 	- [Rocky Linux](src/Linux/RockyLinux.md)
 	- [分区表GPT和MBR](src/Linux/GPT_MBR.md)
 	- [ VNC XRDP 远程桌面](src/Linux/VNC_XRDP.md)
