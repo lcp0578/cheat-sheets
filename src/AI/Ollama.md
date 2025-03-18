@@ -69,3 +69,8 @@
 
 		# ollama -v
 		ollama version is 0.6.1
+- 查看正在运行的模型
+
+		# ollama ps
+		NAME               ID              SIZE     PROCESSOR    UNTIL              
+		deepseek-r1:70b    0c1615a8ca32    49 GB    100% GPU     4 minutes from now
