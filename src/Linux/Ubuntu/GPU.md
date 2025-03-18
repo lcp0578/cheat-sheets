@@ -51,7 +51,7 @@
 		- 检查NVIDIA模块
 
 				lsmod | grep nvidia
-		- 检查驱动版本
+		- 检查驱动版本，nvidia-smi -l（每秒刷新一次并显示）
 
 				# nvidia-smi
 				Mon Mar 17 01:41:04 2025       

@@ -5,3 +5,4 @@
 - [LlamaIndex (GPT Index) is a data framework for your LLM application.](LlamaIndex.md)
 - [LightRAG: Simple and Fast Retrieval-Augmented Generation](LightRAG.md)
 - [Ollama手动安装](Ollama.md)
+- [Model Context Protocol (MCP)](MCP.md)
