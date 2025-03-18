@@ -5,6 +5,13 @@
 		# passwd kingbase #设置密码
 		# mkdir /home/KingbaseES
 		# chown -R kingbase:kingbase /home/KingbaseES
+- 解决切换kingbase后shell配置不完整导致无法补全问题
+	- 查看kingbase用户的默认Shell
+
+			grep kingbase /etc/passwd
+	- 如果输出为 /bin/sh 或其他非Bash Shell（如 /bin/dash），需修改为Bash：
+
+			sudo usermod -s /bin/bash kingbase
 - 挂载安装包
 
 		# mount KingbaseES_V008R006C008B0014_Lin64_install.iso /mnt
@@ -25,10 +32,18 @@
 			sudo apt-get install  -y language-pack-zh-hans
 			sudo apt-get install -y language-pack-zh-hant
 	- 2.安装字符集
+		- 删除行首的`#`
 
-			cd /usr/share/locales 
 
-			sudo ./install-language-pack zh_CN  //开始安装zh_CN中文字符集
+				sudo vim /etc/locale.gen 
+				zh_CN.UTF-8 UTF-8
+				zh_HK.UTF-8 UTF-8
+				zh_SG.UTF-8 UTF-8
+				zh_TW.UTF-8 UTF-8
+		- 保存文件后运行
+
+				sudo locale-gen
+
 - 准备授权文件
 
 		/home/KingbaseES/license.dat
@@ -42,9 +57,20 @@
 		./ksql -p 54326 -U system test
 - 设置大小写敏感性
 	- 大小写敏感性是实例级参数，只有在初始化数据库时才能进行设置，一旦设置后，无法进行修改。
-	- 查看大小写敏感性
+	- 查看数据库模式与大小写敏感性
 
-			show case_sensitive ;
+			test=# show database_mode;
+			 database_mode 
+			---------------
+			 pg
+			(1 row)
+			
+			test=# show enable_ci;
+			 enable_ci 
+			-----------
+			 off
+			(1 row)
+
 		- off ： 表示大小写不敏感
 		- on ： 表示大小写敏感
 - 重新初始化数据库
@@ -58,3 +84,9 @@
 		- `--case-insensitive`：表示大小写不敏感，需要大小写敏感的话去掉该参数即可；
 		- `-D`：指定data目录，指定为原来的data目录路径即可；
 		- `-E`：指定编码。
+	- 重新设置数据库模式，并指定管理用户
+
+			./initdb -D /home/KingbaseES/data -U system --pwprompt --dbmode=pg
+- If you want to register KingbaseES V8 as OS service, please run
+
+		/home/KingbaseES/install/script/root.sh
