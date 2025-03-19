@@ -11,3 +11,4 @@
 - [SQL保留字和关键字](keyword.md)
 - [Kingbase锁表后解锁操作](lock.md)
 - [相关命令](command.md)
+- [search_path 搜索路径](search_path.md)
