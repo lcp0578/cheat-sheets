@@ -92,4 +92,37 @@
 				- `Memory-Usag`e：显存的使用率。
 				- `GPU-Util`：GPU的利用率。
 				- `Compute M`.：计算模式。
-				- 下面的`Process`显示每块GPU上每个进程所使用的显存情况,其中Type可选值：`G`代表图形进程，`C`代表计算进程，`G+C`代表混合进程。
+				- 下面的`Process`显示每块GPU上每个进程所使用的显存情况,其中Type表示进程使用GPU的上下文类型。
+				- Type 字段的详细解释
+					- (1) C (Compute)
+						- 含义: 进程正在使用GPU的计算上下文（例如CUDA、OpenCL计算任务）。
+						- 典型场景:
+							- 运行深度学习训练/推理（如TensorFlow、PyTorch）。
+							- 科学计算（如MATLAB、CUDA加速的数值模拟）。
+							- 密码学或哈希计算（如比特币挖矿）。
+					- (2) G (Graphics)
+						- 含义: 进程正在使用GPU的图形渲染上下文（如OpenGL、Vulkan）。
+						- 典型场景:
+							- 图形界面渲染（如Xorg、Wayland显示服务器）。
+							- 3D游戏或图形设计软件（如Blender、Unity）。
+							- 视频渲染（如Adobe Premiere）。
+					- (3) C+G (Compute + Graphics)
+						- 含义: 进程同时使用计算和图形上下文。
+						- 典型场景:
+							- 实时3D可视化与计算（如ParaView、科学可视化工具）。
+							- 游戏引擎同时进行图形渲染和物理模拟。
+					- (4) M (Memory Management)
+						- 含义: 进程仅操作GPU显存（如显存拷贝、映射等），不涉及计算或图形。
+						- 典型场景:
+							- 显存预分配（如某些数据库或缓存工具）。
+							- 显存数据拷贝（如CUDA的cudaMemcpy操作）。
+					- (5) E (Exclusive)
+						- 含义: 进程以独占模式占用GPU（通常为特权进程或调试工具）。
+						- 典型场景:
+							- GPU硬件诊断工具（如nvidia-smi本身或NVIDIA NSIGHT）。
+							- 需要独占访问GPU的高性能计算任务。
+					- (6) U (Unknown)
+						- 含义: 上下文类型无法确定（可能因驱动版本或进程状态导致）。
+						- 典型场景:
+							- 进程刚启动或正在退出。
+							- 驱动兼容性问题（较旧驱动或非标准API调用）。
