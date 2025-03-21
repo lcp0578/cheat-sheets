@@ -2,6 +2,7 @@
 
 1. [AI相关](src/AI/README.md) 
 	- [LLM大模型相关](src/AI/LLM.md)
+	- [AI Agents简介](src/AI/AIAgents.md)
 	- [私有化部署DeepSeek](src/AI/DeepSeek.md)
 	- [RAG (Retrieval-Augmented Generation)检索增强生成](src/AI/RAG.md)
 	- [LlamaIndex (GPT Index) is a data framework for your LLM application.](src/AI/LlamaIndex.md)
