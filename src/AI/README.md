@@ -22,3 +22,5 @@
 - [MiniMind](MiniMind.md)
 - [one-api: LLM API 管理 & 分发系统](one-api.md)
 - [RD-Agent](RDAgent.md)
+- [Local Deep Researcher](LocalDeepResearcher.md)
+- [PandasAI](PandasAI.md)

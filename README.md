@@ -24,6 +24,8 @@
 	- [MiniMind](src/AI/MiniMind.md)
 	- [one-api: LLM API 管理 & 分发系统](src/AI/one-api.md)
 	- [RD-Agent](src/AI/RDAgent.md)
+	- [Local Deep Researcher](src/AI/LocalDeepResearcher.md)
+	- [PandasAI](src/AI/PandasAI.md)
 1. [math 数学相关](src/math/README.md)
 	- [希腊字母](src/math/Greekalphabet.md)
 	- [关系代数的基本运算](src/math/basic-operations-of-relation-algebra.md)
