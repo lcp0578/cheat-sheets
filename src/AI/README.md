@@ -12,7 +12,7 @@
 - [Janus-Series: Unified Multimodal Understanding and Generation Models](Janus.md)
 - [AI Engineering Hub](AIEngineeringHub.md)
 - [Ollama Deep Researcher](OllamaDeepResearcher.md)
-- [anything-llm:The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, and more.](anything-llm.md)
+- [AnythingLLM:The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, and more.](AnythingLLM.md)
 - [awesome-LLM-resourses:LLM资料总结](awesome-LLM-resourses.md)
 - [LangBot: 大模型原生即时通信机器人平台](LangBot.md)
 - [Langchain-Chatchat: 基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用](Langchain-Chatchat.md)
@@ -24,3 +24,4 @@
 - [RD-Agent](RDAgent.md)
 - [Local Deep Researcher](LocalDeepResearcher.md)
 - [PandasAI](PandasAI.md)
+- [Page Assist](PageAssist.md)
