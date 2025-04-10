@@ -25,3 +25,5 @@
 - [Local Deep Researcher](LocalDeepResearcher.md)
 - [PandasAI](PandasAI.md)
 - [Page Assist](PageAssist.md)
+- [MarkItDown:Python tool for converting files and office documents to Markdown.](MarkItDown.md)
+- [MCP Go:A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.](MCPGo.md)

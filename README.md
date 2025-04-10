@@ -27,6 +27,8 @@
 	- [Local Deep Researcher](src/AI/LocalDeepResearcher.md)
 	- [PandasAI](src/AI/PandasAI.md)
 	- [Page Assist](src/AI/PageAssist.md)
+	- [MarkItDown:Python tool for converting files and office documents to Markdown.](src/AI/MarkItDown.md)
+	- [MCP Go:A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.](src/AI/MCPGo.md)
 1. [math 数学相关](src/math/README.md)
 	- [希腊字母](src/math/Greekalphabet.md)
 	- [关系代数的基本运算](src/math/basic-operations-of-relation-algebra.md)
