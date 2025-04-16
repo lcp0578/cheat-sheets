@@ -613,6 +613,8 @@
 	- [相关命令](src/kingbase/command.md)
 	- [search_path 搜索路径](src/kingbase/search_path.md)
 	- [金仓集群管理](src/kingbase/cluster.md)
+	- [V8R3的sql导入到V8R6需要注意的点](src/kingbaseV8R3toV8R6.md)
+	- [NEXTVAL() 使用需要注意使用双引号](src/kingbaseNEXTVAL.md)
 4.  [composer](src/composer/README.md "composer")
 	- [composer basic](src/composer/basic.md) composer基础使用
     - [composer config](src/composer/config.md) composer配置相关

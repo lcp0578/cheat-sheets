@@ -13,3 +13,5 @@
 - [相关命令](command.md)
 - [search_path 搜索路径](search_path.md)
 - [金仓集群管理](cluster.md)
+- [V8R3的sql导入到V8R6需要注意的点](V8R3toV8R6.md)
+- [NEXTVAL() 使用需要注意使用双引号](NEXTVAL.md)
