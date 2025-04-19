@@ -11,6 +11,7 @@
 	- [Model Context Protocol (src/AI/MCP)](MCP.md)
 	- [MCP Go:A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.](src/AI/MCPGo.md)
 	- [MCP Agent: a simple, composable framework to build agents using Model Context Protocol.](src/AI/MCPAgent.md)
+	- [FastMCP:The fast, Pythonic way to build MCP servers and clients.](src/AI/FastMCP.md)
 	- [SearXNG 互联网元搜索引擎](src/AI/SearXNG.md)
 	- [LeRobot: Making AI for Robotics more accessible with end-to-end learning](src/AI/LeRobot.md)
 	- [Janus-Series: Unified Multimodal Understanding and Generation Models](src/AI/Janus.md)
