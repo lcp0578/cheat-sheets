@@ -707,6 +707,7 @@
 	- [查看 Linux 重启历史记录](src/Linux/reboot.md)
 	- [Linux 系统救援发行版：SystemRescue](src/Linux/SystemRescue.md)
 	- [使用firewall-cmd开放和关闭对外端口](src/Linux/firewall-cmd.md)
+	- [禁ping时使用hping3测试网络延迟](src/Linux/hping3.md)
 9.  [Go](src/Go/README.md "golang")
 	- [go安装与环境变量配置](src/Go/install_path.md)
 	- [The Uber Go Style Guide.](https://github.com/uber-go/guide/)

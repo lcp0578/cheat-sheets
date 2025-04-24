@@ -80,3 +80,4 @@
 - [查看 Linux 重启历史记录](reboot.md)
 - [Linux 系统救援发行版：SystemRescue](SystemRescue.md)
 - [使用firewall-cmd开放和关闭对外端口](firewall-cmd.md)
+- [禁ping时使用hping3测试网络延迟](hping3.md)
