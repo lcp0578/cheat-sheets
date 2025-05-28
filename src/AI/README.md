@@ -7,6 +7,7 @@
 - [LightRAG: Simple and Fast Retrieval-Augmented Generation](LightRAG.md)
 - [Ollama手动安装](Ollama.md)
 - [Model Context Protocol (MCP)](MCP.md)
+- [MCP vs A2A protocol](A2A.md)
 - [MCP Go:A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.](MCPGo.md)
 - [MCP Agent: a simple, composable framework to build agents using Model Context Protocol.](MCPAgent.md)
 - [FastMCP:The fast, Pythonic way to build MCP servers and clients.](FastMCP.md)
