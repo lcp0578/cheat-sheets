@@ -33,6 +33,7 @@
 	- [Page Assist](src/AI/PageAssist.md)
 	- [MarkItDown:Python tool for converting files and office documents to Markdown.](src/AI/MarkItDown.md)
 	- [Graphiti:Build Real-Time Knowledge Graphs for AI Agents](src/AI/Graphiti.md)
+	- [AgenticSeek: 一款100%本地运行的Manus替代方案](src/AI/agenticSeek.md)
 1. [math 数学相关](src/math/README.md)
 	- [希腊字母](src/math/Greekalphabet.md)
 	- [关系代数的基本运算](src/math/basic-operations-of-relation-algebra.md)

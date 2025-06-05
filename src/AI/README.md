@@ -31,3 +31,4 @@
 - [Page Assist](PageAssist.md)
 - [MarkItDown:Python tool for converting files and office documents to Markdown.](MarkItDown.md)
 - [Graphiti:Build Real-Time Knowledge Graphs for AI Agents](Graphiti.md)
+- [AgenticSeek: 一款100%本地运行的Manus替代方案](agenticSeek.md)
