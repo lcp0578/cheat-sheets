@@ -32,3 +32,4 @@
 - [MarkItDown:Python tool for converting files and office documents to Markdown.](MarkItDown.md)
 - [Graphiti:Build Real-Time Knowledge Graphs for AI Agents](Graphiti.md)
 - [AgenticSeek: 一款100%本地运行的Manus替代方案](agenticSeek.md)
+- [Dify -- 一款开源的大语言模型(LLM) 应用开发平台](dify.md)
