@@ -51,5 +51,6 @@
 - [Uber Go 语言编码规范中文版](https://github.com/xxjwxc/uber_go_guide_cn)
 - [格式化输入输出](format.md)
 - [漏洞检测工具govulncheck](govulncheck.md)
+- [依赖注入框架wire](wire.md)
 - rules  
 ![go_rules](../../images/go_rules.png)
