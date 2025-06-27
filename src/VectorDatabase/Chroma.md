@@ -1,0 +1,11 @@
+## Chroma
+- https://github.com/chroma-core/chroma
+- https://www.trychroma.com/
+- Chroma is the open-source AI application database. Chroma makes it easy to build LLM apps by making knowledge, facts, and skills pluggable for LLMs.
+- Chroma gives you everything you need for retrieval:
+	- Store embeddings and their metadata
+	- Vector search
+	- Full-text search
+	- Document storage
+	- Metadata filtering
+	- Multi-modal retrieval
