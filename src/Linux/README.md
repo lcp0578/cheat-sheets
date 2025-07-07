@@ -82,3 +82,4 @@
 - [使用firewall-cmd开放和关闭对外端口](firewall-cmd.md)
 - [禁ping时使用hping3测试网络延迟](hping3.md)
 - [Snap 和 Snapd](Snap.md)
+- [逆向工程工具集 radare2](radare2.md)
