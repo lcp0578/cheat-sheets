@@ -23,6 +23,7 @@
 - [Langchain-Chatchat: 基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用](Langchain-Chatchat.md)
 - [LeRobot: Making AI for Robotics more accessible with end-to-end learning](LeRobot.md)
 - [MaxKB:基于大模型和 RAG 的开源知识库问答系统](MaxKB.md)
+- [chatgpt-on-wechat: 基于大模型的智能对话机器人](chatgpt-on-wechat.md)
 - [MetaGPT: The Multi-Agent Framework](MetaGPT.md)
 - [MiniMind](MiniMind.md)
 - [one-api: LLM API 管理 & 分发系统](one-api.md)
