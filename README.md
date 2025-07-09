@@ -5,6 +5,7 @@
 	- [AI Agents简介](src/AI/AIAgents.md)
 	- [私有化部署DeepSeek](src/AI/DeepSeek.md)
 	- [RAG (Retrieval-Augmented Generation)检索增强生成](src/AI/RAG.md)
+	- [RAGLite -- Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL](src/AI/RAGLite.md)
 	- [LlamaIndex (GPT Index) is a data framework for your LLM application.](src/AI/LlamaIndex.md)
 	- [LightRAG: Simple and Fast Retrieval-Augmented Generation](src/AI/LightRAG.md)
 	- [Ollama手动安装](src/AI/Ollama.md)
