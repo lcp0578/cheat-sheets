@@ -43,6 +43,7 @@
 	- [Qdrant](src/VectorDatabase/Qdrant.md)
 	- [Weaviate](src/VectorDatabase/Weaviate.md)
 	- [Chroma](src/VectorDatabase/Chroma.md)
+	- [chromem-go](src/VectorDatabase/chromem-go.md)
 	- [pgvector](src/VectorDatabase/pgvector.md)
 	- [LanceDB](src/VectorDatabase/LanceDB.md)
 1. [math 数学相关](src/math/README.md)
