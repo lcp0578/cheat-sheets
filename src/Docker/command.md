@@ -21,3 +21,4 @@
 	- `docker rmi [container_name|container_id]` //删除镜像
 	- `docker exec -it [container_name|container_id] bash` //在容器中打开新的终端，以交互模型打开pseudo-TTY,执行bash
 	- `docker attach [container_name|container_id] bash` //直接进入容器启动命令的终端，不会启动新的进程
+	- `docker cp  [container_name]:/app /home/root/` 复制容器内的文件到宿主机
