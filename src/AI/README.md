@@ -4,6 +4,7 @@
 - [私有化部署DeepSeek](DeepSeek.md)
 - [RAG (Retrieval-Augmented Generation)检索增强生成](RAG.md)
 - [RAGLite -- Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL](RAGLite.md)
+- [RAGFlow is an open-source RAG engine based on deep document understanding.](RAGFlow.md)
 - [LlamaIndex (GPT Index) is a data framework for your LLM application.](LlamaIndex.md)
 - [LightRAG: Simple and Fast Retrieval-Augmented Generation](LightRAG.md)
 - [Ollama手动安装](Ollama.md)
