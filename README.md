@@ -43,6 +43,7 @@
 	- [Dify -- 一款开源的大语言模型(LLM) 应用开发平台](src/AI/dify.md)
 	- [The Data Engineering Handbook](src/AI/TheDataEngineeringHandbook.md)
 	- [Jan - Local AI Assistant](src/AI/Jan.md)
+	- [infinity -- The AI-Native Database for LLM Applications](src/AI/infinity.md)
 2. [Vector Database 向量数据库](src/VectorDatabase/README.md)
 	- [向量数据库对比](src/VectorDatabase/compare.md)
 	- [Milvus](src/VectorDatabase/Milvus.md)

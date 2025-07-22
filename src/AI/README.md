@@ -38,3 +38,4 @@
 - [Dify -- 一款开源的大语言模型(LLM) 应用开发平台](dify.md)
 - [The Data Engineering Handbook](TheDataEngineeringHandbook.md)
 - [Jan - Local AI Assistant](Jan.md)
+- [infinity -- The AI-Native Database for LLM Applications](infinity.md)
