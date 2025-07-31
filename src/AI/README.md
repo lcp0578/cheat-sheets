@@ -39,3 +39,4 @@
 - [The Data Engineering Handbook](TheDataEngineeringHandbook.md)
 - [Jan - Local AI Assistant](Jan.md)
 - [infinity -- The AI-Native Database for LLM Applications](infinity.md)
+- [KAG 是基于 OpenSPG 引擎和大型语言模型的逻辑推理问答框架，用于构建垂直领域知识库的逻辑推理问答解决方案。](KAG.md)
