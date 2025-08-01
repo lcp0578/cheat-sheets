@@ -45,6 +45,7 @@
 	- [Jan - Local AI Assistant](src/AI/Jan.md)
 	- [infinity -- The AI-Native Database for LLM Applications](src/AI/infinity.md)
 	- [KAG 是基于 OpenSPG 引擎和大型语言模型的逻辑推理问答框架，用于构建垂直领域知识库的逻辑推理问答解决方案。](src/AI/KAG.md)
+	- [Eino 大型语言模型（LLM）应用开发框架](src/AI/Eino.md)
 2. [Vector Database 向量数据库](src/VectorDatabase/README.md)
 	- [向量数据库对比](src/VectorDatabase/compare.md)
 	- [Milvus](src/VectorDatabase/Milvus.md)
