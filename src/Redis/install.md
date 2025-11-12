@@ -1,7 +1,10 @@
 ## Redis install 源码编译安装
 - 下载源码包，并解压
 
-		tar -zxvf redis-5.0.5.tar.gz
+		wget https://download.redis.io/redis-stable.tar.gz
+		tar -xzvf redis-stable.tar.gz
+		cd redis-stable
+
 - 建立安装目录
 
 		mkdir /usr/local/redis
@@ -21,7 +24,7 @@
 		
         cd /usr/local/redis
         mkdir conf
-        cp ~/redis-5.0.5/redis.conf conf/
+        cp ~/redis-stable/redis.conf conf/
       
 - 修改配置文件
 
