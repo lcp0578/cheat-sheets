@@ -38,7 +38,7 @@
 - [升级gcc 4.8.5](gcc.md)
 - [kill 批量杀掉筛选的进程](kill.md)
 - [系统监测工具sysstat](sysstat.md)
-- [Systemd 介绍](Systemd.md)
+- [使用 Systemd 进行服务管理](Systemd.md)
 - [tmpfs 介绍](tmpfs.md)
 - [chmod 递归修改权限](chmod.md)
 - [audit Linux的审计功能](audit.md)

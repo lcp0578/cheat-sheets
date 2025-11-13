@@ -690,7 +690,7 @@
 	- [find 文件查找](src/Linux/find.md)
 	- [升级gcc 4.8.5](src/Linux/gcc.md)
 	- [kill 批量杀掉筛选的进程](src/Linux/kill.md)
-	- [Systemd 介绍](src/Linux/Systemd.md)
+	- [使用 Systemd 进行服务管理](src/Linux/Systemd.md)
 	- [tmpfs 介绍](src/Linux/tmpfs.md)
 	- [chmod 递归修改权限](src/Linux/chmod.md)
 	- [audit Linux的审计功能](src/Linux/audit.md)
