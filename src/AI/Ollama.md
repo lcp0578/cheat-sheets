@@ -9,6 +9,7 @@
 
 		# vim /root/.bashrc
 		export OLLAMA_HOST=http://127.0.0.1:11434
+		export OLLAMA_MODELS=/home/main_data/ollama/models
 - 创建开机自启配置
 
 		# vim  /etc/systemd/system/ollama.service
@@ -69,6 +70,10 @@
 
 		# ollama -v
 		ollama version is 0.6.1
+- 拉取模型
+
+		# OLLAMA_MIRROR="https://registry.ollama.ai" ollama pull deepseek-r1:7b
+		# ollama run qwen2.5:7b
 - 查看正在运行的模型
 
 		# ollama ps
