@@ -59,3 +59,31 @@
 		# netplan apply
 - 十进制子网掩码换算器
 	- https://www.sojson.com/convert/subnetmask.html
+
+- 网卡名称命名规则
+	- Ubuntu 从 15.04 开始使用 systemd 的可预测网络接口命名规则，名称如 enpXsY 的含义是：
+		- en：以太网
+		- pX：PCI 总线号（bus number）
+		- sY：PCI 插槽号（slot/device number）
+	- 这种命名依赖于硬件在 PCI 总线上的物理位置，理论上应该是固定的。但如果你发现 enp2s0、enp5s0、enp6s0、enp8s0 这些名称在不同启动时交替出现，说明每次启动时 PCI 总线号发生了变化。
+
+- 使用mac地址匹配来配置静态IP
+	- 自定义接口 ID（例如 wan 或 eth0），然后通过 match 关键字基于 MAC 地址匹配实际的网卡。这样做之后，无论系统将网卡命名为 enp5s0 还是 enp6s0，只要它的 MAC 地址是 00:e0:23:6d:40:90，就会应用这套静态 IP 配置。
+	- 配置示例
+
+			# cat /etc/netplan/00-installer-config.yaml 
+			# This is the network config written by 'subiquity'
+			network:
+			  ethernets:
+			    my_eth:
+			      match:
+			        macaddress: "00:e0:23:6d:40:90"
+			      dhcp4: false
+			      dhcp6: false
+			      addresses: [192.168.1.206/24]
+			      routes:
+			          - to: default
+			            via: 192.168.1.254
+			      nameservers:
+			        addresses: [114.114.114.114]
+			  version: 2
