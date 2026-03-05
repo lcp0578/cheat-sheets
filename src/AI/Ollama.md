@@ -5,6 +5,7 @@
 
 
 		# tar -zxf ollama-linux-amd64.tgz -C /usr/local
+		# tar -xf ollama-linux-amd64.tar.zst -C /usr/local
 - 添加环境变量
 
 		# vim /root/.bashrc
