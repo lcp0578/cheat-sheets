@@ -50,3 +50,71 @@
 		2025-11-28 18:47:14,514 xinference.core.worker 124924 INFO     Xinference worker 0.0.0.0:54882 started
 		2025-11-28 18:47:21,079 xinference.api.restful_api 124803 INFO     Starting Xinference at endpoint: http://0.0.0.0:9997
 		2025-11-28 18:47:21,250 uvicorn.error 124803 INFO     Uvicorn running on http://0.0.0.0:9997 (Press CTRL+C to quit)
+
+## Xinference详细安装
+- 确认当前 Python 版本（需要 3.8 及以上）
+
+		# python3 --version
+		Python 3.10.12
+- 安装 Python 虚拟环境工具
+
+		# sudo apt update
+		# sudo apt install python3-venv python3-pip -y
+- 创建并激活虚拟环境
+
+		# python3 -m venv /root/xinference-env
+		# source /root/xinference-env/bin/activate
+	- 激活后，命令行提示符前会显示 (xinference-env)。
+
+			(xinference-env) root@jichenggpu:~#
+- 升级虚拟环境中的 pip、setuptools 和 wheel
+
+		# pip install --upgrade pip setuptools wheel
+- 安装适配你 GPU 的 PyTorch
+	- 查看CUDA 版本
+
+			# nvidia-smi
+			Mon Mar  2 10:22:12 2026       
+			+-----------------------------------------------------------------------------------------+
+			| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
+			+-----------------------------------------+------------------------+----------------------+
+			| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+			| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+			|                                         |                        |               MIG M. |
+			|=========================================+========================+======================|
+			|   0  NVIDIA GeForce RTX 3090        Off |   00000000:03:00.0  On |                  N/A |
+			|  0%   44C    P8             30W /  370W |       9MiB /  24576MiB |      0%      Default |
+			|                                         |                        |                  N/A |
+			+-----------------------------------------+------------------------+----------------------+
+			
+			+-----------------------------------------------------------------------------------------+
+			| Processes:                                                                              |
+			|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+			|        ID   ID                                                               Usage      |
+			|=========================================================================================|
+			|  No running processes found                                                             |
+			+-----------------------------------------------------------------------------------------+
+
+	- 安装最新稳定版CUDA 12.4
+
+			# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+	- 验证 PyTorch 是否正确识别 GPU
+
+			# python -c "import torch; print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0))"
+			True
+			NVIDIA GeForce RTX 3090
+			(xinference-env) root@jichenggpu:~# 
+- 安装 Xinference
+
+		# pip install "xinference[transformers]"
+- 启动 Xinference 服务
+
+		# xinference-local --host 0.0.0.0 --port 9997
+- 额外提示
+	- 每次使用 Xinference 前，需要先激活虚拟环境：
+
+			# source /root/xinference-env/bin/activate。
+
+	- 如果你希望 Xinference 在后台持续运行，可以使用 `nohup` 或 `screen`：
+
+			# nohup xinference-local --host 0.0.0.0 --port 9997 > xinference.log 2>&1 &
