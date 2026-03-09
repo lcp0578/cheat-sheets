@@ -4,6 +4,7 @@
 	- [OpenTelemetry简介](src/OpenTelemetry/OpenTelemetry.md)
 	- [OpenTelemetry Go API and SDK](src/OpenTelemetry/OpenTelemetryGo.md)
 1. [AI相关](src/AI/README.md) 
+	
 	- [LLM大模型相关](src/AI/LLM.md)
 	- [AI Agents简介](src/AI/AIAgents.md)
 	- [私有化部署DeepSeek](src/AI/DeepSeek.md)
@@ -1015,6 +1016,7 @@
 	- [winver查看系统版本号](src/windows/winver.md)
 	- [PowerToys 实用工具（分屏、颜色选择器、始终置顶、鼠标实用工具等）](src/windows/PowerToys.md)
 	- [Process Monitor 使用进程监视器排查软件异常原因](src/windows/ProcessMonitor.md)
+	- [命令行中文乱码问题配置](src/windows/cmd.md)
 40. [assembly](src/assembly/README.md)汇编语言
 41. [CEF](src/cef/README.md)
 42. [VisualStudio](src/VisualStudio/README.md)
