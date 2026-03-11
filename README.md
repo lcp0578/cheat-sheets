@@ -33,6 +33,7 @@
 
 ### 应用
 
+- [WeKnora - 基于大模型的文档理解检索框架](src/AI/app/WeKnora.md)
 - [AI Engineering Hub](src/AI/app/AIEngineeringHub.md)
 - [chatgpt-on-wechat: 基于大模型的智能对话机器人](src/AI/app/chatgpt-on-wechat.md)
 - [infinity -- The AI-Native Database for LLM Applications](src/AI/app/infinity.md)
