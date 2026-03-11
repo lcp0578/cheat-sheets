@@ -146,7 +146,7 @@
 
 ### [Hive](src/BigData/Hive/README.md)
 
-## 🗄️数据库相关 {#数据库相关}
+## 💽数据库相关
 
 ### [Vector Database 向量数据库](src/database/VectorDatabase/README.md)
 
@@ -954,7 +954,7 @@
 
 ### [Krpano 全景展示](src/GL/krpano/README.md)  
 
-## 🛠️IDE
+## 🚀IDE
 
 ### [VisualStudio](src/IDE/VisualStudio/README.md)
 
@@ -992,7 +992,7 @@
 
 - [SSCOM串口调试软件](src/IoT/Modbus/SSCOM.md)
 
-## 🔗 中间件相关
+## 🔗中间件相关
 
 ### [OpenResty](src/Middleware/OpenResty/README.md)
 
@@ -1392,7 +1392,7 @@
 - [github.com/jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
 - [github.com/fmeringdal/nettu-meet](https://github.com/fmeringdal/nettu-meet) Open source video conferencing system for tutors.
 
-## ⚙️开发相关
+## 🔧开发相关
 
 ### [git相关](src/Development/git/README.md "git")
 
