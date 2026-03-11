@@ -113,7 +113,7 @@
 - 额外提示
 	- 每次使用 Xinference 前，需要先激活虚拟环境：
 
-			# source /root/xinference-env/bin/activate。
+			# source /root/xinference-env/bin/activate
 
 	- 如果你希望 Xinference 在后台持续运行，可以使用 `nohup` 或 `screen`：
 
