@@ -83,6 +83,16 @@
 - [TensorFlow](src/AI/MachineLearning/TensorFlow.md)
 - [ONNX](src/AI/MachineLearning/ONNX.md)
 ## 大数据相关
+### [BigData](src/BigData/README.md)大数据相关
+- [Hadoop](src/BigData/Hadoop.md) 分布式系统基础架构
+- [Apache Flume](src/BigData/Flume.md) 日志采集、聚合和传输的系统
+- [Apache Sqoop[retired]](src/BigData/Sqoop.md) 在Hadoop和关系型数据库之间进行数据传输的工具
+- [离线数据同步工具/平台](src/BigData/DataX.md)
+### [Flink](src/BigData/Flink/README.md)
+### [Graylog 日志收集](src/BigData/Graylog/README.md)
+### [Spark](src/BigData/Spark/README.md)
+- [Spark初识](src/BigData/Spark/basic.md)
+### [Hive](src/BigData/Hive/README.md)
 ## 数据库相关
 ###  [Vector Database 向量数据库](src/database/VectorDatabase/README.md)
 - [向量数据库对比](src/database/VectorDatabase/compare.md)
@@ -185,6 +195,8 @@
 - [Druid 数据库连接池](src/database/DB/Druid.md)
 - [otter 分布式数据库同步系统](src/database/DB/otter.md)
 - [IoTDB 工业物联网时序数据库管理系统](src/database/DB/IoTDB/README.md)
+### [TiDB](src/database/TiDB/README.md)
+- [install 安装](src/database/TiDB/install.md)
 ## 编程语言
 ### [Fortran](src/Programming/Fortran/README.md)
 - [Fortran 基础](src/Programming/Fortran/basic.md)
@@ -192,6 +204,7 @@
 ### [WebAssembly(Wasm) 相关](src/Programming/WebAssembly/README.md)
 - [WebAssembly(Wasm) 介绍](src/Programming/WebAssembly/wasm.md)
 - [TinyGo (embedded systems and WebAssembly)](src/Programming/WebAssembly/tinygo.md)
+### [assembly](src/Programming/assembly/README.md)汇编语言
 ### [C/C++](src/Programming/c_cpp/README.md)
 - [关键字(保留字)](src/Programming/c_cpp/keyword/README.md)
 	- [volatile](src/Programming/c_cpp/keyword/volatile.md)
@@ -626,6 +639,8 @@
 - [cakephp](src/Programming/php_code/cakephp.md)
 - [yaf](src/Programming/php_code/yaf.md)
 - [yar](src/Programming/php_code/yar.md)
+- [guzzle http](src/Programming/php_code/guzzlehttp.md "guzzle http")
+- [silex](src/Programming/php_code/silex.md "silex")
 ### [Shell](src/Programming/Shell/README.md)
 - [deploy.sh](src/Programming/Shell/deploy.sh.md) 部署项目shell脚本
 - [network configure](src/Programming/Shell/network_configure.md)
@@ -680,6 +695,7 @@
 - [JDK、JRE、JVM、Java EE、Java SE等说明](src/Programming/java/version.md)
 - [Arthas -- Java诊断工具](src/Programming/java/Arthas.md)
 - [Spring Boot VS Spring Cloud](src/Programming/java/SpringBootSpringCloud.md)
+### [JavaBridge & PageOffice](src/Programming/JavaBridge/README.md)
 ### [Android](src/Programming/Android/README.md)
 - [key](src/Programming/Android/key.md) 指纹生成
 - [构建工具Gradle](src/Programming/Android/Gradle.md)
@@ -705,6 +721,12 @@
 ### [R语言](src/Programming/R/README.md)   
 - [rayshader](src/Programming/R/rayshader.md) R Package for 2D and 3D mapping and data visualization
 - [Open source book: Geocomputation with R](src/Programming/R/geocompr.md)
+### [Go & PHP](src/Programming/GoPHP/README.md)
+- goridge
+- [FrankenPHP: Modern App Server for PHP](src/Programming/GoPHP/FrankenPHP.md)
+- [RoadRunner: high-performance PHP application server](src/Programming/GoPHP/RoadRunner.md)
+- Spiral Framework
+- [github.com/VKCOM/noverify](https://github.com/VKCOM/noverify)  Pretty fast linter (code static analysis utility) for PHP
 ## 计算机图形学与GIS相关
 ### [Computer Graphics 计算机图形学](src/GL/ComputerGraphics/README.md)
 - [Open3D -- A Modern Library for 3D Data Processing](src/GL/ComputerGraphics/Open3D.md)
@@ -793,17 +815,103 @@
 ### [Chromium](src/GL/chromium/README.md) 
 ### [Krpano 全景展示](src/GL/krpano/README.md)  
 ## IDE
+### [VisualStudio](src/IDE/VisualStudio/README.md)
+- [debugger调试程序](src/IDE/VisualStudio/debugger.md)
+- [常用快捷键](src/IDE/VisualStudio/shortcut.md)
+- [PDB文件](src/IDE/VisualStudio/PDB.md)
+- [安装扩展](src/IDE/VisualStudio/extensions.md)
+- [InstallShield](src/IDE/VisualStudio/InstallShield.md)
+- [VS环境变量](src/IDE/VisualStudio/env.md)
+- [error C1060:compiler is out of heap space](src/IDE/VisualStudio/C1060.md)
+### [Code::Blocks](src/IDE/CodeBlocks/README.md)
+- [Code::Blocks shortcut](src/IDE/CodeBlocks/shortcut.md)
+### [在IDE中使用reg正则表达式](src/IDE/reg/README.md)
+### [VS Code](src/IDE/VSCode/README.md)
+- [go 环境配置](src/IDE/VSCode/go.md)
+### [zend studio](src/IDE/zend_studio.md "zend studio")
 ## 物联网相关
 ### [PLC](src/IoT/PLC/README.md)
 - [西门子 S7-200SmartPLC](src/IoT/PLC/Siemens.md)
 #### [协议与标准](src/IoT/protocol/README.md)  
 - [OPC协议](src/IoT/protocol/OPC.md)
+### [Modbus](src/IoT/Modbus/README.md)
+- [SSCOM串口调试软件](src/IoT/Modbus/SSCOM.md)
 ## 中间件相关
+### [OpenResty](src/Middleware/OpenResty/README.md)
+- [OpenResty基础](src/Middleware/OpenResty/basic.md)
+- [CentOS 安装 OpenResty](src/Middleware/OpenResty/CentOS.md)
+- [OpenResty 配置](src/Middleware/OpenResty/config.md)
+- [第三方包管理：OPM和LuaRocks](src/Middleware/OpenResty/luarocks_opm.md)
+- [cosocket](src/Middleware/OpenResty/cosocket.md)
+- [LuaJIT](src/Middleware/OpenResty/luajit.md)
+- [APISIX](src/Middleware/OpenResty/apisix.md)  APISIX is a Cloud-Native Microservices API Gateway
+###  [ZooKeeper](src/Middleware/ZooKeeper/README.md)
+- [基本概念](src/Middleware/ZooKeeper/basic.md)
+- [典型应用场景](src/Middleware/ZooKeeper/scene.md)
+### 消息队列
+- [nsq](src/Middleware/MQ/nsq.md)
+- [RabbitMQ](src/Middleware/MQ/RabbitMQ.md)
+- [Kafka](src/Middleware/MQ/Kafka.md)
+- [ZeroMQ](src/Middleware/MQ/ZeroMQ.md)
+- [ActiveMQ](src/Middleware/MQ/ActiveMQ.md)
+- [RocketMQ](src/Middleware/MQ/RocketMQ.md)
+- [NATS 消息传递系统](src/Middleware/MQ/NATS.md)
+### [nsq](src/Middleware/nsq/README.md)
+- [nsq 初探](src/Middleware/nsq/install.md)
+### [Kafka](src/Middleware/Kafka/README.md)
+### [HAProxy](src/Middleware/HAProxy/README.md)
+- [源码编译安装](src/Middleware/HAProxy/install.md)
+- [常用配置示例](src/Middleware/HAProxy/config.md)
+- [ACL配置](src/Middleware/HAProxy/ACL.md)
+- [HAProxy Nginx获取客户端真实IP](src/Middleware/HAProxy/real_ip.md)
+### [Nginx](src/Middleware/Nginx/README.md)
+- [nginx basic](src/Middleware/Nginx/nginx_basic.md) nginx基础
+- [Nginx启动、重启、停止命令](src/Middleware/Nginx/command.md)
+- [version](src/Middleware/Nginx/version.md) 版本号约定
+- [nginx conf](src/Middleware/Nginx/nginx.conf.md) nginx.conf注释版
+- [vhost conf](src/Middleware/Nginx/vhost.md) vhost配置示例
+- [proxy_pass](src/Middleware/Nginx/proxy_pass.md) 代理转发
+- [ssl](src/Middleware/Nginx/ssl.md) HTTPS配置SSL证书与生成自签名证书
+- [syntax](src/Middleware/Nginx/syntax.md) 配置语法
+- [nginx errors](src/Middleware/Nginx/nginx_errors.md) 常见错误及修复办法
+- [install](src/Middleware/Nginx/install.md) nginx源码编译安装
+- [awk](src/Middleware/Nginx/awk.md) 利用awk分析access日志
+- [req limit](src/Middleware/Nginx/limit.md) nginx请求限制
+- [rewrite url重写](src/Middleware/Nginx/rewrite.md)
+- [location表达式类型与优先级](src/Middleware/Nginx/location.md)
+- [Tengine](src/Middleware/Nginx/tengine.md)
+- [add_header 指令与XSS](src/Middleware/Nginx/add_header.md)
+- [CORS跨域请求--简单请求与复杂请求与跨域预请求OPTIONS处理](src/Middleware/Nginx/CORS.md)
+- [nginx与php-fpm通信与php-fpm重启](src/Middleware/Nginx/php-fpm.md)
+### [Apache](src/Middleware/Apache/README.md) 
+- [.htaccess](src/Middleware/Apache/htaccess.md) 开启.htaccess配置
+- [mac](src/Middleware/Apache/mac.md) mac下使用
+### [redis](src/Middleware/Redis/README.md "redis")
+- [basic](src/Middleware/Redis/basic.md) redis基础
+- [redis windows](src/Middleware/Redis/redis_windows.md)redis在windows上的使用
+- [redis install](src/Middleware/Redis/install.md) Redis源码编译安装
+- [redis.conf](src/Middleware/Redis/redis.conf.md) redis配置文件介绍
+- [bind配置参数的坑](src/Middleware/Redis/bind.md)
+- [Predis VS phpredis](src/Middleware/Redis/PredisVSphpredis.md) Predis与phpredis对比
+- [persistence](src/Middleware/Redis/persistence.md)数据持久化
+- [commands](src/Middleware/Redis/commands.md) 常用命令
+- [Redis主从 master slave ](src/Middleware/Redis/master-slave.md)
+- [Redis哨兵 sentinel ](src/Middleware/Redis/sentinel.md)
+- [Redis集群 cluster](src/Middleware/Redis/cluster.md)
+- [Redis 6 redis-cluster-proxy](src/Middleware/Redis/redis-cluster-proxy.md)
+- [github.com/dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) A modern replacement for Redis and Memcached
+- [github.com/microsoft/garnet](https://github.com/microsoft/garnet) Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing Redis clients.
+- [github.com/Snapchat/KeyDB](https://github.com/Snapchat/KeyDB) A Multithreaded Fork of Redis
+### [Varnish 反向代理服务器和http加速器](src/Middleware/Varnish/README.md)
 ## 网络相关
 ### [WebRTC](src/network/WebRTC/README.md)
 ### [HTTP(HyperText Transfer Protocol) 超文本传输协议](src/network/HTTP/README.md)
 - [HTTP Caching(HTTP缓存)](src/network/HTTP/Caching.md)
 - [HTTP MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
+### [WireShark](src/network/WireShark/README.md)
+### [TCP/IP 协议相关](src/network/TCPIP/README.md)
+- [MQTT](src/network/TCPIP/MQTT/README.md) 消息队列遥测传输协议
+- [TCP异常关闭总结](src/network/TCPIP/error.md)
 ## 操作系统
 ### [linux](src/OS/Linux/README.md "linux")
 - [basic](src/OS/Linux/basic.md)
@@ -894,6 +1002,8 @@
 - [keyboard](src/OS/mac/keyboard.md)系统快捷键
 - [chrome](src/OS/mac/chrome.md) Chrome快捷键
 - [mac终端走代理](src/OS/mac/proxy.md)
+### [ios](src/OS/ios/README.md)
+- [xcode](src/OS/ios/xcode.md)
 ### [windows](src/OS/windows/README.md)
 - [taskkill](src/OS/windows/taskkill.md) 杀进程
 - [WSL( Windows Subsystem for Linux)](src/OS/windows/wsl.md)
@@ -907,14 +1017,32 @@
 - [PowerToys 实用工具（分屏、颜色选择器、始终置顶、鼠标实用工具等）](src/OS/windows/PowerToys.md)
 - [Process Monitor 使用进程监视器排查软件异常原因](src/OS/windows/ProcessMonitor.md)
 - [命令行中文乱码问题配置](src/OS/windows/cmd.md)
+### [ICU4C VS ICU4J](src/OS/ICU/README.md)
 ## 其他
 ### [OpenTelemetry 开源可观测性框架](src/other/OpenTelemetry/README.md)
 - [OpenTelemetry简介](src/other/OpenTelemetry/OpenTelemetry.md)
 - [OpenTelemetry Go API and SDK](src/other/OpenTelemetry/OpenTelemetryGo.md)
+### [HHKB](src/other/hhkb/README.md)
+### [open-falcon](src/other/open-falcon/README.md)
+- [mymon: MySQL Monitor Script](src/other/open-falcon/mymom.md)
 ### 其他   
 - [github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)  Make any web page a desktop application  
 - [Go 语言设计与实现](https://draveness.me/golang/)  
 - [github.com/fleaflet/flutter_map](https://github.com/fleaflet/flutter_map) A Flutter map widget inspired by Leaflet  
+### [crawler 爬虫相关](src/other/crawler/README.md)
+- selenium
+   - [github.com/SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium)
+- PHP
+   - [github.com/FriendsOfPHP/Goutte](https://github.com/FriendsOfPHP/Goutte) Goutte, a simple PHP Web Scraper
+   - [github.com/Programming/symfony/dom-crawler](https://github.com/Programming/symfony/dom-crawler) The DomCrawler component eases DOM navigation for HTML and XML documents.
+   - [github.com/Programming/symfony/browser-kit](https://github.com/Programming/symfony/browser-kit) The BrowserKit component simulates the behavior of a web browser, allowing you to make requests, click on links and submit forms programmatically. 
+   - [github.com/Programming/symfony/css-selector](https://github.com/Programming/symfony/css-selector) The CssSelector component converts CSS selectors to XPath expressions.
+   - [github.com/owner888/phpspider](https://github.com/owner888/phpspider)
+- Go
+   - [github.com/gocolly/colly](https://github.com/gocolly/colly) Elegant Scraper and Crawler Framework for Golang 
+   - [github.com/henrylee2cn/pholcus](https://github.com/henrylee2cn/pholcus) Pholcus is a distributed, high concurrency and powerful web crawler software.
+   - [github.com/PuerkitoBio/gocrawl](https://github.com/PuerkitoBio/gocrawl) Polite, slim and concurrent web crawler.
+   - [github.com/MontFerret/ferret](https://github.com/MontFerret/ferret) Declarative web scraping
 ## 搜索引擎
 ### [ElasticSearch](src/Search/ElasticSearch/README.md)
 - [CentOS下安装](src/Search/ElasticSearch/install.md)
@@ -923,7 +1051,8 @@
  - [go-mysql-elasticsearch MySQL数据同步到ES](src/Search/ElasticSearch/go-mysql-elasticsearch.md)
  - [elasticsearch-php Official PHP low-level client](src/Search/ElasticSearch/elasticsearch-php.md)
  - [FOSElasticaBundle  integration with Elasticsearch and Elastica with Symfony](src/Search/ElasticSearch/FOSElasticaBundle.md)
-### [Manticore Search](src/ManticoreSearch/README.md)
+### [Manticore Search](src/Search/ManticoreSearch/README.md)
+### [xunsearch](src/Search/xunsearch/README.md)
 ## 学习
 ### [全国计算机技术与软件专业技术资格（水平）考试--软考](src/Study/ruankao/README.md)
 - [系统分析师](src/Study/ruankao/系统分析师/README.md)
@@ -959,6 +1088,9 @@
 - [github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.  
 - [github.com/charlax/professional-programming](https://github.com/charlax/professional-programming) A collection of full-stack resources for programmers.  
 - [github.com/missing-semester/missing-semester](https://github.com/missing-semester/missing-semester) The Missing Semester of Your CS Education  
+### [GitHub](src/Study/GitHub/README.md)
+- [https://github.com/GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.
+- [github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
 ## 理论知识
 ### [math 数学相关](src/Theory/math/README.md)
 - [希腊字母](src/Theory/math/Greekalphabet.md)
@@ -966,6 +1098,23 @@
 ### [SM 国密算法](src/Theory/SM/README.md)
 ### [唯一标识符](src/Theory/UUID_ULID/ULID.md)
 - [ULID：通用唯一按字典排序的标识符](src/Theory/UUID_ULID/ULID.md)
+### [CAS:Central Authentication Service](src/Theory/CAS/README.md)
+### [用户认证与授权](src/Theory/auth/README.md)
+- [单点登录SSO](src/Theory/auth/SSO.md)
+- [CAS](src/Theory/auth/CAS.md)
+- [OAuth2](src/Theory/auth/OAuth2.md)
+- [2FA（双因子认证）](src/Theory/auth/2FA.md)
+### [OAuth 2.0](src/Theory/OAuth2.0/README.md)
+- [rfc 6749](src/Theory/OAuth2.0/rfc6749.md)
+- Go
+    - [github.com/golang/oauth2](https://github.com/golang/oauth2)
+    - [github.com/dexidp/dex](https://github.com/dexidp/dex)
+    - [github.com/ory/fosite](https://github.com/ory/fosite)
+### Security代码安全
+- [APP接口安全设计要点](src/Theory/Security/APP_API.md)
+- [恶意代码分析相关工具&漏洞挖掘相关工具](src/Theory/Security/tools.md)
+- 源代码安全审计
+	- [cobra](src/Security/cobra.md)
 ## 业务相关
 ### [Glossary 名词解释](src/Business/Glossary/README.md)
 - [Manning 曼宁公式与曼宁系数](src/Business/Glossary/Manning.md)
@@ -978,6 +1127,13 @@
 - [bathymetry 测深](src/Business/Glossary/bathymetry.md)
 - [河道的横断面（Cross-section）、大断面（Large cross-section）、纵断面](src/Business/Glossary/section.md)
 ### [数字孪生](src/Business/DigitalTwin/README.md)
+### [水利](src/Business/water/README.md)
+- [巴歇尔槽计算公式](src/Business/water/ParshallFlume.md)
+- [工程水文学知识点](src/Business/water/EngineeringHydrology.md)
+- [TELEMAC-MASCARET](src/Business/water/TELEMAC-MASCARET.md)
+### [OA](src/Business/OA/README.md)
+- [file2pdf（使用unoconv）](src/Business/OA/file2pdf.md) 文件转PDF
+- [install fonts](src/Business/OA/install_fonts.md)安装中文字体 	
 ### [BI (Business Intelligence)](src/Business/BI/README.md)
 - [github.com/apache/superset](https://github.com/apache/superset) Apache Superset is a Data Visualization and Data Exploration Platform
 - [github.com/metabase/metabase](https://github.com/metabase/metabase) The simplest, fastest way to get business intelligence and analytics to everyone in your company
@@ -992,6 +1148,9 @@
 - [github.com/chatop2020/AKStream](https://github.com/chatop2020/AKStream) AKStream是一套全平台(Linux,MacOS,Windows)、全架构(X86_64,Arm...)、全功能的流媒体管理控制接口平台。集成GB28181,RTSP,RTMP,HTTP等设备推拉流控制、PTZ控制、音视频文件录制管理、音视频文件裁剪合并等功能与一体  
 - [github.com/chenjianhao66/go-GB28181](https://github.com/chenjianhao66/go-GB28181) 基于GB28181-2016标准实现的网络视频平台，用 Go 语言实现，实现了 SIP 协议和信令服务器。
 - [github.com/vanjoge/RTVS](https://github.com/vanjoge/RTVS) 低延迟、跨平台、无插件、高性能的完整商业级1078/28181视频平台。执行标准：JT/T 1077-2016 道路运输车辆卫星定位系统 视频平台技术要求，JT/T 1078-2016 道路运输车辆卫星定位系统 视频通讯协议，JT/T 1078-2014 道路运输车辆卫星定位系统视频通迅协议标准报批稿(仅视频)，T/GDRTA 002—2020 粤标(20位SIM卡号)，GB/T 28181-2016 公共安全视频监控联网系统信息传输、交换、控制技术要求  
+### [Meet 会议系统](src/Business/Meet/README.md)
+- [github.com/jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
+- [github.com/fmeringdal/nettu-meet](https://github.com/fmeringdal/nettu-meet) Open source video conferencing system for tutors.
 ## 开发相关
 ### [git相关](src/Development/git/README.md "git")
 - [git branch](src/Development/git/branch.md) git分支相关
@@ -1013,6 +1172,17 @@
 - [git push 上传大文件卡住或无法push到远程仓库](src/Development/git/push.md)
 - [git clone 报错](src/Development/git/git_clone.md)
 - [.gitignore配置相关](src/Development/git/gitignore.md)
+### [Docker](src/Development/Docker/README.md) Docker相关
+- [在CentOS上安装Docker CE](src/Development/Docker/install_centos.md)
+- [docker-compose 安装与介绍](src/Development/Docker/compose.md)
+- [Docker Machine](src/Development/Docker/machine.md)
+- [Docker Swarm](src/Development/Docker/swarm.md)
+- [docker logs 使用](src/Development/Docker/logs.md)
+- [启动容器报 iptables: No chain/target/match by that name](src/Development/Docker/iptables.md)
+- [docker常用命令](src/Development/Docker/command.md)
+- [Docker LNMP](src/Development/Docker/dnmp.md)
+- [在Ubuntu上安装Docker](src/Development/Docker/install_Ubuntu.md)
+- [Docker 安装MySQL8](src/Development/Docker/MySQL8.md)
 ### [Doxygen](src/Development/Doxygen/README.md)
 ### [GTK](src/Development/GTK/README.md)
 - [GTK简介](src/Development/GTK/GTK.md)
@@ -1021,11 +1191,33 @@
 - [CMake语法规则](src/Development/CMake/rule.md)
 - [CMake中添加Qt模块](src/Development/CMake/Qt.md)
 - [Ninja、make、CMake的区别与优劣](src/Development/CMake/Ninja.md)
+### [markdown](src/Development/markdown/README.md "markdown")
+- [基础语法：上下角标和表格](src/Development/markdown/table.md)
+- [嵌入数学公式](src/Development/markdown/formula.md)
+- [MarkdownPad 2 配置支持数学公式](src/Development/markdown/MarkdownPad2.md)
 ### [LaTeX](src/Development/LaTeX/README.md)  
 - [TeX Live](src/Development/LaTeX/TeXLive.md)
 - [TeXStudio](src/Development/LaTeX/TeXStudio.md)
 ### [CAE(Computer Aided Engineering)工程设计中的计算机辅助工程](src/Development/CAE/README.md) 
  - [FastCAE 一套开源国产CAE软件集成开发平台](src/Development/CAE/FastCAE.md)
+### [atlassian](src/Development/atlassian/README.md)
+- [jira 项目管理](src/Development/atlassian/jira.md)
+- [confluence 站内wiki](src/Development/atlassian/confluence.md)
+### [CEF](src/Development/cef/README.md)
+### [phpStudy](src/Development/phpStudy.md)  phpStudy升级php&MySQL
+### [FFmpeg](src/Development/FFmpeg/README.md)
+- [FFmpeg install](src/Development/FFmpeg/install.md)  编译安装FFmpeg
+- [PHP-FFmpeg](src/Development/FFmpeg/PHP-FFmpeg.md) PHP-FFmpeg类库
+### [chrome extensions](src/Development/chrome_extensions.md "chrome extensions")
+### [composer](src/Development/composer/README.md "composer")
+- [composer basic](src/Development/composer/basic.md) composer基础使用
+- [composer config](src/Development/composer/config.md) composer配置相关
+- [composer versions](src/Development/composer/versions.md) composer包版本约定
+- [recover composer.json](src/Development/composer/recover_composer.json.md) 恢复composer.json
+- [packagist.org 配置 Github Hook让包自动更新](src/Development/composer/packagist_hook.md)
+- [composer使用常见错误](src/Development/composer/error.md)
+### [Tools 工具集](src/Development/Tools/README.md)
+- [Conda](src/Development/ToolsConda.md)
 ## 前端相关
 ### [javascript](src/Frontend/javascript/README.md "javascript")
 - [json convert](src/Frontend/javascript/json.md)
@@ -1103,263 +1295,5 @@
 - [vitejs/plugin-legacy 支持低版本浏览器](src/Frontend/vuejs/legacy.md)
 - [vue引入css三种方式](src/Frontend/vuejs/css.md)
 - [vue.js项目刷新404与API代理转发的nginx配置](src/Frontend/vuejs/nginx.md)
-
-
-
-### [TiDB](src/TiDB/README.md)
-- [install 安装](src/TiDB/install.md)
-
-### [Tools 工具集](src/Tools/README.md)
-- [Conda](src/ToolsConda.md)
-
-### [Kafka](src/Kafka/README.md)
-
-### [Spark](src/Spark/README.md)
-- [Spark初识](src/Spark/basic.md)
-
-### [Hive](src/Hive/README.md)
-
-### [nsq](src/nsq/README.md)
-- [nsq 初探](src/nsq/install.md)
-
-### [open-falcon](src/open-falcon/README.md)
-- [mymon: MySQL Monitor Script](src/open-falcon/mymom.md)
-
-### [GitHub](src/GitHub/README.md)
-- [https://github.com/GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.
-- [github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
-### [Varnish 反向代理服务器和http加速器](src/Varnish/README.md)
-### [chrome extensions](src/chrome_extensions.md "chrome extensions")
-
-
-### [composer](src/composer/README.md "composer")
-- [composer basic](src/composer/basic.md) composer基础使用
-- [composer config](src/composer/config.md) composer配置相关
-- [composer versions](src/composer/versions.md) composer包版本约定
-- [recover composer.json](src/composer/recover_composer.json.md) 恢复composer.json
-- [packagist.org 配置 Github Hook让包自动更新](src/composer/packagist_hook.md)
-- [composer使用常见错误](src/composer/error.md)
-
-### [zend studio](src/zend_studio.md "zend studio")
-### [guzzle http](src/guzzlehttp.md "guzzle http")
-### [silex](src/silex.md "silex")
-
-
-### [redis](src/Redis/README.md "redis")
-- [basic](src/Redis/basic.md) redis基础
-- [redis windows](src/Redis/redis_windows.md)redis在windows上的使用
-- [redis install](src/Redis/install.md) Redis源码编译安装
-- [redis.conf](src/Redis/redis.conf.md) redis配置文件介绍
-- [bind配置参数的坑](src/Redis/bind.md)
-- [Predis VS phpredis](src/Redis/PredisVSphpredis.md) Predis与phpredis对比
-- [persistence](src/Redis/persistence.md)数据持久化
-- [commands](src/Redis/commands.md) 常用命令
-- [Redis主从 master slave ](src/Redis/master-slave.md)
-- [Redis哨兵 sentinel ](src/Redis/sentinel.md)
-- [Redis集群 cluster](src/Redis/cluster.md)
-- [Redis 6 redis-cluster-proxy](src/Redis/redis-cluster-proxy.md)
-- [github.com/dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) A modern replacement for Redis and Memcached
-- [github.com/microsoft/garnet](https://github.com/microsoft/garnet) Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing Redis clients.
-- [github.com/Snapchat/KeyDB](https://github.com/Snapchat/KeyDB) A Multithreaded Fork of Redis
-
-
-
-
-### [framework7](src/framework7.md "framework7")
-
-### [markdown](src/markdown/README.md "markdown")
-- [基础语法：上下角标和表格](src/markdown/table.md)
-- [嵌入数学公式](src/markdown/formula.md)
-- [MarkdownPad 2 配置支持数学公式](src/markdown/MarkdownPad2.md)
-
-### [Nginx](src/nginx.md)
-- [nginx basic](src/Nginx/nginx_basic.md) nginx基础
-- [Nginx启动、重启、停止命令](src/Nginx/command.md)
-- [version](src/Nginx/version.md) 版本号约定
-- [nginx conf](src/Nginx/nginx.conf.md) nginx.conf注释版
-- [vhost conf](src/Nginx/vhost.md) vhost配置示例
-- [proxy_pass](src/Nginx/proxy_pass.md) 代理转发
-- [ssl](src/Nginx/ssl.md) HTTPS配置SSL证书与生成自签名证书
-- [syntax](src/Nginx/syntax.md) 配置语法
-- [nginx errors](src/Nginx/nginx_errors.md) 常见错误及修复办法
-- [install](src/Nginx/install.md) nginx源码编译安装
-- [awk](src/Nginx/awk.md) 利用awk分析access日志
-- [req limit](src/Nginx/limit.md) nginx请求限制
-- [rewrite url重写](src/Nginx/rewrite.md)
-- [location表达式类型与优先级](src/Nginx/location.md)
-- [Tengine](src/Nginx/tengine.md)
-- [add_header 指令与XSS](src/Nginx/add_header.md)
-- [CORS跨域请求--简单请求与复杂请求与跨域预请求OPTIONS处理](src/Nginx/CORS.md)
-- [nginx与php-fpm通信与php-fpm重启](src/Nginx/php-fpm.md)
-
-### [Apache](src/Apache/README.md) 
-- [.htaccess](src/Apache/htaccess.md) 开启.htaccess配置
-- [mac](src/Apache/mac.md) mac下使用
-
-### [Code::Blocks](CodeBlocks.md)
-- [Code::Blocks shortcut](src/CodeBlocks/shortcut.md)
-
-### [svg](src/svg.md)
-### [Meet 会议系统](src/Meet/README.md)
-- [github.com/jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
-- [github.com/fmeringdal/nettu-meet](https://github.com/fmeringdal/nettu-meet) Open source video conferencing system for tutors.
-
-### [FFmpeg](src/FFmpeg/README.md)
-- [FFmpeg install](src/FFmpeg/install.md)  编译安装FFmpeg
-- [PHP-FFmpeg](src/FFmpeg/PHP-FFmpeg.md) PHP-FFmpeg类库
-
-### [OAuth 2.0](src/OAuth2.0/README.md)
-- [rfc 6749](src/OAuth2.0/rfc6749.md)
-- Go
-    - [github.com/golang/oauth2](https://github.com/golang/oauth2)
-    - [github.com/dexidp/dex](https://github.com/dexidp/dex)
-    - [github.com/ory/fosite](https://github.com/ory/fosite)
-
-### [Modbus](src/Modbus/README.md)
-- [SSCOM串口调试软件](src/Modbus/SSCOM.md)
-
-### [HAProxy](src/HAProxy/README.md)
-- [源码编译安装](src/HAProxy/install.md)
-- [常用配置示例](src/HAProxy/config.md)
-- [ACL配置](src/HAProxy/ACL.md)
-- [HAProxy Nginx获取客户端真实IP](src/HAProxy/real_ip.md)
-
-### [phpStudy](src/phpStudy.md)  phpStudy升级php&MySQL
-
-
-
-### [assembly](src/assembly/README.md)汇编语言
-
-### [CEF](src/cef/README.md)
-
-### [VisualStudio](src/VisualStudio/README.md)
-- [debugger调试程序](src/VisualStudio/debugger.md)
-- [常用快捷键](src/VisualStudio/shortcut.md)
-- [PDB文件](src/VisualStudio/PDB.md)
-- [安装扩展](src/VisualStudio/extensions.md)
-- [InstallShield](src/VisualStudio/InstallShield.md)
-- [VS环境变量](src/VisualStudio/env.md)
-- [error C1060:compiler is out of heap space](src/VisualStudio/C1060.md)
-
-
-### [xunsearch](src/xunsearch/README.md)
-
-
-
-### [BigData](src/BigData/README.md)大数据相关
-- [Hadoop](src/BigData/Hadoop.md) 分布式系统基础架构
-- [Apache Flume](src/BigData/Flume.md) 日志采集、聚合和传输的系统
-- [Apache Sqoop[retired]](src/BigData/Sqoop.md) 在Hadoop和关系型数据库之间进行数据传输的工具
-- [离线数据同步工具/平台](src/BigData/DataX.md)
-
-### [TCP/IP 协议相关](src/TCPIP/README.md)
-- [MQTT](src/TCPIP/MQTT/README.md) 消息队列遥测传输协议
-- [TCP异常关闭总结](src/TCPIP/error.md)
-
-### [Docker](src/Docker/README.md) Docker相关
-- [在CentOS上安装Docker CE](src/Docker/install_centos.md)
-- [docker-compose 安装与介绍](src/Docker/compose.md)
-- [Docker Machine](src/Docker/machine.md)
-- [Docker Swarm](src/Docker/swarm.md)
-- [docker logs 使用](src/Docker/logs.md)
-- [启动容器报 iptables: No chain/target/match by that name](src/Docker/iptables.md)
-- [docker常用命令](src/Docker/command.md)
-- [Docker LNMP](src/Docker/dnmp.md)
-- [在Ubuntu上安装Docker](src/Docker/install_Ubuntu.md)
-- [Docker 安装MySQL8](src/Docker/MySQL8.md)
-
-### [OA](src/OA/README.md)
-- [file2pdf（使用unoconv）](src/OA/file2pdf.md) 文件转PDF
-- [install fonts](src/OA/install_fonts.md)安装中文字体 	
-
-### [JavaBridge & PageOffice](src/JavaBridge/README.md)
-
-### [ios](src/ios/README.md)
-- [xcode](src/ios/xcode.md)
-
-### **Security代码安全**
-- [APP接口安全设计要点](src/Security/APP_API.md)
-- [恶意代码分析相关工具&漏洞挖掘相关工具](src/Security/tools.md)
-- 源代码安全审计
-	- [cobra](src/Security/cobra.md)
-
-### [用户认证与授权](src/auth/README.md)
-- [单点登录SSO](src/auth/SSO.md)
-- [CAS](src/auth/CAS.md)
-- [OAuth2](src/auth/OAuth2.md)
-- [2FA（双因子认证）](src/auth/2FA.md)
-
-### 消息队列
-- [nsq](src/MQ/nsq.md)
-- [RabbitMQ](src/MQ/RabbitMQ.md)
-- [Kafka](src/MQ/Kafka.md)
-- [ZeroMQ](src/MQ/ZeroMQ.md)
-- [ActiveMQ](src/MQ/ActiveMQ.md)
-- [RocketMQ](src/MQ/RocketMQ.md)
-- [NATS 消息传递系统](src/MQ/NATS.md)
-
-###  [ZooKeeper](src/ZooKeeper/README.md)
-- [基本概念](src/ZooKeeper/basic.md)
-- [典型应用场景](src/ZooKeeper/scene.md)
-
-### [Flink](src/Flink/README.md)
-
-
-
-### [Go & PHP](src/GoPHP/README.md)
-- goridge
-- [FrankenPHP: Modern App Server for PHP](src/GoPHP/FrankenPHP.md)
-- [RoadRunner: high-performance PHP application server](src/GoPHP/RoadRunner.md)
-- Spiral Framework
-- [github.com/VKCOM/noverify](https://github.com/VKCOM/noverify)  Pretty fast linter (code static analysis utility) for PHP
-
-### [crawler 爬虫相关](src/crawler/README.md)
-- selenium
-   - [github.com/SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium)
-- PHP
-   - [github.com/FriendsOfPHP/Goutte](https://github.com/FriendsOfPHP/Goutte) Goutte, a simple PHP Web Scraper
-   - [github.com/Programming/symfony/dom-crawler](https://github.com/Programming/symfony/dom-crawler) The DomCrawler component eases DOM navigation for HTML and XML documents.
-   - [github.com/Programming/symfony/browser-kit](https://github.com/Programming/symfony/browser-kit) The BrowserKit component simulates the behavior of a web browser, allowing you to make requests, click on links and submit forms programmatically. 
-   - [github.com/Programming/symfony/css-selector](https://github.com/Programming/symfony/css-selector) The CssSelector component converts CSS selectors to XPath expressions.
-   - [github.com/owner888/phpspider](https://github.com/owner888/phpspider)
-- Go
-   - [github.com/gocolly/colly](https://github.com/gocolly/colly) Elegant Scraper and Crawler Framework for Golang 
-   - [github.com/henrylee2cn/pholcus](https://github.com/henrylee2cn/pholcus) Pholcus is a distributed, high concurrency and powerful web crawler software.
-   - [github.com/PuerkitoBio/gocrawl](https://github.com/PuerkitoBio/gocrawl) Polite, slim and concurrent web crawler.
-   - [github.com/MontFerret/ferret](https://github.com/MontFerret/ferret) Declarative web scraping
-
-
-### [OpenResty](src/OpenResty/README.md)
-- [OpenResty基础](src/OpenResty/basic.md)
-- [CentOS 安装 OpenResty](src/OpenResty/CentOS.md)
-- [OpenResty 配置](src/OpenResty/config.md)
-- [第三方包管理：OPM和LuaRocks](src/OpenResty/luarocks_opm.md)
-- [cosocket](src/OpenResty/cosocket.md)
-- [LuaJIT](src/OpenResty/luajit.md)
-- [APISIX](src/OpenResty/apisix.md)  APISIX is a Cloud-Native Microservices API Gateway
-
-### [ICU4C VS ICU4J](src/ICU/README.md)
-
-### [VS Code](src/VSCode/README.md)
-- [go 环境配置](src/VSCode/go.md)
-
-
-
-### [HHKB](src/hhkb/README.md)
-
-### [WireShark](src/WireShark/README.md)
-
-### [Graylog 日志收集](src/Graylog/README.md)
-
-### [atlassian](src/atlassian/README.md)
-- [jira 项目管理](src/atlassian/jira.md)
-- [confluence 站内wiki](src/atlassian/confluence.md)
-
-### [水利](src/water/README.md)
-- [巴歇尔槽计算公式](src/water/ParshallFlume.md)
-- [工程水文学知识点](src/water/EngineeringHydrology.md)
-- [TELEMAC-MASCARET](src/water/TELEMAC-MASCARET.md)
-
-### [CAS:Central Authentication Service](src/CAS/README.md)
-
-### [reg正则表达式](src/reg/README.md)
+### [svg](src/Frontend/svg.md)
+### [framework7](src/Frontend/framework7.md "framework7")
