@@ -58,6 +58,7 @@
 ### 大模型
 
 - [LLM大模型相关](src/AI/LLM/LLM.md)
+- [模型分类](src/AI/LLM/models.md)
 - [AnythingLLM:The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, and more.](src/AI/LLM/AnythingLLM.md)
 - [私有化部署DeepSeek](src/AI/LLM/DeepSeek.md)
 - [Janus-Series: Unified Multimodal Understanding and Generation Models](src/AI/LLM/Janus.md)
