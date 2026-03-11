@@ -21,7 +21,7 @@
 - [前端相关](#前端相关)
 
 ---
-## AI相关
+## 🤖AI相关
 ### Agent
 - [AI Agents简介](src/AI/Agents/AIAgents.md)
 - [Graphiti:Build Real-Time Knowledge Graphs for AI Agents](src/AI/Agents/Graphiti.md)
@@ -103,7 +103,7 @@
 - [MXNet](src/AI/MachineLearning/MXNet.md)
 - [TensorFlow](src/AI/MachineLearning/TensorFlow.md)
 - [ONNX](src/AI/MachineLearning/ONNX.md)
-## 大数据相关
+## 📊大数据相关
 ### [BigData](src/BigData/README.md)大数据相关
 - [Hadoop](src/BigData/Hadoop.md) 分布式系统基础架构
 - [Apache Flume](src/BigData/Flume.md) 日志采集、聚合和传输的系统
@@ -114,7 +114,7 @@
 ### [Spark](src/BigData/Spark/README.md)
 - [Spark初识](src/BigData/Spark/basic.md)
 ### [Hive](src/BigData/Hive/README.md)
-## 数据库相关
+## 🗄️数据库相关
 ###  [Vector Database 向量数据库](src/database/VectorDatabase/README.md)
 - [向量数据库对比](src/database/VectorDatabase/compare.md)
 - [Milvus](src/database/VectorDatabase/Milvus.md)
@@ -218,7 +218,7 @@
 - [IoTDB 工业物联网时序数据库管理系统](src/database/DB/IoTDB/README.md)
 ### [TiDB](src/database/TiDB/README.md)
 - [install 安装](src/database/TiDB/install.md)
-## 编程语言
+## 💻编程语言
 ### [Fortran](src/Programming/Fortran/README.md)
 - [Fortran 基础](src/Programming/Fortran/basic.md)
 - [GFortranStandards 标准版本](src/Programming/Fortran/GFortranStandards.md)
@@ -748,7 +748,7 @@
 - [RoadRunner: high-performance PHP application server](src/Programming/GoPHP/RoadRunner.md)
 - Spiral Framework
 - [github.com/VKCOM/noverify](https://github.com/VKCOM/noverify)  Pretty fast linter (code static analysis utility) for PHP
-## 计算机图形学与GIS相关
+## 🎨计算机图形学与GIS相关
 ### [Computer Graphics 计算机图形学](src/GL/ComputerGraphics/README.md)
 - [Open3D -- A Modern Library for 3D Data Processing](src/GL/ComputerGraphics/Open3D.md)
 ### [OpenGL](src/GL/OpenGL/README.md)
@@ -835,7 +835,7 @@
 	- [github.com/godlikepanos/anki-3d-engine](https://github.com/godlikepanos/anki-3d-engine) AnKi 3D Engine - Vulkan backend, modern renderer, scripting, physics and more
 ### [Chromium](src/GL/chromium/README.md) 
 ### [Krpano 全景展示](src/GL/krpano/README.md)  
-## IDE
+## 🛠️IDE
 ### [VisualStudio](src/IDE/VisualStudio/README.md)
 - [debugger调试程序](src/IDE/VisualStudio/debugger.md)
 - [常用快捷键](src/IDE/VisualStudio/shortcut.md)
@@ -850,14 +850,14 @@
 ### [VS Code](src/IDE/VSCode/README.md)
 - [go 环境配置](src/IDE/VSCode/go.md)
 ### [zend studio](src/IDE/zend_studio.md "zend studio")
-## 物联网相关
+## 📡物联网相关
 ### [PLC](src/IoT/PLC/README.md)
 - [西门子 S7-200SmartPLC](src/IoT/PLC/Siemens.md)
 #### [协议与标准](src/IoT/protocol/README.md)  
 - [OPC协议](src/IoT/protocol/OPC.md)
 ### [Modbus](src/IoT/Modbus/README.md)
 - [SSCOM串口调试软件](src/IoT/Modbus/SSCOM.md)
-## 中间件相关
+## 🔗 中间件相关
 ### [OpenResty](src/Middleware/OpenResty/README.md)
 - [OpenResty基础](src/Middleware/OpenResty/basic.md)
 - [CentOS 安装 OpenResty](src/Middleware/OpenResty/CentOS.md)
@@ -924,7 +924,7 @@
 - [github.com/microsoft/garnet](https://github.com/microsoft/garnet) Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing Redis clients.
 - [github.com/Snapchat/KeyDB](https://github.com/Snapchat/KeyDB) A Multithreaded Fork of Redis
 ### [Varnish 反向代理服务器和http加速器](src/Middleware/Varnish/README.md)
-## 网络相关
+## 🌐网络相关
 ### [WebRTC](src/network/WebRTC/README.md)
 ### [HTTP(HyperText Transfer Protocol) 超文本传输协议](src/network/HTTP/README.md)
 - [HTTP Caching(HTTP缓存)](src/network/HTTP/Caching.md)
@@ -933,7 +933,7 @@
 ### [TCP/IP 协议相关](src/network/TCPIP/README.md)
 - [MQTT](src/network/TCPIP/MQTT/README.md) 消息队列遥测传输协议
 - [TCP异常关闭总结](src/network/TCPIP/error.md)
-## 操作系统
+## 🐧操作系统
 ### [linux](src/OS/Linux/README.md "linux")
 - [basic](src/OS/Linux/basic.md)
 - [network configure](src/OS/Linux/network_configure.md)
@@ -1039,7 +1039,7 @@
 - [Process Monitor 使用进程监视器排查软件异常原因](src/OS/windows/ProcessMonitor.md)
 - [命令行中文乱码问题配置](src/OS/windows/cmd.md)
 ### [ICU4C VS ICU4J](src/OS/ICU/README.md)
-## 其他
+## 📌其他
 ### [OpenTelemetry 开源可观测性框架](src/other/OpenTelemetry/README.md)
 - [OpenTelemetry简介](src/other/OpenTelemetry/OpenTelemetry.md)
 - [OpenTelemetry Go API and SDK](src/other/OpenTelemetry/OpenTelemetryGo.md)
@@ -1064,7 +1064,7 @@
    - [github.com/henrylee2cn/pholcus](https://github.com/henrylee2cn/pholcus) Pholcus is a distributed, high concurrency and powerful web crawler software.
    - [github.com/PuerkitoBio/gocrawl](https://github.com/PuerkitoBio/gocrawl) Polite, slim and concurrent web crawler.
    - [github.com/MontFerret/ferret](https://github.com/MontFerret/ferret) Declarative web scraping
-## 搜索引擎
+## 🔍搜索引擎
 ### [ElasticSearch](src/Search/ElasticSearch/README.md)
 - [CentOS下安装](src/Search/ElasticSearch/install.md)
  - [DSL查询语法](src/Search/ElasticSearch/dsl.md)
@@ -1074,7 +1074,7 @@
  - [FOSElasticaBundle  integration with Elasticsearch and Elastica with Symfony](src/Search/ElasticSearch/FOSElasticaBundle.md)
 ### [Manticore Search](src/Search/ManticoreSearch/README.md)
 ### [xunsearch](src/Search/xunsearch/README.md)
-## 学习
+## 🎓学习
 ### [全国计算机技术与软件专业技术资格（水平）考试--软考](src/Study/ruankao/README.md)
 - [系统分析师](src/Study/ruankao/系统分析师/README.md)
 	- [考试大纲](src/Study/ruankao/系统分析师/syllabus.md)
@@ -1112,7 +1112,7 @@
 ### [GitHub](src/Study/GitHub/README.md)
 - [https://github.com/GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.
 - [github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
-## 理论知识
+## 📐理论知识
 ### [math 数学相关](src/Theory/math/README.md)
 - [希腊字母](src/Theory/math/Greekalphabet.md)
 - [关系代数的基本运算](src/Theory/math/basic-operations-of-relation-algebra.md)
@@ -1136,7 +1136,7 @@
 - [恶意代码分析相关工具&漏洞挖掘相关工具](src/Theory/Security/tools.md)
 - 源代码安全审计
 	- [cobra](src/Security/cobra.md)
-## 业务相关
+## 📈业务相关
 ### [Glossary 名词解释](src/Business/Glossary/README.md)
 - [Manning 曼宁公式与曼宁系数](src/Business/Glossary/Manning.md)
 - [Muskingum 马斯京根方法](src/Business/Glossary/Muskingum.md)
@@ -1172,7 +1172,7 @@
 ### [Meet 会议系统](src/Business/Meet/README.md)
 - [github.com/jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
 - [github.com/fmeringdal/nettu-meet](https://github.com/fmeringdal/nettu-meet) Open source video conferencing system for tutors.
-## 开发相关
+## ⚙️开发相关
 ### [git相关](src/Development/git/README.md "git")
 - [git branch](src/Development/git/branch.md) git分支相关
 - [git tag](src/Development/git/tag.md) git标签相关
@@ -1239,7 +1239,7 @@
 - [composer使用常见错误](src/Development/composer/error.md)
 ### [Tools 工具集](src/Development/Tools/README.md)
 - [Conda](src/Development/ToolsConda.md)
-## 前端相关
+## 🧩前端相关
 ### [javascript](src/Frontend/javascript/README.md "javascript")
 - [json convert](src/Frontend/javascript/json.md)
 - [flexible](src/Frontend/javascript/flexible.md)
