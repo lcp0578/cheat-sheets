@@ -91,6 +91,7 @@
 - [MarkItDown:Python tool for converting files and office documents to Markdown.](src/AI/Tools/MarkItDown.md)
 - [The Data Engineering Handbook](src/AI/Tools/TheDataEngineeringHandbook.md)
 - [Xorbits Inference (Xinference) 开源模型平台](src/AI/Tools/xinference.md)
+- [MinerU 将PDF转化为机器可读格式的工具](src/AI/Tools/MinerU.md)
 
 ### NLP自然语言处理
 
