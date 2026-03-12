@@ -52,6 +52,7 @@
 - [KAG 是基于 OpenSPG 引擎和大型语言模型的逻辑推理问答框架，用于构建垂直领域知识库的逻辑推理问答解决方案。](src/AI/framework/KAG.md)
 - [Eino 大型语言模型（LLM）应用开发框架](src/AI/framework/Eino.md)
 - [LlamaIndex (GPT Index) is a data framework for your LLM application.](src/AI/framework/LlamaIndex.md)
+- [Qwen-Agent 基于本框架开发Agent应用，充分利用基于通义千问模型（Qwen）的指令遵循、工具使用、规划、记忆能力](src/AI/framework/Qwen-Agent.md)
 - [LeRobot: Making AI for Robotics more accessible with end-to-end learning](src/AI/framework/LeRobot.md)
 - [Langchain-Chatchat: 基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用](src/AI/framework/Langchain-Chatchat.md)
 
