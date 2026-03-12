@@ -30,6 +30,7 @@
 - [Graphiti:Build Real-Time Knowledge Graphs for AI Agents](src/AI/Agents/Graphiti.md)
 - [MetaGPT: The Multi-Agent Framework](src/AI/Agents/MetaGPT.md)
 - [RD-Agent](src/AI/Agents/RDAgent.md)
+- [Hermes Agent -- The self-improving AI agent built by Nous Research](src/AI/Agents/HermesAgent.md)
 
 ### 应用
 
@@ -66,7 +67,8 @@
 - [awesome-LLM-resourses:LLM资料总结](src/AI/LLM/awesome-LLM-resourses.md)
 - [one-api: LLM API 管理 & 分发系统](src/AI/LLM/one-api.md)
 - [MiniMind](src/AI/LLM/MiniMind.md)
-- [AgenticSeek: 一款100%本地运行的Manus替代方案](src/AI/agenticSeek.md)
+- [AgenticSeek: 一款100%本地运行的Manus替代方案](src/AI/LLM/agenticSeek.md)
+- [Qwen3-VL -- the multimodal large language model series developed by Qwen team](src/AI/LLM/Qwen3-VL.md)
 
 ### 知识图谱
 
