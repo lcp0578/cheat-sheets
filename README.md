@@ -31,6 +31,9 @@
 - [MetaGPT: The Multi-Agent Framework](src/AI/Agents/MetaGPT.md)
 - [RD-Agent](src/AI/Agents/RDAgent.md)
 - [Hermes Agent -- The self-improving AI agent built by Nous Research](src/AI/Agents/HermesAgent.md)
+- [OASIS: Open Agent Social Interaction Simulations with One Million Agents](src/AI/Agents/OASIS.md)
+- [MiroFish 一款基于多智能体技术的新一代 AI 预测引擎](src/AI/Agents/MiroFish.md)
+- [BettaFish 一个从0实现的创新型 多智能体 舆情分析系统](src/AI/Agents/BettaFish.md)
 
 ### 应用
 
