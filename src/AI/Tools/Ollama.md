@@ -113,9 +113,8 @@
 		  # ollama run qwen2.5vl:7b
 		  ```
 		
-		- 负责下载模型到本地
+	  - 仅负责下载模型到本地
+
 			```
 			# ollama pull qwen2.5vl:7b
-			```
-			
-			#  
+			``` 
