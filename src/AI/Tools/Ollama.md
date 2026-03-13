@@ -1,16 +1,21 @@
-## Ollama手动安装
+
+
+## Ollama手动安装与使用
+
 - 下载安装包，上传至服务器
-	- https://github.com/ollama/ollama/releases
+  - <https://github.com/ollama/ollama/releases>
+  
 - 解压安装包
 
-
-		# tar -zxf ollama-linux-amd64.tgz -C /usr/local
-		# tar -xf ollama-linux-amd64.tar.zst -C /usr/local
+        # tar -zxf ollama-linux-amd64.tgz -C /usr/local
+        # tar -xf ollama-linux-amd64.tar.zst -C /usr/local
+    
 - 添加环境变量
 
 		# vim /root/.bashrc
 		export OLLAMA_HOST=http://127.0.0.1:11434
 		export OLLAMA_MODELS=/home/main_data/ollama/models
+	
 - 创建开机自启配置
 
 		# vim  /etc/systemd/system/ollama.service
@@ -28,18 +33,23 @@
 		
 		[Install]
 		WantedBy=default.target
+	
 - 创建ollama用户
 
 		# useradd -m ollama
+	
 - 设置开机启动
 
 		# systemctl enable ollama
+	
 - 配置启动环境变量
 
 		# systemctl set-environment OLLAMA_HOST=http://127.0.0.1:11434
+	
 - 启动服务
 
 		# systemctl start ollama
+	
 - 查看服务状态
 
 		# systemctl status ollama
@@ -62,7 +72,7 @@
 		Mar 17 06:46:01 jicheng ollama[7119]: time=2025-03-17T06:46:01.811Z level=INFO source=types.go:130 msg="inference compute" id=GPU-96>
 		Mar 17 06:46:01 jicheng ollama[7119]: time=2025-03-17T06:46:01.811Z level=INFO source=types.go:130 msg="inference compute" id=GPU-be>
 		Mar 17 06:46:28 jicheng ollama[7119]: [GIN] 2025/03/17 - 06:46:28 | 200 |      29.614µs |       127.0.0.1 | GET      "/api/version"
-		
+
 - 如果异常则查看日志
 
 		# journalctl -u service-name.service | tail -n 10
@@ -71,12 +81,41 @@
 
 		# ollama -v
 		ollama version is 0.6.1
+	
 - 拉取模型
 
 		# OLLAMA_MIRROR="https://registry.ollama.ai" ollama pull deepseek-r1:7b
 		# ollama run qwen2.5:7b
+	
 - 查看正在运行的模型
 
 		# ollama ps
 		NAME               ID              SIZE     PROCESSOR    UNTIL              
 		deepseek-r1:70b    0c1615a8ca32    49 GB    100% GPU     4 minutes from now
+	
+	### 查询模型和参数
+	
+	- 去Ollama平台搜索
+	
+	  - https://ollama.com/library
+	
+	- 拉取示例
+	
+	  - 下载模型并进入交互式对话（或执行一次推理）
+	
+	    ```
+		  ollama run qwen2.5vl
+	    ```
+	
+	  - 指定模型具体 参数
+	
+		  ```
+		  # ollama run qwen2.5vl:7b
+		  ```
+		
+		- 负责下载模型到本地
+			```
+			# ollama pull qwen2.5vl:7b
+			```
+			
+			#  

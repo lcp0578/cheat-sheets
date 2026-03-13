@@ -94,7 +94,7 @@
 
 ### 相关工具
 
-- [Ollama手动安装](src/AI/Tools/Ollama.md)
+- [Ollama手动安装与使用](src/AI/Tools/Ollama.md)
 - [SearXNG 互联网元搜索引擎](src/AI/Tools/SearXNG.md)
 - [MarkItDown:Python tool for converting files and office documents to Markdown.](src/AI/Tools/MarkItDown.md)
 - [The Data Engineering Handbook](src/AI/Tools/TheDataEngineeringHandbook.md)
