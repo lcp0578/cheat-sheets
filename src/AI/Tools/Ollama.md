@@ -115,6 +115,6 @@
 		
 	  - 仅负责下载模型到本地
 
-			```
-			# ollama pull qwen2.5vl:7b
-			``` 
+		  ```
+		  # ollama pull qwen2.5vl:7b
+		  ```
