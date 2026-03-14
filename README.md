@@ -101,6 +101,7 @@
 - [The Data Engineering Handbook](src/AI/Tools/TheDataEngineeringHandbook.md)
 - [Xorbits Inference (Xinference) 开源模型平台](src/AI/Tools/xinference.md)
 - [MinerU 将PDF转化为机器可读格式的工具](src/AI/Tools/MinerU.md)
+- [Lightpanda Browser 无头浏览器：为 AI 构建的原生网页浏览器](src/AI/Tools/LightpandaBrowser.md)
 
 ### NLP自然语言处理
 
