@@ -91,6 +91,7 @@
 - [RAGLite -- Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL](src/AI/RAG/RAGLite.md)
 - [RAGFlow is an open-source RAG engine based on deep document understanding.](src/AI/RAG/RAGFlow.md)
 - [LightRAG: Simple and Fast Retrieval-Augmented Generation](src/AI/RAG/LightRAG.md)
+- [OpenRAG -- a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch](src/AI/RAG/OpenRAG.md)
 
 ### 相关工具
 
