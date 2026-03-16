@@ -35,6 +35,7 @@
 - [MiroFish 一款基于多智能体技术的新一代 AI 预测引擎](src/AI/Agents/MiroFish.md)
 - [BettaFish 一个从0实现的创新型 多智能体 舆情分析系统](src/AI/Agents/BettaFish.md)
 - [Page Agent  纯 JS 实现的 GUI agent，使用自然语言操作你的 Web 应用](src/AI/Agents/PageAgent.md)
+- [DeerFlow  -- An open-source SuperAgent harness that researches, codes, and creates.](src/AI/Agents/DeerFlow.md)
 
 ### 应用
 
