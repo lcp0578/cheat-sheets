@@ -55,6 +55,8 @@
 ### 开发框架
 
 - [Dify -- 一款开源的大语言模型(LLM) 应用开发平台](src/AI/framework/dify.md)
+- [Haystack - Open-source AI orchestration framework for building context-engineered, production-ready LLM applications](src/AI/framework/Haystack.md)
+- [DSPy 是一个用于构建模块化 AI 软件的声明式框架](src/AI/framework/DSPy.md)
 - [KAG 是基于 OpenSPG 引擎和大型语言模型的逻辑推理问答框架，用于构建垂直领域知识库的逻辑推理问答解决方案。](src/AI/framework/KAG.md)
 - [Eino 大型语言模型（LLM）应用开发框架](src/AI/framework/Eino.md)
 - [LlamaIndex (GPT Index) is a data framework for your LLM application.](src/AI/framework/LlamaIndex.md)
