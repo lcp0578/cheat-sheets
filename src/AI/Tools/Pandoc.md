@@ -3,3 +3,9 @@
 - Pandoc  a universal document converter
 - <https://pandoc.org/index.html>
 - <https://github.com/jgm/pandoc>
+- 使用示例
+
+```shell
+pandoc -s test.docx -t markdown -o test.md
+```
+
