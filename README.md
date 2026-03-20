@@ -78,6 +78,10 @@
 - [AgenticSeek: 一款100%本地运行的Manus替代方案](src/AI/LLM/agenticSeek.md)
 - [Qwen3-VL -- the multimodal large language model series developed by Qwen team](src/AI/LLM/Qwen3-VL.md)
 
+### Code
+
+- [Superpowers: An agentic skills framework & software development methodology that works.](src/AI/Code/superpowers.md)
+
 ### 知识图谱
 
 - [Knowledge Graph](src/AI/KnowledgeGraph/README.md)
