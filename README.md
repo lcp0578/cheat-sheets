@@ -77,6 +77,8 @@
 - [MiniMind](src/AI/LLM/MiniMind.md)
 - [AgenticSeek: 一款100%本地运行的Manus替代方案](src/AI/LLM/agenticSeek.md)
 - [Qwen3-VL -- the multimodal large language model series developed by Qwen team](src/AI/LLM/Qwen3-VL.md)
+- [Transformers：为文本、视觉、音频、视频与多模态提供推理与训练的先进预训练模型](src/AI/LLM/Transformers.md)
+- [Sentence Transformers: Embeddings, Retrieval, and Reranking](src/AI/LLM/sentence-transformers.md)
 
 ### Code
 
