@@ -84,6 +84,7 @@
 
 - [Claude Code 相关](src/AI/Code/ClaudeCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
+- [Harness Engineering 与 Agent Harness](src/AI/Code/Harness.md)
 - [Superpowers: An agentic skills framework & software development methodology that works.](src/AI/Code/superpowers.md)
 
 ### 知识图谱
