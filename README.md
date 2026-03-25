@@ -36,6 +36,7 @@
 - [BettaFish 一个从0实现的创新型 多智能体 舆情分析系统](src/AI/Agents/BettaFish.md)
 - [Page Agent  纯 JS 实现的 GUI agent，使用自然语言操作你的 Web 应用](src/AI/Agents/PageAgent.md)
 - [DeerFlow  -- An open-source SuperAgent harness that researches, codes, and creates.](src/AI/Agents/DeerFlow.md)
+- [OpenViking：AI 智能体的上下文数据库](src/AI/Agents/OpenViking.md)
 
 ### 应用
 
@@ -85,7 +86,9 @@
 - [Claude Code 相关](src/AI/Code/ClaudeCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
 - [Harness Engineering 与 Agent Harness](src/AI/Code/Harness.md)
+- [Deep Agents is an agent harness](src/AI/Code/DeepAgents.md)
 - [Superpowers: An agentic skills framework & software development methodology that works.](src/AI/Code/superpowers.md)
+- [Open SWE: An Open-Source Asynchronous Coding Agent](src/AI/Code/OpenSWE.md)
 
 ### 知识图谱
 
@@ -102,6 +105,7 @@
 ### RAG检索增强生成
 
 - [RAG (Retrieval-Augmented Generation)检索增强生成](src/AI/RAG/RAG.md)
+- [ReAct: Synergizing Reasoning and Acting in Language Models](src/AI/RAG/ReAct.md)
 - [RAGLite -- Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL](src/AI/RAG/RAGLite.md)
 - [RAGFlow is an open-source RAG engine based on deep document understanding.](src/AI/RAG/RAGFlow.md)
 - [LightRAG: Simple and Fast Retrieval-Augmented Generation](src/AI/RAG/LightRAG.md)
