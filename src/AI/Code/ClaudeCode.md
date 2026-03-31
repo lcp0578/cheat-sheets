@@ -11,3 +11,4 @@
 - <https://github.com/affaan-m/everything-claude-code>
 - <https://github.com/shareAI-lab/learn-claude-code>
 - <https://github.com/jarrodwatts/claude-hud>
+- <https://github.com/luongnv89/claude-howto>
