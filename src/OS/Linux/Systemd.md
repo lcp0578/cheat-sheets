@@ -1,14 +1,28 @@
 ## 使用 Systemd 进行服务管理
-> http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html
+>
+> <http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html>
 
-## 启用开机自动启动
+- 启用开机自动启动
 
-	sudo systemctl enable tonghttpserver
+```shell
+sudo systemctl enable tonghttpserver
+```
 
-## 验证是否已启用
+- 验证是否已启用
 
-	sudo systemctl is-enabled tonghttpserver
+```shell
+sudo systemctl is-enabled tonghttpserver
+```
 
-## 查看所有启用开机启动的服务
+- 查看所有启用开机启动的服务
 
-	systemctl list-unit-files | grep enabled
+```shell
+systemctl list-unit-files | grep enabled
+```
+
+- 修改了配置文件后，重新加载**systemd 的配置文件**。（这个命令**不会重启任何服务**）
+
+```shell
+systemctl daemon-reload
+```
+
