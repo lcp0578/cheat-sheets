@@ -103,18 +103,102 @@
 	
 	  - 下载模型并进入交互式对话（或执行一次推理）
 	
-	    ```
-		  ollama run qwen2.5vl
+	    ```shell
+		  # ollama run qwen2.5vl
 	    ```
 	
 	  - 指定模型具体 参数
 	
-		  ```
+		  ```shell
 		  # ollama run qwen2.5vl:7b
 		  ```
 		
 	  - 仅负责下载模型到本地
 
-		  ```
+		  ```shell
 		  # ollama pull qwen2.5vl:7b
 		  ```
+
+- 查看已安装模型的详细参数
+
+  ```shell
+  root@gpu:~# ollama show qwen3.5:27b
+    Model
+      architecture        qwen35    
+      parameters          27.8B     
+      context length      262144    
+      embedding length    5120      
+      quantization        Q4_K_M    
+      requires            0.17.1    
+  
+    Capabilities
+      completion    
+      vision        
+      tools         
+      thinking      
+  
+    Parameters
+      top_p               0.95    
+      presence_penalty    1.5     
+      temperature         1       
+      top_k               20      
+  
+    License
+      Apache License               
+      Version 2.0, January 2004    
+      ...                          
+  
+  root@gpu:~# 
+  
+  ```
+
+- 查看当前运行模型的状态
+
+  ```shell
+  root@gpu:~# ollama ps
+  NAME           ID              SIZE     PROCESSOR    CONTEXT    UNTIL   
+  qwen3.5:27b    7653528ba5cb    26 GB    100% GPU     32768      Forever    
+  
+  ```
+
+- 关于模型的上下文context
+
+  - Ollama 会根据 GPU 显存大小**自动决定默认上下文**，规则如下：
+
+      | GPU 显存  | 默认上下文 |
+      | :-------- | :--------- |
+      | < 24 GiB  | 4k         |
+      | 24–48 GiB | 32k        |
+      | ≥ 48 GiB  | 256k       |
+
+	- PS：即使模型本身支持更大的值，但 Ollama 选择了保守值以防显存溢出。
+	
+	- 从 **Ollama v0.5.13** 开始，支持通过环境变量 `OLLAMA_CONTEXT_LENGTH` 修改全局默认值。
+	
+	- 因此修改配置文件，可以把默认的32k改成64k。
+	
+	    ```shell
+	    root@gpu:~# cat /etc/systemd/system/ollama.service
+	    [Unit]
+	    Description=Ollama Service
+	    After=network-online.target
+	    
+	    [Service]
+	    ExecStart=/usr/local/bin/ollama serve
+	    User=ollama
+	    Group=ollama
+	    Restart=always
+	    RestartSec=3
+	    Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+	    Environment="OLLAMA_HOST=0.0.0.0:11434"
+	    Environment="OLLAMA_NUM_GPU=2"
+	    Environment="OLLAMA_NUM_THREADS=8"
+	    Environment="OLLAMA_CONTEXT_LENGTH=65536"
+	    
+	    [Install]
+	    WantedBy=default.target
+	    root@gpu:~# 
+	    
+	    ```
+	
+	    
