@@ -116,6 +116,7 @@
 
 ### 相关工具
 
+- [vLLM is a fast and easy-to-use library for LLM inference and serving](src/AI/Tools/vLLM.md)
 - [Ollama手动安装与使用](src/AI/Tools/Ollama.md)
 - [SearXNG 互联网元搜索引擎](src/AI/Tools/SearXNG.md)
 - [MarkItDown:Python tool for converting files and office documents to Markdown.](src/AI/Tools/MarkItDown.md)
