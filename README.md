@@ -92,6 +92,10 @@
 - [Deep Agents is an agent harness](src/AI/Code/DeepAgents.md)
 - [Superpowers: An agentic skills framework & software development methodology that works.](src/AI/Code/superpowers.md)
 - [Open SWE: An Open-Source Asynchronous Coding Agent](src/AI/Code/OpenSWE.md)
+- [**Codex CLI** -- Lightweight coding agent that runs in your terminal](src/AI/Code/Codex.md)
+- [goose is an extensible open source AI agent that enhances your software development by automating coding tasks](src/AI/Code/goose.md)
+- [Qwen Code CLI 工具，修改自 Gemini CLI，针对 Qwen3‑Coder系列的模型增强了解析器和工具支持](src/AI/Code/QwenCode.md)
+- [本地AI辅助编程方案](src/AI/Code/local.md)
 
 ### 知识图谱
 
