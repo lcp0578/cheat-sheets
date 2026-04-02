@@ -43,3 +43,5 @@
 - [Eino 大型语言模型（LLM）应用开发框架](Eino.md)
 - [Xorbits Inference (Xinference) 开源模型平台](xinference.md)
 - [OpenClaw — Personal AI Assistant](OpenClaw.md)
+- [VibeVoice  is a family of open-source frontier voice AI models that includes both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) models](VibeVoice.md)
+- [TimesFM  (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting](TimesFM.md)
