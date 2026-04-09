@@ -112,6 +112,7 @@
 - [MCP Go:A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.](src/AI/MCP/MCPGo.md)
 - [MCP Agent: a simple, composable framework to build agents using Model Context Protocol.](src/AI/MCPAgent.md)
 - [FastMCP:The fast, Pythonic way to build MCP servers and clients.](src/AI/MCP/FastMCP.md)
+- [Symfony MCP bundle](src/AI/MCP/MCPBundle.md)
 
 ### RAG检索增强生成
 
