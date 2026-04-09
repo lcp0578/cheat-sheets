@@ -88,6 +88,7 @@
 
 - [Claude Code 相关](src/AI/Code/ClaudeCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
+- [Calude Code VS Codex  VS  Kilo Code VS Qwen Code  VS CodeBuddy等工具对比](src/AI/Code/Tools.md)
 - [Harness Engineering 与 Agent Harness](src/AI/Code/Harness.md)
 - [Deep Agents is an agent harness](src/AI/Code/DeepAgents.md)
 - [Superpowers: An agentic skills framework & software development methodology that works.](src/AI/Code/superpowers.md)
@@ -96,6 +97,9 @@
 - [goose is an extensible open source AI agent that enhances your software development by automating coding tasks](src/AI/Code/goose.md)
 - [Qwen Code CLI 工具，修改自 Gemini CLI，针对 Qwen3‑Coder系列的模型增强了解析器和工具支持](src/AI/Code/QwenCode.md)
 - [本地AI辅助编程方案](src/AI/Code/local.md)
+- [GLM-5: From Vibe Coding to Agentic Engineering](src/AI/Code/GLM5.md)
+- [腾讯的CodeBuddy](src/AI/Code/CodeBuddy.md)
+- [Kilo Code is the all-in-one agentic engineering platform](src/AI/Code/KiloCode.md)
 
 ### 知识图谱
 
