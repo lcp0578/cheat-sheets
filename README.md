@@ -722,6 +722,7 @@
 - [格式化输入输出](src/Programming/Go/format.md)
 - [漏洞检测工具govulncheck](src/Programming/Go/govulncheck.md)
 - [依赖注入框架wire](src/Programming/Go/wire.md)
+- [GoFr: An opinionated go framework for accelerated microservice development](src/Programming/Go/GoFr.md)
 
 ### [Ruby](src/Programming/Ruby/README.md)
 
