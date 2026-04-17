@@ -100,6 +100,7 @@
 - [GLM-5: From Vibe Coding to Agentic Engineering](src/AI/Code/GLM5.md)
 - [腾讯的CodeBuddy](src/AI/Code/CodeBuddy.md)
 - [Kilo Code is the all-in-one agentic engineering platform](src/AI/Code/KiloCode.md)
+- [Agent Skills: Production-grade engineering skills for AI coding agents](src/AI/Code/AgentSkills.md)
 
 ### 知识图谱
 
