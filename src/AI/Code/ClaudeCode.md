@@ -12,3 +12,4 @@
 - <https://github.com/shareAI-lab/learn-claude-code>
 - <https://github.com/jarrodwatts/claude-hud>
 - <https://github.com/luongnv89/claude-howto>
+- <https://github.com/thedotmack/claude-mem>
