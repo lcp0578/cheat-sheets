@@ -118,11 +118,13 @@
 ### RAG检索增强生成
 
 - [RAG (Retrieval-Augmented Generation)检索增强生成](src/AI/RAG/RAG.md)
+- [All-in-RAG RAG技术全栈指南](src/AI/RAG/all-in-rag.md)
 - [ReAct: Synergizing Reasoning and Acting in Language Models](src/AI/RAG/ReAct.md)
 - [RAGLite -- Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL](src/AI/RAG/RAGLite.md)
 - [RAGFlow is an open-source RAG engine based on deep document understanding.](src/AI/RAG/RAGFlow.md)
 - [LightRAG: Simple and Fast Retrieval-Augmented Generation](src/AI/RAG/LightRAG.md)
 - [OpenRAG -- a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch](src/AI/RAG/OpenRAG.md)
+- [GraphRAG: A modular graph-based Retrieval-Augmented Generation (RAG) system](src/AI/RAG/GraphRAG.md)
 
 ### 相关工具
 
