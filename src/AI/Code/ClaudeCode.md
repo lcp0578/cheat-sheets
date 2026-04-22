@@ -13,3 +13,4 @@
 - <https://github.com/jarrodwatts/claude-hud>
 - <https://github.com/luongnv89/claude-howto>
 - <https://github.com/thedotmack/claude-mem>
+- <https://github.com/forrestchang/andrej-karpathy-skills> A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
