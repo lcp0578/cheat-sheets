@@ -86,6 +86,7 @@
 
 ### Code
 
+- [AI辅助编程工具速查手册](src/AI/Code/CheatSheet.md)
 - [Claude Code 相关](src/AI/Code/ClaudeCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
 - [Calude Code VS Codex  VS  Kilo Code VS Qwen Code  VS CodeBuddy等工具对比](src/AI/Code/Tools.md)
