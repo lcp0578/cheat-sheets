@@ -96,6 +96,7 @@ cat file.py | claude -p "优化这段代码"
 |`/config` | 打开设置面板 |
 |`/copy` | 复制最近一条回复到剪贴板  |
 |`/name` | 给当前会话起名，方便`--resume`查找 |
+| `/btw` | 是 “by the way”（顺便一提）的缩写。/btw 创建了一个独立、临时的“侧链对话”（side-chain conversation）。当你使用它时，Claude 会在主任务界面上弹出一个覆盖层来回答问题。与此同时，你的主线任务在后台不受任何干扰，继续并行运行。|
 
 - Effort四档说明
   - `low`:  省油模式。简单任务直接给答案。
