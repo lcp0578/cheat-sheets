@@ -128,6 +128,7 @@
 - [LightRAG: Simple and Fast Retrieval-Augmented Generation](src/AI/RAG/LightRAG.md)
 - [OpenRAG -- a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch](src/AI/RAG/OpenRAG.md)
 - [GraphRAG: A modular graph-based Retrieval-Augmented Generation (RAG) system](src/AI/RAG/GraphRAG.md)
+- [RAG-Anything: All-in-One RAG Framework](src/AI/RAG/RAG-Anything.md)
 
 ### 相关工具
 
