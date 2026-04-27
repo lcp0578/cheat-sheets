@@ -14,3 +14,7 @@
 - <https://github.com/luongnv89/claude-howto>
 - <https://github.com/thedotmack/claude-mem>
 - <https://github.com/forrestchang/andrej-karpathy-skills> A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [https://github.com/shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) from vibe coding to agentic engineering - practice makes claude perfect
+- <https://github.com/Alishahryar1/free-claude-code>
+- https://github.com/zilliztech/claude-context
+- 
