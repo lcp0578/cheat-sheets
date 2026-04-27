@@ -27,6 +27,7 @@
 ### Agent
 
 - [AI Agents简介](src/AI/Agents/AIAgents.md)
+- [Agent Skills](src/AI/Agents/AIAgentSkills.md)
 - [Graphiti:Build Real-Time Knowledge Graphs for AI Agents](src/AI/Agents/Graphiti.md)
 - [MetaGPT: The Multi-Agent Framework](src/AI/Agents/MetaGPT.md)
 - [RD-Agent](src/AI/Agents/RDAgent.md)
@@ -88,6 +89,7 @@
 
 - [AI辅助编程工具速查手册](src/AI/Code/CheatSheet.md)
 - [Claude Code 相关](src/AI/Code/ClaudeCode.md)
+- [Open Code](src/AI/Code/OpenCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
 - [Calude Code VS Codex  VS  Kilo Code VS Qwen Code  VS CodeBuddy等工具对比](src/AI/Code/Tools.md)
 - [Harness Engineering 与 Agent Harness](src/AI/Code/Harness.md)
