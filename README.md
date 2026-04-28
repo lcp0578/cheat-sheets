@@ -940,6 +940,7 @@
 - [EPSG码与常见的我国投影坐标系对应关系](src/GL/GIS/EPSG.md)
 - [2000大地高、85高和大地高、正常高、正高](src/GL/GIS/height.md)
 - [deck.gl](src/GL/GIS/deck.gl.md)
+- [mesh2splat：Fast mesh to 3D gaussian splat conversion](src/GL/GIS/mesh2splat.md)
 
 ### [ArcGIS相关](src/GL/ArcGIS/README.md)
 
