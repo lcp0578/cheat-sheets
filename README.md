@@ -941,6 +941,8 @@
 - [2000大地高、85高和大地高、正常高、正高](src/GL/GIS/height.md)
 - [deck.gl](src/GL/GIS/deck.gl.md)
 - [mesh2splat：Fast mesh to 3D gaussian splat conversion](src/GL/GIS/mesh2splat.md)
+- [trimesh: Python library for loading and using triangular meshes](src/GL/GIS/trimesh.md)
+- [PyMeshLab: The open source mesh processing Python library](src/GL/GIS/PyMeshLab.md)
 
 ### [ArcGIS相关](src/GL/ArcGIS/README.md)
 
