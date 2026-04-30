@@ -857,6 +857,7 @@
 
 - [Dioxus 构建跨平台应用的 Rust UI 框架](src/Programming/rust/Dioxus.md)
 - [github.com/sunface/Rust-course](https://github.com/sunface/rust-course) Rust教程
+- [Rust 安装](src/Programming/rust/install.md)
 - [github.com/Rust-lang/rustlings](https://github.com/rust-lang/rustlings) Small exercises to get you used to reading and writing Rust code!
 - [github.com/google/comprehensive-Rust](https://github.com/google/comprehensive-rust) This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust to everyone.
 - [lib 有用类库](lib.md)
