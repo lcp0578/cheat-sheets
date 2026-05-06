@@ -89,6 +89,7 @@
 
 - [AI辅助编程工具速查手册](src/AI/Code/CheatSheet.md)
 - [Claude Code 相关](src/AI/Code/ClaudeCode.md)
+- [DeepSeek-TUI: Coding agent for DeepSeek models that runs in your terminal](src/AI/Code/DeepSeek-TUI.md)
 - [Open Code](src/AI/Code/OpenCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
 - [Calude Code VS Codex  VS  Kilo Code VS Qwen Code  VS CodeBuddy等工具对比](src/AI/Code/Tools.md)
@@ -104,6 +105,7 @@
 - [腾讯的CodeBuddy](src/AI/Code/CodeBuddy.md)
 - [Kilo Code is the all-in-one agentic engineering platform](src/AI/Code/KiloCode.md)
 - [Agent Skills: Production-grade engineering skills for AI coding agents](src/AI/Code/AgentSkills.md)
+- [Warp:  an agentic development environment, born out of the terminal](src/AI/Code/Warp.md)
 
 ### 知识图谱
 
