@@ -959,6 +959,7 @@
 
 - [CesiumJS基础](src/GL/CesiumJS/basic.md)
 - [3d-tiles](src/GL/CesiumJS/3dtiles.md)
+- [CesiumLab地理信息基础数据处理平台](src/GL/CesiumJS/CesiumLab.md)
 
 ### [three.js](src/GL/threejs/README.md)
 
