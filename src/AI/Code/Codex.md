@@ -15,3 +15,24 @@
   - IDE extension
   - CLI
   - Web
+
+
+### 在 Codex CLI 中恢复上一次会话
+
+- 1. 打开终端，输入以下命令：
+
+    ```bash
+    codex resume --last
+    ```
+    该命令会直接恢复最近的一次会话，保持之前的上下文不丢失。
+
+- 2. 如果想查看所有历史会话并选择特定会话，可以使用：
+
+    ```bash
+    codex resume
+    ```
+    会弹出会话选择器，显示每次对话的摘要或时间，选择后即可继续 。
+
+- 3. 会话数据默认存储在本地目录，例如：
+	- Windows: `C:\Users\username\.codex\sessions`
+	- Linux/macOS: `~/.codex/sessions/`
