@@ -946,6 +946,7 @@
 - [mesh2splat：Fast mesh to 3D gaussian splat conversion](src/GL/GIS/mesh2splat.md)
 - [trimesh: Python library for loading and using triangular meshes](src/GL/GIS/trimesh.md)
 - [PyMeshLab: The open source mesh processing Python library](src/GL/GIS/PyMeshLab.md)
+- [osgb 转 3D tiles](src/GL/GIS/3dtiles.md)
 
 ### [ArcGIS相关](src/GL/ArcGIS/README.md)
 
