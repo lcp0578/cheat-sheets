@@ -947,6 +947,7 @@
 - [trimesh: Python library for loading and using triangular meshes](src/GL/GIS/trimesh.md)
 - [PyMeshLab: The open source mesh processing Python library](src/GL/GIS/PyMeshLab.md)
 - [osgb 转 3D Tiles 1.1](src/GL/GIS/3dtiles.md)
+- [gaussian-splatting: 3D Gaussian Splatting for Real-Time Radiance Field Rendering (Graphdeco 3DGS)](src/GL/GIS/gaussian-splatting.md)
 
 ### [ArcGIS相关](src/GL/ArcGIS/README.md)
 

@@ -12,7 +12,7 @@
 
 - 使用@cesium/3d-tiles-tools 是 Cesium 官方工具，做 B3DM→GLB 的转换
 
-  - 安装
+  - 安装，https://github.com/CesiumGS/3d-tiles-tools
 
       ```shell
       # apt install -y libvips-dev
