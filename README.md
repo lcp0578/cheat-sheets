@@ -1141,6 +1141,8 @@
 
 ### [Varnish 反向代理服务器和http加速器](src/Middleware/Varnish/README.md)
 
+### [Caddy Server 使用](src/Middleware/Caddy/README.md)
+
 ## 🌐网络相关
 
 ### [WebRTC](src/network/WebRTC/README.md)
