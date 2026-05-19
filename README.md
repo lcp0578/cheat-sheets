@@ -950,6 +950,7 @@
 - [osgb 转 3D Tiles 1.1](src/GL/GIS/3dtiles.md)
 - [gaussian-splatting: 3D Gaussian Splatting for Real-Time Radiance Field Rendering (Graphdeco 3DGS)](src/GL/GIS/gaussian-splatting.md)
 - [LichtFeld Studio：3DGS工具](src/GL/GIS/LichtFeldStudio.md)
+- [SuperSplat Editor：3D Gaussian Splat Editor](src/GL/GIS/supersplat.md)
 
 ### [ArcGIS相关](src/GL/ArcGIS/README.md)
 
