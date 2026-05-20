@@ -93,6 +93,7 @@
 - [Open Code](src/AI/Code/OpenCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
 - [Calude Code VS Codex  VS  Kilo Code VS Qwen Code  VS CodeBuddy等工具对比](src/AI/Code/Tools.md)
+- [Cline](src/AI/Code/Cline.m)
 - [Harness Engineering 与 Agent Harness](src/AI/Code/Harness.md)
 - [Deep Agents is an agent harness](src/AI/Code/DeepAgents.md)
 - [Superpowers: An agentic skills framework & software development methodology that works.](src/AI/Code/superpowers.md)
