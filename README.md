@@ -952,6 +952,7 @@
 - [gaussian-splatting: 3D Gaussian Splatting for Real-Time Radiance Field Rendering (Graphdeco 3DGS)](src/GL/GIS/gaussian-splatting.md)
 - [LichtFeld Studio：3DGS工具](src/GL/GIS/LichtFeldStudio.md)
 - [SuperSplat Editor：3D Gaussian Splat Editor](src/GL/GIS/supersplat.md)
+- [KTX (Khronos Texture) is a lightweight container for textures for OpenGL®, Vulkan® and other GPU APIs. ](src/GL/GIS/KTX.md)
 
 ### [ArcGIS相关](src/GL/ArcGIS/README.md)
 
