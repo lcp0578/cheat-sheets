@@ -89,6 +89,7 @@
 
 - [AI辅助编程工具速查手册](src/AI/Code/CheatSheet.md)
 - [Claude Code 相关](src/AI/Code/ClaudeCode.md)
+- [Harness — The Team-Architecture Factory for Claude Code](src/AI/Code/ClaudeCodeHarness.md)
 - [DeepSeek-TUI: Coding agent for DeepSeek models that runs in your terminal](src/AI/Code/DeepSeek-TUI.md)
 - [Open Code](src/AI/Code/OpenCode.md)
 - [Cursor 相关](src/AI/Code/cursor.md)
