@@ -959,6 +959,7 @@
 - [KTX (Khronos Texture) is a lightweight container for textures for OpenGL®, Vulkan® and other GPU APIs.](src/GL/GIS/KTX.md)
 - [meshoptimizer: Mesh optimization library that makes meshes smaller and faster to render](src/GL/GIS/meshoptimizer.md)
 - [Draco:  a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics](src/GL/GIS/Draco.md)
+- [Open Asset Import Library (assimp)](src/GL/GIS/assimp.md)
 
 ### [ArcGIS相关](src/GL/ArcGIS/README.md)
 
