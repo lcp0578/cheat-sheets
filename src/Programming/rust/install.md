@@ -97,3 +97,9 @@ root@Ubuntu22:~# cargo --version
 cargo 1.95.0 (f2d3ce0bd 2026-03-21)
 ```
 
+### Rust 国内镜像配置
+
+```shell
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
+```
