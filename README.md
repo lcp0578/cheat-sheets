@@ -1504,6 +1504,7 @@
 - [Docker LNMP](src/Development/Docker/dnmp.md)
 - [在Ubuntu上安装Docker](src/Development/Docker/install_Ubuntu.md)
 - [Docker 安装MySQL8](src/Development/Docker/MySQL8.md)
+- [Snap版 与 APT版 Docker对比与配置](src/Development/Docker/snap.md)
 
 ### [Doxygen](src/Development/Doxygen/README.md)
 
