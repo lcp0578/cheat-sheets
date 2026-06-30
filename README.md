@@ -99,6 +99,7 @@
 - [Harness Engineering 与 Agent Harness](src/AI/Code/Harness.md)
 - [Deep Agents is an agent harness](src/AI/Code/DeepAgents.md)
 - [Superpowers: An agentic skills framework & software development methodology that works.](src/AI/Code/superpowers.md)
+- [OpenSpec：Spec-driven development (SDD) for AI coding assistants 规范先行](src/AI/Code/OpenSpec.md)
 - [Open SWE: An Open-Source Asynchronous Coding Agent](src/AI/Code/OpenSWE.md)
 - [**Codex CLI** -- Lightweight coding agent that runs in your terminal](src/AI/Code/Codex.md)
 - [goose is an extensible open source AI agent that enhances your software development by automating coding tasks](src/AI/Code/goose.md)
